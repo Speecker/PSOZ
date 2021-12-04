@@ -1,0 +1,19 @@
+v1.0
+	- Added PSOZ Headers
+	- NCEIB-Underhaul 1.4
+
+v2.0 PSOZ Custom
+	EIO-Integration
+		- Rearrangement & Outcommenting of Obsolete Recipes due to JAOPCAs Integration
+		- Removed Condiotional Bronze & Steel Block Recipes 
+	IE-Integration
+		- Rearrangement & Outcommenting of Obsolete Recipes due to JAOPCAs Integration
+		- Removed Condiotional Bronze & Steel Block Recipes 
+	TE-Integration
+		- Rearrangement & Outcommenting of Obsolete Recipes due to JAOPCAs Integration
+	NC-Alloy-Recipes
+		- Rearrangement & Outcommenting of Obsolete Recipes due to JAOPCAs Integration
+v2.1
+	- ReVoked CarbonManganese Block/Ingot Integration/Implementation as theres only dust so JAOPCA didt recognizes
+
+OG Creator: TheFishingPole
