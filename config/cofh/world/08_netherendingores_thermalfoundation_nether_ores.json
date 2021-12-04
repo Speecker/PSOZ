@@ -1,0 +1,216 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "netherendingores:ore_nether_modded_1",
+				"material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "copper_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "iridium_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "lead_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "mithril_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "nickel_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "platinum_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "silver_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"cluster-count": 6,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_1",
+					"properties": {
+						"blocks": "tin_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

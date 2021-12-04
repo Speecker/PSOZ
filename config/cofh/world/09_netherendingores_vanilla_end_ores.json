@@ -1,0 +1,168 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"end-coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "netherendingores:ore_end_vanilla",
+				"material": "minecraft:end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "diamond_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "emerald_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "gold_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "iron_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-lapis": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "lapis_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"end-redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "redstone_ore"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

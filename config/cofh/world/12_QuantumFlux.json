@@ -1,0 +1,27 @@
+{
+	"dependencies": "quantumflux",
+	"populate": {
+		"graphiteore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quantumflux:graphiteore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 5,
+			"min-height": 12,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-7
+				]
+			}
+		}
+	}
+}
