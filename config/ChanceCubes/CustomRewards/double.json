@@ -1,0 +1,25 @@
+{
+"double": {
+    "Chance": 10,
+	"isGiantCubeReward":false,
+	"Message": [
+	 {
+		"message": "A double!? You get another chance cube.",
+		"range": 64
+	 }
+	],
+	"Block":
+		[
+			{
+			"xOffSet": 0, 
+			"yOffSet": 0, 
+			"zOffSet": 0, 
+			"block":"chancecubes:chance_cube", 
+			"falling":true, 
+			"delay":1, 
+			"relativeToPlayer":false, 
+			"removeUnbreakableBlocks":false
+			}
+		]
+  }
+}

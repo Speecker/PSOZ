@@ -1,0 +1,16 @@
+{
+"disable": {
+    "name": "disable",
+    "description": "Disabled chance cube rewards.",
+	"rewards_to_disable": [
+            "chancecubes:clear_inventory",
+            "chancecubes:inventory_bomb",
+			"chancecubes:math",
+			"chancecubes:maze",
+			"chancecubes:random_teleport",
+			"chancecubes:skyblock",
+			"chancecubes:sky_block",
+			"extrautils2:Golden_Bag"
+        ]
+	}
+}

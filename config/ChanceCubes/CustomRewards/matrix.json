@@ -1,0 +1,22 @@
+{
+"matrix": {
+    "Chance": -99,
+	"isGiantCubeReward":false,
+	"Sound": [
+	 {
+		"sound": "matrixcc", "volume":1.0, "pitch":1.0, "playAtPlayersLocation":true, "serverWide":false, "range":64, "delay": 8
+	 }
+	],
+	"Message": [
+	 {
+		"message": "You gonna learn today", "range": 64
+	 }
+	 ],
+	"Command": [
+	 {
+		"command": "/summon draconicevolution:entitychaosenergyvortex",
+		"delay": 80
+	 }
+	]
+  }
+}

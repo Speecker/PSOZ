@@ -1,0 +1,21 @@
+{
+  "void lava": {
+    "chance": 25,
+	"Message": [
+	 {
+		"message": "The void wants you on lava.", "range": 64
+	 }
+	 ],
+    "schematic": [
+      {
+        "fileName": "void_lava.ccs",
+        "falling": false,
+        "xOffSet": 0,
+        "yOffSet": -7,
+        "zOffSet": 0,
+        "relativeToPlayer": false,
+		"includeAirBlocks": true
+      }
+    ]
+  }
+}

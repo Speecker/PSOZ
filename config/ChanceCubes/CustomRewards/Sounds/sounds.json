@@ -1,0 +1,11 @@
+{
+  "matrixcc": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "matrixcc",
+        "stream": false
+      }
+    ]
+  }
+}

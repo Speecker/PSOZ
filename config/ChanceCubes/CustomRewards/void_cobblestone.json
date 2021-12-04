@@ -1,0 +1,21 @@
+{
+  "void cobblestone": {
+    "chance": -5,
+	"Message": [
+	 {
+		"message": "The void wants you under cobblestone.", "range": 64
+	 }
+	 ],
+    "schematic": [
+      {
+        "fileName": "void_cobblestone.ccs",
+        "falling": false,
+        "xOffSet": 0,
+        "yOffSet": -7,
+        "zOffSet": 0,
+        "relativeToPlayer": false,
+		"includeAirBlocks": true
+      }
+    ]
+  }
+}

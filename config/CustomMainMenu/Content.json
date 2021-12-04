@@ -1,0 +1,104 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/gui/logo_3.png",
+            "posX" : -192,
+            "posY" : -35,
+            "width" : 400,
+            "height" : 300,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {	
+		"mainmenu":
+		{
+			"text" : "Main Menu",
+			"posX" : -45,
+            "posY" : 120,
+            "width" : 96,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "custom.mainmenu"
+			}
+		},
+		
+		"twitch":
+		{
+			"text" : "OG_Arist0tle",
+			"posX" : 60,
+            "posY" : 120,
+            "width" : 96,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/og_arist0tle/"
+			}
+		},
+		
+	    "twitch2":
+		{
+			"text" : "TheCazadorSniper",
+			"posX" : -150,
+            "posY" : 120,
+            "width" : 96,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/thecazadorsniper/"
+			}
+		},
+		
+		"twitch3":
+		{
+			"text" : "Seyeght",
+			"posX" : 20,
+            "posY" : 140,
+            "width" : 96,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/seyeght/"
+			}
+		},
+		
+		"twitch4":
+		{
+			"text" : "Bearhunter13",
+			"posX" : -110,
+            "posY" : 140,
+            "width" : 96,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/bearhunter13/"
+			}
+		}
+	},
+    
+    "other":
+    {
+         "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

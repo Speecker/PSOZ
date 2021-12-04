@@ -1,0 +1,17 @@
+{
+"tnuke": {
+    "Chance": -79,
+	"isGiantCubeReward":false,
+	"Message": [
+	 {
+		"message": "TACTICAL NUKE INCOMING", "range": 64
+	 }
+	 ],
+	"Command": [
+	 {
+		"command": "/summon extraplanets:extraplanets.nuclearbombprimed",
+		"delay": 80
+	 }
+	]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "bust_tuff": {
+    "Chance": 0,
+    "Message": [
+      {
+        "message": "This Custom reward was removed due to probation",
+        "range": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+"metal": {
+    "Chance": 65,
+	"isGiantCubeReward":false,
+	"Message": [
+	 {
+		"message": "Just a few metal blocks.",
+		"range": 64
+	 }
+	],
+	"Block":
+		[
+			{
+			"xOffSet": 0, 
+			"yOffSet": 0, 
+			"zOffSet": 0, 
+			"block":"twilightforest:block_storage:0", 
+			"falling":true, 
+			"relativeToPlayer":false, 
+			"removeUnbreakableBlocks":false
+			},
+			{
+			"xOffSet": -1, 
+			"yOffSet": 0, 
+			"zOffSet": 0, 
+			"block":"plustic:mirionblock", 
+			"falling":true, 
+			"relativeToPlayer":false, 
+			"removeUnbreakableBlocks":false
+			},
+			{
+			"xOffSet": 1, 
+			"yOffSet": 0, 
+			"zOffSet": 0, 
+			"block":"plustic:osmiridiumblock", 
+			"falling":true, 
+			"relativeToPlayer":false, 
+			"removeUnbreakableBlocks":false
+			}
+		]
+  }
+}
