@@ -1,0 +1,38 @@
+Quick Changelog - What happened lately ...
+Current Version: 10.0.0-007
+§6Config Changes:
+#
+§6Script Changes:
+#
+§6Mod Changes:
+    §Added:
+    #
+    Updated:
+    #
+    Removed:
+    #
+§6Features:
+# 
+§6Fixes All modes:
+#
+§6Fixes Normal mode:
+#
+§6Fixes Titan mode:
+# 
+§6Fixes Kappa mode:
+# 
+§6Fixes Beast mode:
+# MysticalAgriculture Ingot Recipes
+§6WTF:
+# "ALREADY CONSTRUCTING VERTICALS"-Bug: If you should ever run into this issue as soon as you work with CropSticks:
+   Replace JEI Version 301 with 302 and vis versa whenever the Bug occurs. I do my best to minimize the possible ocassions
+# TiC Crafting Station displays (Vanilla) Chests as Missing Texture. Just a known Graphical Glitch. Nothing to worry about.
+# Item Transfer Methods which run into any kind of bottleneck cause a lot of TPS Lag over Time!
+# Using Stacked (Vanilla) Buckets on a Fluid Tank (FluidDrawers) returns/fills only a single one. 
+# Random Things spectre energy nodes cause some energy storages to reset to 0 upon reaching 2.14B
+# Crafting certain extended crafting recipes gets wonky so if it doesn't work take the items out then put them back in or restart the pack
+# OC spamming some error in the logs in first load of a world
+§6Notes:
+# Every pack update needs the following folders replaced: config & scripts
+# If there are minor Mod Changes do them by hand else replace the mods folder if theres an updated one available
+# Full Changelog can be found on MediaFire (via Link)

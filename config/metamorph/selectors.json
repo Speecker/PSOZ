@@ -1,0 +1,8 @@
+[
+    {
+        "name": "",
+        "type": "",
+        "enabled": true,
+        "morph": "{EntityData:{RelativeAABB:[-0.30000001192092896d,0.0d,-0.30000001192092896d,0.824999988079071d,2.125d,0.824999988079071d],AbsorptionAmount:0.0f,ForgeCaps:{\"nuclearcraft:capability_entity_rads\":{consumed:0b,radawayBuffer:0.0d,shouldWarn:0b,radXUsed:0b,poisonBuffer:0.0d,radXCooldown:0.0d,radXWoreOff:0b,radawayCooldown:0.0d,recentRadawayAddition:0.0d,maxRads:5400.0d,radawayBufferSlow:0.0d,externalRadiationResistance:0.0d,totalRads:0.0d,setFromMaxHealth:1b,radiationLevel:0.0d,recentPoisonAddition:0.0d,recentRadXAddition:0.0d,radiationImmunityStage:0b,internalRadiationResistance:0.0d,radiationImmunityTime:0.0d},\"tinkertoolleveling:entityxp\":[],\"epicsiegemod:modified_handler\":{data:{},modified:0b},\"voidcraft:voidicinfusioncapabilityhandler\":{infusion:0,maxInfusion:6000,xiaDefeats:0.0f},\"twilightforest:cap_shield\":{permshields:0,tempshields:0},\"everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore\":[],\"metallurgy:punch_effect\":{hasAiDisabled:1b,knockbackTicks:0,ticks:0},\"pneumaticcraft:hacking\":{}},PersistenceRequired:0b,UpdateBlocked:0b,SurgeAABB:[-0.30000001192092896d,0.0d,-0.30000001192092896d,0.824999988079071d,2.125d,0.824999988079071d]},Settings:{Hands:1b,Updates:0b},Name:\"aoa3:automaton\"}"
+    }
+]

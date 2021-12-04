@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+	"research": 33, 
+    "pattern": [
+        "ebb",
+        "em ",
+        "   "
+    ],
+	"result": {
+        "item": "lordcraft:crystal_basic_cosmic",
+		"data": 0,
+		"count": 4
+    },
+    "key": {
+		"e": {
+			"item": "lordcraft:crystal_basic_air",
+			"data": 0
+			
+		},
+        "b": {
+            "item": "lordcraft:crystal_basic_dark",
+			"data": 0
+        },
+		"m": {
+            "item": "actuallyadditions:item_crystal_empowered",
+			"data": 3
+        }
+    }
+}

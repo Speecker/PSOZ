@@ -1,0 +1,28 @@
+[
+  {
+    "item" : "aoa3:runium_ore:0",
+    "color" : 15,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "item" : "aoa3:charged_runium_ore:0",
+    "color" : 15,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  }
+]

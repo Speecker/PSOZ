@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+	"research": 33, 
+    "pattern": [
+        "ebb",
+        "em ",
+        "   "
+    ],
+	"result": {
+        "item": "lordcraft:crystal_basic_nature",
+		"data": 0,
+		"count": 4
+    },
+    "key": {
+		"e": {
+			"item": "lordcraft:crystal_basic_earth",
+			"data": 0
+			
+		},
+        "b": {
+            "item": "lordcraft:crystal_basic_light",
+			"data": 0
+        },
+		"m": {
+            "item": "mysticalagriculture:crafting",
+			"data": 10
+        }
+    }
+}

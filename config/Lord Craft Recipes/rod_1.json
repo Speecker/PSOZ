@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+	"research": 18, 
+    "pattern": [
+        "  e",
+        " e ",
+        "e  "
+    ],
+	"result": {
+        "item": "lordcraft:rod_1",
+		"data": 0,
+		"count": 1
+    },
+    "key": {
+		"e": {
+			"item": "minecraft:stick",
+			"data": 0
+		}
+    }
+}

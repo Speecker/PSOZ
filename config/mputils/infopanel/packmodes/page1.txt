@@ -1,0 +1,3 @@
+To change pack modes go to the config file "PO3\config\packmode.cfg" then change  "S:packMode=normal" to titan or kappa on both client and server before you load the pack up. 
+
+You May also use the in game command "/packmode" but the client and server must still be restarted.
