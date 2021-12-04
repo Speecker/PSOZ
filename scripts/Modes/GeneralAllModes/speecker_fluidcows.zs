@@ -1,0 +1,10 @@
+#priority 5
+#packmode normal titan kappa beast
+#modloaded fluidcows
+
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_cocoa_butter", <fluidcows:cow_displayer>.withTag({fluid: "cocoa_butter"}), [[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>], [<minecraft:dye:3>, <cookingforblockheads:cow_jar>, <minecraft:dye:3>], [<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>]]);
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_dirt", <fluidcows:cow_displayer>.withTag({fluid: "dirt"}), [[<ore:dirt>, <ore:dirt>, <ore:dirt>], [<ore:dirt>, <cookingforblockheads:cow_jar>, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>]]);
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_gelatin", <fluidcows:cow_displayer>.withTag({fluid: "gelatin"}), [[<ore:blockBonemeal>, <minecraft:water_bucket>, <ore:blockBonemeal>], [<ore:blockBonemeal>, <cookingforblockheads:cow_jar>, <ore:blockBonemeal>], [<ore:blockBonemeal>, <minecraft:lava_bucket>, <ore:blockBonemeal>]]);
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_lava", <fluidcows:cow_displayer>.withTag({fluid: "lava"}), [[<minecraft:lava_bucket>, <minecraft:lava_bucket>, <minecraft:lava_bucket>], [<minecraft:lava_bucket>, <cookingforblockheads:cow_jar>, <minecraft:lava_bucket>], [<minecraft:lava_bucket>, <minecraft:lava_bucket>, <minecraft:lava_bucket>]]);
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_milk", <fluidcows:cow_displayer>.withTag({fluid: "milk"}), [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:milk_bucket>, <cookingforblockheads:cow_jar>, <minecraft:milk_bucket>], [<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>]]);
+recipes.addShaped("speecker_all_fluidcows_cow_displayer_water", <fluidcows:cow_displayer>.withTag({fluid: "water"}), [[<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <cookingforblockheads:cow_jar>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>]]);
