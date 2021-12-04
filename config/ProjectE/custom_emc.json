@@ -1,0 +1,5964 @@
+{
+  "entries": [
+    {
+      "item": "armorplus:redstone_helmet|0",
+      "emc": 97275
+    },
+    {
+      "item": "armorplus:redstone_chestplate|0",
+      "emc": 155640
+    },
+    {
+      "item": "armorplus:redstone_leggings|0",
+      "emc": 136185
+    },
+    {
+      "item": "armorplus:redstone_boots|0",
+      "emc": 77820
+    },
+    {
+      "item": "alchemistry:ingot|74",
+      "emc": 2048
+    },
+    {
+      "item": "landcore:item_tungsten_helmet|0",
+      "emc": 113410
+    },
+    {
+      "item": "landcore:item_tungsten_chestplate|0",
+      "emc": 181456
+    },
+    {
+      "item": "landcore:item_tungsten_leggings|0",
+      "emc": 158774
+    },
+    {
+      "item": "landcore:item_tungsten_boots|0",
+      "emc": 90728
+    },
+    {
+      "item": "armorplus:obsidian_helmet|0",
+      "emc": 113730
+    },
+    {
+      "item": "armorplus:obsidian_chestplate|0",
+      "emc": 181968
+    },
+    {
+      "item": "armorplus:obsidian_leggings|0",
+      "emc": 159222
+    },
+    {
+      "item": "armorplus:obsidian_boots|0",
+      "emc": 90984
+    },
+    {
+      "item": "landcore:item_ingot|1",
+      "emc": 2048
+    },
+    {
+      "item": "minecraft:coal_block|0",
+      "emc": 1152
+    },
+    {
+      "item": "projectred-core:resource_item|105",
+      "emc": 64
+    },
+    {
+      "item": "projectred-core:resource_item|252",
+      "emc": 768
+    },
+    {
+      "item": "projectred-core:resource_item|104",
+      "emc": 768
+    },
+    {
+      "item": "draconicevolution:draconium_ingot|0",
+      "emc": 4096
+    },
+    {
+      "item": "extrautils2:endershard|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:emerald_block|0",
+      "emc": 147456
+    },
+    {
+      "item": "redstonearsenal:material|0",
+      "emc": 1392
+    },
+    {
+      "item": "redstonearsenal:material|32",
+      "emc": 1393
+    },
+    {
+      "item": "thermalfoundation:material|164",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 1464
+    },
+    {
+      "item": "extrautils2:ingredients|17",
+      "emc": 17664
+    },
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 307
+    },
+    {
+      "item": "tconstruct:ingots|3",
+      "emc": 512
+    },
+    {
+      "item": "projectred-core:resource_item|251",
+      "emc": 768
+    },
+    {
+      "item": "projectred-core:resource_item|103",
+      "emc": 768
+    },
+    {
+      "item": "botania:manaresource|8",
+      "emc": 1624
+    },
+    {
+      "item": "botania:manaresource|5",
+      "emc": 1024
+    },
+    {
+      "item": "avaritia:singularity|0",
+      "emc": 29030400
+    },
+    {
+      "item": "avaritia:singularity|1",
+      "emc": 217497600
+    },
+    {
+      "item": "avaritia:singularity|2",
+      "emc": 6796800
+    },
+    {
+      "item": "avaritia:singularity|3",
+      "emc": 7488000
+    },
+    {
+      "item": "avaritia:singularity|4",
+      "emc": 12083200
+    },
+    {
+      "item": "avaritia:singularity|5",
+      "emc": 14515200
+    },
+    {
+      "item": "avaritia:singularity|6",
+      "emc": 29030400
+    },
+    {
+      "item": "avaritia:singularity|7",
+      "emc": 56217600
+    },
+    {
+      "item": "avaritia:singularity|12",
+      "emc": 142921800
+    },
+    {
+      "item": "avaritia:singularity|11",
+      "emc": 1739980800
+    },
+    {
+      "item": "avaritia:singularity|10",
+      "emc": 899481600
+    },
+    {
+      "item": "avaritia:singularity|9",
+      "emc": 116121600
+    },
+    {
+      "item": "avaritia:singularity|8",
+      "emc": 56217600
+    },
+    {
+      "item": "minecraft:iron_nugget|0",
+      "emc": 28
+    },
+    {
+      "item": "extrautils2:machine|0",
+      "emc": 28065
+    },
+    {
+      "item": "mekanism:dust|2",
+      "emc": 512
+    },
+    {
+      "item": "mekanism:otherdust|0",
+      "emc": 8192
+    },
+    {
+      "item": "thermalfoundation:material|770",
+      "emc": 16
+    },
+    {
+      "item": "mekanism:polyethene|0",
+      "emc": 288
+    },
+    {
+      "item": "mekanism:otherdust|5",
+      "emc": 8208
+    },
+    {
+      "item": "mekanism:ingot|0",
+      "emc": 8720
+    },
+    {
+      "item": "mekanism:ingot|3",
+      "emc": 896
+    },
+    {
+      "item": "mekanism:enrichedalloy|0",
+      "emc": 320
+    },
+    {
+      "item": "mekanism:reinforcedalloy|0",
+      "emc": 8512
+    },
+    {
+      "item": "mekanism:atomicalloy|0",
+      "emc": 16720
+    },
+    {
+      "item": "mekanism:controlcircuit|0",
+      "emc": 576
+    },
+    {
+      "item": "mekanism:energycube|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:portableteleporter|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:atomicdisassembler|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:robit|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:networkreader|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:scubatank|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:jetpack|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:freerunners|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:armoredjetpack|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:gastank|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:basicblock|6",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:gaugedropper|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:flamethrower|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:seismicreader|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:configurationcard|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:electricbow|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:machineblock2|11",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|1",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|2",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|3",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|4",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|5",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:transmitter|6",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:crystal_seed|1200",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:energy_cell|0",
+      "emc": 809
+    },
+    {
+      "item": "appliedenergistics2:crystal_seed|0",
+      "emc": 0
+    },
+    {
+      "item": "compactmachines3:wallbreakable|0",
+      "emc": 152
+    },
+    {
+      "item": "compactmachines3:tunneltool|0",
+      "emc": 1033
+    },
+    {
+      "item": "compactmachines3:redstonetunneltool|0",
+      "emc": 652
+    },
+    {
+      "item": "minecraft:iron_nugget|0",
+      "emc": 28
+    },
+    {
+      "item": "extrautils2:flattransfernode|0",
+      "emc": 6
+    },
+    {
+      "item": "extrautils2:flattransfernode|1",
+      "emc": 16
+    },
+    {
+      "item": "fluidcows:cow_displayer|0",
+      "emc": 0
+    },
+    {
+      "item": "tp:dragon_scale|0",
+      "emc": 1048576
+    },
+    {
+      "item": "mysticalagradditions:stuff|3",
+      "emc": 1048576
+    },
+    {
+      "item": "mysticalagriculture:tin_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:stone_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dirt_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nature_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wood_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:water_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ice_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fire_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dye_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:coal_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iron_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_quartz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:glowstone_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:obsidian_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:gold_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:experience_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:diamond_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pig_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:chicken_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cow_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:slime_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderman_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:guardian_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:rabbit_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:spider_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:skeleton_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:uranium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mithril_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:invar_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrum_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:constantan_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nickel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:steel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:graphite_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lead_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:platinum_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iridium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:amber_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blizz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blitz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:basalz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:signalum_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lumium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cobalt_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:manyullyn_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:grains_of_infinity_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrical_steel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluxed_electrum_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:hop_graphite_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aluminum_brass_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:knightslime_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ardite_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_alloy_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:conductive_iron_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soularium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dark_steel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pulsating_iron_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:energetic_alloy_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:vibrant_alloy_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_steel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mystical_flower_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:elementium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:manasteel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:terrasteel_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sky_stone_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:draconium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:black_quartz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:alumite_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:basalt_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:limestone_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silicon_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:marble_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:refined_obsidian_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:glowstone_ingot_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:osmium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:thaumium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:quicksilver_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:certus_quartz_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluix_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:bronze_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:brass_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silver_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:saltpeter_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:copper_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aluminum_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sulfur_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:grains_of_infinity_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrical_steel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:manyullyn_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cobalt_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ardite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:knightslime_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aluminum_brass_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:hop_graphite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluxed_electrum_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:void_metal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:thaumium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:energetic_alloy_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pulsating_iron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dark_steel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:quicksilver_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:terrasteel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:elementium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:conductive_iron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:vibrant_alloy_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:glowstone_ingot_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:refined_obsidian_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:marble_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:osmium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soularium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sky_stone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:draconium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_steel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fluix_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:manasteel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mystical_flower_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_alloy_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:limestone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:basalt_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:alumite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:black_quartz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:certus_quartz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iridium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:platinum_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:slime_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:skeleton_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:creeper_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:spider_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:rabbit_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:guardian_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blaze_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:signalum_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lumium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:enderman_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silicon_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sulfur_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ghast_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mithril_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:basalz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blitz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:blizz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:uranium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:amber_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aluminum_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:copper_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:saltpeter_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tin_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:bronze_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:brass_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:silver_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lead_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:graphite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:steel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nickel_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:constantan_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:invar_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:tier6_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tier4_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tier5_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nature_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:stone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dirt_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sheep_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:cow_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:chicken_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:gold_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:obsidian_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:redstone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:glowstone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tier3_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:emerald_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:diamond_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:zombie_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:pig_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:end_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:experience_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tier1_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tier2_inferium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_quartz_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:iron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:coal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:nether_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:nether_star_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:dragon_egg_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:awakened_draconium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:wood_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:water_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ice_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fire_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dye_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|0",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|5",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|7",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|9",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|10",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|11",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|12",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|13",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|15",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dragon_egg|0",
+      "emc": 1048576
+    },
+    {
+      "item": "ceramics:clay_bucket|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:shimmerleaf|0",
+      "emc": 256
+    },
+    {
+      "item": "thaumcraft:crystal_essence|0",
+      "emc": 2048
+    },
+    {
+      "item": "avaritia:resource|5",
+      "emc": 140489598218
+    },
+    {
+      "item": "avaritia:resource|6",
+      "emc": 7687727611470
+    },
+    {
+      "item": "tconstruct:toolforge|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:tooltables|2",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:tooltables|1",
+      "emc": 14
+    },
+    {
+      "item": "ironbackpacks:backpack|0",
+      "emc": 0
+    },
+    {
+      "item": "ironbackpacks:upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dye|4",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:bone|0",
+      "emc": 192
+    },
+    {
+      "item": "minecraft:red_flower|5",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|4",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|3",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|1",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|2",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:yellow_flower|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|8",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|7",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:red_flower|6",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:double_plant|1",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:double_plant|5",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:double_plant|4",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:double_plant|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:cactus|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dye|3",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dye|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dye|1",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|1",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|2",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|3",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|4",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|6",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|8",
+      "emc": 64
+    },
+    {
+      "item": "botania:petal|14",
+      "emc": 64
+    },
+    {
+      "item": "draconicevolution:crafting_injector|3",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:biomemarker|0",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:toolbox|0",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:balanced_clay|0",
+      "emc": 23058430092136940
+    },
+    {
+      "item": "tconstruct:edible|4",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|1",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|2",
+      "emc": 32
+    },
+    {
+      "item": "galacticraftplanets:item_basic_asteroids|0",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:material|320",
+      "emc": 128
+    },
+    {
+      "item": "immersiveengineering:material|20",
+      "emc": 64
+    },
+    {
+      "item": "thermalfoundation:material|353",
+      "emc": 1280
+    },
+    {
+      "item": "immersiveengineering:material|21",
+      "emc": 640
+    },
+    {
+      "item": "quark:biotite|0",
+      "emc": 8192
+    },
+    {
+      "item": "twilightforest:liveroot|0",
+      "emc": 128
+    },
+    {
+      "item": "landcore:item_ingot|2",
+      "emc": 512
+    },
+    {
+      "item": "landcraft:landia_ingot|4",
+      "emc": 1024
+    },
+    {
+      "item": "landcraft:landia_ingot|1",
+      "emc": 2048
+    },
+    {
+      "item": "landcraft:landia_ingot|2",
+      "emc": 4096
+    },
+    {
+      "item": "landcraft:landia_ingot|3",
+      "emc": 8192
+    },
+    {
+      "item": "landcraft:landia_ingot|0",
+      "emc": 16384
+    },
+    {
+      "item": "alchemistry:element|3",
+      "emc": 32
+    },
+    {
+      "item": "alchemistry:element|12",
+      "emc": 32
+    },
+    {
+      "item": "alchemistry:element|28",
+      "emc": 64
+    },
+    {
+      "item": "thermalfoundation:material|69",
+      "emc": 1024
+    },
+    {
+      "item": "alchemistry:element|40",
+      "emc": 8
+    },
+    {
+      "item": "alchemistry:element|25",
+      "emc": 8
+    },
+    {
+      "item": "alchemistry:element|26",
+      "emc": 16
+    },
+    {
+      "item": "alchemistry:element|74",
+      "emc": 128
+    },
+    {
+      "item": "extraplanets:tier9_items|5",
+      "emc": 2048
+    },
+    {
+      "item": "magneticraft:dusts|5",
+      "emc": 2048
+    },
+    {
+      "item": "alchemistry:element|13",
+      "emc": 8
+    },
+    {
+      "item": "alchemistry:element|82",
+      "emc": 32
+    },
+    {
+      "item": "alchemistry:element|29",
+      "emc": 8
+    },
+    {
+      "item": "alchemistry:element|79",
+      "emc": 128
+    },
+    {
+      "item": "alchemistry:element|16",
+      "emc": 2
+    },
+    {
+      "item": "alchemistry:element|15",
+      "emc": 96
+    },
+    {
+      "item": "alchemistry:element|6",
+      "emc": 16
+    },
+    {
+      "item": "alchemistry:element|14",
+      "emc": 2
+    },
+    {
+      "item": "alchemistry:ingot|14",
+      "emc": 32
+    },
+    {
+      "item": "draconicevolution:chaos_shard|3",
+      "emc": 2953125319
+    },
+    {
+      "item": "draconicevolution:chaos_shard|2",
+      "emc": 26578127871
+    },
+    {
+      "item": "draconicevolution:chaos_shard|1",
+      "emc": 239203150839
+    },
+    {
+      "item": "draconicevolution:chaos_shard|0",
+      "emc": 2152828357551
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed|0",
+      "emc": 275
+    },
+    {
+      "item": "appliedenergistics2:material|10",
+      "emc": 64
+    },
+    {
+      "item": "jaopca:item_essencekelline|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencedarkiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecarbon|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsyellowdiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsreddiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedspurplediamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsbluediamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsgreendiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "extraplanets:wafer|0",
+      "emc": 3704
+    },
+    {
+      "item": "projecte:item.pe_matter|0",
+      "emc": 55160
+    },
+    {
+      "item": "pneumaticcraft:capacitor|0",
+      "emc": 208917
+    },
+    {
+      "item": "enderstorage:ender_storage|0",
+      "emc": 7408
+    },
+    {
+      "item": "projecte:transmutation_table|0",
+      "emc": 9779697
+    },
+    {
+      "item": "enderio:item_alloy_ingot|9",
+      "emc": 777
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 355
+    },
+    {
+      "item": "twilightforest:ironwood_raw|0",
+      "emc": 612
+    },
+    {
+      "item": "twilightforest:ironwood_ingot|0",
+      "emc": 967
+    },
+    {
+      "item": "twilightforest:block_storage|0",
+      "emc": 8703
+    },
+    {
+      "item": "mysticalagriculture:electrotine_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceender|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ender_biotite_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegarfax|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelunar|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepalladium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelandium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencefriscion|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceracheline|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemorganine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceliquifiedcoralium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecrystal|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:menril_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ender_biotite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrotine_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsliquifiedcoralium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslandium|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:menril_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemercury|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebluediamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegreendiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepurplediamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencereddiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceyellowdiamond|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_nuggetbluediamond|0",
+      "emc": 1365
+    },
+    {
+      "item": "jaopca:item_nuggetgreendiamond|0",
+      "emc": 1365
+    },
+    {
+      "item": "jaopca:item_nuggetpurplediamond|0",
+      "emc": 1365
+    },
+    {
+      "item": "jaopca:item_nuggetreddiamond|0",
+      "emc": 1365
+    },
+    {
+      "item": "jaopca:item_nuggetyellowdiamond|0",
+      "emc": 1365
+    },
+    {
+      "item": "jaopca:item_essencedimensionalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "rftools:dimensional_shard|0",
+      "emc": 10240
+    },
+    {
+      "item": "redstonearsenal:storage|0",
+      "emc": 12537
+    },
+    {
+      "item": "lordcraft:crystal_basic_neutral|0",
+      "emc": 2176
+    },
+    {
+      "item": "lordcraft:crystal_basic_light|0",
+      "emc": 2560
+    },
+    {
+      "item": "lordcraft:crystal_basic_dark|0",
+      "emc": 2192
+    },
+    {
+      "item": "lordcraft:crystal_basic_air|0",
+      "emc": 2240
+    },
+    {
+      "item": "lordcraft:crystal_basic_fire|0",
+      "emc": 2368
+    },
+    {
+      "item": "lordcraft:crystal_basic_water|0",
+      "emc": 2368
+    },
+    {
+      "item": "lordcraft:crystal_basic_earth|0",
+      "emc": 2208
+    },
+    {
+      "item": "lordcraft:crystal_basic_cosmic|0",
+      "emc": 2248
+    },
+    {
+      "item": "bloodmagic:decorative_brick|2",
+      "emc": 32750
+    },
+    {
+      "item": "extendedcrafting:table_ultimate|0",
+      "emc": 9052932
+    },
+    {
+      "item": "embers:aspectus_copper|0",
+      "emc": 248
+    },
+    {
+      "item": "embers:aspectus_silver|0",
+      "emc": 632
+    },
+    {
+      "item": "embers:aspectus_iron|0",
+      "emc": 376
+    },
+    {
+      "item": "extraplanets:tier8_items|5",
+      "emc": 512
+    },
+    {
+      "item": "alchemistry:element|30",
+      "emc": 32
+    },
+    {
+      "item": "libvulpes:productingot|7",
+      "emc": 4096
+    },
+    {
+      "item": "alchemistry:ingot|22",
+      "emc": 4096
+    },
+    {
+      "item": "extraplanets:tier4_items|5",
+      "emc": 96
+    },
+    {
+      "item": "extraplanets:tier5_items|5",
+      "emc": 2048
+    },
+    {
+      "item": "taiga:palladium_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "alchemistry:ingot|46",
+      "emc": 2048
+    },
+    {
+      "item": "alchemistry:element|46",
+      "emc": 128
+    },
+    {
+      "item": "galacticraftcore:item_basic_moon|0",
+      "emc": 8192
+    },
+    {
+      "item": "galacticraftplanets:item_basic_mars|2",
+      "emc": 16348
+    },
+    {
+      "item": "extraplanets:ingot_mercury|0",
+      "emc": 16348
+    },
+    {
+      "item": "extraplanets:tier7_items|5",
+      "emc": 32768
+    },
+    {
+      "item": "extraplanets:tier10_items|5",
+      "emc": 65536
+    },
+    {
+      "item": "thermalfoundation:material|135",
+      "emc": 8192
+    },
+    {
+      "item": "tombstone:crafting_ingredient|3",
+      "emc": 128
+    },
+    {
+      "item": "lordcraft:crystal_basic_nature|0",
+      "emc": 2400
+    },
+    {
+      "item": "lordcraft:crystal_basic_lightning|0",
+      "emc": 33980
+    },
+    {
+      "item": "mekanism:basicblock|0",
+      "emc": 4608
+    },
+    {
+      "item": "mekanism:crystal|2",
+      "emc": 1539
+    },
+    {
+      "item": "jaopca:item_crystalfragmentosmium|0",
+      "emc": 19
+    },
+    {
+      "item": "jaopca:item_crystalshardosmium|0",
+      "emc": 171
+    },
+    {
+      "item": "jaopca:item_crystalabyssosmium|0",
+      "emc": 1539
+    },
+    {
+      "item": "jaopca:block_crystalclusterosmium|0",
+      "emc": 13851
+    },
+    {
+      "item": "darkutils:shulker_pearl|0",
+      "emc": 512
+    },
+    {
+      "item": "thermalexpansion:satchel|4",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lapis_block|0",
+      "emc": 576
+    },
+    {
+      "item": "twilightforest:arctic_helmet|0",
+      "emc": 453156
+    },
+    {
+      "item": "twilightforest:arctic_chestplate|0",
+      "emc": 734368
+    },
+    {
+      "item": "twilightforest:arctic_leggings|0",
+      "emc": 618444
+    },
+    {
+      "item": "twilightforest:arctic_boots|0",
+      "emc": 357200
+    },
+    {
+      "item": "twilightforest:steeleaf_ingot|0",
+      "emc": 6144
+    },
+    {
+      "item": "twilightforest:armor_shard|0",
+      "emc": 3032
+    },
+    {
+      "item": "twilightforest:fiery_tears|0",
+      "emc": 7940
+    },
+    {
+      "item": "twilightforest:fiery_blood|0",
+      "emc": 7940
+    },
+    {
+      "item": "twilightforest:armor_shard_cluster|0",
+      "emc": 27288
+    },
+    {
+      "item": "twilightforest:yeti_helmet|0",
+      "emc": 852643
+    },
+    {
+      "item": "twilightforest:yeti_chestplate|0",
+      "emc": 1424391
+    },
+    {
+      "item": "twilightforest:yeti_leggings|0",
+      "emc": 1090565
+    },
+    {
+      "item": "twilightforest:yeti_boots|0",
+      "emc": 647736
+    },
+    {
+      "item": "abyssalcraft:dhelmet|0",
+      "emc": 924823
+    },
+    {
+      "item": "abyssalcraft:dplate|0",
+      "emc": 1521147
+    },
+    {
+      "item": "abyssalcraft:dlegs|0",
+      "emc": 1168889
+    },
+    {
+      "item": "abyssalcraft:dboots|0",
+      "emc": 710700
+    },
+    {
+      "item": "nuclearcraft:gem_dust|4",
+      "emc": 30669
+    },
+    {
+      "item": "nuclearcraft:gem|1",
+      "emc": 78669
+    },
+    {
+      "item": "armorplus:infused_lava_helmet|0",
+      "emc": 1906336
+    },
+    {
+      "item": "armorplus:infused_lava_chestplate|0",
+      "emc": 3205740
+    },
+    {
+      "item": "armorplus:infused_lava_leggings|0",
+      "emc": 2326172
+    },
+    {
+      "item": "armorplus:infused_lava_boots|0",
+      "emc": 1428558
+    },
+    {
+      "item": "abyssalcraft:oc|0",
+      "emc": 6144
+    },
+    {
+      "item": "armorplus:guardian_helmet|0",
+      "emc": 3194744
+    },
+    {
+      "item": "armorplus:guardian_chestplate|0",
+      "emc": 5431172
+    },
+    {
+      "item": "armorplus:guardian_leggings|0",
+      "emc": 3848836
+    },
+    {
+      "item": "armorplus:guardian_boots|0",
+      "emc": 2365582
+    },
+    {
+      "item": "armorplus:super_star_helmet|0",
+      "emc": 3960696
+    },
+    {
+      "item": "armorplus:super_star_chestplate|0",
+      "emc": 6754180
+    },
+    {
+      "item": "armorplus:super_star_leggings|0",
+      "emc": 4754052
+    },
+    {
+      "item": "armorplus:super_star_boots|0",
+      "emc": 2922638
+    },
+    {
+      "item": "magneticraft:ingots|9",
+      "emc": 3200
+    },
+    {
+      "item": "thermalfoundation:material|136",
+      "emc": 3200
+    },
+    {
+      "item": "redstonearsenal:material|160",
+      "emc": 320
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 417
+    },
+    {
+      "item": "thermaldynamics:duct_0|2",
+      "emc": 128
+    },
+    {
+      "item": "thermaldynamics:duct_0|3",
+      "emc": 319
+    },
+    {
+      "item": "thermaldynamics:duct_0|4",
+      "emc": 870
+    },
+    {
+      "item": "magneticraft:crafting|1",
+      "emc": 4864
+    },
+    {
+      "item": "thermalfoundation:material|32",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+    {
+      "item": "simplyjetpacks:metaitemmods|29",
+      "emc": 40875
+    },
+    {
+      "item": "simplyjetpacks:metaitemmods|28",
+      "emc": 39359
+    },
+    {
+      "item": "armorplus:the_ultimate_helmet|0",
+      "emc": 41742718
+    },
+    {
+      "item": "armorplus:the_ultimate_chestplate|0",
+      "emc": 86510100
+    },
+    {
+      "item": "armorplus:the_ultimate_leggings|0",
+      "emc": 61552036
+    },
+    {
+      "item": "armorplus:the_ultimate_boots|0",
+      "emc": 46292059
+    },
+    {
+      "item": "projectred-core:resource_item|301",
+      "emc": 32
+    },
+    {
+      "item": "quantumflux:graphitedust|0",
+      "emc": 1024
+    },
+    {
+      "item": "quantumflux:craftingpiece|6",
+      "emc": 1100
+    },
+    {
+      "item": "draconicevolution:wyvern_helm|0",
+      "emc": 50295853
+    },
+    {
+      "item": "draconicevolution:wyvern_chest|0",
+      "emc": 95063235
+    },
+    {
+      "item": "draconicevolution:wyvern_legs|0",
+      "emc": 70105171
+    },
+    {
+      "item": "draconicevolution:wyvern_boots|0",
+      "emc": 54845194
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_3|0",
+      "emc": 74048997
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_2|0",
+      "emc": 118810727
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_1|0",
+      "emc": 94223151
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_0|0",
+      "emc": 78653298
+    },
+    {
+      "item": "draconicevolution:draconic_helm|0",
+      "emc": 76327042
+    },
+    {
+      "item": "draconicevolution:draconic_chest|0",
+      "emc": 121088772
+    },
+    {
+      "item": "draconicevolution:draconic_legs|0",
+      "emc": 96501196
+    },
+    {
+      "item": "draconicevolution:draconic_boots|0",
+      "emc": 80931343
+    },
+    {
+      "item": "pneumaticcraft:plastic|0",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|1",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|2",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|3",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|4",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|5",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|6",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|7",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|8",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|13",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|12",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|11",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|10",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|9",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|15",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:plastic|14",
+      "emc": 1275
+    },
+    {
+      "item": "pneumaticcraft:transistor|0",
+      "emc": 6844
+    },
+    {
+      "item": "pneumaticcraft:unassembled_pcb|0",
+      "emc": 5725
+    },
+    {
+      "item": "lordcraft:runestone|211",
+      "emc": 109096
+    },
+    {
+      "item": "lordcraft:runestone|212",
+      "emc": 109128
+    },
+    {
+      "item": "extrautils2:ingredients|11",
+      "emc": 3072
+    },
+    {
+      "item": "magneticraft:multiblock_parts|0",
+      "emc": 1157
+    },
+    {
+      "item": "tp:lava_infused_stone|0",
+      "emc": 492
+    },
+    {
+      "item": "abyssalcraft:crystalfragment|11",
+      "emc": 26
+    },
+    {
+      "item": "abyssalcraft:crystalshard|11",
+      "emc": 234
+    },
+    {
+      "item": "abyssalcraft:crystal|11",
+      "emc": 2106
+    },
+    {
+      "item": "abyssalcraft:crystalcluster|11",
+      "emc": 18954
+    },
+    {
+      "item": "extraplanets:volcanic_rock|0",
+      "emc": 4
+    },
+    {
+      "item": "lordcraft:runestone|214",
+      "emc": 109160
+    },
+    {
+      "item": "mysticalagriculture:crafting|1",
+      "emc": 4128
+    },
+    {
+      "item": "mysticalagriculture:crafting|2",
+      "emc": 24704
+    },
+    {
+      "item": "mysticalagriculture:crafting|3",
+      "emc": 115200
+    },
+    {
+      "item": "mysticalagriculture:crafting|4",
+      "emc": 493568
+    },
+    {
+      "item": "mysticalagradditions:insanium|0",
+      "emc": 2039808
+    },
+    {
+      "item": "thermalsolars:itemlunaringot|0",
+      "emc": 4096
+    },
+    {
+      "item": "xreliquary:mob_ingredient|3",
+      "emc": 24
+    },
+    {
+      "item": "extrautils2:ingredients|12",
+      "emc": 2112
+    },
+    {
+      "item": "extrautils2:decorativesolidwood|1",
+      "emc": 2288
+    },
+    {
+      "item": "extrautils2:ingredients|9",
+      "emc": 4100
+    },
+    {
+      "item": "extrautils2:ingredients|10",
+      "emc": 23211
+    },
+    {
+      "item": "magneticraft:heavy_plates|5",
+      "emc": 8172
+    },
+    {
+      "item": "galacticraftcore:basic_item|13",
+      "emc": 2796
+    },
+    {
+      "item": "galacticraftcore:basic_item|14",
+      "emc": 8523
+    },
+    {
+      "item": "galacticraftcore:machine2|0",
+      "emc": 74663
+    },
+    {
+      "item": "pneumaticcraft:advanced_pressure_tube|0",
+      "emc": 5276
+    },
+    {
+      "item": "embers:block_dawnstone|0",
+      "emc": 27648
+    },
+    {
+      "item": "jaopca:item_platetungsten|0",
+      "emc": 3677
+    },
+    {
+      "item": "magneticraft:light_plates|5",
+      "emc": 3677
+    },
+    {
+      "item": "landcraft:landia_metal|3",
+      "emc": 73728
+    },
+    {
+      "item": "bigreactors:ingotblutonium|0",
+      "emc": 8192
+    },
+    {
+      "item": "enderio:item_material|74",
+      "emc": 2100
+    },
+    {
+      "item": "extrautils2:ingredients|3",
+      "emc": 80
+    },
+    {
+      "item": "thermalfoundation:material|256",
+      "emc": 517
+    },
+    {
+      "item": "immersiveengineering:material|8",
+      "emc": 1541
+    },
+    {
+      "item": "immersiveengineering:metal_decoration0|4",
+      "emc": 3049
+    },
+    {
+      "item": "nuclearcraft:uranium|8",
+      "emc": 2355
+    },
+    {
+      "item": "erebus:materials|1",
+      "emc": 16384
+    },
+    {
+      "item": "abyssalcraft:ingotblock|0",
+      "emc": 27648
+    },
+    {
+      "item": "tconstruct:metal|1",
+      "emc": 9216
+    },
+    {
+      "item": "tconstruct:metal|5",
+      "emc": 243
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|4",
+      "emc": 5184
+    },
+    {
+      "item": "abyssalcraft:ingotblock|1",
+      "emc": 36864
+    },
+    {
+      "item": "extraplanets:uranus|4",
+      "emc": 294912
+    },
+    {
+      "item": "enderio:block_alloy_endergy|1",
+      "emc": 165888
+    },
+    {
+      "item": "abyssalcraft:ingotblock|2",
+      "emc": 46080
+    },
+    {
+      "item": "enderio:block_alloy|0",
+      "emc": 2736
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|1",
+      "emc": 11520
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|7",
+      "emc": 13176
+    },
+    {
+      "item": "abyssalcraft:ingotblock|3",
+      "emc": 55809
+    },
+    {
+      "item": "twilightforest:block_storage|1",
+      "emc": 224136
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|2",
+      "emc": 4608
+    },
+    {
+      "item": "erebus:jade_block|0",
+      "emc": 147456
+    },
+    {
+      "item": "twilightforest:knightmetal_block|0",
+      "emc": 82242
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|6",
+      "emc": 6336
+    },
+    {
+      "item": "tconstruct:metal|2",
+      "emc": 18432
+    },
+    {
+      "item": "thermalfoundation:storage|8",
+      "emc": 28800
+    },
+    {
+      "item": "landcraft:landia_metal|2",
+      "emc": 36864
+    },
+    {
+      "item": "thermalfoundation:storage|5",
+      "emc": 9216
+    },
+    {
+      "item": "extraplanets:jupiter|8",
+      "emc": 18432
+    },
+    {
+      "item": "thermalfoundation:storage|6",
+      "emc": 36864
+    },
+    {
+      "item": "mekanism:basicblock|2",
+      "emc": 78480
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|5",
+      "emc": 3456
+    },
+    {
+      "item": "enderio:block_alloy|7",
+      "emc": 18873
+    },
+    {
+      "item": "twilightforest:block_storage|2",
+      "emc": 55296
+    },
+    {
+      "item": "enderio:block_alloy_endergy|3",
+      "emc": 638199
+    },
+    {
+      "item": "galacticraftplanets:asteroids_block|7",
+      "emc": 36864
+    },
+    {
+      "item": "enderio:block_alloy_endergy|6",
+      "emc": 33939
+    },
+    {
+      "item": "bigreactors:blockyellorium|0",
+      "emc": 36864
+    },
+    {
+      "item": "extraplanets:neptune|7",
+      "emc": 4608
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|68",
+      "emc": 32651072
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|69",
+      "emc": 6152128
+    },
+    {
+      "item": "bloodarsenal:base_item|3",
+      "emc": 35509
+    },
+    {
+      "item": "bloodarsenal:base_item|4",
+      "emc": 40509
+    },
+    {
+      "item": "jaopca:item_essenceredgem|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebluegem|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencewhitegem|0",
+      "emc": 0
+    },
+    {
+      "item": "extraplanets:tier5_items|8",
+      "emc": 1024
+    },
+    {
+      "item": "extraplanets:tier7_items|7",
+      "emc": 4096
+    },
+    {
+      "item": "extraplanets:tier8_items|6",
+      "emc": 8192
+    },
+    {
+      "item": "erebus:materials|0",
+      "emc": 3584
+    },
+    {
+      "item": "landcraft:landia_metal|0",
+      "emc": 147456
+    },
+    {
+      "item": "minecraft:netherbrick|0",
+      "emc": 1
+    },
+    {
+      "item": "lordcraft:runestone|213",
+      "emc": 108954
+    },
+    {
+      "item": "botania:manaresource|15",
+      "emc": 215
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|70",
+      "emc": 6152128
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|71",
+      "emc": 7304256
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|72",
+      "emc": 14217024
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|81",
+      "emc": 10184576
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|110",
+      "emc": 78736192
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|148",
+      "emc": 9608512
+    },
+    {
+      "item": "deepmoblearning:glitch_heart|0",
+      "emc": 32768
+    },
+    {
+      "item": "deepmoblearning:glitch_fragment|0",
+      "emc": 35000
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot|0",
+      "emc": 4096
+    },
+    {
+      "item": "deepmoblearning:glitch_infused_ingot|0",
+      "emc": 38112
+    },
+    {
+      "item": "extraplanets:wafer|5",
+      "emc": 1809
+    },
+    {
+      "item": "enderio:block_alloy_endergy|4",
+      "emc": 185085
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|174",
+      "emc": 46476608
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|164",
+      "emc": 108691520
+    },
+    {
+      "item": "extendedcrafting:singularity_custom|154",
+      "emc": 51661184
+    },
+    {
+      "item": "abyssalcraft:crystalcluster|14",
+      "emc": 48516
+    },
+    {
+      "item": "harvestcraft:calamarirawitem|0",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:raw_meef|0",
+      "emc": 64
+    },
+    {
+      "item": "twilightforest:raw_venison|0",
+      "emc": 64
+    },
+    {
+      "item": "natura:edibles|0",
+      "emc": 64
+    },
+    {
+      "item": "mysticalagradditions:stuff|69",
+      "emc": 10670135
+    },
+    {
+      "item": "mekanism:salt|0",
+      "emc": 128
+    },
+    {
+      "item": "enderio:block_alloy|1",
+      "emc": 22464
+    },
+    {
+      "item": "solarflux:solar_panel_thaumium|0",
+      "emc": 1962790
+    },
+    {
+      "item": "enderio:block_alloy|2",
+      "emc": 31680
+    },
+    {
+      "item": "natura:nether_thorn_vines|0",
+      "emc": 64
+    },
+    {
+      "item": "abyssalcraft:crystalcluster|1",
+      "emc": 20868
+    },
+    {
+      "item": "abyssalcraft:crystal|1",
+      "emc": 2319
+    },
+    {
+      "item": "mekanism:crystal|1",
+      "emc": 2319
+    },
+    {
+      "item": "netherex:rime_crystal|0",
+      "emc": 512
+    },
+    {
+      "item": "erebus:materials|60",
+      "emc": 128
+    },
+    {
+      "item": "inspirations:edibles|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:potion|0",
+      "emc": 2750
+    },
+    {
+      "item": "draconicevolution:chaotic_core|0",
+      "emc": 2153433853071
+    },
+    {
+      "item": "appliedenergistics2:crafting_storage_1k|0",
+      "emc": 6288
+    },
+    {
+      "item": "appliedenergistics2:crafting_storage_4k|0",
+      "emc": 221061
+    },
+    {
+      "item": "appliedenergistics2:crafting_storage_16k|0",
+      "emc": 657656
+    },
+    {
+      "item": "exnihilocreatio:block_dust|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sugar|0",
+      "emc": 32
+    },
+    {
+      "item": "fluxnetworks:flux|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|33",
+      "emc": 2050
+    },
+    {
+      "item": "hatchery:chickenmanure|0",
+      "emc": 64
+    },
+    {
+      "item": "cookingforblockheads:cow_jar|0",
+      "emc": 12500
+    },
+    {
+      "item": "actuallyadditions:item_dust|4",
+      "emc": 64
+    },
+    {
+      "item": "enderio:block_alloy|5",
+      "emc": 11520
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|3",
+      "emc": 1440
+    },
+    {
+      "item": "chisel:blockcobalt|0",
+      "emc": 9216
+    },
+    {
+      "item": "enderio:block_alloy_endergy|5",
+      "emc": 8586
+    },
+    {
+      "item": "enderio:block_alloy|4",
+      "emc": 2880
+    },
+    {
+      "item": "enderio:block_infinity|0",
+      "emc": 288
+    },
+    {
+      "item": "thermalfoundation:material|324",
+      "emc": 128
+    },
+    {
+      "item": "storagedrawers:compdrawers|0",
+      "emc": 12500
+    },
+    {
+      "item": "tconstruct:metal|0",
+      "emc": 9216
+    },
+    {
+      "item": "endermanevo:enderman_skull|0",
+      "emc": 65536
+    },
+    {
+      "item": "thermalsolars:itemlunardust|0",
+      "emc": 80
+    },
+    {
+      "item": "twilightforest:borer_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "xreliquary:mob_ingredient|0",
+      "emc": 960
+    },
+    {
+      "item": "bhc:wither_bone|0",
+      "emc": 69632
+    },
+    {
+      "item": "inspirations:materials|7",
+      "emc": 69632
+    },
+    {
+      "item": "netherex:wither_bone|0",
+      "emc": 69632
+    },
+    {
+      "item": "netherex:blazed_wither_bone|0",
+      "emc": 69632
+    },
+    {
+      "item": "netherex:frosted_wither_bone|0",
+      "emc": 69632
+    },
+    {
+      "item": "xreliquary:mob_ingredient|1",
+      "emc": 69632
+    },
+    {
+      "item": "nuclearcraft:marshmallow|0",
+      "emc": 64
+    },
+    {
+      "item": "nuclearcraft:milk_chocolate|0",
+      "emc": 64
+    },
+    {
+      "item": "xreliquary:mob_ingredient|2",
+      "emc": 100
+    },
+    {
+      "item": "nuclearcraft:record_end_of_the_world|0",
+      "emc": 2048
+    },
+    {
+      "item": "xreliquary:mob_ingredient|10",
+      "emc": 5
+    },
+    {
+      "item": "xreliquary:mob_ingredient|7",
+      "emc": 1584
+    },
+    {
+      "item": "xreliquary:mob_ingredient|11",
+      "emc": 3072
+    },
+    {
+      "item": "appliedenergistics2:material|4",
+      "emc": 24
+    },
+    {
+      "item": "nuclearcraft:flour|0",
+      "emc": 24
+    },
+    {
+      "item": "harvestcraft:flouritem|0",
+      "emc": 24
+    },
+    {
+      "item": "natura:materials|2",
+      "emc": 24
+    },
+    {
+      "item": "natura:materials|1",
+      "emc": 24
+    },
+    {
+      "item": "enderio:item_material|21",
+      "emc": 24
+    },
+    {
+      "item": "botania:blacklotus|0",
+      "emc": 128
+    },
+    {
+      "item": "xreliquary:mob_ingredient|4",
+      "emc": 192
+    },
+    {
+      "item": "xreliquary:mob_ingredient|12",
+      "emc": 384
+    },
+    {
+      "item": "nuclearcraft:graham_cracker|0",
+      "emc": 1524
+    },
+    {
+      "item": "xreliquary:mob_ingredient|5",
+      "emc": 512
+    },
+    {
+      "item": "xreliquary:mob_ingredient|6",
+      "emc": 1120
+    },
+    {
+      "item": "openblocks:technicolor_glasses|0",
+      "emc": 5120
+    },
+    {
+      "item": "xreliquary:void_tear|0",
+      "emc": 2048
+    },
+    {
+      "item": "xreliquary:witch_hat|0",
+      "emc": 681
+    },
+    {
+      "item": "botania:overgrowthseed|0",
+      "emc": 128
+    },
+    {
+      "item": "endermanevo:enderman_evolved_skull|0",
+      "emc": 65536
+    },
+    {
+      "item": "witherskelefix:fragment|0",
+      "emc": 5461
+    },
+    {
+      "item": "tconstruct:materials|17",
+      "emc": 69632
+    },
+    {
+      "item": "bhc:red_heart|0",
+      "emc": 1024
+    },
+    {
+      "item": "xreliquary:mob_ingredient|8",
+      "emc": 1920
+    },
+    {
+      "item": "quark:black_ash|0",
+      "emc": 23210
+    },
+    {
+      "item": "tconstruct:spaghetti|0",
+      "emc": 32
+    },
+    {
+      "item": "openblocks:trophy|0",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:phead|0",
+      "emc": 10000
+    },
+    {
+      "item": "acheads:head|47",
+      "emc": 10000
+    },
+    {
+      "item": "acheads:head|0",
+      "emc": 10000
+    },
+    {
+      "item": "acheads:head|46",
+      "emc": 10000
+    },
+    {
+      "item": "acheads:head|49",
+      "emc": 10000
+    },
+    {
+      "item": "acheads:head|1",
+      "emc": 10000
+    },
+    {
+      "item": "botania:specialflower|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_travel_staff|0",
+      "emc": 0
+    },
+    {
+      "item": "tombstone:scroll_buff|1",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:blueprint|0",
+      "emc": 0
+    },
+    {
+      "item": "abyssalcraft:dghead|0",
+      "emc": 10000
+    },
+    {
+      "item": "storagedrawers:upgrade_template|0",
+      "emc": 80
+    },
+    {
+      "item": "storagedrawers:controller|0",
+      "emc": 15000
+    },
+    {
+      "item": "compactdrawers:compact_drawer_2by1|0",
+      "emc": 7500
+    },
+    {
+      "item": "deepmoblearning:soot_covered_redstone|0",
+      "emc": 1250
+    },
+    {
+      "item": "projectred-exploration:stone|7",
+      "emc": 18432
+    },
+    {
+      "item": "projectred-exploration:stone|6",
+      "emc": 18432
+    },
+    {
+      "item": "quark:diamond_heart|0",
+      "emc": 2048
+    },
+    {
+      "item": "acheads:head|45",
+      "emc": 10000
+    },
+    {
+      "item": "libvulpes:metal0|7",
+      "emc": 36864
+    },
+    {
+      "item": "jaopca:block_blocklunar|0",
+      "emc": 36864
+    },
+    {
+      "item": "projectred-exploration:stone|5",
+      "emc": 18432
+    },
+    {
+      "item": "appliedenergistics2:material|46",
+      "emc": 576
+    },
+    {
+      "item": "acheads:head|48",
+      "emc": 10000
+    },
+    {
+      "item": "abyssalcraft:whead|0",
+      "emc": 10000
+    },
+    {
+      "item": "hatchery:feather_meal|0",
+      "emc": 24
+    },
+    {
+      "item": "hatchery:feather_fiber|0",
+      "emc": 16
+    },
+    {
+      "item": "immersiveengineering:stone_decoration|5",
+      "emc": 86
+    },
+    {
+      "item": "immersiveengineering:conveyor|0",
+      "emc": 0
+    },
+    {
+      "item": "magneticraft:ingots|5",
+      "emc": 2048
+    },
+    {
+      "item": "extraplanets:pluto|7",
+      "emc": 18432
+    },
+    {
+      "item": "enderio:block_alloy|8",
+      "emc": 3562
+    },
+    {
+      "item": "embers:nugget_dawnstone|0",
+      "emc": 341
+    },
+    {
+      "item": "thermalfoundation:material|225",
+      "emc": 142
+    },
+    {
+      "item": "thermalfoundation:material|194",
+      "emc": 57
+    },
+    {
+      "item": "everlastingabilities:ability_bottle|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sandstone|0",
+      "emc": 4
+    },
+    {
+      "item": "acheads:head|8",
+      "emc": 10000
+    },
+    {
+      "item": "mysticalagriculture:soulstone|1",
+      "emc": 25
+    },
+    {
+      "item": "natura:nether_heat_sand|0",
+      "emc": 24
+    },
+    {
+      "item": "taiga:tiberium_crystal|0",
+      "emc": 128
+    },
+    {
+      "item": "acheads:head|9",
+      "emc": 10000
+    },
+    {
+      "item": "thermalfoundation:material|195",
+      "emc": 57
+    },
+    {
+      "item": "minecraft:coal_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "natura:nether_tainted_soil|0",
+      "emc": 24
+    },
+    {
+      "item": "botania:manaresource|20",
+      "emc": 8
+    },
+    {
+      "item": "jaopca:item_nuggetquartzblack|0",
+      "emc": 29
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 261
+    },
+    {
+      "item": "jaopca:item_dusttinyquartzblack|0",
+      "emc": 29
+    },
+    {
+      "item": "actuallyadditions:item_dust|7",
+      "emc": 261
+    },
+    {
+      "item": "minecraft:dye|15",
+      "emc": 48
+    },
+    {
+      "item": "gregtech:meta_item_1|10189",
+      "emc": 256
+    },
+    {
+      "item": "enderio:item_material|11",
+      "emc": 1200
+    },
+    {
+      "item": "immersiveengineering:material|1",
+      "emc": 768
+    },
+    {
+      "item": "libvulpes:productrod|1",
+      "emc": 768
+    },
+    {
+      "item": "gregtech:meta_item_1|14033",
+      "emc": 768
+    },
+    {
+      "item": "actuallyadditions:item_crystal|3",
+      "emc": 128
+    },
+    {
+      "item": "storagedrawers:controllerslave|0",
+      "emc": 2750
+    },
+    {
+      "item": "extrautils2:decorativesolid|8",
+      "emc": 75
+    },
+    {
+      "item": "extrautils2:decorativebedrock|2",
+      "emc": 250
+    },
+    {
+      "item": "taiga:dilithium_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "matteroverdrive:tritanium_ingot|0",
+      "emc": 5120
+    },
+    {
+      "item": "gregtech:meta_item_1|10311",
+      "emc": 5120
+    },
+    {
+      "item": "tp:plump_pear|0",
+      "emc": 128
+    },
+    {
+      "item": "tp:plump_peach|0",
+      "emc": 128
+    },
+    {
+      "item": "extrautils2:redorchid|0",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_worm|0",
+      "emc": 64
+    },
+    {
+      "item": "exnihilocreatio:item_material|2",
+      "emc": 64
+    },
+    {
+      "item": "lycanitesmobs:scorchfireballcharge|0",
+      "emc": 128
+    },
+    {
+      "item": "lycanitesmobs:doomfireballcharge|0",
+      "emc": 256
+    },
+    {
+      "item": "lycanitesmobs:hellfireballcharge|0",
+      "emc": 512
+    },
+    {
+      "item": "erebus:materials|21",
+      "emc": 64
+    },
+    {
+      "item": "embers:dust_ember|0",
+      "emc": 128
+    },
+    {
+      "item": "soot:mundane_stone|0",
+      "emc": 64
+    },
+    {
+      "item": "glacidus:glacidus_booster|0",
+      "emc": 256
+    },
+    {
+      "item": "gregtech:meta_item_2|32100",
+      "emc": 517
+    },
+    {
+      "item": "extrautils2:filter|0",
+      "emc": 150
+    },
+    {
+      "item": "tconstruct:slime_dirt|2",
+      "emc": 4
+    },
+    {
+      "item": "tconstruct:slime_dirt|1",
+      "emc": 4
+    },
+    {
+      "item": "extrautils2:enderlilly|0",
+      "emc": 16
+    },
+    {
+      "item": "quark:witch_hat|0",
+      "emc": 681
+    },
+    {
+      "item": "acheads:head|12",
+      "emc": 10000
+    },
+    {
+      "item": "tp:colored_dust|0",
+      "emc": 96
+    },
+    {
+      "item": "tconstruct:slime_dirt|3",
+      "emc": 4
+    },
+    {
+      "item": "tconstruct:slime_dirt|0",
+      "emc": 4
+    },
+    {
+      "item": "gregtech:meta_item_1|2229",
+      "emc": 590
+    },
+    {
+      "item": "gregtech:meta_item_1|2231",
+      "emc": 515
+    },
+    {
+      "item": "alchemistry:element|1",
+      "emc": 1
+    },
+    {
+      "item": "alchemistry:element|8",
+      "emc": 1
+    },
+    {
+      "item": "alchemistry:compound|7",
+      "emc": 3
+    },
+    {
+      "item": "alchemistry:compound|0",
+      "emc": 111
+    },
+    {
+      "item": "alchemistry:compound|1",
+      "emc": 4
+    },
+    {
+      "item": "alchemistry:compound|3",
+      "emc": 19
+    },
+    {
+      "item": "alchemistry:compound|8",
+      "emc": 33
+    },
+    {
+      "item": "embers:aspectus_dawnstone|0",
+      "emc": 3192
+    },
+    {
+      "item": "magneticraft:limestone|0",
+      "emc": 1
+    },
+    {
+      "item": "thermalfoundation:material|192",
+      "emc": 14
+    },
+    {
+      "item": "danknull:dank_null_1|0",
+      "emc": 14513
+    },
+    {
+      "item": "tp:raspberry_berry|0",
+      "emc": 16
+    },
+    {
+      "item": "danknull:dank_null_2|0",
+      "emc": 23969
+    },
+    {
+      "item": "danknull:dank_null_3|0",
+      "emc": 29777
+    },
+    {
+      "item": "gregtech:meta_item_1|10109",
+      "emc": 576
+    },
+    {
+      "item": "gregtech:meta_item_2|32454",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:iron_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gold_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:ore|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:block_misc|3",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 425
+    },
+    {
+      "item": "immersiveengineering:metal|8",
+      "emc": 425
+    },
+    {
+      "item": "gregtech:meta_item_1|14095",
+      "emc": 80
+    },
+    {
+      "item": "gregtech:meta_item_1|14184",
+      "emc": 213
+    },
+    {
+      "item": "gtadditions:ga_meta_tool|1",
+      "emc": 768
+    },
+    {
+      "item": "bigreactors:ingotludicrite|0",
+      "emc": 12288
+    },
+    {
+      "item": "alchemistry:ingot|94",
+      "emc": 8192
+    },
+    {
+      "item": "integrateddynamics:crystalized_menril_chunk|0",
+      "emc": 128
+    },
+    {
+      "item": "jaopca:item_essenceastralstarmetal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceberyllium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebismuth|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemolybdenum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencenaquadah|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencenaquadahenriched|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceneodymium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceniobium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceuranium235|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebrownlimonite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecalcite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecassiterite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecassiteritesand|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencechalcocite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencechalcopyrite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegarnetred|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecinnabar|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencealmandine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencequartzite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencerutile|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencesodalite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebandediron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebarite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebastnasite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebauxite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebentonite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencebornite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegarnetyellow|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegreensapphire|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencejasper|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelazurite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelignite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemonazite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceolivine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceopal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencequartzblack|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencechromite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecobaltite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecooperite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecuprite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceenargite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegalena|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegarnierite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceglauconite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencegrossular|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepentlandite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceoilsands|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceniter|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencenetherquartz|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemolybdenite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemagnesite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemagnetite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelepidolite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceilmenite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencephosphate|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencephosphor|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepitchblende|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepowellite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepyrite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepyrolusite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepyrope|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencerocksalt|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencesalt|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencespessartine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencesoapstone|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencescheelite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencesphalerite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencespodumene|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencestibnite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetalc|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetantalite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetennantite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetenorite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetetrahedrite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencetungstate|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:titanium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ruby_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sapphire_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:peridot_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceyellowlimonite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencewulfenite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencevanadiummagnetite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceuraninite|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:yellorium_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:yellorium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:compressed_iron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:jade_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:tritanium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dilithium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:starmetal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:aquamarine_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:apatite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:steeleaf_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:boron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:thorium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dreadium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:abyssalnite_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:coralium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:desh_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:fiery_ingot_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:knightmetal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ironwood_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:lithium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:magnesium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:sapphire_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:peridot_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:ruby_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:neutronium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedssalt|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedswhitegem|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedssodalite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsredgem|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslazurite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslignite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmonazite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsolivine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsopal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsquartzblack|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsquartzite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsrutile|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsgreensapphire|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsgarnetyellow|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsgarnetred|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsdimensionalshard|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedscinnabar|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsbluegem|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsalmandine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsuranium235|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsjasper|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsberyllium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedscarbon|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsbismuth|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedscrystal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsender|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsfriscion|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsgarfax|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedskelline|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslunar|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmercury|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmolybdenum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmorganine|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsnaquadah|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsnaquadahenriched|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsneodymium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsniobium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedspalladium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsracheline|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:titanium_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:sawdust|0",
+      "emc": 10
+    },
+    {
+      "item": "immersiveengineering:material|2",
+      "emc": 320
+    },
+    {
+      "item": "nuclearcraft:ingot|9",
+      "emc": 128
+    },
+    {
+      "item": "netherex:thornstalk|0",
+      "emc": 4
+    },
+    {
+      "item": "quark:basalt|0",
+      "emc": 1
+    },
+    {
+      "item": "netherex:brown_elder_mushroom|0",
+      "emc": 32
+    },
+    {
+      "item": "netherex:frostburn_ice|0",
+      "emc": 1
+    },
+    {
+      "item": "netherex:coolmar_spider_fang|0",
+      "emc": 16
+    },
+    {
+      "item": "danknull:dank_null_4|0",
+      "emc": 176385
+    },
+    {
+      "item": "danknull:dank_null_5|0",
+      "emc": 444305
+    },
+    {
+      "item": "gregtech:meta_item_1|2333",
+      "emc": 1
+    },
+    {
+      "item": "industrialforegoing:pink_slime|0",
+      "emc": 32
+    },
+    {
+      "item": "actuallyadditions:item_misc|12",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|3",
+      "emc": 32
+    },
+    {
+      "item": "calculator:rottenpear|0",
+      "emc": 32
+    },
+    {
+      "item": "quark:slime_bucket|1",
+      "emc": 32
+    },
+    {
+      "item": "gregtech:meta_item_1|8190",
+      "emc": 2048
+    },
+    {
+      "item": "gregtech:meta_item_1|10016",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|1027",
+      "emc": 424
+    },
+    {
+      "item": "thermalfoundation:material|772",
+      "emc": 32
+    },
+    {
+      "item": "bigreactors:ingotyellorium|0",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:material|323",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|259",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|321",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|257",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|322",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|258",
+      "emc": 2048
+    },
+    {
+      "item": "gregtech:meta_item_1|2153",
+      "emc": 8
+    },
+    {
+      "item": "gregtech:meta_item_1|10152",
+      "emc": 100
+    },
+    {
+      "item": "gregtech:meta_item_1|19071",
+      "emc": 64
+    },
+    {
+      "item": "gregtech:meta_item_1|12074",
+      "emc": 2048
+    },
+    {
+      "item": "gregtech:meta_item_2|26074",
+      "emc": 8192
+    },
+    {
+      "item": "jaopca:item_mysticalseedsnetherquartz|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:dawnstone_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|2",
+      "emc": 65536
+    },
+    {
+      "item": "mysticalagradditions:nether_star_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:dragon_egg_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:meteoric_iron_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:electrum_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsniter|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedskalendrite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslemurite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedslutetium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmanganese|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedssanguinite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsrubracium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsprometheum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsoureclase|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsorichalcum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmidasium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsmeutoite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsvyroxeres|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsinfuscolium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsignatius|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedseximite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsdeepiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsdarkiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsceruclase|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsastralsilver|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsalduorite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsshadowiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsvulcanite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsatlarus|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedscarmot|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceprometheum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceorichalcum|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceoureclase|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemidasium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemeutoite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelutetium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencealduorite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceastralsilver|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceignatius|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencekalendrite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceinfuscolium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceceruclase|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencedeepiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceeximite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencepotash|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencecarmot|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceatlarus|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencevyroxeres|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencevulcanite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencesanguinite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencerubracium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essenceshadowiron|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencelemurite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_essencemanganese|0",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|771",
+      "emc": 32
+    },
+    {
+      "item": "jaopca:item_mysticalseedspotash|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsphosphorus|0",
+      "emc": 0
+    },
+    {
+      "item": "magneticraft:heavy_plates|6",
+      "emc": 1700
+    },
+    {
+      "item": "natura:nether_sapling2|0",
+      "emc": 32
+    },
+    {
+      "item": "natura:nether_glowshroom|0",
+      "emc": 128
+    },
+    {
+      "item": "natura:nether_glowshroom|2",
+      "emc": 128
+    },
+    {
+      "item": "natura:nether_glowshroom|1",
+      "emc": 128
+    },
+    {
+      "item": "randomthings:ingredient|2",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|72",
+      "emc": 3200
+    },
+    {
+      "item": "metallurgy:amordrine_block|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_engraved_block|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_large_bricks|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_bricks|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_crystals|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_hazard_block|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:amordrine_reinforced_glass|0",
+      "emc": 12288
+    },
+    {
+      "item": "metallurgy:haderoth_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:haderoth_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:alduorite_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:platinum_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_engraved_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_large_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_crystals|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_hazard_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:platinum_reinforced_glass|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:tin_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_engraved_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_large_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_crystals|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_hazard_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:tin_reinforced_glass|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:vulcanite_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_engraved_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_large_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_crystals|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_hazard_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:vulcanite_reinforced_glass|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:ignatius_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_engraved_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_large_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_crystals|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_hazard_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:ignatius_reinforced_glass|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:zinc_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:zinc_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:etherium_block|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_engraved_block|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_large_bricks|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_bricks|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_crystals|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_hazard_block|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:etherium_reinforced_glass|0",
+      "emc": 20480
+    },
+    {
+      "item": "metallurgy:quicksilver_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_engraved_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_large_bricks|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_bricks|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_crystals|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_hazard_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:quicksilver_reinforced_glass|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:brass_block|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_engraved_block|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_large_bricks|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_bricks|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_crystals|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_hazard_block|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:brass_reinforced_glass|0",
+      "emc": 896
+    },
+    {
+      "item": "metallurgy:astral_silver_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:astral_silver_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:hepatizon_block|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_engraved_block|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_large_bricks|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_bricks|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_crystals|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_hazard_block|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:hepatizon_reinforced_glass|0",
+      "emc": 1536
+    },
+    {
+      "item": "metallurgy:bronze_block|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_engraved_block|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_large_bricks|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_bricks|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_crystals|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_hazard_block|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:bronze_reinforced_glass|0",
+      "emc": 640
+    },
+    {
+      "item": "metallurgy:lemurite_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:lemurite_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:sanguinite_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_engraved_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_large_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_crystals|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_hazard_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:sanguinite_reinforced_glass|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_engraved_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_large_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_crystals|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_hazard_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:eximite_reinforced_glass|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:silver_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:silver_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:desichalkos_block|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_engraved_block|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_large_bricks|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_bricks|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_crystals|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_hazard_block|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:desichalkos_reinforced_glass|0",
+      "emc": 24456
+    },
+    {
+      "item": "metallurgy:celenegil_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_engraved_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_large_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_crystals|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_hazard_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:celenegil_reinforced_glass|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:shadow_iron_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_engraved_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_large_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_crystals|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_hazard_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:shadow_iron_reinforced_glass|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:steel_block|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_engraved_block|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_large_bricks|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_bricks|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_crystals|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_hazard_block|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:steel_reinforced_glass|0",
+      "emc": 12800
+    },
+    {
+      "item": "metallurgy:carmot_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:carmot_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:mithril_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:ceruclase_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:ceruclase_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:deep_iron_block|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_engraved_block|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_large_bricks|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_bricks|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_crystals|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_hazard_block|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:deep_iron_reinforced_glass|0",
+      "emc": 528
+    },
+    {
+      "item": "metallurgy:angmallen_block|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_engraved_block|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_large_bricks|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_bricks|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_crystals|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_hazard_block|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:angmallen_reinforced_glass|0",
+      "emc": 4608
+    },
+    {
+      "item": "metallurgy:kalendrite_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:kalendrite_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:manganese_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:damascus_steel_block|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_engraved_block|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_large_bricks|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_bricks|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_crystals|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_hazard_block|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:damascus_steel_reinforced_glass|0",
+      "emc": 768
+    },
+    {
+      "item": "metallurgy:prometheum_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_engraved_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_large_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_crystals|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_hazard_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:prometheum_reinforced_glass|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:copper_block|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_engraved_block|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_large_bricks|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_bricks|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_crystals|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_hazard_block|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:copper_reinforced_glass|0",
+      "emc": 512
+    },
+    {
+      "item": "metallurgy:adamantine_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_engraved_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_large_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_crystals|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_hazard_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:adamantine_reinforced_glass|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:electrum_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_engraved_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_large_bricks|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_bricks|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_crystals|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_hazard_block|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:electrum_reinforced_glass|0",
+      "emc": 5120
+    },
+    {
+      "item": "metallurgy:tartarite_block|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_engraved_block|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_large_bricks|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_bricks|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_crystals|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_hazard_block|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:tartarite_reinforced_glass|0",
+      "emc": 65536
+    },
+    {
+      "item": "metallurgy:atlarus_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_engraved_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_large_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_bricks|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_crystals|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_hazard_block|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:atlarus_reinforced_glass|0",
+      "emc": 32768
+    },
+    {
+      "item": "metallurgy:black_steel_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:black_steel_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:vyroxeres_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:vyroxeres_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:lutetium_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:lutetium_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:osmium_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:oureclase_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:oureclase_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:inolashite_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:meutoite_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_engraved_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_large_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_crystals|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_hazard_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:meutoite_reinforced_glass|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_engraved_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_large_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_bricks|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_crystals|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_hazard_block|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:orichalcum_reinforced_glass|0",
+      "emc": 16384
+    },
+    {
+      "item": "metallurgy:infuscolium_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:infuscolium_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:shadow_steel_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:midasium_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:midasium_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:krik_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_engraved_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_large_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_bricks|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_crystals|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_hazard_block|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:krik_reinforced_glass|0",
+      "emc": 2048
+    },
+    {
+      "item": "metallurgy:rubracium_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_engraved_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_large_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_bricks|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_crystals|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_hazard_block|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:rubracium_reinforced_glass|0",
+      "emc": 4096
+    },
+    {
+      "item": "metallurgy:iron_engraved_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:iron_large_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:iron_bricks|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:iron_crystals|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:iron_hazard_block|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:iron_reinforced_glass|0",
+      "emc": 1024
+    },
+    {
+      "item": "metallurgy:gold_engraved_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:gold_large_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:gold_bricks|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:gold_crystals|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:gold_hazard_block|0",
+      "emc": 8192
+    },
+    {
+      "item": "metallurgy:gold_reinforced_glass|0",
+      "emc": 8192
+    },
+    {
+      "item": "gregtech:meta_item_1|9197",
+      "emc": 42
+    },
+    {
+      "item": "tp:redstone_ingot|0",
+      "emc": 384
+    },
+    {
+      "item": "minecraft:redstone_block|0",
+      "emc": 7200
+    },
+    {
+      "item": "gregtech:meta_item_1|2355",
+      "emc": 16
+    },
+    {
+      "item": "gregtech:meta_item_1|2105",
+      "emc": 16
+    },
+    {
+      "item": "gregtech:meta_item_1|2356",
+      "emc": 16
+    },
+    {
+      "item": "gregtech:meta_item_2|32014",
+      "emc": 16
+    },
+    {
+      "item": "gregtech:meta_item_1|110",
+      "emc": 5
+    },
+    {
+      "item": "aether_legacy:purple_flower|0",
+      "emc": 32
+    },
+    {
+      "item": "aether_legacy:white_flower|0",
+      "emc": 32
+    },
+    {
+      "item": "actuallyadditions:block_black_lotus|0",
+      "emc": 32
+    },
+    {
+      "item": "immersiveengineering:seed|0",
+      "emc": 16
+    },
+    {
+      "item": "tp:blackberry_berry|0",
+      "emc": 128
+    },
+    {
+      "item": "jaopca:item_mysticalseedsfireelemental|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedselemental|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsambrosium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedswaterelemental|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsearthelemental|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsairelemental|0",
+      "emc": 0
+    },
+    {
+      "item": "exnihilocreatio:item_material|3",
+      "emc": 64
+    },
+    {
+      "item": "extrautils2:compressedcobblestone|0",
+      "emc": 9
+    },
+    {
+      "item": "extrautils2:compressedgravel|0",
+      "emc": 36
+    },
+    {
+      "item": "extrautils2:compressedsand|0",
+      "emc": 9
+    },
+    {
+      "item": "overloaded:compressed_dust|0",
+      "emc": 9
+    },
+    {
+      "item": "mysticalcreations:borer_essence|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalcreations:borer_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalcreations:zinc_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalcreations:metallurgy_adamantine_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalcreations:adamantine_metal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalcreations:haderoth_metal_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_mysticalseedsabyssum|0",
+      "emc": 0
+    }
+  ]
+}
