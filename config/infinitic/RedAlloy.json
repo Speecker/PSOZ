@@ -1,0 +1,62 @@
+{
+	"name": "RedAlloy",
+	"make": ["fluid"],
+	"textColor": "#FF0000",
+	"whitelist": {
+		"oredict": ["RedAlloy"],
+		"ingots": [],
+		"nuggets": [],
+		"dusts": [],
+		"gems": [],
+		"blocks": [],
+		"ores": []
+	},
+	"blacklist": {
+		"oredict": [],
+		"ores": []
+	},
+	"fluidData": {
+		"color": "#FF0000",
+		"density": 1000,
+		"viscosity": 1000,
+		"temperature": 350,
+		"luminosity": 1,
+		"rarity": "RARE"
+	},
+	"canCraftToolForge": true,
+	"toolData": {
+		"durability": 25,
+		"harvestLevel": 3,
+		"extraDurability": 4,
+		"miningSpeed": 5.0,
+		"attack": 5.0,
+		"handleModifier": 3,
+		"handleDurability": 5,
+		"color": "#FF0000",
+		"temperature": 350,
+		"projectiles": true,
+		"drawSpeed": 2.0,
+		"range": 2.0,
+		"bonusDamage": 2.0,
+		"stringModifier": 2.0,
+		"shaftModifier": 2.0,
+		"bonusAmmo": 0.0,
+		"accuracy": 2.0,
+		"fletchingModifier": 2.0,
+	        "traits": ["magnetic"],
+	        "headTraits": ["hellish"],
+	        "handleTraits": ["sharp", "direct"],
+	        "extraTraits": ["direct", "unnatural"],
+	        "bowTraits": ["direct"],
+	        "stringTraits": [],
+	        "projectileTraits": ["dense"],
+	        "shaftTraits": [],
+	        "fletchingTraits": []
+	},
+	"localizations": [{
+		"locale": "en_US",
+		"solid": "RedAlloy",
+		"liquid": "Liquid RedAlloy",
+		"bucket": "Miasma RedAlloy"
+	}]
+}

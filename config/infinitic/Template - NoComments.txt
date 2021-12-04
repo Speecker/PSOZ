@@ -1,0 +1,62 @@
+{
+	"name": "Speeckerium",
+	"make": ["fluid"],
+	"textColor": "#E1FFA1",
+	"whitelist": {
+		"oredict": ["Speeckerium"],
+		"ingots": ["ingot"],
+		"nuggets": ["nugget"],
+		"dusts": ["dust"],
+		"gems": ["gem"],
+		"blocks": ["block"],
+		"ores": ["ore"]
+	},
+	"blacklist": {
+		"oredict": [],
+		"ores": []
+	},
+	"fluidData": {
+		"color": "#E1FFA1",
+		"density": 2000,
+		"viscosity": 10000,
+		"temperature": 1000,
+		"luminosity": 10,
+		"rarity": "COMMON"
+	},
+	"canCraftToolForge": true,
+	"toolData": {
+		"durability": 500,
+		"harvestLevel": 10,
+		"extraDurability": 200,
+		"miningSpeed": 12.0,
+		"attack": 8.0,
+		"handleModifier": 2,
+		"handleDurability": 200,
+		"color": "#E1FFA1",
+		"temperature": 500,
+		"projectiles": true,
+		"drawSpeed": 1.0,
+		"range": 1.0,
+		"bonusDamage": 0.0,
+		"stringModifier": 1.0,
+		"shaftModifier": 1.0,
+		"bonusAmmo": 0.0,
+		"accuracy": 1.0,
+		"fletchingModifier": 1.0,
+	        "traits": ["stonebound"],
+	        "headTraits": ["sharp"],
+	        "handleTraits": ["sharp", "ecological"],
+	        "extraTraits": ["ecological", "stonebound"],
+	        "bowTraits": ["ecological"],
+	        "stringTraits": [],
+	        "projectileTraits": ["dense"],
+	        "shaftTraits": [],
+	        "fletchingTraits": []
+	},
+	"localizations": [{
+		"locale": "en_US",
+		"solid": "Speeckerium",
+		"liquid": "Molten Speeckerium",
+		"bucket": "Speeckerium Bucket"
+	}]
+}

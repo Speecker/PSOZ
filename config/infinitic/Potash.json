@@ -1,0 +1,62 @@
+{
+	"name": "Potash",
+	"make": ["fluid"],
+	"textColor": "#BA860F",
+	"whitelist": {
+		"oredict": ["Potash"],
+		"ingots": [],
+		"nuggets": [],
+		"dusts": [],
+		"gems": [],
+		"blocks": [],
+		"ores": []
+	},
+	"blacklist": {
+		"oredict": [],
+		"ores": []
+	},
+	"fluidData": {
+		"color": "#BA860F",
+		"density": 2000,
+		"viscosity": 10000,
+		"temperature": 300,
+		"luminosity": 1,
+		"rarity": "RARE"
+	},
+	"canCraftToolForge": true,
+	"toolData": {
+		"durability": 99,
+		"harvestLevel": 6,
+		"extraDurability": 9,
+		"miningSpeed": 6.0,
+		"attack": 8.0,
+		"handleModifier": 2,
+		"handleDurability": 9,
+		"color": "#BA860F",
+		"temperature": 300,
+		"projectiles": true,
+		"drawSpeed": 2.0,
+		"range": 4.0,
+		"bonusDamage": 4.0,
+		"stringModifier": 3.0,
+		"shaftModifier": 3.0,
+		"bonusAmmo": 0.0,
+		"accuracy": 3.0,
+		"fletchingModifier": 3.0,
+	        "traits": ["stonebound"],
+	        "headTraits": ["sharp"],
+	        "handleTraits": ["sharp", "ecological"],
+	        "extraTraits": ["ecological", "stonebound"],
+	        "bowTraits": ["ecological"],
+	        "stringTraits": [],
+	        "projectileTraits": ["dense"],
+	        "shaftTraits": [],
+	        "fletchingTraits": []
+	},
+	"localizations": [{
+		"locale": "en_US",
+		"solid": "Potash",
+		"liquid": "Molten Potash",
+		"bucket": "Potash Bucket"
+	}]
+}

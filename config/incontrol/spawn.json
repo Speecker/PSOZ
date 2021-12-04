@@ -1,0 +1,33 @@
+[
+  {
+    "dimension": 0,
+    "mod": ["divinerpg"],
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mod": ["aoa3"],
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": ["minecraft:slime"],
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": ["voidcraft:lich"],
+    "result": "deny"
+  },
+{
+    "dimension": 1304,
+    "mob": ["minecraft:slime"],
+    "result": "deny"
+  },
+  {
+    "dimension": 66,
+    "mob": ["minecraft:slime"],
+    "result": "deny"
+  }
+]
+
