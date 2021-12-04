@@ -1,0 +1,51 @@
+# Configuration file
+
+compat {
+    # Immersive Engineering Garden Cloche Compat [default: true]
+    B:IMMERSIVE_CLOCHE=true
+}
+
+
+##########################################################################################################
+# custom seeds
+#--------------------------------------------------------------------------------------------------------#
+# Here you can create your own seeds. It generates for you the Seed, Essence, Crop and Mob Chunk.
+# For making the recipes you'll need to use CraftTweaker!
+# - Syntax: name;tier;color;crux;entity
+# - 'name' should be lower case with underscores for spaces.
+# - 'tier' should be 1, 2, 3, 4, 5 or 6.
+# - 'color' the color of the seed as a hex value. http://htmlcolorcodes.com/
+# - 'crux' can be any block, leave this as null if you don't want to use crux
+# Example: minecraft:diamond_block
+# - 'entity' can be any entity, leave this as null if you don't want mob chunks (If you want more than one entity for the same seed, use "," to separate them)
+# Example: minecraft:pig
+# Example multiple entities: minecraft:pig,minecraft:witch,twilightforest:naga
+# 
+# Example for Cake Seeds:
+# cake;2;724C1B;null;null
+##########################################################################################################
+
+"custom seeds" {
+    S:CUSTOM_SEED_LIST <
+        adamantine_metal;3;890F27;null;null
+        amordrine_metal;4;8946D3;null;null
+        angmallen_metal;3;E9E876;null;null
+        baronyte;2;8D0909;null;null
+    black_steel_metal;4;041D2F;null;null
+        borer;3;724C1B;null;null
+        cake;2;724C1B;null;null
+        celenegil_metal;4;7BBC28;null;null
+        damascus_steel_metal;4;3A2323;null;null
+        desichalkos_metal;4;4C1C98;null;null
+        etherium_metal;4;F57AFF;null;null
+        haderoth_metal;3;BF4E12;null;null
+        hepatizon_metal;4;261A48;null;null
+        inolashite_metal;4;6CD37E;null;null
+        krik_metal;4;9DE7A3;null;null
+        shadow_steel_metal;4;4E4040;null;null
+        tartarite_metal;4;CE4C10;null;null
+        witch;4;2E0365;null;minecraft:witch
+     >
+}
+
+
