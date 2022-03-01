@@ -1,5 +1,4 @@
 #priority 5
-#packmode normal titan kappa beast
 #modloaded matc mysticalagriculture mysticalagradditions
 
 recipes.remove(<matc:inferiumcrystal>);
