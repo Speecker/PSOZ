@@ -1,4 +1,3 @@
-#packmode beast
 #modloaded unidict thermalfoundation metallurgy
 
 recipes.addShapeless("speecker_unidict_fixes_oredict_swap_gold_ore", <minecraft:gold_ore>, [<ore:oreGold>,]);
