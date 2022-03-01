@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extraplanets
 
 #MARKER REPLACE ALL OCCURENCES
