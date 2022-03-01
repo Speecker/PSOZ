@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #norun
 
 import crafttweaker.item.IIngredient;
