@@ -7,4 +7,4 @@ recipes.remove(<extendedcrafting:material:2>);
 
 recipes.removeShapeless(<extendedcrafting:material:36>, [<minecraft:iron_ingot>, <ore:enderpearl>]);
 
-recipes.addShapeless("speecker_beast_extendedcrafting_material_36", <extendedcrafting:material:36>, [<ore:ingotDawnstone>,<ore:enderpearl>]);
+recipes.addShapeless(<extendedcrafting:material:36>, [<ore:ingotDawnstone>,<ore:enderpearl>]);
