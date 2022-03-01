@@ -26,18 +26,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "niob_fluid"}), [
 [<ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>],
 [<ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>, <ore:blockNiob>]]);
 
-// Fluid Cow	-	Nitrogen
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "nitrogen"}), [
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <cookingforblockheads:cow_jar>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>],
-[<alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>, <alchemistry:element:7>]]);
-
 // Fluid Cow	-	Nucleum
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "nucleum_fluid"}), [
 [<ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>, <ore:blockNucleum>],
@@ -122,30 +110,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "plantoil"}), [
 [<forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: "1000"})]]);
 
-// Fluid Cow	-	Plastic
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "plastic"}), [
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:7>, <pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:13>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:7>, <pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:13>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:7>, <pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:13>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:0>, <pneumaticcraft:plastic:0>, <pneumaticcraft:plastic:0>, <cookingforblockheads:cow_jar>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:14>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:14>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:14>, <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})],
-[<forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "plastic", Amount: "1000"})]]);
-
-// Fluid Cow	-	Plutonium
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "plutonium"}), [
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <cookingforblockheads:cow_jar>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>],
-[<alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>, <alchemistry:element:94>]]);
-
 // Fluid Cow	-	Poison
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "poison"}), [
 [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>],
@@ -157,18 +121,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "poison"}), [
 [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>],
 [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>],
 [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>]]);
-
-// Fluid Cow	-	Potassium
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "potassium"}), [
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <cookingforblockheads:cow_jar>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>],
-[<alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>, <alchemistry:element:19>]]);
 
 // Fluid Cow	-	Primal Mana
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "mana"}), [
@@ -193,18 +145,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "prometheum_fluid"}), [
 [<ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>],
 [<ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>],
 [<ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>, <ore:blockPrometheum>]]);
-
-// Fluid Cow	-	Protein
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "if.protein"}), [
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <cookingforblockheads:cow_jar>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>],
-[<alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>, <alchemistry:compound:9>]]);
 
 // Fluid Cow	-	Proxii
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "proxii_fluid"}), [
