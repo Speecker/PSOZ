@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #loader contenttweaker
 #modloaded contenttweaker nuclearcraft
 
