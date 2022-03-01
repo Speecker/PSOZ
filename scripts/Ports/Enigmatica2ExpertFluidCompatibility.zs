@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 import mods.thermalexpansion.Crucible;
 import mods.nuclearcraft.melter;
 #modloaded nuclearcraft thermalexpansion
