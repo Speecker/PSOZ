@@ -1,4 +1,3 @@
-#packmode normal titan kappa mythic beast
 #modloaded extendedcrafting overloaded
 
 recipes.remove(<extendedcrafting:storage:2>);
