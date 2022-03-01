@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded tconstruct
+#modloaded tconstruct mysticalagriculture
 
 #MARKER REPLACE ALL OCCURENCES
 recipes.replaceAllOccurences(<tconstruct:ingots:0>, <ore:ingotCobalt>, <mysticalagriculture:cobalt_seeds>);
