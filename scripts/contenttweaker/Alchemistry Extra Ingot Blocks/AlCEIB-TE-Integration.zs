@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded thermalexpansion modtweaker alchemistry
 
 import crafttweaker.item.IItemStack;
