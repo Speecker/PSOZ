@@ -19,6 +19,19 @@ cBlock.setSlipperiness(0.6);
 cBlock.setPassable(false);
 cBlock.register();
 
+//Prism 
+var prismBlock = VanillaFactory.createBlock("prism_block", <blockmaterial:iron>);
+prismBlock.setLightOpacity(0);
+prismBlock.setLightValue(2);
+prismBlock.setBlockHardness(10.0);
+prismBlock.setBlockResistance(1.0);
+prismBlock.setToolClass("pickaxe");
+prismBlock.setToolLevel(3);
+prismBlock.setBlockSoundType(<soundtype:glass>);
+prismBlock.setSlipperiness(0.6);
+prismBlock.setPassable(false);
+prismBlock.register();
+
 //chaos fluid
 var cFluid = VanillaFactory.createFluid("c_fluid", Color.fromHex("2A0B60"));
 cFluid.register();
