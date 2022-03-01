@@ -1,4 +1,6 @@
 #packmode normal titan kappa beast
+#modloaded ltt
+#norun
 
 mods.ltt.LootTable.removeGlobalItem("minecraft:name_tag");
 mods.ltt.LootTable.removeGlobalItem("minecraft:saddle");
