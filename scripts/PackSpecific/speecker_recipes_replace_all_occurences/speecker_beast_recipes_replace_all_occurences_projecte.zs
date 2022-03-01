@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded projecte
 
 #MARKER REPLACE ALL OCCURENCES
