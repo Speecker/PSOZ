@@ -2,30 +2,6 @@
 #modloaded fluidcows cookingforblockheads extendedcrafting
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 
-// Fluid Cow	-	Abyssalnite
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "moltenabyssalnite"}), [
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <cookingforblockheads:cow_jar>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>],
-[<ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>, <ore:blockAbyssalnite>]]);
-
-// Fluid Cow	-	Abyssum
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "abyssum_fluid"}), [
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <cookingforblockheads:cow_jar>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>],
-[<ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>, <ore:blockAbyssum>]]);
-
 // Fluid Cow	-	Adamant
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "adamant_fluid"}), [
 [<ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>, <ore:blockAdamant>],
@@ -74,30 +50,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "liquidantimatter"}), [
 [<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: "1000"})]]);
 
-// Fluid Cow	-	Antimony
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "antimony"}), [
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <cookingforblockheads:cow_jar>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>],
-[<alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>, <alchemistry:element:51>]]);
-
-// Fluid Cow	-	Ardite
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "ardite"}), [
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <cookingforblockheads:cow_jar>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>]]);
-
 // Fluid Cow	-	(Astral) StarMetal
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "starmetal"}), [
 [<ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>],
@@ -109,15 +61,3 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "starmetal"}), [
 [<ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>],
 [<ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>],
 [<ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>, <ore:blockAstralStarmetal>]]);
-
-// Fluid Cow	-	Aurorium
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "aurorium_fluid"}), [
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <cookingforblockheads:cow_jar>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>],
-[<ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>, <ore:blockAurorium>]]);
