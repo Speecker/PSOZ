@@ -1,6 +1,5 @@
 #priority 2
 #loader contenttweaker
-#packmode titan
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
