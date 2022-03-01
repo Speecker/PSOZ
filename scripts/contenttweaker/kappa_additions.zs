@@ -1,6 +1,5 @@
 #priority 2
 #loader contenttweaker
-#packmode kappa beast
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
