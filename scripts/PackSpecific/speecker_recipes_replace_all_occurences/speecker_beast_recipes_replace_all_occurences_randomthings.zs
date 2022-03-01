@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded randomthings
 
 #MARKER REPLACE ALL OCCURENCES
