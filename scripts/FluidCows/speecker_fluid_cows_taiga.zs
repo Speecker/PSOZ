@@ -4,7 +4,7 @@ import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
 val Materials = {
-    abyssum_fluid : [<jaopca:block_blockAbyssum>],
+    abyssum_fluid : [<jaopca:block_blockabyssum>],
     aurorium_fluid : [<jaopca:block_blockaurorium>]
 } as IItemStack[][string];
 
