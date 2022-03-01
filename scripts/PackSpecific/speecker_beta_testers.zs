@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extendedcrafting contenttweaker
 
 //Beta Normal Testers
