@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #loader contenttweaker
 
 import mods.contenttweaker.Color;
