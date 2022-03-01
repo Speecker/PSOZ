@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extendedcrafting lordcraft
 import mods.extendedcrafting.TableCrafting as TC;
 
