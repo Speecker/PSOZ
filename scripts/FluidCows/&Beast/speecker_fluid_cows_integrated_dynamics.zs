@@ -1,4 +1,4 @@
-#packmode kappa beast
+#packmode kappa mythic beast
 #modloaded fluidcows cookingforblockheads extendedcrafting integrateddynamics
 import mods.extendedcrafting.TableCrafting as TC;
 
