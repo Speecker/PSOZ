@@ -1,5 +1,4 @@
 #priority 5
-#packmode normal titan kappa beast
 #modloaded actuallyadditions
 
 import crafttweaker.oredict.IOreDict;
