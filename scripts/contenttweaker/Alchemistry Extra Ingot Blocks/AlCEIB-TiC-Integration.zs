@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded tconstruct modtweaker alchemistry
 
 import mods.tconstruct.Casting;
