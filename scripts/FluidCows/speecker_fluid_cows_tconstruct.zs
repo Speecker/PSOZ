@@ -12,15 +12,13 @@ val Materials = {
     dirt : [<minecraft:dirt:0>],
     emerald : [<minecraft:emerald_block>],
     glass : [<tconstruct:clear_glass:0>],
-    glass : [<ore:blockGlass>],
     gold : [<minecraft:gold_block>],
     iron : [<minecraft:iron_block>],
     knightslime : [<tconstruct:metal:3>],
     manyullyn : [<tconstruct:metal:2>],
     obsidian : [<minecraft:obsidian>],
     pigiron : [<tconstruct:metal:4>],
-    stone : [<tconstruct:seared:0>],
-    stone : [<ore:stone>]
+    stone : [<tconstruct:seared:0>]
 } as IItemStack[][string];
 
 //Block without any other Mod unavailable!
