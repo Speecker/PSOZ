@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded contenttweaker nuclearcraft
 
 import crafttweaker.item.IItemStack;
