@@ -2,7 +2,7 @@
 #priority 99
 #norun
 
-global modcheck_modcheck_abyssalcraft = false as bool;
+global modcheck_abyssalcraft = false as bool;
 global modcheck_agricraft = false as bool;
 global modcheck_appliedenergistics2 = false as bool;
 global modcheck_exnihilocreatio = false as bool;
