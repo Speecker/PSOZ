@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting actuallyadditions bloodmagic
 
 import mods.extendedcrafting.TableCrafting as TC;
