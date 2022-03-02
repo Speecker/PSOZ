@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded contenttweaker nuclearcraft enderio endertweaker alchemistry
 
 import mods.enderio.AlloySmelter;
