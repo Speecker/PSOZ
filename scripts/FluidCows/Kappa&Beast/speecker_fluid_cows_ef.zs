@@ -38,18 +38,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "electrical_steel"}), [
 [<ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>],
 [<ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>]]);
 
-// Fluid Cow	-	Emerald
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "emerald"}), [
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <cookingforblockheads:cow_jar>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]]);
-
 // Fluid Cow	-	Empowered Oil
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "empoweredoil"}), [
 [<forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: "1000"})],
