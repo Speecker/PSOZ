@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 99
 #modloaded metallurgy crafttweaker
 
