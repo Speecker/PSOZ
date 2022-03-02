@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting avaritiatweaks
 
 //I'm a Potato!
