@@ -2763,6 +2763,8 @@ v10.3.3-003
 	Updated EnderIO Configs
 v10.3.3-004
 	Updated StorageDrawers Configs
+v10.3.3-005
+	Added mod folder
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
