@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting mysticalcreations metallurgy
 
 import mods.extendedcrafting.TableCrafting as TC;

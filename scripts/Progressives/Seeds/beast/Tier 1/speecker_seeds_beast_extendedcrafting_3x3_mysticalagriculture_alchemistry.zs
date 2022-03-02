@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded extendedcrafting mysticalagriculture landcore
+#modloaded extendedcrafting mysticalagriculture alchemistry
 
 import mods.extendedcrafting.TableCrafting as TC;
 

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting mysticalagriculture botania
 
 import mods.extendedcrafting.TableCrafting as TC;

@@ -1,273 +1,19 @@
-#packmode beast
+#packmode mythic beast
+#ignoreBracketErrors
 #modloaded crafttweaker mysticalagriculture
+#norun
 
 import mods.extendedcrafting.TableCrafting as TC;
-
-var abyssalcraft = false as bool;
-var agricraft = false as bool;
-var appliedenergistics2 = false as bool;
-var exnihilocreatio = false as bool;
-var extendedcrafting = false as bool;
-var jaopca = false as bool;
-var landcore = false as bool;
-var mekanism = false as bool;
-var metallurgy = false as bool;
-var mysticalcreations = false as bool;
-var nuclearcraft = false as bool;
-var projectred_core = false as bool;
-var rftools = false as bool;
-var taiga = false as bool;
-var thermalfoundation = false as bool;
-var thermalsolars = false as bool;
-var tp = false as bool;
 
 // MysticalAgriculture General / Diverse / Various
 recipes.remove(<mysticalagriculture:silicon_seeds>);
 
 TC.addShaped(0, <mysticalagriculture:silicon_seeds>, [[<ore:itemSilicon>, <ore:essenceInferium>, <ore:itemSilicon>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<ore:itemSilicon>, <ore:essenceInferium>, <ore:itemSilicon>]]);
 
-//	Check	AbyssalCraft
-if(loadedMods has "abyssalcraft")
-{
-	print("AbyssalCraft has been detected! It's mod support will activate.");
-	abyssalcraft = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("AbyssalCraft has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	abyssalcraft = false;
-}
-
-//	Check	AgriCraft
-if(loadedMods has "agricraft")
-{
-	print("AgriCraft has been detected! It's mod support will activate.");
-	agricraft = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("AgriCraft has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	agricraft = false;
-}
-
-//	Check	AppliedEnergistics2
-if(loadedMods has "appliedenergistics2")
-{
-	print("AppliedEnergistics2 has been detected! It's mod support will activate.");
-	appliedenergistics2 = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("AppliedEnergistics2 has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	appliedenergistics2 = false;
-}
-
-//	Check	ExNihiloCreatio
-if(loadedMods has "exnihilocreatio")
-{
-	print("ExNihiloCreatio has been detected! It's mod support will activate.");
-	exnihilocreatio = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("ExNihiloCreatio has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	exnihilocreatio = false;
-}
-
-//	Check	ExtendedCrafting
-if(loadedMods has "extendedcrafting")
-{
-	print("ExtendedCrafting has been detected! It's mod support will activate.");
-	extendedcrafting = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("ExtendedCrafting has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	extendedcrafting = false;
-}
-
-//	Check	JAOPCA
-if(loadedMods has "jaopca")
-{
-	print("JAOPCA has been detected! It's mod support will activate.");
-	jaopca = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("JAOPCA has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	jaopca = false;
-}
-
-//	Check	LandCraft/LandCore
-if(loadedMods has "landcore")
-{
-	print("LandCore has been detected! It's mod support will activate.");
-	landcore = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("LandCore has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	landcore = false;
-}
-
-//	Check	Mekanism
-if(loadedMods has "mekanism")
-{
-	print("Mekanism has been detected! It's mod support will activate.");
-	mekanism = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("Mekanism has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	mekanism = false;
-}
-
-//	Check	Metallurgy
-if(loadedMods has "metallurgy")
-{
-	print("Metallurgy has been detected! It's mod support will activate.");
-	metallurgy = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("Metallurgy has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	metallurgy = false;
-}
-
-//	Check	MysticalCreations
-if(loadedMods has "mysticalcreations")
-{
-	print("MysticalCreations has been detected! It's mod support will activate.");
-	mysticalcreations = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("MysticalCreations has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	mysticalcreations = false;
-}
-
-//	Check	NuclearCraft
-if(loadedMods has "nuclearcraft")
-{
-	print("NuclearCraft has been detected! It's mod support will activate.");
-	nuclearcraft = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("NuclearCraft has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	nuclearcraft = false;
-}
-
-//	Check	PorjectRED-Core
-if(loadedMods has "projectred-core")
-{
-	print("PorjectRED-Core has been detected! It's mod support will activate.");
-	projectred_core = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("PorjectRED-Core has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	projectred_core = false;
-}
-
-//	Check	RFTools
-if(loadedMods has "rftools")
-{
-	print("RFTools has been detected! It's mod support will activate.");
-	rftools = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("RFTools has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	rftools = false;
-}
-
-//	Check	TAIGA
-if(loadedMods has "taiga")
-{
-	print("TAIGA has been detected! It's mod support will activate.");
-	taiga = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("TAIGA has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	taiga = false;
-}
-
-//	Check	ThermalFoundation
-if(loadedMods has "thermalfoundation")
-{
-	print("ThermalFoundation has been detected! It's mod support will activate.");
-	thermalfoundation = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("ThermalFoundation has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	thermalfoundation = false;
-}
-
-//	Check	ThermalSolars
-if(loadedMods has "thermalsolars")
-{
-	print("ThermalSolars has been detected! It's mod support will activate.");
-	thermalsolars = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("ThermalSolars has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	thermalsolars = false;
-}
-
-//	Check	TinyProgression
-if(loadedMods has "tp")
-{
-	print("TinyProgression has been detected! It's mod support will activate.");
-	tp = true;
-}
-else
-{
-	print("---------------------------------------------------------------------");
-	print("TinyProgression has not been detected! It's mod support won't activate.");
-	print("---------------------------------------------------------------------");
-	tp = false;
-}
-
 //	Recipes	AbyssalCraft
-if(abyssalcraft == true)
+if(modcheck_abyssalcraft == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & extendedcrafting == true)
     {
         //Standard Recipe Removals
         recipes.remove(<jaopca:item_mysticalseedsshadow>);
@@ -276,14 +22,14 @@ if(abyssalcraft == true)
         //Tier 1,2
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	AppliedEnergistics2
-if(appliedenergistics2 == true)
+if(modcheck_appliedenergistics2 == true)
 {
-    if(agricraft == true & extendedcrafting == true)
+    if(modcheck_agricraft == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<mysticalagriculture:sky_stone_seeds>);
@@ -293,7 +39,7 @@ if(appliedenergistics2 == true)
         //Tier 1,2
 		TC.addShaped(0, <mysticalagriculture:certus_quartz_seeds>, [[<ore:blockCertusQuartz>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "quartzanthemum_plant", agri_growth: 10 as byte}), <ore:blockCertusQuartz>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockCertusQuartz>, <ore:ingotInferium>, <ore:blockCertusQuartz>]]);
     }
-	else if(agricraft == false & extendedcrafting == true)
+	else if(modcheck_agricraft == false & modcheck_extendedcrafting == true)
 	{
         //Standard Recipe Removals
 		recipes.remove(<mysticalagriculture:sky_stone_seeds>);
@@ -302,14 +48,14 @@ if(appliedenergistics2 == true)
 		//Tier 1,2
 	}
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	Mekanism
-if(mekanism == true)
+if(modcheck_mekanism == true)
 {
-    if(agricraft == true & extendedcrafting == true)
+    if(modcheck_agricraft == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<mysticalagriculture:osmium_seeds>);
@@ -318,7 +64,7 @@ if(mekanism == true)
         //Tier 1,2
 		TC.addShaped(0, <mysticalagriculture:osmium_seeds>, [[<ore:blockOsmium>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:osmonium_plant", agri_growth: 10 as byte}), <ore:blockOsmium>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockOsmium>, <ore:ingotInferium>, <ore:blockOsmium>]]);
     }
-	else if(agricraft == false)
+	else if(modcheck_agricraft == false)
 	{
         //Standard Recipe Removals
         
@@ -328,14 +74,14 @@ if(mekanism == true)
 
 	}
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	Metallurgy
-if(metallurgy == true)
+if(modcheck_metallurgy == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsalduorite>);
@@ -354,14 +100,14 @@ if(metallurgy == true)
 		TC.addShaped(0, <jaopca:item_mysticalseedsignatius>, [[<ore:decorIgnatius>, <ore:ingotInferium>, <ore:decorIgnatius>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:decorIgnatius>, <ore:ingotInferium>, <ore:decorIgnatius>]]);
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	NuclearCraft
 if(nuclearcraft == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedschocolate>);
@@ -378,14 +124,14 @@ if(nuclearcraft == true)
         //Tier 1,2
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	ProjectRED-Core
-if(projectred_core == true)
+if(modcheck_projectred_core == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedselectrotinealloy>);
@@ -396,14 +142,14 @@ if(projectred_core == true)
         //Tier 1,2
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	RFTools
-if(rftools == true)
+if(modcheck_rftools == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsdimensionalshard>);
@@ -413,14 +159,14 @@ if(rftools == true)
 		TC.addShaped(0, <jaopca:item_mysticalseedsdimensionalshard>, [[<ore:blockDimensionalShard>, <ore:ingotInferium>, <ore:blockDimensionalShard>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockDimensionalShard>, <ore:ingotInferium>, <ore:blockDimensionalShard>]]);
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	TAIGA
-if(taiga == true)
+if(modcheck_taiga == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsabyssum>);
@@ -453,14 +199,14 @@ if(taiga == true)
 		TC.addShaped(0, <jaopca:item_mysticalseedsvibranium>, [[<ore:blockVibranium>, <ore:ingotInferium>, <ore:blockVibranium>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockVibranium>, <ore:ingotInferium>, <ore:blockVibranium>]]);
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	ThermalFoundation
-if(thermalfoundation == true)
+if(modcheck_thermalfoundation == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsniter>);
@@ -468,7 +214,7 @@ if(thermalfoundation == true)
 		TC.addShaped(0, <jaopca:item_mysticalseedsniter>, [[<thermalfoundation:material:772>, <ore:essenceInferium>, <thermalfoundation:material:772>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<thermalfoundation:material:772>, <ore:essenceInferium>, <thermalfoundation:material:772>]]);
         //Tier 1,2
     }
-    if(agricraft == true & extendedcrafting == true)
+    if(modcheck_agricraft == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<mysticalagriculture:aluminum_seeds>);
@@ -488,13 +234,13 @@ if(thermalfoundation == true)
 		TC.addShaped(0, <mysticalagriculture:platinum_seeds>, [[<ore:blockPlatinum>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:platiolus_plant", agri_growth: 10 as byte}), <ore:blockPlatinum>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockPlatinum>, <ore:ingotInferium>, <ore:blockPlatinum>]]);
 		TC.addShaped(0, <mysticalagriculture:tin_seeds>, [[<ore:blockTin>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:petinia_plant", agri_growth: 10 as byte}), <ore:blockTin>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<ore:blockTin>, <ore:ingotInferium>, <ore:blockTin>]]);
     }
-	else if(agricraft == false & extendedcrafting == true)
+	else if(modcheck_agricraft == false & modcheck_extendedcrafting == true)
 	{
         //Standard Recipe Removals
 		//Tier 1,1
 		//Tier 1,2
 	}
-    if(exnihilocreatio == true & extendedcrafting == true)
+    if(modcheck_exnihilocreatio == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<mysticalagriculture:basalz_seeds>);
@@ -506,21 +252,21 @@ if(thermalfoundation == true)
 		TC.addShaped(0, <mysticalagriculture:blitz_seeds>, [[<mysticalagriculture:chunk:22>, <exnihilocreatio:item_doll:5>, <mysticalagriculture:chunk:22>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<mysticalagriculture:chunk:22>, <ore:ingotInferium>, <mysticalagriculture:chunk:22>]]);
 		TC.addShaped(0, <mysticalagriculture:blizz_seeds>, [[<mysticalagriculture:chunk:21>, <exnihilocreatio:item_doll:4>, <mysticalagriculture:chunk:21>], [<ore:ingotInferium>, <mysticalagriculture:crafting:17>, <ore:ingotInferium>], [<mysticalagriculture:chunk:21>, <ore:ingotInferium>, <mysticalagriculture:chunk:21>]]);
     }
-	else if(exnihilocreatio == false & extendedcrafting == true)
+	else if(modcheck_exnihilocreatio == false & modcheck_extendedcrafting == true)
 	{
         //Standard Recipe Removals
 		//Tier 1,1
 		//Tier 1,2
 	}
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	ThermalSolars
-if(thermalsolars == true)
+if(modcheck_thermalsolars == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsender>);
@@ -531,14 +277,14 @@ if(thermalsolars == true)
         //Tier 1,2
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
 
 //	Recipes	TinyProgression
-if(tp == true)
+if(modcheck_tp == true)
 {
-    if(jaopca == true & extendedcrafting == true)
+    if(modcheck_jaopca == true & modcheck_extendedcrafting == true)
     {
         //Standard Recipe Removals
 		recipes.remove(<jaopca:item_mysticalseedsflint>);
@@ -547,6 +293,6 @@ if(tp == true)
         //Tier 1,2
     }
 }
-else if(jaopca == false | extendedcrafting == false)
+else if(modcheck_jaopca == false | modcheck_extendedcrafting == false)
 {
 }
