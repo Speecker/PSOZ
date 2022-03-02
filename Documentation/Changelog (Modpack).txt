@@ -2771,6 +2771,14 @@ v10.3.3-006
 		- removed old speecker_beast_tconstruct script
 		- addded #norun in renameandtooltip template
 		- outcommented all Items/Blocks from Cyclicmagic as they are not present in PSOZ
+v10.3.3-007
+	beta_testers:
+		- outcommented ExtraCells2 items and swappped it with aeadditions
+		- added missing modloaded entires - Should rather be seperated by item
+	speecker_essence_recipes_jaopca_metallurgy:
+		- fixed incompatibility and added a 3rd entry in the array to remove the ingot recipes - may need to be done byRecipeName or Ignore in Unidict#
+	AEAdditions/JEI:
+		- created and edited speecker_jai_aeadditions to RemoveAndHide the fluid patterns
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

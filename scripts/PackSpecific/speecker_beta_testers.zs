@@ -1,4 +1,4 @@
-#modloaded extendedcrafting contenttweaker
+#modloaded extendedcrafting contenttweaker projecte extrautils2 aeadditions bigreactors tconstruct chancecubes twilightforest actuallyadditions nuclearcraft botania solarflux industrialforegoing harvestcraft chisel moreplates jaopca lordcraft enderio mysticalagradditions mysticalagriculture randomthings thermalfoundation thermalexpansion thermalsolars
 
 //Beta Normal Testers
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:got_metal>, <bigreactors:ingotludicrite>, 13099, <extendedcrafting:material:13>, 2000000);
@@ -24,7 +24,8 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:but_plate>, 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:ske_plate>, <minecraft:writable_book>, 1000, <extendedcrafting:material:13>, 2000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:ren_plate>, <chisel:technical:4>, 1000, <extendedcrafting:material:13>, 2000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dea_plate>, <natura:overworld_sapling2:2>, 1000, <extendedcrafting:material:13>, 2000000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:hep_plate>, <extracells:storage.component:17>, 6969, <extendedcrafting:material:13>, 2000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:hep_plate>, <aeadditions:storage.component:6>, 6969, <extendedcrafting:material:13>, 2000000);
+//mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:hep_plate>, <extracells:storage.component:17>, 6969, <extendedcrafting:material:13>, 2000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:mem_plate>, <botania:managlass>, 6969, <extendedcrafting:material:13>, 2000000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:dat_plate>, <lordcraft:crystal_basic_cosmic:0>, 6969, <extendedcrafting:material:13>, 2000000);
 
