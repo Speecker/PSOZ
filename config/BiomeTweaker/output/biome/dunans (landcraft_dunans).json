@@ -1,0 +1,315 @@
+
+{
+  "ID": 107,
+  "Name": "dunans",
+  "Resource Location": "landcraft:dunans",
+  "Class": "landmaster.landcraft.world.biome.DunansBiome",
+  "Root Height": 0.1,
+  "Height Variation": 0.3,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "153",
+  "Temperature": 0.4,
+  "Humidity": 1.0,
+  "Water Tint": 153,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "DENSE",
+    "FOREST",
+    "MUSHROOM"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityNaturalist",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.lottoman.EntityLottoman",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityUndeadHerald",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityAssassin",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityRealmshifter",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.misc.pixon.EntityGlisteningPixon",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityNightReaper",
+      "Weight": 35,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityGhost",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityClown",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityMotherVoidWalker",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityGoblin",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityCharger",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntitySasquatch",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityEverbeast",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBoneCreature",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityCyclops",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityVoidCharger",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityNightfly",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBrute",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityHeadlessHunter",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityTrickster",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityDemonReaper",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityFacelessRunner",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityVoidWalker",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBugeye",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityKingCharger",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBombCarrier",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityShadow",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityDicer",
+      "Weight": 35,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityGhostineAncient",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "p455w0rd.endermanevo.entity.EntityEvolvedEnderman",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

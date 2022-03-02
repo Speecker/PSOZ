@@ -1,0 +1,22 @@
+{
+"vortex": {
+    "Chance": -99,
+	"isGiantCubeReward":false,
+	"Message": [
+	 {
+		"message": "Who Dat Is!?",
+		"range": 64
+	 },
+	 {
+		"message": "I hope this isn't near your base, because you have 400 ticks before stuff goes bye bye. Kappa",
+		"delay": 50,
+		"range": 64
+	 },
+	 {
+		"message": "Hehehe, scared you a bit didn't I.",
+		"delay": 140,
+		"range": 64
+	 }
+	]
+  }
+ }

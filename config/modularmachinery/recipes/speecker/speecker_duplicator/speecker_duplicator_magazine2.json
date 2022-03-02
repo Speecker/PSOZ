@@ -1,0 +1,36 @@
+{
+    "machine": "duplicator",
+    "registryName": "dp_magazine2",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:void_catalyst",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "techguns:itemshared@13",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:itemshared@13",
+            "amount": 9
+        }
+    ]
+}

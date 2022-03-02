@@ -1,0 +1,123 @@
+
+{
+  "ID": 64,
+  "Name": "Barathos",
+  "Resource Location": "aoa3:barathos",
+  "Class": "net.tslat.aoa3.dimension.barathos.biomes.BiomeBarathos",
+  "Root Height": 0.0,
+  "Height Variation": 0.35,
+  "Top Block": "aoa3:baron_ground",
+  "Filler Block": "aoa3:baron_stone",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 500.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "SPARSE",
+    "WASTELAND",
+    "DRY",
+    "HOT",
+    "DEAD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityCreationMaster",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityUndeadHerald",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityEchodar",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityTharafly",
+      "Weight": 15,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityCryptid",
+      "Weight": 30,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityArkback",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityParasect",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityRamradon",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityEmperorBeast",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityKeeler",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityEilosapien",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntityNospike",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.barathos.EntitySquiggler",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

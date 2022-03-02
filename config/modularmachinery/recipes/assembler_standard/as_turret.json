@@ -1,0 +1,36 @@
+{
+    "machine": "assembler_standard",
+    "registryName": "as_turret",
+    "recipeTime": 213,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateCopper",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:gearIron",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateIron",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:basicmachine@3",
+            "amount": 1
+        }
+    ]
+}

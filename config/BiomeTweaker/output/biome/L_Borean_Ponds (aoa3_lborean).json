@@ -1,0 +1,97 @@
+
+{
+  "ID": 76,
+  "Name": "L\u0027Borean Ponds",
+  "Resource Location": "aoa3:lborean",
+  "Class": "net.tslat.aoa3.dimension.lborean.biomes.BiomeLBorean",
+  "Root Height": 0.0,
+  "Height Variation": 0.05,
+  "Top Block": "aoa3:borean_grass[snowy\u003dfalse]",
+  "Filler Block": "aoa3:borean_dirt[snowy\u003dtrue,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 500.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "WATER",
+    "PLAINS",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.misc.pixon.EntityGlowingPixon",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityUndeadHerald",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityHaulingMaster",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.animals.EntityCoratee",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.lborean.EntityNeptuno",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.lborean.EntityMuncher",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.lborean.EntitySeaViper",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.lborean.EntityAngler",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.lborean.EntityCoralon",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

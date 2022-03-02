@@ -1,0 +1,53 @@
+{
+    "machine": "recycler",
+    "registryName": "recycler_eio_sag_mil",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:ingotEnergeticSilver",
+            "amount": 3,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:ingotDarkSteel",
+            "amount": 2,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_material@1",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:gearDark",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:block_simple_sag_mill",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_sag_mill",
+            "amount": 1
+        }
+    ]
+}

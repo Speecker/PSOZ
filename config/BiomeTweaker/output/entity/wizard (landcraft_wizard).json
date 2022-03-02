@@ -1,0 +1,6 @@
+
+{
+  "Name": "wizard",
+  "Registry ID": "landcraft:wizard",
+  "Class": "landmaster.landcraft.entity.EntityWizard"
+}

@@ -1,0 +1,1628 @@
+{
+  "groups:9": {
+    "0:10": {
+      "name:8": "Basic",
+      "weight:3": 40,
+      "ID:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "contenttweaker:rak_coin",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "chisel:marblepillar",
+              "Count:3": 64,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "aroma1997sdimension:miningore",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "ingotIron"
+            },
+            "1:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "ingotGold"
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 32,
+              "Damage:2": 132,
+              "OreDict:8": "ingotAluminum"
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 32,
+              "Damage:2": 129,
+              "OreDict:8": "ingotTin"
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "id:8": "darkutils:trap_tile",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "darkutils:trap_tile",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "darkutils:trap_anchor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "id:8": "chancecubes:chance_cube",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "chancecubes:chance_icosahedron",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "chancecubes:compact_giant_chance_cube",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "id:8": "lordcraft:orecrystalb",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:crafting",
+              "Count:3": 64,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "9:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "id:8": "harvestcraft:chickendinneritem",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "10:10": {
+          "weight:3": 1,
+          "ID:3": 10,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:horn_of_summoning",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "11:10": {
+          "weight:3": 1,
+          "ID:3": 11,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "nuclearcraft:record_wanderer",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "12:10": {
+          "weight:3": 1,
+          "ID:3": 12,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:snow",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "13:10": {
+          "weight:3": 1,
+          "ID:3": 13,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "exnihilocreatio:block_dust",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "14:10": {
+          "weight:3": 1,
+          "ID:3": 14,
+          "items:9": {
+            "0:10": {
+              "id:8": "cookingforblockheads:oven",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "cookingforblockheads:cooking_table",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "cookingforblockheads:fridge",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "cookingforblockheads:sink",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "15:10": {
+          "weight:3": 1,
+          "ID:3": 15,
+          "items:9": {
+            "0:10": {
+              "id:8": "erebus:log_bamboo",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "16:10": {
+          "weight:3": 1,
+          "ID:3": 16,
+          "items:9": {
+            "0:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 32,
+              "Damage:2": 104,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 32,
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "17:10": {
+          "weight:3": 1,
+          "ID:3": 17,
+          "items:9": {
+            "0:10": {
+              "id:8": "extracells:walrus",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "18:10": {
+          "weight:3": 1,
+          "ID:3": 18,
+          "items:9": {
+            "0:10": {
+              "id:8": "betterquesting:extra_life",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:ogasexy_block",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "19:10": {
+          "weight:3": 1,
+          "ID:3": 19,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:iron_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "name:8": "Good",
+      "weight:3": 40,
+      "ID:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:splash_potion",
+              "Count:3": 1,
+              "tag:10": {
+                "CustomPotionColor:3": 16777215,
+                "CustomPotionEffects:9": {
+                  "0:10": {
+                    "Ambient:1": 0,
+                    "CurativeItems:9": {
+                      "0:10": {
+                        "id:8": "minecraft:milk_bucket",
+                        "Count:1": 1,
+                        "Damage:2": 0
+                      }
+                    },
+                    "ShowParticles:1": 0,
+                    "Duration:3": 6000,
+                    "Id:1": 61,
+                    "Amplifier:1": 0
+                  },
+                  "1:10": {
+                    "Ambient:1": 0,
+                    "CurativeItems:9": {
+                      "0:10": {
+                        "id:8": "minecraft:milk_bucket",
+                        "Count:1": 1,
+                        "Damage:2": 0
+                      }
+                    },
+                    "ShowParticles:1": 0,
+                    "Duration:3": 6000,
+                    "Id:1": 73,
+                    "Amplifier:1": 0
+                  },
+                  "2:10": {
+                    "Ambient:1": 0,
+                    "CurativeItems:9": {},
+                    "ShowParticles:1": 0,
+                    "Duration:3": 6000,
+                    "Id:1": 103,
+                    "Amplifier:1": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "embers:shard_ember",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "embers:crystal_ember",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "magneticraft:rocky_chunks",
+              "Count:3": 64,
+              "Damage:2": 5,
+              "OreDict:8": "rockyChunkTungsten"
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "magneticraft:rocky_chunks",
+              "Count:3": 64,
+              "Damage:2": 14,
+              "OreDict:8": "rockyChunkZinc"
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "harvestcraft:epicbaconitem",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:fertilized_essence",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "quantumflux:netherbane",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "simplesponge:sponge_on_a_stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "simplesponge:magmatic_sponge_on_a_stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "id:8": "randomthings:naturecore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "9:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:block_vacuum_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "10:10": {
+          "weight:3": 1,
+          "ID:3": 10,
+          "items:9": {
+            "0:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 24,
+              "Damage:2": 104,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 24,
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "11:10": {
+          "weight:3": 1,
+          "ID:3": 11,
+          "items:9": {
+            "0:10": {
+              "id:8": "projectred-exploration:ore",
+              "Count:3": 16,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "12:10": {
+          "weight:3": 1,
+          "ID:3": 12,
+          "items:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_redstone",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_lapis",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_coal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_emerald",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_diamond",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "actuallyadditions:block_crystal_cluster_iron",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "13:10": {
+          "weight:3": 1,
+          "ID:3": 13,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:cactus",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "14:10": {
+          "weight:3": 1,
+          "ID:3": 14,
+          "items:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:quartz_ore",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:charged_quartz_ore",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "15:10": {
+          "weight:3": 1,
+          "ID:3": 15,
+          "items:9": {
+            "0:10": {
+              "id:8": "galacticraftcore:platform",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "16:10": {
+          "weight:3": 1,
+          "ID:3": 16,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:gold_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "17:10": {
+          "weight:3": 1,
+          "ID:3": 17,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0,
+                "mekData:10": {}
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "2:10": {
+      "name:8": "Greater",
+      "weight:3": 80,
+      "ID:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:mystical_fertilizer",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mysticalagriculture:fertilized_essence",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "botania:rune",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:rune",
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "botania:rune",
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "botania:rune",
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanismgenerators:generator",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanismgenerators:generator",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanismgenerators:generator",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:duct_64",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermaldynamics:duct_64",
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thermaldynamics:duct_64",
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "id:8": "darkutils:trap_move_fast",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:item_extract_speed_upgrade",
+              "Count:3": 15,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "9:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:rhino_exoskeleton_helmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:rhino_exoskeleton_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:rhino_exoskeleton_leggings",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:rhino_exoskeleton_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "10:10": {
+          "weight:3": 1,
+          "ID:3": 10,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "erebus:max_speed_bow",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:arrow",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "11:10": {
+          "weight:3": 1,
+          "ID:3": 11,
+          "items:9": {
+            "0:10": {
+              "id:8": "botania:blacklotus",
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:overgrowthseed",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "botania:blacklotus",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "12:10": {
+          "weight:3": 1,
+          "ID:3": 12,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:upgrade",
+              "Count:3": 3,
+              "Damage:2": 34,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "13:10": {
+          "weight:3": 1,
+          "ID:3": 13,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 32,
+              "Damage:2": 160,
+              "OreDict:8": "ingotSteel"
+            }
+          }
+        },
+        "14:10": {
+          "weight:3": 1,
+          "ID:3": 14,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "thermalinnovation:drill",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 40000,
+                "Mode:3": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "15:10": {
+          "weight:3": 1,
+          "ID:3": 15,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "galacticraftplanets:grapple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "16:10": {
+          "weight:3": 1,
+          "ID:3": 16,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermaldynamics:duct_16",
+              "Count:3": 9,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "17:10": {
+          "weight:3": 1,
+          "ID:3": 17,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:diamond_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "18:10": {
+          "weight:3": 1,
+          "ID:3": 18,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 1,
+                "mekData:10": {}
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "19:10": {
+          "weight:3": 1,
+          "ID:3": 19,
+          "items:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:solar_panel_basic",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "nuclearcraft:solar_panel_advanced",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "nuclearcraft:solar_panel_du",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "nuclearcraft:solar_panel_elite",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "name:8": "Epic",
+      "weight:3": 200,
+      "ID:3": 3,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_doll",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "betterbuilderswands:wanddiamond",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 2,
+                "mekData:10": {}
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "openmodularturrets:rail_gun_turret",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "openmodularturrets:ammo_meta",
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "openmodularturrets:turret_base",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:cooler",
+              "Count:3": 8,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ball",
+              "Count:3": 6,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "enderio:item_alloy_ball",
+              "Count:3": 6,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "enderio:item_alloy_ball",
+              "Count:3": 6,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "id:8": "xreliquary:fertile_lilypad",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "id:8": "contenttweaker:rak_coin",
+              "Count:3": 35,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "id:8": "quantumflux:craftingpiece",
+              "Count:3": 8,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "9:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "id:8": "landcraft:landia_ore",
+              "Count:3": 5,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "10:10": {
+          "weight:3": 1,
+          "ID:3": 10,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:block_solar_panel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "enderio:block_solar_panel",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "enderio:block_solar_panel",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "enderio:block_solar_panel",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "11:10": {
+          "weight:3": 1,
+          "ID:3": 11,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:emerald_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "4:10": {
+      "name:8": "Legendary",
+      "weight:3": 400,
+      "ID:3": 4,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 3,
+                "mekData:10": {}
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 5,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:printed_circuit_board",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "simplevoidworld:portal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "id:8": "extrautils2:drum",
+              "Count:3": 1,
+              "tag:10": {
+                "Fluid:10": {
+                  "FluidName:8": "lubricant",
+                  "Amount:3": 65536000
+                }
+              },
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:end_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "industrialforegoing:laser_lens",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "industrialforegoing:laser_lens",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "industrialforegoing:laser_lens",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "xreliquary:lantern_of_paranoia",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagradditions:insanium",
+              "Count:3": 64,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "5:10": {
+      "name:8": "Ozone",
+      "weight:3": 400,
+      "ID:3": 5,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:processing_upgrade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 100,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:block_zombie_generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "enderio:block_franken_zombie_generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "enderio:block_ender_generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 80,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "quantumflux:mattertransporter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 50,
+          "ID:3": 3,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "xreliquary:witherless_rose",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 100,
+          "ID:3": 4,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "ID:3": 5,
+          "items:9": {
+            "0:10": {
+              "id:8": "contenttweaker:rak_coin",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:rak_coin",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "ID:3": 6,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagradditions:special",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "ID:3": 7,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagradditions:special",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "8:10": {
+          "weight:3": 1,
+          "ID:3": 8,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagradditions:special",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "9:10": {
+          "weight:3": 1,
+          "ID:3": 9,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagradditions:special",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "10:10": {
+          "weight:3": 100,
+          "ID:3": 10,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "furnaceoverhaul:zenith_kit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

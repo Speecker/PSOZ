@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.creep",
+  "Registry ID": "aoa3:creep",
+  "Class": "net.tslat.aoa3.entity.boss.creep.EntityCreep"
+}

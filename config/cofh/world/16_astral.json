@@ -1,0 +1,73 @@
+{
+	"dependencies": "astralsorcery",
+	"populate": {
+		"rock_crystal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "astralsorcery:blockcustomore",
+					"properties": {
+						"oretype": "rock_crystal"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+				]
+			}
+		},
+		"starmetal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "astralsorcery:blockcustomore",
+					"properties": {
+						"oretype": "starmetal"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-5,
+				]
+			}
+		},
+		"aquamarine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:aquamarine_block",
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-5,
+				]
+			}
+		}
+	}
+}

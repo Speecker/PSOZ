@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.token_collector",
+  "Registry ID": "aoa3:token_collector",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityTokenCollector"
+}

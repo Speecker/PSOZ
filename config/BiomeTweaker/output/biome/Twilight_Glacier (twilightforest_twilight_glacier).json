@@ -1,0 +1,170 @@
+
+{
+  "ID": 49,
+  "Name": "Twilight Glacier",
+  "Resource Location": "twilightforest:twilight_glacier",
+  "Class": "twilightforest.biomes.TFBiomeGlacier",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": 0.1,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "SNOWY",
+    "WASTELAND",
+    "TWILIGHT",
+    "COLD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFPenguin",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityNightReaper",
+      "Weight": 35,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityGhost",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityClown",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityMotherVoidWalker",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityHunch",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityEverbeast",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntitySnowCharger",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityVoidCharger",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityTrickster",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityDemonReaper",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityFacelessRunner",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityVoidWalker",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityPolarUrsa",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBugeye",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityBombCarrier",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityShadow",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityDicer",
+      "Weight": 35,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.overworld.EntityYeti",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

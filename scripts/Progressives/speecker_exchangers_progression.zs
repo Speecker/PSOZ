@@ -1,0 +1,6 @@
+#packmode mythic beast
+#modloaded buildinggadgets exchangers
+
+recipes.addShaped(<buildinggadgets:buildingtool>.withTag({blockstate: {Name: "minecraft:air"}}), [[<ore:blockLithiumManganeseDioxide>, <ore:blockStellarAlloy>, <ore:blockLithiumManganeseDioxide>],[<ore:blockLeadPlatinum>, <ore:blockLeadPlatinum>, <ore:blockLeadPlatinum>], [<ore:blockTough>, <ore:blockTough>, <ore:blockTough>]]);
+recipes.addShaped(<buildinggadgets:exchangertool>.withTag({blockstate: {Name: "minecraft:air"}}), [[<ore:blockLithiumManganeseDioxide>, <ore:blockStellarAlloy>, <ore:blockLithiumManganeseDioxide>],[<ore:blockMagnesiumDiboride>, <ore:blockMagnesiumDiboride>, <ore:blockMagnesiumDiboride>], [<ore:blockTough>, <exchangers:stellar_exchanger>.withTag({exmode: 0, directionalPlacement: 0 as byte, forceDropItems: 0 as byte, Energy: 100000000, range: 0, blockstate: {Name: "minecraft:air"}}), <ore:blockTough>]]);
+recipes.addShaped(<buildinggadgets:copypastetool>.withTag({mode: "Copy"}), [[<ore:blockLithiumManganeseDioxide>, <ore:blockStellarAlloy>, <ore:blockLithiumManganeseDioxide>],[<ore:blockHardCarbon>, <ore:blockHardCarbon>, <ore:blockHardCarbon>], [<ore:blockTough>, <exchangers:stellar_exchanger>.withTag({exmode: 0, directionalPlacement: 0 as byte, forceDropItems: 0 as byte, Energy: 100000000, range: 0, blockstate: {Name: "minecraft:air"}}), <ore:blockTough>]]);

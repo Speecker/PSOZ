@@ -1,0 +1,24 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_furnace",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:limestone",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:furnace",
+            "amount": 1
+        }
+    ]
+}

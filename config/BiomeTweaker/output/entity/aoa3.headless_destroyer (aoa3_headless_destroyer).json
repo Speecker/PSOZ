@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.headless_destroyer",
+  "Registry ID": "aoa3:headless_destroyer",
+  "Class": "net.tslat.aoa3.entity.mobs.overworld.deathday.EntityHeadlessDestroyer"
+}

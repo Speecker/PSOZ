@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_gasfilter",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@324",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@769",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:itemshared@89",
+            "amount": 2
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+{
+  "images": {
+    "modpack": {
+      "image": "mainmenu:bg_text.png",
+      "posX": -212.5,
+      "posY": -275,
+      "width": 425,
+      "height": 275,
+      "imageWidth": 850,
+      "imageHeight": 300,
+      "alignment": "center"
+    }
+  },
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": -28,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": -6,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "fml.menu.mods",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 16,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "options": {
+      "text": "menu.options",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 38,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "support": {
+      "text": "Issue Tracker",
+      "posX": -79,
+      "posY": 60,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 68,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/FTBTeam/FTB-Presents-Stoneblock-2/issues"
+      }
+    },
+    "discord": {
+      "text": "",
+      "posX": -11,
+      "posY": 60,
+      "width": 21,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "FTB Discord",
+      "texture": "mainmenu:discord.png",
+      "imageWidth": "240",
+      "imageHeight": "240",
+      "action": {
+        "type": "openLink",
+        "link": "https://discord.gg/2Gj9vPJ"
+      }
+    },
+    "changelog": {
+      "text": "Changelogs",
+      "posX": 11,
+      "posY": 60,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 68,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://www.feed-the-beast.com/projects/FTB-Presents-Stoneblock-2/files"
+      }
+    },
+    "quit": {
+      "text": "menu.quit",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 100,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": -27,
+      "posY": 1,
+      "width": 25,
+      "height": 25,
+      "tooltip": "Language",
+      "alignment": "top_right",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "texture": "mainmenu:lang.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "website": {
+      "text": "",
+      "posX": -27,
+      "posY": 25,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "tooltip": "FTB Site",
+      "texture": "mainmenu:web.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "action": {
+        "type": "openLink",
+        "link": "http://www.feed-the-beast.com/"
+      }
+    },
+    "creeperhost": {
+      "text": "",
+      "posX": -27,
+      "posY": 49,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "tooltip": "Get a Server Today!",
+      "texture": "mainmenu:creeperhost.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "wrappedButton": 30051988
+    },
+    "refresh": {
+      "text": "",
+      "posX": 0,
+      "posY": 0,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_left",
+      "texture": "mainmenu:refresh.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+  "labels": {
+    "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": 2,
+      "posY": -13,
+      "fontSize": .6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mods Loaded",
+      "posX": 2,
+      "posY": -7,
+      "fontSize": .6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "minecraft": {
+      "text": "Minecraft 1.12.2",
+      "posX": -45,
+      "posY": -13,
+      "fontSize": .6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_right"
+    },
+    "mojang": {
+      "text": "Copyright Mojang AB",
+      "posX": -57,
+      "posY": -7,
+      "fontSize": .6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_right"
+    }
+  },
+  "other": {
+    "background": {
+      "image": "mainmenu:bg.png",
+      "mode": "fill"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+#priority 5
+#packmode mythic beast
+#modloaded thermalfoundation
+
+recipes.removeShapeless(<thermalfoundation:material:128>, [<ore:blockCopper>]);
+recipes.removeShaped(<thermalfoundation:material:128>, [[<ore:blockCopper>]]);
+recipes.removeShapeless(<thermalfoundation:material:162>, [<ore:blockInvar>]);
+recipes.removeShaped(<thermalfoundation:material:162>, [[<ore:blockInvar>]]);
+recipes.removeShaped(<thermalfoundation:material:162>, [[<ore:blockInvar>]]);
+recipes.removeShapeless(<thermalfoundation:material:163>, [<ore:blockBronze>]);
+recipes.removeShaped(<thermalfoundation:material:163>, [[<ore:blockBronze>]]);
+recipes.removeShapeless(<thermalfoundation:material:161>, [<ore:blockElectrum>]);
+recipes.removeShaped(<thermalfoundation:material:161>, [[<ore:blockElectrum>]]);
+recipes.removeShapeless(<thermalfoundation:material:160>, [<ore:blockSteel>]);
+recipes.removeShaped(<thermalfoundation:material:160>, [[<ore:blockSteel>]]);
+recipes.removeShapeless(<thermalfoundation:material:134>, [<ore:blockPlatinum>]);
+recipes.removeShaped(<thermalfoundation:material:134>, [[<ore:blockPlatinum>]]);
+recipes.removeShapeless(<thermalfoundation:material:133>, [<ore:blockNickel>]);
+recipes.removeShaped(<thermalfoundation:material:133>, [[<ore:blockNickel>]]);
+recipes.removeShapeless(<thermalfoundation:material:132>, [<ore:blockAluminum>]);
+recipes.removeShaped(<thermalfoundation:material:132>, [[<ore:blockAluminum>]]);
+recipes.removeShapeless(<thermalfoundation:material:131>, [<ore:blockLead>]);
+recipes.removeShaped(<thermalfoundation:material:131>, [[<ore:blockLead>]]);
+recipes.removeShapeless(<thermalfoundation:material:130>, [<ore:blockSilver>]);
+recipes.removeShaped(<thermalfoundation:material:130>, [[<ore:blockSilver>]]);
+recipes.removeShapeless(<thermalfoundation:material:129>, [<ore:blockTin>]);
+recipes.removeShaped(<thermalfoundation:material:129>, [[<ore:blockTin>]]);
+recipes.removeShapeless(<thermalfoundation:material:164>, [<ore:blockConstantan>]);
+recipes.removeShapeless(<thermalfoundation:material:135>, [<ore:blockIridium>]);
+recipes.removeShapeless(<thermalfoundation:material:136>, [<ore:blockMithril>]);
+recipes.removeShapeless(<thermalfoundation:material:165>, [<ore:blockSignalum>]);
+recipes.removeShapeless(<thermalfoundation:material:166>, [<ore:blockLumium>]);
+recipes.removeShapeless(<thermalfoundation:material:167>, [<ore:blockEnderium>]);

@@ -1,0 +1,42 @@
+
+{
+  "ID": 63,
+  "Name": "Ancient Cavern",
+  "Resource Location": "aoa3:ancient_cavern",
+  "Class": "net.tslat.aoa3.dimension.ancientcavern.biomes.BiomeAncientCavern",
+  "Root Height": 0.0,
+  "Height Variation": 0.0,
+  "Top Block": "minecraft:air",
+  "Filler Block": "minecraft:air",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "-10258611",
+  "Temperature": 0.0,
+  "Humidity": 0.0,
+  "Water Tint": -10258611,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS",
+    "VOID",
+    "DRY",
+    "COLD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

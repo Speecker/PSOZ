@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_pistolmage",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "techguns:itemshared@57",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:itemshared@12",
+            "amount": 5
+        }
+    ]
+}

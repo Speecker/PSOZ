@@ -1,0 +1,24 @@
+{
+    "machine": "hell_forge",
+    "registryName": "hf_quartz",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@128",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:quartz",
+            "amount": 1
+        }
+    ]
+}

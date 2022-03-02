@@ -1,0 +1,262 @@
+{
+    "registryname": "compact_hyper_empowerer",
+    "localizedname": "Compact Hyper Empowerer",
+    "color": "30170E",
+    "modifiers": [
+        {
+            "elements": "quantumflux:imaginarytime",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Place above the Controller to get a Bonus of:\n+99% Speed but also +50% RF/t",
+            "modifier": [{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.01
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.50
+			}]
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "Replace the Glass Wedge 2 blocks behind the Controller with a\nMachine Circuitry for double item output!",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "modulardiversity:blockdaylightdetector",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "Replace the Glass Wedge 2 blocks behind the Controller with a\nTime Detector for quadruple item output!",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 4.0
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "missing_pieces:glass_wedge@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "missing_pieces:glass_wedge@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "missing_pieces:glass_wedge@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_display_stand"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_display_stand"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_empowerer"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_display_stand"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_display_stand"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "missing_pieces:nether_brick_wedge@6"
+            ]
+        }
+    ]
+}

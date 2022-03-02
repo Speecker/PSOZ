@@ -1,0 +1,62 @@
+{
+	"name": "NetherStar",
+	"make": [],
+	"textColor": "#6D65C6",
+	"whitelist": {
+		"oredict": ["NetherStar"],
+		"ingots": [],
+		"nuggets": [],
+		"dusts": [],
+		"gems": [],
+		"blocks": [],
+		"ores": []
+	},
+	"blacklist": {
+		"oredict": [],
+		"ores": []
+	},
+	"fluidData": {
+		"color": "#6D65C6",
+		"density": 2000,
+		"viscosity": 10000,
+		"temperature": 300,
+		"luminosity": 1,
+		"rarity": "EPIC"
+	},
+	"canCraftToolForge": true,
+	"toolData": {
+		"durability": 100,
+		"harvestLevel": 5,
+		"extraDurability": 10,
+		"miningSpeed": 10.0,
+		"attack": 10.0,
+		"handleModifier": 3,
+		"handleDurability": 10,
+		"color": "#6D65C6",
+		"temperature": 1000,
+		"projectiles": true,
+		"drawSpeed": 4.0,
+		"range": 5.0,
+		"bonusDamage": 5.0,
+		"stringModifier": 4.0,
+		"shaftModifier": 4.0,
+		"bonusAmmo": 1.0,
+		"accuracy": 4.0,
+		"fletchingModifier": 4.0,
+	        "traits": ["alien"],
+	        "headTraits": ["sharp"],
+	        "handleTraits": ["sharp", "direct"],
+	        "extraTraits": ["direct", "unnatural"],
+	        "bowTraits": ["direct"],
+	        "stringTraits": [],
+	        "projectileTraits": ["dense"],
+	        "shaftTraits": [],
+	        "fletchingTraits": []
+	},
+	"localizations": [{
+		"locale": "en_US",
+		"solid": "NetherStar",
+		"liquid": "Liquid NetherStar",
+		"bucket": "NetherStar Bucket"
+	}]
+}

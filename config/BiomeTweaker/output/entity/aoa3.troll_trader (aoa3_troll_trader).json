@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.troll_trader",
+  "Registry ID": "aoa3:troll_trader",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityTrollTrader"
+}

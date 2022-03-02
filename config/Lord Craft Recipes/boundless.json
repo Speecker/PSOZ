@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+	"research": 33, 
+    "pattern": [
+        "bbb",
+        "bms",
+        "   "
+    ],
+	"result": {
+        "item": "lordcraft:crystal_basic_cosmic",
+		"data": 1,
+		"count": 1
+    },
+    "key": {
+        "b": {
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 1
+        },
+		"s": {
+            "item": "lordcraft:crystal_basic_cosmic",
+			"data": 0
+        },
+		"m": {
+            "item": "bloodmagic:sigil_void",
+			"data": 0
+        }
+    }
+}

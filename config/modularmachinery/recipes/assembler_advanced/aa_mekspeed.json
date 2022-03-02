@@ -1,0 +1,36 @@
+{
+    "machine": "fassembler_advanced",
+    "registryName": "aa_mekspeed",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:compresseddiamond",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:ingot_copper",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lubricant",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:speedupgrade",
+            "amount": 1
+        }
+    ]
+}

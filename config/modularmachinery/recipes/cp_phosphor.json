@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_phosphor",
+    "recipeTime": 48,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@66",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "sulfuricacid",
+            "amount": 200
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "forestry:phosphor",
+            "amount": 1
+        }
+    ]
+}

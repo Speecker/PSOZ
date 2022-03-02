@@ -1,0 +1,24 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_starlight_ember_manaquartz",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:quartz@1",
+            "amount": 1
+        },
+		{
+			"type": "ember",
+			"io-type": "output",
+			"ember": 128.0
+		},
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 200
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+#packmode mythic beast
+#modloaded astralsorcery mysticalagriculture enderio thermalfoundation thermalexpansion
+
+import mods.astralsorcery.Altar.addAttunementAltarRecipe as ASA;
+
+recipes.remove(<mysticalagriculture:bronze_seeds>);
+recipes.remove(<mysticalagriculture:constantan_seeds>);
+recipes.remove(<mysticalagriculture:electrum_seeds>);
+recipes.remove(<mysticalagriculture:invar_seeds>);
+recipes.remove(<mysticalagriculture:steel_seeds>);
+
+// Tier 2,1
+
+// Tier 2,2
+
+ASA("psoz:shaped/internal/altar/bronzeseeds", <mysticalagriculture:bronze_seeds>, 500, 300, [<ore:blockBronze>, <ore:itemEnderCrystalPowder>, <ore:blockBronze>, <mysticalagriculture:copper_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "copper_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:tin_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "tin_plant", agri_growth: 10 as byte}), <ore:blockBronze>, <ore:itemEnderCrystalPowder>, <ore:blockBronze>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/constantanseeds", <mysticalagriculture:constantan_seeds>, 500, 300, [<ore:blockConstantan>, <ore:itemEnderCrystalPowder>, <ore:blockConstantan>, <mysticalagriculture:copper_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "copper_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:nickel_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "nickel_plant", agri_growth: 10 as byte}), <ore:blockConstantan>, <ore:itemEnderCrystalPowder>, <ore:blockConstantan>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/electrumseeds", <mysticalagriculture:electrum_seeds>, 500, 300, [<ore:blockElectrum>, <ore:itemEnderCrystalPowder>, <ore:blockElectrum>, <mysticalagriculture:gold_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "gold_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:silver_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "silver_plant", agri_growth: 10 as byte}), <ore:blockElectrum>, <ore:itemEnderCrystalPowder>, <ore:blockElectrum>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/invarseeds", <mysticalagriculture:invar_seeds>, 500, 300, [<ore:blockInvar>, <ore:itemEnderCrystalPowder>, <ore:blockInvar>, <mysticalagriculture:iron_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "iron_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:nickel_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "nickel_plant", agri_growth: 10 as byte}), <ore:blockInvar>, <ore:itemEnderCrystalPowder>, <ore:blockInvar>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/steelseeds", <mysticalagriculture:steel_seeds>, 500, 300, [<ore:blockSteel>, <ore:itemEnderCrystalPowder>, <ore:blockSteel>, <mysticalagriculture:coal_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "coal_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:iron_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "iron_plant", agri_growth: 10 as byte}), <ore:blockSteel>, <ore:itemEnderCrystalPowder>, <ore:blockSteel>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);

@@ -1,0 +1,104 @@
+
+{
+  "ID": 70,
+  "Name": "Dustopian Forest",
+  "Resource Location": "aoa3:dustopia",
+  "Class": "net.tslat.aoa3.dimension.dustopia.biomes.BiomeDustopia",
+  "Root Height": 0.0,
+  "Height Variation": 0.25,
+  "Top Block": "aoa3:dustopia_grass[snowy\u003dfalse]",
+  "Filler Block": "aoa3:dustopia_dirt[snowy\u003dtrue,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "-16777216",
+  "Temperature": 0.25,
+  "Humidity": 500.0,
+  "Water Tint": -16777216,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "SPOOKY",
+    "FOREST",
+    "PLAINS",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.misc.pixon.EntityRadiantPixon",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.npcs.trader.EntityUndeadHerald",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ftblag.fluidcows.entity.EntityFluidCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityDevourer",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityStalkerPrime",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityBasilisk",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityDuston",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityLurker",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityDusteiva",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityLostSoul",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tslat.aoa3.entity.mobs.dustopia.EntityStalker",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

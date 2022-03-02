@@ -1,0 +1,37 @@
+{
+    "machine": "chaos_crucible",
+    "registryName": "chaos_crucible_liquid_chaos",
+    "recipeTime": 30,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "fuel_hecm_247",
+            "amount": 100
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "empoweredoil",
+            "amount": 100
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender_distillation",
+            "amount": 100
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "heavywater",
+            "amount": 1000
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "c_fluid",
+            "amount": 250
+        }
+    ]
+}

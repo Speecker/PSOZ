@@ -1,0 +1,21 @@
+{
+  "pink cloud": {
+    "chance": 40,
+	"Message": [
+	 {
+		"message": "Riding on a pink cloud.", "range": 64
+	 }
+	 ],
+    "schematic": [
+      {
+        "fileName": "pink_cloud.ccs",
+        "falling": false,
+        "xOffSet": 0,
+        "yOffSet": 7,
+        "zOffSet": 0,
+        "relativeToPlayer": false,
+		"includeAirBlocks": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "baseRegistryName": "minecraft:cobblestone",
+    "compressedPathRegistryName": "compressed_cobblestone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/cobblestone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:sand",
+    "compressedPathRegistryName": "compressed_sand",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/sand.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:soul_sand",
+    "compressedPathRegistryName": "compressed_soul_sand",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/soul_sand.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "exnihilocreatio:block_dust",
+    "compressedPathRegistryName": "compressed_dust",
+    "meta": 0,
+    "texturePath": "exnihilocreatio:textures/blocks/blockdust.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:stone",
+    "compressedPathRegistryName": "compressed_stone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/stone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:obsidian",
+    "compressedPathRegistryName": "compressed_obsidian",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/obsidian.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:netherrack",
+    "compressedPathRegistryName": "compressed_netherrack",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/netherrack.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "exnihilocreatio:block_netherrack_crushed",
+    "compressedPathRegistryName": "compressed_netherrack_crushed",
+    "meta": 0,
+    "texturePath": "exnihilocreatio:textures/blocks/blocknetherrackcrushed.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:end_stone",
+    "compressedPathRegistryName": "compressed_endstone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/end_stone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "exnihilocreatio:block_endstone_crushed",
+    "compressedPathRegistryName": "compressed_endstone_crushed",
+    "meta": 0,
+    "texturePath": "exnihilocreatio:textures/blocks/blockendstonecrushed.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:dirt",
+    "compressedPathRegistryName": "compressed_dirt",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/dirt.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "netherex:basalt",
+    "compressedPathRegistryName": "compressed_basalt",
+    "meta": 0,
+    "texturePath": "netherex:textures/blocks/basalt.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "extrautils2:decorativebedrock",
+    "compressedPathRegistryName": "compressed_bedrock_cobblestone",
+    "meta": 2,
+    "texturePath": "extrautils2:textures/bedrock_cobblestone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "extrautils2:decorativesolid",
+    "compressedPathRegistryName": "compressed_rainbow_stone",
+    "meta": 8,
+    "texturePath": "extrautils2:textures/unused/rainbow.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:gravel",
+    "compressedPathRegistryName": "compressed_gravel",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/gravel.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  }
+]

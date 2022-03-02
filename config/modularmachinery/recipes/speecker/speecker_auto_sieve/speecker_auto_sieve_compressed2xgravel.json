@@ -1,0 +1,81 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed2xgravel",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_iron@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_gold@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_copper@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_lead@1",
+            "amount": 2,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond_block",
+            "amount": 1,
+            "chance": 0.08
+        },
+	{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:emerald_block",
+            "amount": 1,
+            "chance": 0.08
+        },
+	{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:lapis_block",
+            "amount": 1,
+            "chance": 0.08
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-exploration:stone@5",
+            "amount": 1,
+            "chance": 0.75
+        },
+	{
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-exploration:stone@6",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:compressedgravel@1",
+            "amount": 1
+        }
+    ]
+}

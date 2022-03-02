@@ -1,0 +1,37 @@
+{
+    "machine": "auto_hammer",
+    "registryName": "auto_hammer_gravelcompressed",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "sludge",
+            "amount": 20
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrautils2:compressedsand@0",
+            "amount": 1,
+            "chance": 1.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:compressedgravel@0",
+            "amount": 1
+        }
+    ]
+}

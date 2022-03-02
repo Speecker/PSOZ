@@ -1,0 +1,20 @@
+#packmode mythic beast
+#modloaded astralsorcery mysticalagriculture enderio nuclearcraft
+
+import mods.astralsorcery.Altar.addAttunementAltarRecipe as ASA;
+
+recipes.remove(<jaopca:item_mysticalseedsleadplatinum>);
+recipes.remove(<jaopca:item_mysticalseedsmagnesiumdiboride>);
+recipes.remove(<jaopca:item_mysticalseedsshibuichi>);
+recipes.remove(<jaopca:item_mysticalseedstinsilver>);
+recipes.remove(<jaopca:item_mysticalseedszircaloy>);
+
+// Tier 2,1
+
+// Tier 2,2
+
+ASA("psoz:shaped/internal/altar/leadplatinumseeds", <jaopca:item_mysticalseedsleadplatinum>, 500, 300, [<ore:blockLeadPlatinum>, <ore:itemEnderCrystalPowder>, <ore:blockLeadPlatinum>, <mysticalagriculture:lead_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "lead_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:platinum_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "platinum_plant", agri_growth: 10 as byte}), <ore:blockLeadPlatinum>, <ore:itemEnderCrystalPowder>, <ore:blockLeadPlatinum>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/magnesiumdiborideseeds", <jaopca:item_mysticalseedsmagnesiumdiboride>, 500, 300, [<ore:blockMagnesiumDiboride>, <ore:itemEnderCrystalPowder>, <ore:blockMagnesiumDiboride>, <mysticalagriculture:magnesium_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "magnesium_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:boron_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "boron_plant", agri_growth: 10 as byte}), <ore:blockMagnesiumDiboride>, <ore:itemEnderCrystalPowder>, <ore:blockMagnesiumDiboride>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/shibuichiseeds", <jaopca:item_mysticalseedsshibuichi>, 500, 300, [<ore:blockShibuichi>, <ore:itemEnderCrystalPowder>, <ore:blockShibuichi>, <mysticalagriculture:copper_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "copper_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:silver_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "silver_plant", agri_growth: 10 as byte}), <ore:blockShibuichi>, <ore:itemEnderCrystalPowder>, <ore:blockShibuichi>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/tinsilverseeds", <jaopca:item_mysticalseedstinsilver>, 500, 300, [<ore:blockTinSilver>, <ore:itemEnderCrystalPowder>, <ore:blockTinSilver>, <mysticalagriculture:tin_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "tin_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:silver_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "silver_plant", agri_growth: 10 as byte}), <ore:blockTinSilver>, <ore:itemEnderCrystalPowder>, <ore:blockTinSilver>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);
+ASA("psoz:shaped/internal/altar/zircaloyseeds", <jaopca:item_mysticalseedszircaloy>, 500, 300, [<ore:blockZircaloy>, <ore:itemEnderCrystalPowder>, <ore:blockZircaloy>, <jaopca:item_mysticalseedszirconium>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "zirconium_mystical_plant", agri_growth: 10 as byte}), <mysticalagriculture:crafting:18>, <mysticalagriculture:tin_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "tin_plant", agri_growth: 10 as byte}), <ore:blockZircaloy>, <ore:itemEnderCrystalPowder>, <ore:blockZircaloy>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]);

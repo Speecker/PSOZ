@@ -1,0 +1,82 @@
+{
+    "machine": "duplicator",
+    "registryName": "duplicator_armor_prometheum",
+    "recipeTime": 13,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1400
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:void_catalyst",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "embers:isolated_materia",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "metallurgy:prometheum_helmet",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "metallurgy:prometheum_chestplate",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "metallurgy:prometheum_leggings",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "metallurgy:prometheum_boots",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:prometheum_helmet",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:prometheum_chestplate",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:prometheum_leggings",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metallurgy:prometheum_boots",
+            "amount": 1
+        }
+   ]
+}

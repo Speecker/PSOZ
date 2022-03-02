@@ -1,0 +1,5 @@
+lordcraft.recipes.remove(FORGE, <lordcraft:ingot_magic>)
+lordcraft.recipes.remove(SHAPED, <lordcraft:rod_1>)
+lordcraft.recipes.remove(SHAPED, <lordcraft:rod_2>)
+lordcraft.recipes.remove(SHAPELESS, <lordcraft:rod_1>)
+lordcraft.recipes.remove(SHAPELESS, <lordcraft:rod_2>)

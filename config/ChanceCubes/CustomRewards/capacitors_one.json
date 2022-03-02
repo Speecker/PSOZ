@@ -1,0 +1,14 @@
+{
+"capacitor one": {
+    "Chance": 65,
+	"isGiantCubeReward":false,
+	"Item":
+		[
+			{"item":{"id":"enderio:item_capacitor_grainy", 
+			"damage":0,
+			"Count":16
+				}
+			}
+		]
+  }
+}

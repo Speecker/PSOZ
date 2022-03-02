@@ -1,0 +1,43 @@
+{
+    "machine": "fassembler_standard",
+    "registryName": "as_resfluxduct",
+    "recipeTime": 267,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 1000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermaldynamics:duct_0@3",
+            "amount": 2
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:ingot_copper",
+            "amount": 2
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustRedstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermaldynamics:duct_0@4",
+            "amount": 1
+        }
+    ]
+}

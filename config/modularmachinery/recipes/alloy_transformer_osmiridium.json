@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_transformer",
+    "registryName": "alloy_transformer_osmiridium",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12288
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "mekanism:ingot@1",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@135",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:osmiridiumingot",
+            "amount": 2
+        }
+    ]
+}

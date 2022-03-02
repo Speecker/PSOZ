@@ -1,0 +1,31 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_electrumwire",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotElectrum",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:mold@4",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@21",
+            "amount": 1
+        }
+    ]
+}

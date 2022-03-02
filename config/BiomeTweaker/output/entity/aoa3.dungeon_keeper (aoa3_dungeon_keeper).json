@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.dungeon_keeper",
+  "Registry ID": "aoa3:dungeon_keeper",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityDungeonKeeper"
+}

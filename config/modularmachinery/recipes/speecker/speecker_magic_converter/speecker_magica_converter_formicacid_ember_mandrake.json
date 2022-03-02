@@ -1,0 +1,24 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_formicacid_ember_mandrake",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "erebus:mandrake_root",
+            "amount": 3
+        },
+		{
+			"type": "ember",
+			"io-type": "output",
+			"ember": 128.0
+		},
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "formic_acid",
+            "amount": 100
+        }
+    ]
+}

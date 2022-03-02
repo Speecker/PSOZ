@@ -1,0 +1,2769 @@
+v0a - 	Crash: Ticking Entity In World + Concurrent Exception = No World Load With Updated Mods
+v1a - 	Works fine but is outdated non Kappa Version
+v2a -	Crash: Rendering Issue In Base Unsure what causes it
+	Full Update with Kappa Mode and various Mod Additions
+v3a -	Combined with Stoneblock 2
+	- Updated Mods:
+		- ArmorPlus
+		- CraftTweaker2
+		- CreativeCore
+		- ExtraCells
+		- FurnaceOverhaul
+		- InventoryTweaks
+		- ModularDiversity
+		- NetherEx
+		- NuclearCraft
+		- RandomThings
+		- RFTools
+		- TombStone
+		- TOPAddons
+
+Mod Additions / Edits:
+
+	ModName				Origin			Reason(s)
+
+	Removed / Unused:
+	- #LibLoader			?			?
+	- AdditionalEnchantedMiner	Speecker		Useless -	Environmental Tech / Mekanism Digital Miner
+	- AmbientSounds3		Speecker		Cosmetical / RAM-Occupation
+	- DeepResonance	(+IGI)		Speecker (&other)	No Use Yet
+	- DenseNeutronCollectors	Speecker		Useless -	Make Seeds (or Fluid Cow(As Soon As Coded In)) for more
+	- Display			MisChiefOfMice		Useless -	Use Spectral Relays from Astral Sorcery
+	- EmergingTechnologies		Speecker		No Use Yet
+	- Furniture			IDK			No Use Yet / Decoration
+	- Hywyla			IDK			Useless	-	TheOneProbe Rocks !
+	- WailaHarvestability		IDK			Useless	-	TheOneProbe Rocks !
+	- Wasaila			IDK			Useless	-	TheOneProbe Rocks !
+	- Wawla				IDK			Useless	-	TheOneProbe Rocks !
+	- XaerosMiniMap			StoneBlock 2		Useless	-	JourneyMap Rules Bitch !
+	- MoreFurnaces			StoneBlock 2		Useless -	FurnaceOverhaul Is Way Better and by PO3 OG Creator
+	- RockCandy			PO3 OG			Useless	-	Theres More Than Enough Food ! xD
+	- Morpheus			StoneBlock 2		Useless	-	Server-Side / Multiplayer Only	Mod
+
+	- ArchitectureCraft		StoneBlock 2		Cosmetical
+	- MightyEnderChicken		StoneBlock 2		Conflicts With Draconic Evolution & Dimensional Edibles
+	- DefaultOptions		StoneBlock 2		Useless -	I Know My Keybinds And Want the Control Over Them :P
+	- FastLadderClimbing		StoneBlock 2		Useless
+	- FastFurnace			StoneBlock 2		Useless	-	Furnace Overhaul is more than fast enough
+	- FastLeaveDecay		StoneBlock 2		Useless	-	OreExcavation cleares leafes anyway
+	- letsencryptcraft		StoneBlock 2		Useless
+	- MineTogether			StoneBlock 2		Useless	-	MultiPlayer Only
+	- ServerLeveType		StoneBlock 2		Useless	-	MultiPlayer Only
+	- NoTemaStahp			StoneBlock 2		Useless -	?
+	- StoneBlockDimensions		StoneBlock 2		Conflicts With Dimensional Edibles
+	- MooFluids			PO3			Useless	-	FluidCows is Better (Stall, Config Options, Cow Items)
+	- RefinedStorage		Speecker		Useless	-	AE2 Rules & Theres Integrated Dynamics for Early Game
+	- Draconic Additions		Speecker		Removed due to Armory & Tools are being unable to be configured :/
+
+	- LagGoggles			Speecker		Debugging Only
+	- TickProfiler			IDK			Debugging Only
+
+	- MFFS				Speecker		No Use Yet (If Its Useful anyway ...)
+
+	Updated:
+	- ArmorPlus
+	- CraftTweaker2
+	- CreativeCore
+	- ExtraCells
+	- FurnaceOverhaul
+	- InventoryTweaks
+	- ModularDiversity
+	- NetherEx		2.0.15 to 2.1.3
+	- NuclearCraft
+	- RandomThings
+	- RFTools
+	- TombStone
+	- TOPAddons 		1.11.0	to	1.13.0
+	- Integrated Dynamics	1.1.0	to	1.1.5
+	- Integrated Tunnels	1.6.10	to	1.6.11
+	- CyclopsCore		1.6.1	to	1.6.3
+
+	New :
+
+	- Cyclic			StoneBlock 2			Unsure
+
+	- ExChangers			StoneBlock 2			Gotta Play With Dis !
+
+	- BedPatch			StoneBlock 2			Vanilla BugFix
+	- BuildCraft			StoneBlock 2			Nostalgia
+	- ChestTransporter		StoneBlock 2			Useful Utility
+	- Chickens			StoneBlock 2			SB2 Questline
+	- ClientTweaks			StoneBlock 2			Vanilla BugFixes & Performance Enhancement
+	- Clipboard			StoneBlock 2			Useful Utility
+	- CommonCapabilities		StoneBlock 2			CompatMod
+	- CompactMachines		Sky Factory 4 / StoneBlock 2	Lag-Deviation Useful & Awesome Space Safer / Room Shrinker
+	- CraftPresence			StoneBlock 2			Discord CompatMod
+	- ExCompressum			StoneBlock 2			Compacter Automated Sifting
+
+	- FlatColoredBlocks		StoneBlock 2			Decorative (Like Chisel)
+	- FluidCows			StoneBlock 2			MooFluids Alternative
+	- FramLand			StoneBlock 2			Faster CropGrowing
+	- FTBLauncherNotifier		StoneBlock 2			?
+	- FTBQuests			StoneBlock 2			SB2 Questlines (Gonna Rewrite / Code Into BetterQuesting - LootTables From Reward Crates ?)
+	- FullScreenWindowed		StoneBlock 2			Useful Utility
+	- Gas Conduits			StoneBlock 2			Useful Utility / EnderIO Expansion
+	- Glacidus			Rustic Waters			Dimension & More Gotta Test Dat !
+	- GooglyEyes			StoneBlock 2			Cosmetical & Funny - So What
+	- Hatchery			StoneBlock 2			SB2 Questline
+	- iChunUtil			StoneBlock 2			Library
+	- IndustrialMeat		StoneBlock 2			Industrial Foregoing Addon
+	- Inspirations			Diverse				Vanilla-Style Enhancements
+	- IntegratedDynamics		StoneBlock 2
+	- IntegratedTunnels		StoneBlock 2
+	- IronBackPacks			StoneBlock 2
+	- ItemFilters			StoneBlock 2
+	- library			StoneBlock 2
+	- LootTweaker			StoneBlock 2
+	- MainMenuScale			StoneBlock 2
+	- MalisisCore			StoneBlock 2
+	- MalisisDoors			StoneBlock 2
+	- MatterOverdrive
+
+	- MineTweakerRecipeMaker	Speecker			Ez Ingame Recipe Creator/Editor
+	- MissingPieces			StoneBlock 2			Vanilla-Style Enhancements
+	- MoreChickens			StoneBlock 2
+	- Morph				StoneBlock 2			Its Morph Duh
+	- NoRecipeBook			StoneBlock 2			Useful (kinda) Utility
+
+	- NotEnoughWands		StoneBlock 2
+	- OreBerries			StoneBlock 2			Nostalgia
+	- packcrashinfo			StoneBlock 2
+	- petrock			StoneBlock 2
+	- Psi				StoneBlock 2
+	- RandomTweaks			StoneBlock 2
+	- RFlux				StoneBlock 2
+	- RFToolsPower			StoneBlock 2
+	- Roost				StoneBlock 2
+
+	- ShadowMC			StoneBlock 2			Library
+	- SimplyLight			StoneBlock 2
+	- SplashAnimation		StoneBlock 2
+	- StoneBlockUtilities		StoneBlock 2
+	- StoneChest			StoneBlock 2
+	- ThaumCraft (+ThaumicJEI)	StoneBlock 2
+	- ThaumicInventoryScanning	StoneBlock 2
+	- ThaumicTerminal		StoneBlock 2
+	- TMel				StoneBlock 2
+	- TorchMaster			StoneBlock 2
+	- TrampleStopper		StoneBlock 2
+	- Translocators			PO3 / SB2
+	- Uppers			StoneBlock 2			No More Farmland Destruction Yay !
+	- VanillaFix			StoneBlock 2			Debugging / Performance Enhancement
+	- VoidIslandControl		StoneBlock 2
+	- WR-CBE			StoneBlock 2			// Wireless Redstone LOOKI LOOKI !
+	- xTones			StoneBlock 2			Decoration (Like Chisel)
+	- ModNameToolTip						Super Useful
+
+	Else New:
+	- PotionCore
+	- EverlastingAbilities-PotionCore
+	- IntegratedCrafting
+	- IntegratedTerminals
+	- EnergySynergy
+	- ThaumicPeripherals
+	- ThaumicAspects4Jei
+	- ThaumicComputers
+	- ThaumicEnergetics
+	- ShulkerToolTip
+	- EquipmentToolTip
+	- WorldToolTip
+
+v3.1a
+	- Exchanged BetterQuesting Triggerer With QuestBook
+	- Added BloodMagic Questing Bridge
+	- Readded Arcane Archives as v0.2.0.15	(v0.2.0.17 Even Wont Start Up ? D: )
+	- Removed NoMoreRecipeConflict - Used /ct conflict to clear conflicts by hand
+	- Added MmmMmmMmmMmm-1.12-1.14 (DMG Test Dummy)
+v3.1.1a
+	- TEST: AdvancedRocketry (+ LibVulpes Library)
+	- Dumped All Entries with TellMe (AdvancedRocketry needed a free DimensionID)
+v3.2
+	- Updated Forge from 14.23.5.2847 to 14.23.5.2854
+	- Changed JEI Beta 4.15.0.293 to JEI Stable 4.15.0.291
+	- Udated Mods:
+		- Cyclic-1.12.2-1.19.16 to Cyclic-1.12.2-1.20.2
+		- pneumaticcraft-repressurized-1.12.2-0.11.12-392 to pneumaticcraft-repressurized-1.12.2-0.11.14-395
+		- LootTweaker-1.12.2-0.0.10 to LootTweaker-0.1.7+MC1.12.2
+		- NetherEx-1.12.2-2.1.3 to NetherEx-1.12.2-2.1.4
+	- New Mods:
+		- lycanitesmobs-1.12.2-2.0.7.1 / got updated same day to 2.0.7.2
+		- Exoplanets-0.0.6-beta
+	- Fails:
+		- DankNull-1.12.2-1.7.91 & p455wordLib 2.3.161 Conflict With Arcane Archives
+		- Project+MMO-1.12-1.3.2	Conflict / Incompatibilty with OreExcavation & ExNihilo Hammering :/
+v3.2.1
+	- Added in AdvancementBook 1.0.3 to safe another keybind
+	- BetterBedRock Added
+	- Set Deep Dark enabled to true !
+v3.2.2
+	- Removed BuildCraft		Lighten Up / Unused
+	- Removed ChestTransporter	Lighten Up / Unused
+	- Readded AmbientSounds3
+v3.2.3
+	- Removed IronBackPacks: Unfinished for 1.12.2 - Upgrades do not work yet and to lighten up
+	- Use Satchels from Thermal wich are even better (with enchantment).
+v3.2.4
+	- Added Black Hole Storage 33r	Solar Flux Addon
+	- Added Tesseract 1.0.2		Nostalgia / Combined Ender Tank/Chest + Energy
+v3.2.5
+	- Added framedcompactdrawers-1.2.5		Framed Compacting Drawer Variant Addon
+	- Added CompactDrawers-1.12.2-1.0.5.125		Halfed Compacting Drawer Variant Addon
+v3.2.6
+	- Added TexFix					Hope It Gives A Performance+
+	- Added Storage Drawers Unlimited
+
+		- Storage Drawers + Translocator cause TickLag if there are too many
+v3.2.7
+	- Added JustEnoughCalculation-1.12.2-3.2.3
+v3.2.7.1
+	- Removed JustEnoughCalculation-1.12.2-3.2.3	- Useless
+v4.0
+	#Suka#Bljat#Kurwa#Im#Fucking#Back#Bitches
+	- Several Mod Updates:
+		- AbyssalCraft			1.9.17		to	1.10.2
+		- AbyssalCraftIntegration	1.9.0		to	1.11.2
+		- Advanced Rocketry		1.7.0-209	to	1.7.0-232
+		- AE2WTLib			1.0.30		to	1.0.34
+		- AmbientSounds			3.0.12		to	3.0.14
+		- AppleCore			3.2.0		to	3.4.0
+		- AppleSkin			1.0.9		to	1.0.14
+		- ArcaneArchives		0.2.0.15	to	0.2.0.25-mixin7		
+		- ArmorPlus			11.26.3.67	to	11.28.0.69
+		- ArmoryExpansion		1.4.1		to	1.4.2
+		- Aroma1997Core			2.0.0.2.b166	to	2.0.0.2.b167
+		- AstralSorcery			1.10.22		to	1.10.27
+		- AvaritiasComplement		1.2a		to	1.4
+		- BadWitherNoCoockieReloaded	3.3.16		to	3.4.18
+		- BetterQuesting		3.5.323		to	3.5.329
+		- BiomeTweaker			3.2.354		to	3.2.268
+		- BrandonsCore			2.4.18.210	to	2.4.19.214
+		- BuildingGadgets		2.8.2		to	2.8.4
+		- CoFHWorld			1.3.1.7		to	1.4.0.1
+		- CommonCapabilities		2.4.4		to	2.4.8
+		- ConArm			2.5.4		to	2.5.9
+		- Controlling			3.0.8		to	3.0.10
+		- CraftTweaker			4.1.20.562	to	4.1.20.586
+		- CreativeCore			1.10.9		to	1.10.25
+		- CTM				1.0.1.30	to	1.0.2.31
+		- Cyclic			1.20.2		to	1.20.5
+		- CyclopsCore			1.6.3		to	1.6.6
+		- DankNull			1.6.80		to	1.7.91
+		- DeepMobLearning		2.5.2		to	2.5.4
+		- DraconicEvolution		2.3.25.351	to	2.3.25.353
+		- EmbersRekindled		1.13-hf2	to	1.14-hf
+		- EnderCore			0.5.73		to	0.5.76
+		- EnderIO			5.1.55		to	5.2.60
+		- EnderIO-Endergy		5.1.55		to	5.2.60
+		- EndermanEvolution		1.0.30		to	1.0.33
+		- EternalSingularities		1.0.6		to	1.0.7
+		- EverlastingAbilities		1.5.2		to	1.5.3
+		- Exchangers			2.8		to	2.9
+		- ExCompressum			3.0.31		to	3.0.32
+		- ExtraPlanets			0.6.2		to	0.7.0
+		- ExpandedEquivalence		13r		to	12.3.16
+		- FluxNetworks			4.0.14-31	to	4.0.15-32
+		- Forestry			5.8.2.387	to	5.8.2.422
+		- FramedCompactDrawers		1.2.5		to	1.2.7
+		- FTBLib			5.4.7.0		to	5.4.7.2
+		- FTBQuests			1.8.0.237	to	1.9.0.12
+		- FTBUtils			5.4.0.124	to	5.4.1.130
+		- GalactiCraftCore		4.0.2.244	to	4.0.2.280
+		- GalacriCraftPlanets		4.0.2.244	to	4.0.2.280
+		- GasConduits			1.2.2		to	1.2.3
+		- GooglyEyes			7.1.0		to	7.1.1
+		- Grue				1.7.0		to	1.8.0
+		- HammerCore / HammerLib	2.0.6.13	to	2.0.6.23
+		- iChunUtil			7.2.1		to	7.2.2
+		- ImmersiveEngineering		0.12-92		to	0.12-98
+		- Inspirations			0.2.6		to	0.2.9
+		- IntegratedCrafting		1.0.9		to	1.0.10
+		- IntegratedDynamics		1.1.5		to	1.1.10
+		- IntegratedTerminals		1.0.13		to	1.0.14
+		- IntegratedTunnels		1.6.11		to	1.6.13
+		- InventoryTweaks		1.64dev-146	to	1.64dev-151
+		- ItemFilters			1.0.3.12	to	1.0.4.2
+		- ItemPhysicsFull		1.4.32		to	1.4.34
+		- JEI				4.15.0.291	to	4.16.1.301
+		- JEIIntegrations		1.5.1.36	to	1.6.0
+		- JEITIF			1.5.1		to	1.5.2
+		- JustEnoughCalculations	3.2.3		to	3.2.4
+		- JustEnoughHarvestCraft	1.7.0		to	1.7.2
+		- LibraryEx			1.1.1		to	1.1.3
+		- LibVulpes			0.4.2-74	to	0.4.2-75
+		- LootTweaker			0.1.7		to	0.2.0
+		- MagnetiCraft			2.8.2		to	2.8.3
+		- MicDoodleCore			4.0.2.244	to	4.0.2.280
+		- MJRLegendsLib			1.1.9		to	1.2.0
+		- Morph				7.1.3		to	7.2.1
+		- MysticalLib			1.6.0		to	1.9.0
+		- NetherEndingOres		1.3		to	1.4
+		- NetherEx			2.1.4		to	2.1.8
+		- NuclearCraft			2.18q		to	2.18x
+		- OpenModularTurrets		3.1.7-367	to	3.1.11-372
+		- p455w0rdslib			2.2.156		to	2.3.161
+		- Patchouli			1.0-20		to	1.0-21
+		- PneumatiCraft			0.11.14-395	to	0.11.15-398
+		- ProjectEX			1.2.0.39	to	1.2.0.40
+		- Psi				1.1-77		to	1.1-78.1
+		- Quark				1.6-178		to	1.6-179
+		- RandomPatches			1.21.0.0	to	1.22.1.3
+		- RandomTweaks			2.7.1.0		to	2.8.2.0
+		- RebornCore			3.19.2.522	to	3.19.4.529
+		- RedstoneArsenal		2.6.3.18	to	2.6.6.1
+		- RedstoneFlux			2.1.0.6		to	2.1.1.1
+		- SimplyJetpacks2		2.2.14.67	to	2.2.16.1
+		- SmoothFont			2.1.1		to	2.1.2
+		- SolarFluxReborn		12.3.8		to	12.4.11
+		- Soot				1.6		to	1.10-hf
+		- StorageDrawers		5.4.1		to	5.4.2
+		- Tesseract			1.0.2		to	1.0.12
+		- ThermalCultivation		0.3.3.12	to	0.3.6.1
+		- ThermalDynamics		2.5.5.21	to	2.5.6.1
+		- ThermalExpansion		5.5.4.43	to	5.5.7.1
+		- ThermalFoundation		2.6.3.27	to	2.6.7.1
+		- ThermalInnovation		0.3.3.12	to	0.3.6.1
+		- TombStone			3.7.1		to	4.0.0
+		- TorchMaster			1.8.0.79	to	1.8.4.84
+		- TweakersConstruct		1.5.2		to	1.5.4
+		- TwilightForest		3.10.1013	to	3.11.1021
+		- WirelessCraftingTerminal	3.12.93		to	3.12.97
+		- xTones			1.0.8-11	to	1.2.1
+
+	- Added New Dependancy:
+		- asmodeuscore			0.0.19
+
+	- Added Some New Mods:
+		- infiniTiC			0.1.46
+		- FWPArchitecturalEnhancements	2.1
+		- PotionDescriptions		1.1
+		- IFOCCompat			0.1
+		- ExtraCPUs			1.0.0
+		- Fluid Drawers 1.0.1	+ LibNine 0.0.19
+v4.0.1
+	- removed ExtraCPUs 1.0.0 because it doesnt work yet :/
+	- updated DefaultQuests.json for BetterQuesting
+	- removed EnderTweaker because current Version 1.2.0 doesnt support EnderIO 5.2.60 yet (still just at 5.1.53)
+v4.1.0
+	- Backdated EnderIO in order to implement EnderTweaker again
+		- EnderTweaker 1.2.0
+		- EnderIO		5.2.60	to	5.1.53
+		- EnderIO Endergy	5.2.60	to	5.1.53
+		- GasConduits		1.2.3	to	1.2.2
+	- Added MoreTwekaer		1.0.16
+	- Removed Morpheus		1.12.2-3.5.106		Server-Side Only Mod
+	- Added PickUpNotifier
+v4.1.1
+	- Added ExtraCPUs		1.1.0			Now Working
+	- Added rltime24 argument into IngameInfoXML.json	May it work ? Nope :/ but then yayte
+	- Updated OpenModularTurrets	3.1.11-372	to	3.1.12-378
+	- Added thaumicwands-1.2.5
+	- Added AuraControl-1.12.2-1.0.2
+	- Added ThaumicAugmentation-1.12.2-2.0.8
+v4.1.2
+	- Reimplementation of PlustTiC (8.0.0.1)
+		- Backdated SimplyJetpacks2 from	2.2.16.1	to	2.2.15.69 due to Incompatibility with PlusTiC and minor bugs
+		- Removed Materialis			1.2.1		cause it just served as alternative option to PlusTiC
+	- Removed ChickenASM 1.0.2.7 sitting inside 1.12.2 Folder
+		- Unused and newer Version (1.0.2.9) is already in main Folder / Came Back
+		- Must Be ChickenASM Itself Creating It There
+v4.1.3	aka "The Omnifactory Age Update"
+	- Added ModularMachinery Machines from OmniFactory
+		- Cryogenic Air Distillation
+		- Large Microverse
+		- Lunar Mining Station
+		- Medium Microverse
+		- Naquadah Reactor MK1
+		- Naquadah Reactor MK2
+		- Oil Drilling Rig
+		- Small Microverse
+		- Gotta cleanup gregtech ingredients and swap them with something equal
+	- Added General assets from OmniFactory
+v4.1.4
+	- Updated FluidDrawers from 	1.0.1	to 	1.0.2
+		- Added support for framed drawer controllers from the Framed Compacting Drawers mod.
+		- Fixed a bug where framed tanks couldn't be framed in a framing table.
+		- Added the zh_cn locale (translations courtesy of ChromaPIE).
+	- Added NoExpensive 1.1.1
+	- Added EvenMoDiscs
+	- Added EnvironmentalMaterials 1.0.20.1
+v4.2.0	aka "The GregTech Age Update"
+	- Added Gregtech Community Edition	1.10.1.557
+	- Added ShadowsOfGreg			2.14.0
+	- Added CEU				1.0.4.3
+	- Added MorePlates			5.5.2
+	- Added Lib Dependency	MoreLibs	1.2.2
+	- Added	PackagedAuto			1.0.3.14
+	- Added PackagedExCrafting		1.0.1.2
+v5.0	aka "The Final Version - Config-, Script- or Tweaking-Changes Only from now on! (Except Mod Updates for sure :D)"
+	- Added QuarkInfo.zs
+	- Added OmniFactory ContentTweaker.json as omnifactory.json in scripts/contenttweaker
+	- Merged configs from Omnifactory into existing POSZBA config folder (no overrides)
+v5.0.1
+	- Replaced all_furnace_recipes_vanilla with new combined all_furnace_recipes
+	- Moved Recipe for Landia Soil from Beast cfg to All cfg
+	- JAOPCA GTCE Update:
+		- Ore Chunks implementations for ExNihilo
+			- Uranium 235
+			- Silicon
+			- Niobium
+			- Neodymium
+			- Naquadah Enriched
+			- Naquadah
+			- Molybdenium
+			- Mercury
+			- Graphite
+			- Desh
+			- Dark Iron
+			- Carbon
+			- Boron
+			- Bismuth
+			- Beryllium
+			- Abyssalnite
+	- Craeted beast_factorizer_ressource and cut out all inside beast_recipes_on_workbench (deleted)
+	  to clean up Crafting Recipes between Nuggets/Ingots/Blocks and else to be used with the Factorizer only WIP
+v5.0.2
+	- Backdated InventoryTweaks from 1.64-dev151 to 1.63 for Stability
+	- Removed TimeHUD because System Time (RealTime) can be shown with InGameInfoXML
+	- Set missing EMC Values
+	- Fixed Recipe: Iron Rod
+	- Edited Recipe: Factorizer (added 2x Packager from Cyclic)
+	- Nerfed StorageDrawers Max Range to 7 Blocks each side
+	- Backdated Morph from 7.2.1 to 7.1.3 because of Visual bugs in Invetory while in Morph form
+v5.0.3
+	- Fixed Recipes: Wooden Gear: - Double & Unmatched - AE2 had none yet - Equalized all 3 (EIO/TF/AE2)
+	- Recipe Changes for Jetpacks to better the progression for all jetpacks
+v5.0.4
+	- Swapped IGI with BetterHUD because EMC View Cant be Implemented with IGI
+		- InGameInfoXML			2.8.2.94-universal
+			- IGI-BloodMagic	1.2
+			- IGI-RFTools		1.2
+		- BetterHUD			1.4.3
+v5.0.5
+	- Cleaned Up and Rewrote the beast_factorizer_resources because the old writing broke crafting recipes for some resources - wasnt inteded to !
+	- Merged Scripts for Recipes
+	- Merged Scripts:
+		- all_3x3			with	beast_3x3
+		- all_9x9			with	best_9x9
+		- all_actually_additions	with	beast_aa	and renamed it to beast_actually_additions
+		- all_bm			with	beast_bm	and renamed it to beast_bloodmagic
+		- all_botania			with	beast_botania
+		- all_comnimation		with	beast_combination
+		- all_enderio			with	beast_enderio
+		- all_immersive			with	beast_immersive	and renamed it to beast_immersive_engineering
+		- all_pneumatic			with	beast_pneumaticcraft
+		- all_tconstruct		with	beast_tconstruct
+	- Moved & Renamed all_chisel		to	beast_chisel
+	- Moved & Renamed all_compression	to	beast_galacticraft_compression
+	- Moved & Renamed all_extended		to	beast_extended_compression
+	- Moved & Renamed all_furnace_recipes	to	beast_vanilla_furnace_recipes
+	- Moved & Renamed all_JEI		to	beast_jei
+	- Moved & Renamed all_loot		to	beast_loot_tables
+	- Moved & Renamed all_magneticraft	to	beast_magneticraft
+	- Moved & Renamed all_oredict		to	beast_oredict
+	- Moved & Renamed all_quark_info	to	beast_quark_info
+	- Moved & Renamed all_recipe_fixes	to	beast_recipe_fixes
+	- Moved & Renamed all_rename		to	beast_rename
+	- Moved & Renamed all_tooltips		to	beast_tooltips
+	- Moved & Renamed all_tileentities	to	beast_tileentities_fixes
+	- Moved & Renamed all_nuclearcraft	to	beast_nuclearcraft and moved NC Stuff from tileentities_fixes inside
+	- Added Importers	inside	beast_nuclearcraft
+	- Added Importers	inside	beast_actually_additions
+	- Added Importers	inside	beast_tconstruct
+	- Added Importers	inside	beast_avaritia_removals
+	- Added Importers	inside	beast_bloodmagic
+	- Added Importers	inside	beast_thermal
+	- Added Importers	inside	beast_magneticraft
+	- Moved Factorizer Recipes from beast_thermal into beast beast_factorizer_resources
+	- Renamed beast_factorizer_resources	to	beast_thermal_factorizer_resources
+	- Implemented	beast_dimensional_cakes	from Omnifactory with GTCE Ingredients to up difficulty
+v5.0.6
+	- Changed Methods to use recipe removals by recipe name to remove only specific recipes inside beast_thermal_factorizer_ressources
+	- Added RemoveAllOccurencies to HotFix GregTech breaking Crafting Recipes for certain stuff
+	- Added Renaming for Transistors (GregTech/OpenComputers/PneumaticCraft) to match progression as "Basic/Advanced/High-End"
+	- Factorizer Nugget/Ingot/Block Cleanup:
+		- Coal		//TEMPLATE
+		- Lunar
+		- Litherite
+	- Added Importers	inside	beast_3x3
+	- Added Importers	inside	beast_5x5
+v5.1.0
+	- Added The Midnight		0.3.5	New Dimension
+	- Added RockHounding		3.48	Alchemistry Addon
+		- Dependecy	gbook	2.9.5
+		- Dependency	RHCore	3.22
+	- Added ME Capability Adapter	1.1.0	AE2 Compat Addon
+	- Added WirelessTerminals Expansions:
+		- WirelessFluidTerminal		1.0.4
+		- WirelessPatternTerminal	1.0.3
+		- WirelessInterfaceTerminal	1.0.2
+	- Unification Tinkering:
+		- Added InstantUnifier
+		- Proper Config Setup
+	- WIP Adding Unification
+	- Updated Ressource Pack
+v5.1.1
+	- Refreshed the files in config/ExpandedEquivalence
+	- Fixed UniDict Entries and added their prefixes (ingotXYZ):
+		- Cesium/Caesium
+		- InertBloodIngot
+		- Removed Blutonium from Plutonium because Plutonium is generating PPlutonium 242	
+
+=====================(SOFT)CRASH:Concurrent.ExecutionException==========================NEW_WORLD===============saves_CLEARANCE)=============================================================
+
+v6.0.0
+	- Removed GooglyEyes 7.1.1 beauces iChunUtils And Morph Caused A Concurrent.ExecutionException wich corrupted the savegame File !
+		- iChunUtil source states:
+			- "Wait for post init before firing RendererSafeCompatibilityEvent. Should fix crashes with iChunUtil and GooglyEyes when paired with certain mod configurations."
+			- SHOULD, seems like it did not fully fix that issue :(
+		- Note: Had Some Mod Changes/Additions/Removals in between ...
+	- New savegame and clearance of saves Folder to ensures Morph isnt doing filthy things between different savegames
+	- reverted changes to config/ExpendedEquivalence and moved it to Backup. New Autogenerated files
+	- removed config/expequiev and it didnt regenerate - seems to be outdated, so i kept it removed
+	- Trying to solve the Moprh Issue	I Give Up On That one / Gotta Wait Until The Ability Systems Is Stable :/
+		- GooglyEyes Removed
+		- iChunUtil 7.2.2 paired with Morph 7.2.1		Issue Occurs Irregular/Looking At Certain Directions Triggers The Issue While Other Direction Function 
+		- iChunUtil 7.2.2 paired with Morph 7.1.3		Same as iCU 7.2.2 with M 7.2.1
+		- iChunUtil 7.2.1 paired with Morph 7.2.1		Issue occurs Always
+		- iChunUtil 7.2.1 paired with Morph 7.1.3 (Pre v4.0)	NOPE D: IDK THE FC WHATS WRONG :(
+		- Kept iChunUtil 7.2.2 paired with Morph 7.2.1		Must Be Updated By Mod Author
+v6.0.1
+	- Changed Up The Chickens Lay/Drop Items to be Essences (if one exists) to nerf them on one hand but also to create consistency to progression and
+	  ease merging Storage Drawers Auto Conversion with Mystical Crops and Sifting Output to decrease the number of required Storage Drawers on the other.
+	  (Nuggets to Essences, Ingots to Nuggets, Crystals to Shards)
+	- Added Storage Drawers Conversions:
+		- Experience Droplet * 9	to	Solidified Experience
+	- Added Factorizer Conversions:
+		- Experience Droplet * 9	to	Solidified Experience
+	- Added Unification to UniDict:
+		- Kind: gem
+		- Cinnabar
+	- Changed config Option dynamicItemModels to false in foamfix to solve the white TiC Tool & Armor Issue
+	- Removed EMC Values for Additional Seeds/Essences coming from New Mod Additions
+v6.0.2
+	- Fixed Missing Recipe Progression For Compacted Nether Star Blocks (Gregtech Nether Star Block Needs Just 4 Stars)
+	- Fixed Missing Recipes For Infinite Storage Upgrades
+	- Fixed EMC Values For Gear & Plate Of Tin, Silver, Lead & Tungsten
+	- Added Various Missing EMC Values
+	- Added Epsilon Quests with/for GTCE and Deep Mob Learning
+	- Added Quests for Compact Machines in Zeta
+	- Added Quests for Big/Extreme Reactors in Theta
+	- Added Magneticraft In UniDict Config On Highest Priority to Ensure The Magneticraft Machines Work Properly
+	- Changed Conversions For StorageDrawers Accordingly
+	- Started to Add StorageDrawers Conversions for GregTechCE Essence made by JAOPCA
+	- ResourcePack Update to v3.7.4
+	- Changed UniDict Config Value "autoHideInJEI" to "false" for debugging purpose
+	- Framland Update:
+		- Added/Edited Recipes For Framland/Drit and the Thunder Hoe
+		- Edited config
+	- Buffed Up StorageDrawers to have 32 Block-Range on each side (7 Were Way too less ... sigh.)
+v6.0.3
+	- JAOPCA config edits:
+		- BlackListed mysticalagriculture for Astral Starmetal & Black Quartz
+		- Blacklisted molten & tinkersconstruct for Astral Sorcery as PlusTiC is adding it in already
+	- Went On With Storage Drawers Conversions For GregTech and else
+	- Removed EMC Values from Seeds and Essences wich still had one
+	- Edited Neutronium Pile EMC to Buff it up
+	- Trying To Fix "Already Constructing Verticals" Issue with InfinityLib 1.12.0 instead of 1.12.2 IDK
+
+=====================(SOFT)CRASH:ConcurrentModification==========================NEW_WORLD_SOON============================================================================
+
+v6.1.0
+	- Further Additions Of Storage Drawers Conversions For Essences (Especially GTCE / JAOPCA)
+	- Added JAOPCACustom		2.2.2.14
+	- Added Metallurgy 4 Reforged	1.1.2
+	- Added Storage Drawers Conversions for Metallurgy Essences (From JAOPCA)
+	- ResourcePack Update to v3.7.6
+v6.1.1
+	- Removed JAOPCACustom		2.2.2.14	Does Not What I Wanted From It :/
+	- Added (Reimplemented) Project-MMO	1.3.6
+	- Unidict config:
+		- Changed Magneticraft from High Priority to ModBlackList because of the way it was coded ... dunno what i might do bout the duplicates --- lets see
+			- Revised
+	- Removed //Single-Line-Comment in beast_recipes_[...] because it seems to act like never ending /*Multiline-Comment*/ in some scripts for whatever reason
+	- Magneticraft Script Rewrite with importers & UniDict keepOneEntry Compat
+v6.1.2
+	- ReEdited SimplyJetpacks Recipes & Progression
+		- Buffed Ender Jetplate to 125M RF as it is the Final Tier (Combined 50M Previous Jetpack + 40M Capacitor)
+	- Edited BQ - Eta
+		- Jetpack Progression Implementation (+ Renaming & Description Values)
+v6.1.3
+	- ResourcePack Update to v4.0.0a0/v4.0.0a0f
+	- Correction Of StorageDrawers Conversions due to revised Magneticraft Priority
+	- Added Better Questing Themes (at /config/betterquesting/themes)
+	- Script Rework & Sortation
+		- beast_recipes_add_shaped I/II rearranged and sorted to beast_recipes_add_shaped a-g/h-z
+	- Added Missing Localizations for AdvancedRocketry
+	- Added Missing Localizations for Gregtech
+	- Remove & Hide in JEI for OMLib Useless Items with Missing Texture (Fake Sword / Network Cable)
+	- Remove & Hide in JEI for RFTools Shielding Blocks Items with Missing Texture
+	- Remove & Hide in JEI for LibVulpes Temp Items with Missing Texture
+v6.1.4
+	- Added TiC Melting Recipes
+		- Alduorite, Ceruclase, Kalendrite, Lemurite, Midasium, Vyroxeres
+	- Added Missing Recipe For Mob Grinding Utils Dark Oak Stone
+
+=====================(SOFT)CRASH:ConcurrentModification==========================NEW_WORLD============================================================================
+
+v6.2.0
+	- Fixed Minor Issues:
+		- Corrected The HammerRegistry (ExNihilo) for Compressed Sand to Compressed Dust
+		- Fixed Missing Early Game Recipes
+			- Iron Gear & Bars
+	- Set Up the config for Metallurgy - Reforged
+	- Rearrangement & Sorting for beast_recipes_remove script finished
+	- Added Coke/FuelCoke & Stone To UniDict
+	- Swapped EnderIO/ThermalFoundation Priority in UniDict
+v6.2.1
+	- ResourcePack Update to v4.0.0a4
+	- Fixed Minor Issues:
+		- FurnaceOverhaul now has Clean/Clear Texture Styling
+
+=====================(SOFT)CRASH:ConcurrentModification==========================NEW_WORLD============================================================================
+
+v6.3.0
+	- Added New Mods:
+		- ImmersiveTech	1.3.10
+		- Rustic	1.1.6
+	- Updated Mods:
+		- CreativeCore		from	1.10.25		to	1.10.28
+		- FluidDrawers		from	1.0.2		to	1.0.4
+		- libnine		from	1.1.9		to	1.2.0
+		- NuclearCraft		from	2.18x		to	2.18y
+		- TweakersContruct	from	1.5.4		to	1.5.5
+	- ResourcePack Update to v5.0
+	- Changed MainMenu BackGround to PO3
+
+NOPE		NOPE			NOPE
+
+	- BaubleShulkerbox
+	- BotanicAdditions
+	- EquivalentAdditions
+	- ThaumicAdditions
+
+v6.3.1
+	- Edited (Added) Sawmill Recipes in beast_thermal so Logs from Erebus, ExtraUtils2, LandCraft, Minecraft (Vanilla), Natura, PamsHarvestCraft, RandomThings
+	  and from Abyssalcraft (partly - due to deobfuscation by progression) will give 6 Planks per Log each as the Sawmill is inteded to do so.
+	- ResourcePack Update: FDHC PSOZ [v5.1]
+v6.3.2
+	- Edited /config/fluidcows/ & /config/infiniTiC/ WIP
+
+	- Removed CraftingRecipe for Redstone Block as it conflicts with RedAlloy and shoulnt be made by hand. - Use Redstone Ingot (Made out of 6 Redstone) and combine them
+	  in a Factorizer
+	- Removed Compressed Recpies from EnderIO SAG Mill to force the usage of the Auto-Dissolver
+v6.3.3
+	- Removed Morph due to Crash and Instability as well as the Inventory Glitch
+	- Added The Aether II
+v6.4.0
+	- Added MatallurgyTweaks Scripts
+	- Added NCEIB Scripts
+	- Added AoA3	3.3.6	(Advent of Ascension / Nevermine) / Aether II got removed due to the fact that its still an Alpha Dev-Build
+	- Added LagGoggles	5.8-132	to Debug
+		- Dependency Lib:	TickCentral	2.6
+v6.4.1
+	- Fixed MetallurgyTweaks Issues with v1.3
+	- Changed Up The CustomMainMenu so that The PO3 Background is Shown when hovering over Thumb-Buttons
+v6.4.2
+	- Added AoAInfo		1.1.3
+	- Added Jade to UniDict as AoA added it as well
+	- Interated and Unified Chocolate (+Variants)
+	- Removed LycaniteMobs
+
+v7.0.0	"Full Version"
+	- ReBuilt mods from the ground up and made a clear differentiation between OG PO3 and Addons / Expansions / Content and Utilities to lighten up the pack
+	- See _Additions_And_Edits inside .*/mods/ to view all Changes
+	- Made anything in scipts that died out a comment or removed it to avoid Error Throwing
+v7.0.1
+	- Further Metallurgy Integration:
+		- Variable OreDict Entry usage for Metallurgy Machines
+		- Integration with JAOPCAs generated Ore Pieces into ExNihilo Sifting System
+	- Added Neutral Metals from newer OG PO3 (.3.61)
+	- Added a ToolTip for the RandomThings Igniter
+v7.1.0
+	- Removed (OverThrown) Mods:
+		- NotEnoughWands
+		- StorageDrawersUnlimited	All Variants can be made with Framed Drawers
+						wich use the Resourcepacks Texture instead of Default
+		- RFToolsPower			Redundant - EnderIO Capacitor Banks do it way better.
+		- ConQuest Reforged		Added too much stuff. (Some are rly unwanted) sorry ...
+	- Added in missed Mods from v6.4.2
+		- PetRock
+		- StoneBlockUtilities
+		- StoneChest
+		- tc6aspects4jei
+		- blockdrops (v1.4.0)
+
+	- Liquid/Fluid Tanks Comparison:
+		- Added Tooltips for Capacities, Usefulness, Warnings and else
+		- Changed Recipe for IF Black Hole Tank to make it fit into progression
+		  and to not pass over the Overloaded Infninte Tank or the Quantum(Flux) Tank
+	- Removed Recipe for Galacticraft Fluid Tank and did a R&H for Jei as there a more than enough Tank Alternatives
+	- Added JEI R&H for ConArm Helmet Cores
+	- Added Progression to Tank Recipes
+	- Added Progression to 2B/Infnite Item Storages
+	- Updated Recipes for Infninte Upgrades for Barrels and Drawers
+	- Edited Recipes for Building Gadgets Tools
+	- Fixed Quantum Storage Crate Recipe using Diamonds again instead of Emeralds 
+v7.1.1
+	- Minor Fixes:
+		- StorageDrawers Conversions
+		- Red Alloy & Electrotine Alloy Automation Compat & Integration
+	- Buffed Up Storage Drawers Controller Range to 128 in order to allow FreeForm Builds
+		- Added Same Tooltip for Framed Variant
+	- Edited Optional ingredients for ActuallyAdditions recipes
+	- ReCorected Chickens Stackssize
+
+v8.0.0b	"Perfected / Beta" - lightened up the pack. PSOZ v7.1.1 and earlier Versions are too beefy yet.
+	Renamed Project StoneZone BeastMode Alpha to PSOZ "Alpha" and from v8.0.0 onwards
+	The name goes as "Perfected" to differentiate them from each other
+	- Reworked the ReBuild of the Pack
+	See /mods/"_Enhancements" as well as /documentation/"_Additions_And_Edits_OnTop_OG_PO3_v7.0.0.txt" & "_Mods_That_Fell_Apart_From_6.4.2" for all changes
+	- For all overthrown and kept mods compare the BackUps [v7.1.1] (446 Mods) with [v8.0.0] (375 Mods)
+	- Configs got moved to v8.0.0 and will be changed further there and added back into v7.1.1 as they
+	  become final and the "Alpha" Pack may have a machine it can run on (with CustomTextures) as smooth (or even better) as "Beta"/"Perfected"
+	- Edited config for QuantumFlux
+v8.0.1b
+	- Further StorageDrawers Conversions
+	- Fixed Some of the Missing Sound Issues for FluidCows Quests
+	- Made A Backup as v8.0.0 (forgot to do one yaiks)
+	- Fixed Recipes for Double & Triple Compressed Nether Star Blocks for all packmodes
+	- Added the Modular Machinery "Simple Synthetic Cow Breeder" to automate cow breeding for new Cow Types.
+	- Added the Modular Machinery "Advanced Synthetic Cow Breeder" to automate cow breeding and creation with way less block amounts needed.
+v8.1.0b
+	- Added ParticleCulling (v1.0.1) as it may decrease FPS Lag (Up FPS) by Only display Particles in the current FOV
+	- Addeed AnvilTooltips		v1.0.0		- Tooltips
+	- Added Durability101		v0.0.3		- Tooltips
+	- Added EMCGadgets		v1.0.2.9	- Expansion Addon
+		- Added Tooltips to Inform about the need of having a Transmutation Tablet in Player Inventory
+	- Added AvaritiaIO		v1.4		- Expansion
+	- Added BringMeTheRings		v0.4		- Utility Expansion for more Bauble Slots
+	- Added MysticalCreations	v1.4		- Tweaking / Custom MystCrops Yaite
+	- Added ExplosionCraft		v0.7		- Tweaking
+	- Added FoodTweaker		v1.1.2		- Tweaking
+	- Added Rifting					- Midnight Addon / Utility Expansion
+	- Added Changeling		v1.2.3		- Alternative/Replacement for/of Morph
+		+ MCLib v2.1.1
+	- Added [___MixinCompat-0.8___] to solve any mixins loading issues or other loadup issues related to mixins
+	- ReImp Exchangers (Sry but i fell in love with it ...) - To do: BeastMode recipes for BuildingGadgets
+	- ReImp VoidCraft/VoidScape	v0.26.10
+		+ Added BadMobs		v1.1.40		This Should Fix The Acid Spawning Issues
+	- Replaced OverPoweredInventory with ProjectStorage as an alternative due to the minor slot glitches (has pros & cons)
+		+ LimeLib	v1.7.12
+	- Added BaubleShulkerBoxes to have a Ender Chest Slot Alternative to OverpoweredInventory
+
+	- ImmersiveTwaker wasnt Installed: It caused OG IE Machines to be unable to be built on rightclick with Engineers Hammer
+	- EMCBuildersWand v1.9 wasnt installed because it doesnt work ...
+	- GeneticsReborn v1.29 wanted to ReImp It but Changeling happened :D
+v8.1.1b
+	- Added ReSkillable	v1.13.0
+	- Added CompatSkills	v1.17.0
+	- Added ExtraSkills	v1.0.2
+	- Added BaublesHUD	v5.0.2
+	- Added IEClocheCompat	v2.1.7-dev.454
+	- Added In-Game Wiki	v1.4.4-15
+	- ReReplaced BetterHUD with RPG HUD
+	- ReImplemented ActuallyBaubles
+v8.1.2b
+	- Removed ActuallyBaubles as its obsolete
+	- Added JEROreIntegration	v1.1.0		JustEnoughResources Addon
+	- Added AnvilFix		v1.0.5		NoXPLimit for Anvils
+	- Added Attributes		v1.0.1		Addon for ReSkillable
+	- Added ClocheCalls		v1.1.2		IE Cloche Compat (for even more ModIntegrations)
+	- Added MekaTweaker		v1.2.0		Mekanism Gas & Registry Tweaker
+v8.1.3b
+	- Added The Aether I	Suit	v1.5.2
+		- Aether Continuation	v1.0.3
+		- AetherAshenArmor	v1.2.1
+		- AetherWorks		v1.0.0.3
+		- ExtraMoas		v1.2.1
+		- AEAdditions (Aether)	v1.2
+		- LostAetherContent	v1.0.2
+
+	- Added Further Addons
+		- CarryOn		v1.12.3.15
+		- TConEvo		v1.0.37
+			+ LibNine	v1.2.0
+		- Dynamistics		v1.0.2
+
+v8.0.0e	"Experimental" - No Custom Textures and AllTheMods Version - literally ALL ...
+	- See File "_Experimental Mod Additions" for details on Mod Changes etc. (/root/PSOZ Experimental/documentation/)
+
+v9.0.0a	Alpha Version Is Now The Main WIP Version Again !
+
+	- ResourcePack Update to v6.0
+
+	- Moved config, documentation, mods, scripts etc. to Alpha with Override
+	- moved documentation to Standalone "PSOZ Documentation"-Folder to avoid chaotic generation of multiple inconsistent versions
+	- removed mods that are either duplicated or no longer used as main variants
+
+	Addings/ReImps:
+		- ARTweaker			v1.0.0		Tweaking
+		- BlockDropsTweaker		v2.4		Tweaking
+		- CompactMachines3		v3.0.18-b278	ReImp
+			+ CapabilityAdapter	v1.1.0
+		- GregTechCommunityEdition	v1.10.5.582	ReImp
+			+ CEU			v1.0.4.3
+			+ GregsContruct		v1.0.1
+			+ GregTechSieves	v1.1.0
+			+ GTCE2OC		v1.8.0
+			+ ShadowsOfGreg		v2.15.0
+		- DeepMobAffixes		v1.0.0		Tweaking Addon
+		- EssentialCraftUnofficial	v4.9.112.5	Expansion
+			+ DummyCoreUnofficial	v2.4.112.5
+		- ExtremeCobbleGenerator	v1.0.0.7	Highest Tier CobbelGen above the Creative One but this One needs Energy to run
+		- GetXPForEveryThing		v1.12.2		Utility to Ease XP Gathering Passively
+		- NoMoreRecipeConflicts		v0.13		ReImp for Debug
+		- RandomThingsTweaker		v1.2		Tweaking
+		- TinkersCompendium		v1.4.2.38	Tinker Addon / Expansion
+		- Treasure2			vf14.23.5.2768-v1.13.1	Expansion
+			+ GottschCore		vf14.23.5.2768-v1.13.1
+		- ForbiddenArcanus		v1.1.4		Expansion
+		- TorchMaster			v1.8.4.84	Expansion
+		- BaubleShulkerBoxes		v4r		Addon/Expansion/Utility
+		- SimpleSmelteryAccelerator	v1.0.1		Addon
+		- DivineRPG			v1.7.1		Expansion-Addon
+	
+	Forestry:
+		- Forestry			v5.8.2.422
+		- ForestryEngineTweaker		v1.0.0
+		- Binnie-Mods			v2.5.1.203
+		- Gendustry			v1.6.5.8
+		- GendustryJEI			v1.0.2
+		- JEIBees			v0.9.0.5
+		- MagicBees			v3.2.25
+		- MoreBees			v2.0.1
+		- MultiFarmCrops		v1.2.0
+
+	ThaumCraft Addons / Expansions
+		- AetherAspects			v1.2
+		- ExpandedArcanum		v1.0.1
+		- RusticThaumaturgy		v4.4a
+		- ThaumicGadgets		v0.1.5.1_tb.26
+		- ThaumicAdditions		v12.6.6
+		- ThaumicBases			v3.3.500.6r
+			+ DummyCoreUnofficial	v2.4.112.5
+		- ThaumicEquivalence		v1.0.5
+		- ThaumicTinkerer		v5.0-620a0c5
+
+	ImmersiveEngineering Addons / Expansions
+		- ImmersiveCables		v1.3.2
+		- ImmersiveIntelligence		v0.1.1
+		- ImmersiveRuins		v1.0
+	
+	Psi:
+		- PsiAddons			v1.1.05
+			+ LibrarianLib		v4.22
+		- PsiPeripherals		v1.1.0
+			+ LibrarianLib		v4.22
+		- Psi				vr1.1-78.2
+		- rPSIdeas			v2.4.2
+
+v9.0.1a
+	- Added Compat for Alchemistry Ingots to be formed into Plates on the Magneticraft Crushing Table (all_magneticraft.zs)
+	- Created & Added Fixes for GTCE inside all_recipe_fixes_gtce.zs
+		- Primitive Blast Furnace
+	- BQ Questlines
+		- Epsilon GTCE
+		- Aether Dimension Implementation
+		- Hunting Dimension Location Requirement Fix
+	- Added ExNihilo HammerRegistry and Edited Overloaded Compressed Netherrack to Crushed Netherrack to have more consistent Hammer Mechanics
+	- Added Beast-Mode Headers to any all_... Scripts that missed it
+v9.0.2a
+	- Banned DivineRPG-Mobs: Crab & KingCrab form Spawning as they pollute the Overworld (Same As Quark Frogs: Dont Care About Light Level) - Sry but we gotta keep TPS stable
+	- Replaced BadMobs with InControl as BadMobs can only deny spawns in general.
+	  InControl can deny for specific dimension(s) and has also much more options for custom configurations.
+	- Fixed Overloaded Compressed Blocks Netherrack Issue (hopefully)
+v9.0.3g	"Gamma"-Version (See Version Seperation) aka "Forestric Thaumaturgic Bee-Genetics"-Update
+	- Copied Beta and moved The Aether I Suite into Gamma
+
+	- Added Suits:
+
+	The Aether I (v1.5.2)
+		- AEAdditions (Aether)	v1.2
+		- AetherAspects		1.7.10-1.2
+		- Aether Continuation	v1.0.3
+		- AetherAshenArmor	v1.2.1
+		- AetherWorks		v1.0.0.3
+		- ExtraMoas		v1.2.1
+		- LostAetherContent	v1.0.2
+
+	Forestry:
+		- Forestry			v5.8.2.422
+		- ForestryEngineTweaker		v1.0.0
+		- Binnie-Mods			v2.5.1.203
+		- Gendustry			v1.6.5.8
+		- GendustryJEI			v1.0.2
+		- JEIBees			v0.9.0.5
+		- MagicBees			v3.2.25
+		- MoreBees			v2.0.1
+		- MultiFarmCrops		v1.2.0
+
+	ThaumCraft Addons / Expansions
+		- ExpandedArcanum		v1.0.1
+		- EssentialCraft4Unofficial	v4.9.112.5
+			+ DummyCoreUnofficial	v2.4.112.5
+		- RusticThaumaturgy		v4.4a
+		- ThaumicGadgets		v0.1.5.1_tb.26
+		- ThaumicAdditions		v12.6.6
+		- ThaumicAugmentation		v2.0.8
+		- ThaumicBases			v3.3.500.6r
+			+ DummyCoreUnofficial	v2.4.112.5
+		- ThaumicComputers		v0.5.1
+		- ThaumicEnergistics		v2.2.4
+		- ThaumicEquivalence		v1.0.5
+		- ThaumicInventoryScanning	v2.0.10
+		- ThaumicJEI			v1.6.0-27
+		- ThaumicPeriphery		v0.3.1
+		- ThaumicTerminal		v1.0.12
+		- ThaumicTinkerer		v5.0-620a0c5
+		- ThaumicWands			v1.2.5
+	- ReImp EternalSingularities
+	- Resourcepack Update to v6.1
+	- Further StorageDrawers Conversions
+	- Removed Baubles-HUD as it is Redundant
+v9.1.0g "Seed Layout Alpha"
+	- Added/Edited Seed Quests for all JAOPCA Seeds and any missing
+	- Removed modnametooltip as it is obsolete and just duplicating a ModNameTooltip
+	- Minor ResourcePack fixes
+v9.1.1g
+	- ReImp DraconicAdditions
+	- ReImp AdvncedRocketry + ARTweaker + LibVulpes
+	- Replaced Emerald With RAK as Currency for The FarmingForBlockHeads Market and Enabled Animal Spawn Egg & Forestry Sapling Selling
+	- Added OreDict Entries for Titanium and Iridium inside UNidict that came from LibVulpes and ThermalSolars/ThermalSeries
+	- Set JAOPCA to 3rd Highest Priority in UniDict to avoid OreChunk Issues and else
+v9.1.2g
+	- Updated Metallurgy4	from	1.1.2	to	1.2.0
+	- Added ToughNessBar	v2.4	- Utility Mod to have a Armor Toughness Bar
+	- Added Jade		v0.1.0	- WAILA Addon
+	- ReWIP Armor Progression (Staging, Crafting Recipes, Valuation etc.)	-	Basic WorkBench is done (Except ExtraPlanets - Gotta PlayTest)
+	- AoA3 Compat:
+		- Added Compressed Versions of Basalt using Overloaded to make use of it as ingredient to have an alternative to gathering Ancient Rock
+		  due to the fact that The Ruined Portals wont spawn in a SkyBlock World ...
+		- Added Runium Ore & Charged Runium Ore to the Laser Drill for the same reason
+		- Added Recipe for the SpawnEgg of the Corrupted Traveler also for the same reason
+	- BQ WIP
+	- Testing weather or not ArmorToughnessBar may be obsolete or not so left it out for next run. Will be kept out if true.
+		Is Obsolete: true
+
+v9.2.0g
+	- Updated:
+		- EnderIO 		from	5.2.59		to	5.2.66
+		- EnderIOEndergy	from	5.2.59		to	5.2.66
+		- EnderTeaker		from	1.2.0		to	1.2.1
+		- TickCentral		from	2.6		to	3.1
+		- SimplyJetpacks2	from	2.2.16.1	to	2.2.17.0
+	- Fixed Synthetic Cow Breeder Modular Machinery Construction (Advanced) & Added HayBlock as an additional ingredient for Breeding in the Simple Variant
+	- UniDict.cfg: Moved ThaumCraft above Metallurgy4 in Priority to clear Alchemical Brass Issues
+	- StorageDrawers.cfg: Added EssentialCraft4 Mithriline Conversion
+	- Updated BQ Default Quest-Database
+	- Minor Fixes:
+		- JAOPCA Recipe for Tungsten Piece to Chunk
+		- ExNihilo HammerRegistry for 1xCrushedNetherrack that still used ExCompressum
+		- EssentialCraft4's Pale Gem Recipe Removal to have the Gems seperated again.
+	- Added speecker_rustic.zs inside modes/allmodspecific with placeholders and importers
+		- Added a CrushingTub Recipe to get BlazeRods out of BlazePowder with liquid glowstone as byproduct
+	- ReImp EchantmentDescriptions
+v9.2.1g
+	- Added Compressed Variants for Endstone and added HammerRegistry Entries for Crushed Endstone.
+	- Updated BioLib	from	1.0.8	to	1.1.1
+
+v9.3.0g
+	- Updated:
+		- AbyssalCraft			from	1.10.2		to	1.10.3
+		- Aether				from	1.5.2		to	1.5.3.1
+		- AmbientSounds3		from	3.0.14		to	3.0.18
+		- Avaritia				from	3.3.0.33	to	3.3.0.37
+		- BioLib				from	1.1.1		to	1.1.2
+		- BiomeTweaker			from	3.2.368		to	3.2.369
+		- ChanceCubes			from	5.0.2.345	to	5.0.2.385
+		- Changeling			from	1.2.3		to	1.2.5
+			+ Dependency:	DominionLib	2.1.3 wich makes mclib 2.1.2 obsolete
+		- CraftTweaker2			from	4.1.20.594	to	4.1.20.614
+		- CreativeCore			from	1.10.28		to	1.10.44
+		- Cyclic				from	1.20.5		to	1.20.8
+		- CyclopsCore			from 	1.6.6		to	1.6.7
+		- DraconicAdditions		from	1.14.1.37	to	1.15.0.38
+		- EmbersRekindled		from	1.14-hotfix	to	1.17
+		- Exchangers			from	2.9			to	2.10
+		- ExpandedEquivalence	from	12.3.16		to	12.3.17
+		- ExtraPlanets			from	0.7.0		to	0.7.1
+		- FluxNetworks			from	4.0.15-32	to	4.1.1.34
+		- FoodTweaker			from	1.1.2		to	1.1.3
+		- FTBUtils				from	5.4.130		to	5.4.131
+		- FWPArchitectural		from	2.1			to	2.2
+		- GalactiCraftSuit		from	4.0.2.280	to	4.0.2.281
+		- GunPowderLib			from	1.0			to	1.1
+		- HammerLibCore			from	2.0.6.23	to	2.0.6.26
+		- LibraryEx				from	1.0.12		to	1.2.1
+		- McLib					from	2.1.1		to	2.1.2
+		- Metallurgy4Reforged	from	1.2.0		to	1.2.4
+		- MysticalCreations		from	1.4			to	1.6
+		- NetherEx				from	2.0.15		to	2.2.4
+		- OMPD					from	3.1.0-61	to	3.1.1-76
+		- Optifine				from	F5			to	G5
+		- Patchouli				from	1.0-21		to	1.0-23.6
+		- PotionDescriptions	from	1.1			to	1.2.3
+		- ProjectEIntegrations	from	2.3.1		to	2.5.0
+		- RandomPatches			from	1.22.1.7	to	1.22.1.10
+		- Rustic				from	1.1.6		to	1.1.7
+		- SimpleSponge			from	3.6.3		to	3.7
+		- SimplyJetPacks		from	2.2.17.0	to	2.2.18.1
+		- TiConEvo				from	1.0.37		to	1.0.38
+		- ThaumicAugmentation	from	2.0.8		to	2.0.13
+		- ThaumicWands			from	1.2.5		to	1.2.6
+		- TickCentral			from	3.1			to	3.2
+		- TombStone				from	4.0.0		to	4.0.1
+		- TweakersConstruct		from	1.5.4		to	1.5.5
+		- UniDict				from	2.9.7		to	3.0.4
+
+	- ReImp:
+		- AbyssalCraftHeads	2.1.0
+		- FluidDrawers		1.0.5
+
+	- Additions/Expansions:
+		- ThaumicRestoration	1.5.0
+		- ThaumicWonders		1.8.2
+v9.3.1g
+	- MineMenu Configuration Preset
+	- Scripts:
+		- Rearrangements for Mod-Specific files
+		- Added Synthetic Cow Breeder Recipe for Obsidian Cow
+	- BQ WIP:
+		- Minor Fixes (Wooden Oak Crucible from Ex Nihilo instead of Ex Compressum)
+		- Updated Default Quest-Database
+	- Nerfed PlayerStorage Expanding Values
+
+v9.4.0op	"Optimized"-Version
+	- Created File aoa3_ores.json @config/laser_drill_ores and made the Script #norun
+	  as the newer Version of Industrial Foregoing works with its own JSON files.
+	  (speecker_industrial_foregoing.zs)
+	- Added Casting Table Recipe for Emerald Gears
+	- Fixed Missing OreGen for Simple Crystal & Coralium Ore in Landia Dimension:
+	  File: config/cofh/world/05_lordcraft.json & .../12_abyssalcraft.json
+	- Added Tooltip on Simple Crystal and Simple Crystal Ore to tell the User where to find it
+v9.4.1op
+	- ArmorStage Tier 1 Cleanup, Fixes & Added Numbers to kinda determine the Quality Level for each Armor
+	- ArmorStage Tier 2 Pre-Prepping
+	- UniDict.cfg:	Moved Alchemistry & JAOPCA to top (before minecraft & EnderIO take effect) and added exnihilocreatio between them to further unify OreDrops
+			Added oreDict entry for ExNihilo Copper & Tin Ore Chunks
+	- Added InGameInfoXML Lines to view Health & Armor Values
+	- Lowered the Value for the chance of a Mob Spawning with Mekanism Armor from 3% to 1%
+	- Cleaned up & Sorted speecker_oredict
+	- Moved OreDictEntries from UniDict to speecker_oredict as it seems not to work and just braking off if any non-existing item is listed & to have a better overview
+v9.4.2op
+	- ReImp/Addon:
+		- BloodArsenal-1.12.2-2.2.2-31
+		- IGI-BloodMagic-1.2
+		- IGI-RFTools-1.2
+	- Fixed Drawer Conversions:
+		- Osmium Block to match with Alchemistry Ingot
+		- Draconium Block from Ingots
+		- Zinc Block to match with Alchemistry Ingot
+		- All NuclearCraft Conversions as of changes to the UniDict Order
+	- UniDict:	Moved metallurgy in front of minecraft below alchemistry, exnihilo, jaopca
+	- Changed Storage Value of Fluid Drawer Tank from 1B to 100B and made a custom recipe to embrace the Gargantuan Drum as it is quite easy to craft
+	  and at that Point Of Time In Progress (POTIP) you may assume having more than enough resources to accomplish fitting at least 5 Emerald Upgrades inside the tank
+	  so you get a Storage Value of 64.000B (1.536B less then the Gargantuan) and if applied full 7 you get 89.600B (24.064 more than Gargantuan) and its still not too OP at that POTIP.
+	- Removed Shulker Tooltip Mod as it will crash with a Rendering issue once the larger Iron Chest Shulkerboxes become too full.
+	  Wasnt Used often enough anyway and showed just a portion if not using a keybind for full view
+v9.4.3op
+	- storagedrawers.cfg:	Added Conversions for ActuallyAddtions Crystal and Empowered Blocks/Items
+	- Cleared Crafting Table Conversion for Crystal and Empowered Blocks/Items
+	- Added Warning Tooltip for FluidDrawers
+	- (Primal) Mana Implementation:
+		- Added Recipe for Mana Dust (ThermalSeries)
+		- Added Alloy Recipe in TiC for Molten Primal Mana
+		- Added TableCasting Recipe to get Void Crystals from Pooring Molten (Primal) Mana on a Void Eye
+		- Added Melting & Casting Recipes for Solidified Experience & XP Droplet
+	- Edited Mechanical User Recipe for better Progression
+	- Nerfed the Bedrock Cobblestone Recipe as Rainbow Stone is way too hard to craft for that purpose
+	- SieveRegistry:
+		- Moved Ender from Red Sand to Crushed End Stone
+		- Moved Lunar from Red Sand to Soul Sand
+	- Overloaded:	Added Compressed Blocks for Soul Sand
+	- ReWorked the Modular Machine "Auto Sieve":
+		- Renamed the Localized Name to "Electrical Sieve"
+		- Changed every single Recipe for this machine
+		- Added 1x & 2x Compressed Block Variants
+		- Replaced Output of 1xCompressed Dust: Redstone with Mitrhil Dust + Swapped it with Blaze Powder for the sake of visuals and not getting too much mithril this way
+	- Further Nerfed PlayerStorage Apple Values and Added Copper as an alternative to iron
+v9.4.4cb	"Closed Beta Release - Pilot"
+	- Fixed Storage Drawers Conversions:
+		- Void (extendedcrafting:material:36)
+		- Compressed Iron (Pneumaticraft)
+		- Manasteel (Botania)
+		- Angmallen
+		- Brass
+		- Blaze Mesh - Powder (not rod) - essence
+		- Witherskeleton from 9 Witherskull Fragments (WitherskeletonFix)
+		- Lava Crystals & Blocks (including Compressed)
+		- Archaic Brick(s)
+	- Fixed Storage Drawers Conversion Rates for Metallurgy Base Blocks (4 Ingots instead of usual 9)
+	- Unidict.cfg:	Added Sapphire for Unification
+
+v9.5cb "Seed Layout Rethought"
+	- Removed FluidCows Scripts from normal and titan Mode
+	- ReArranged Scripts that load in All Modes
+	- Script Cleanup and closed BETA PostPrepping
+	- Removed aeadditions as Ather is no more present
+	- ReImp: Exchangers 2.10.1 to have progressive Building Swaps
+	- speecker_beast_astral_sorcery:
+		- Cleanup & Update
+		- Added Importers
+	- speecker_beast_botania:
+		- Cleanup & Update
+		- Added Importers
+	- Moved Seed Recipes to seperate file speecker_beast_seeds
+
+v9.6cb	"Closed BETA"-Version
+	- BetterQuesting:
+		Alpha:	- Hiding Aether Quests
+		Beta:	- Hiding Binnie Quests
+		Delta:	- Hiding ThaumCraft & Forestry Seeds
+		 Iota:
+			- Armor Progression Tier I - Done
+	- DeDuplicating Recipes for Infinite Upgrades from hotfixes
+	- Removed matc recipes with Base Essence and made the hotfix the prefered variant and moved it to ModSpecific/speecker_matc_backport
+	- Unification:
+		- noBlockify for several yet undone Block Recipes in 3x3 Grid
+v9.6.1cb
+	- speecker_beast_seeds: moved 5x5 & 9x9 Recipes to the seperate file as well
+v9.6.2cb
+	- storagedrawers.cfg : Updated Conversions
+	- Further Script Cleanup & Fixes
+		- Deduplication
+		- Fix Implementations
+	- Moved JAOPCA-Fixes to seperate file: speecker_jaopca_fixes
+	- Removed empty file /scripts/Fixes/speecker_hotfixes.zs
+	- Removed EnderIO from Morph-O-Tool due to Yeta-Wrench Incompatibility
+v9.6.3cb
+	- carryon.cfg:	Added various Minecraft Animals to Blacklist except small ones (like cats, parrots or rabbits)
+					This will force the player to use Mob-Catching Mechanics on them instead of just "grab and go".
+v9.6.4cb
+	- moved speecker_beast_extended_crafting_compression to GeneralAllModes and renamed it to speecker_extendedcrafting_compression
+	- moved speecker_beast_extended_crafting_combination to GeneralAllModes and renamed it to speecker_extendedcrafting_combination
+	- moved fluidcows recipes into seperate file that is loaded for all modes at /Modes/GeneralAllModes/speecker_fluidcows.zs
+	- removed emptied file speecker_beast_recipes_add_shaped_a-g
+	- Further Script Cleanup & Fixes
+v9.6.5cb
+	- removed emptied file speecker_beast_recipes_add_shaped_h-z
+	- removed emptied file speecker_beast_recipes_add_shaped_mirrored
+	- removed emptied file speecker_beast_recipes_add_shapeless
+	- removed emptied file speecker_beast_recipes_remove
+	- removed emptied file speecker_beast_recipes_remove_shaped
+	- removed emptied file speecker_beast_recipes_remove_shapeless
+	- renamed all extendedcrafting related beast files to extendedcrafting instead of extended_crafting to match mod ID
+	- removed beast mode deblockify recipes for mysticalagriculture Essence Blocks
+	- renamed speecker_beast_recipes_chickens to speecker_beast_chickens and added in #modloaded header for #norun
+	- renamed speecker_beast_recipes_excompressum to speecker_beast_roost and added in #modloaded header for #norun
+	- removed speecker_beast_recipes_roost as recipes_beast_excompressum was a wrongly named duplicate of it
+	- renamed speecker_beast_avaritia_removals to speecker_beast_avaritia
+	- moved JAOPCA Seed Recipe Removals to speecker_beast_seeds
+	- moved MysticaAgradditions & MysticalAgriculture Seed Recipe Removals to speecker_beast_seeds
+	- renamed speecker_beast_recipes_noBlockify to speecker_beast_noBlockify
+
+v9.7.0cb	"Internatl Recipe IDs"-Update
+	- Script Cleanup & Internal Recipe IDs are all done for Beast & GeneralAllModes
+v9.7.1
+	- Fixed Conversions for SuppremiumEssence Block
+	- Storage Drawers Conversion:
+		- SupremiumEssence Block/Essence
+		- Eximite Chunk/Piece
+		- Demon Metal
+	- ReImp/Fix WitherSekeleFix Fragments to Skull
+	- Implemented/Added (Pneumaticcraft) Compression Recipe for NetherStars
+	- Moved Beast-Mode Specific PneumaticCraft Compression Recipe to beast file
+	- Made the Recipe for the Copper Wire Coil much harder / locked behind Deep Dark with lithium ingot
+	- Renamed Capacitor (PneumaticCraft) to High-End Capacitor to match Transistor (PneumaticCraft) and progression 
+	- Replaced PinkSlime with oreDict for All Laser Lenses (IndustrialForegoing) as we are in Skyblock
+	- Fixed Electrical Sieve Outputs. Now it is as intended.
+	- Fixed ThermalExpansion Tank Recipe.
+	- Fixed Transposer Recipe for Petrotheum Powder from Obsidian Dust
+	- Added Importers inside speecker_thermalseries
+	- Denied Slimes from Spawning in Landia & Erebus to avoid Dimensional Travel lag after porting.
+	- Fixed LordCraft Mana Dust Recipe to have Mekanism Osmium dust as valid input item.
+v9.7.2
+	- Added Stellar Capacitor to Infinity Capacitor Recipe for Progression
+	- Fixed Cake Recipes - Now For Real! :D
+v9.7.3
+	- End Cake Recipe: Replaced Upper Ingredients with Pink Illuminar
+	- Added Spectre Coil Nr.??? back in
+	- Minor Recipe ID Corrections
+v9.7.4
+	- Added Tooltips for Yabba Capacities
+	- Updated all Furnaceoverhaul Upgrade Recipes to match Beast Mode Difficulty
+v9.7.5
+	- Internal Fixes
+	- Fixed Black Hole Unit Recipe beeing duplicate ID and Output of Black Hole Tank
+	- Removed any still available Vanilla Armor Crafting Recipes for any Armor that could still be crafted in Vanilla-Style
+	  via temp file until Armor Progressions is fully done
+	- Finally Fixed Botania Armor Recipes - Breathtaking Precision
+v9.7.6
+	- Corrected Tooltip Texts for Yabba Barrel Upgrades & Furnaceoverhaul Blank Upgrade Recipe- Was a bit too hustled on last Patch, sry for that
+	- Changed Spectre Coil Nr.??? LootTable Weight to 1
+v9.8.0
+	- Added Armor Recipes for Progression:
+		- Living, Carbon, Purple Diamond
+		- Magnesium, Red Gem, Red Diamond
+		- Mercury, White Gem, Crystal
+		- Palladium, Zinc, Yellow Diamond
+		- Tungsten, Uranium, Green Diamond
+v9.8.1
+	- Armor Recipe Fix for Green Diamond Armor & Finished the Living Armour Recipes
+	- Renamed Twilight Forest Yeti Armor
+	- Moved Tier 2 Armor Vanilla-Recipe Removals to Progressives/ArmorStages/speecker_temp_armor_vanilla_recipe_removals.zs
+	- Set Tier 2 Armor Recipes to #norun
+v9.8.2
+	- Deduplication Fixes:
+		- Removed all other modes (normal, titan, kappa) for debug purposes
+		- Changed Solar Flux Mirror Recipe into Solar Panel I Recipe & Swapped RedstoneDust/RedAlloyIngot Middle Plank/ProjectredBattery
+		- Deactivated EnderIO Silver Capacitor Recipe for Deduplication
+v9.9.0
+	- ReImp / Addon / Projectred Full Suit:
+		- ProjectRed-1.12.2-4.9.4.120-compat
+		- ProjectRed-1.12.2-4.9.4.120-fabrication
+		- ProjectRed-1.12.2-4.9.4.120-integration
+		- ProjectRed-1.12.2-4.9.4.120-lighting
+v9.9.1
+	- Updated/Edited Modular Machinery Recipe Outputs for Magica Converter & Chaos Crucible for more Progressive and Reliable Values
+	- Added Projectred-Expansion Batteries to Stacksize to also be able to stack up to 64 of them
+	- Changed Vanilla Recipe for RFTools Energy Powercell
+	- Changed/Edited Recipes for FluxNetworks Storages (Basic, Herculean, Gargantuan)
+	- Added Tooltips for FluxNetworks Storage (Basic, Herculean, Gargantuan)
+	- Added #modloaded headers to all renameandtooltip files
+	- Nerfed: Spectre Coil Nr.??? Generation Value to 64 RF/t (from 128)
+v9.9.2
+	- Note on Nuclearcraft: Output/Input order is swapped for CT-Scripts
+	- Added/Fixed Manufactory Dust Recipe for Coppper, Gold
+	- Added/Fixed Pressurizer Plate Recipes:
+		- Aluminum/Aluminium
+		- Titanium
+		- Lead
+	- Added/Fixed Arc Furnace Recycling Recipe for Lapis Lazuil Armor (Mekanism)
+	- Added/Fixed Recipe for Big Reactors Reactor Controller/Fuel Rod to be able to use Uranium as well
+	- Unidict:
+		- Fixed Sapphire
+		- Added/Fixed Yellorium
+		- Fixed Charcoal
+		- exnihilocreatio
+	- Fixed: YelloriumChunk giving Uranium as Output from smelting
+v9.9.3
+	- moved all inside speecker_enderio to speecker_beast_enderio
+	- Deduplicated EIO Enchanter Recipe for Capturing Enchantment removed
+	- Added AgriSeed cfg file as template for Cake Seed
+	- Moved any Recipe that did not yet exist from speecker_thermalseries_wood_conversions_and hotfixes to speecker_beast_thermalseries and removed speecker_thermalseries_wood_conversions_and hotfixes after
+		- This should fix many duplicate recipe and ERROR throwing issues
+	- Fixed: All ERROR welcome messages on WorldSpawn except Ghost Liquid "annealedcopper" are now history
+	- Renamed: speecker_beast_thermal_factorizer_resources to speecker_beast_thermalseries_factorizer_resources
+
+v10.0.0-000	"Closed BETA - WIP" / "PSOZdev_Closed_BETA" / Early-Access-Release!
+	Some Words About Version Changes and new Update Terminology:
+		- 10.: Major Main Update: Preserved for Huge Updates/Changes to the pack. Hopefully there wont have to be made changes to the mods anymore.
+								   I do my best to stick to the Modset of this (almost final) version.
+			- 0.: Minor Main Updates: Preserved for overall content Implementations that is not yet available.
+				- 0-: Polish Updates / Major Fixes etc. UX/UI Improvements/Tweaks/Feedback Implementation. Mod Updates for existing Mods.
+					- 000:	Minor Bugfixes/Tweaks/Cleanup/Corrections/Changes/InternalPolishing.
+		I decided to seperate the update number further into an additional part (.000) as i felt like the updates raised to fast up at high numbers which is unreasonable compared to the minor changes in most Of
+		of the updates. The additional part should help you having a better overview over the changes and progression and help me beeing able to note even the slightest changes without unnecessarily bumping up high numbers.
+		Small hint: i think about setting up something to review the packs overall goals and to see what yet has to be done 'til Open Beta can be released.
+	Changes/Fixes/Etc.:
+		- New Addon/Expansion Mods for Embers:
+			- AetherWorks-1.12.2-1.0.0.3
+			- Aetherium+Ashen+Armor-Release-1.12.2-1.2.1
+		- Deduplication for ModularMachinery Recipes and noBlockify for Modularium Blocks
+		- Replaced Alloy Smelter Multiplier Block Vent with Circuitry to make it harder to get and added a Color (4E2819)
+		- Added: Recipe for Time Detector (DaylightSensor) and added it as Alloy Smelter Multiplier x4
+		- Removed any Sub-ID from Duplicator & Hellforge Machine Construction Recipe so you can use any size
+		- Duplicator Machine:
+			- Buffed: Exchanged projectred-core:resource_item@105 (Electrotine) with lordcraft:void_catalyst
+			- Nerfed: Changed Mekanism Basic Control Circuit Outputs from 10 to 5
+			- Renamed: All .cfg to speecker_duplicator_xyz
+			- Added: Recipe for Torchberries
+		- NuclearCraft Script: Moved Tin Plate Recipe to Pressurizer and added Dust Recipe for Osmium in the Manufactory
+		- Fixed: (AA) Empowered Block Recipes
+		- Buffed: Mekanism Basic Tank Recipe to use Steel instead of Iron and RedAlloy instead of RedstoneDust
+		- storagedrawers.cfg: Fixed: Eximite Conversion (Piece/Chunk)
+		- Renamed: speecker_renameandtooltip_lordcraft_landia_oregen to speecker_renameandtooltip_landcraft_lordcraft
+		- Added: Tooltips for Lordcraft _magic (dust/shard/ingot) to inform wich Tier of Arcane Forge is needed.
+		- Modular Machinery: Arcane Contstruct:
+			- Moved all Recipes to /speecker/speecker_arcane_construct
+			- Renamed all to speecker_arcane_construct_xyz
+			- Doubled all output amounts to encourage the user to use the Arcane Construct over the Arcane Forges and to make it feel more rewarding
+		- Added: import crafttweaker.oredict.IOreDictEntry; inside speecker_oredict - hope that makes the oreDict Entries finally work as intended
+		- Fixed minor missing items issues in Armor Tier I Recipes for specific materials
+		- Added classicbar-0.5.4 and removed Health Points View from InGameInfoXML.json as its now obsolete.
+			- Unfotunately theres no way to add in Armor Toughness like it works natively with AP/HP via IngameInfoXML (not even with an XML-Addon)
+			- ClassicBar is therefore an alternative which shows all right out of the box (except speed)
+			+ ClassicBar warns about low Armor/Health(/Hunger) Points
+		- Changed "Extra Armor HUD" to false inside rustic.cfg as we have classicbar installed
+		- Removed Mods as they became Obsolete:
+			- AppleSkin-mc1.12-1.0.14 / AppleCore-mc1.12.2-3.4.0
+			- overloadedarmorbar-1.0.4g
+		- Storagedrawers Conversions for ArmorShards from TwilightForest
+		- Added Ez Auto-Placer (ActuallyAdditions BlockPlacer) Recipe
+		- Nerfed: Flight Totem Cost from 768 to 500 RAK as u get Flight for free as soon as you get to the nether and find a Blaze or if you found a Bat anywhere else.
+			  Shouldnt be too cheap anyway as it allows you to use fly in any Morph when purchased.
+		- Adepted: Set XML Alignment for Top Left to 50 from Top (Before it was 5). This is needed as the LordCraft HUD cant be moved and would be hidden behind XML.
+		- LordCraft: Renamed All Spell Focuses to better distinguish them from each other as they are all called the same and just have different colors. The Rename should ease that off.
+		- Added Adhesive back in as Slimeball as it is the intended use by Embers and has no other use then being an ingredient for a SimpleSponge
+		- Added Tooltip for EnderIO PoweredSpawner to inform the user about TPS Chopping while using this machine
+		- Added displayName Localizations for VoidCraft Items
+		BetterQuesting:
+			- Added Tower Of Landia Quest back in as well as Big Brother Hunt Quest
+		- Added #modloaded header for speecker_renameandtooltip_voidcraft.zs was still set to yabba - changed to voidcraft
+	Updated Mods: (Update Changelog Entries taken from Curseforge)
+		- AbyssalCraft	from	1.10.2	to	1.10.3
+			Fixed a startup crash with Stackup
+			Fixed a world corrupting crash when a block without a proper capability implementation is placed
+			Added Korean translations (courtesy of hwantube)
+		- AdvancedRocketry now in Beta Version 	1.7.0-238 instead of Release Version 1.7.0-232
+			Look up on Curseforge for full Changelog.
+		- Alchemistry	from	-41	to	-42
+			Added a config option to disable item automation (requested feature)
+		- Changeling	from	1.2.5	to	1.2.5.2
+			Fixed survival morph menu not updating when the config option keepMorphs is false and the player either switches dimensions or respawns
+			Fixed morph death sounds by fixing the vanilla bug which caused a hurt sound to play for the player on death rather than a death sound
+		- CraftTweaker2	from	1.20.614	to	1.20.624
+			Look up on Curseforge for full Changelog.
+		- DraconicAdditions	from	1.15.0.38	to	1.15.1.39
+			Fixed an issue with the Overloading Belt keybind; it was being overridden by the Chaos Injection keybind.
+		- ExteremeReactors	from	0.4.5.67	to	0.4.5.68
+			Fix Power Taps not updating correctly
+			Backported the The Extreme Book to 1.12.2 (it requires Patchouli 1.0-23.6+)
+			Updated Forge to version 14.23.5.2847
+			Updated ZeroCORE to version 0.1.2.9
+			Bumped version to 0.4.5.68
+		- MoreTwekaer	from	1.0.16	to	1.0.17
+			This is probably the last release. Added some JEI support.
+		- MysticalCreations	from	1.6	to	1.6.1
+			Fixed Immersive Engineering Garden Cloche Compat.
+		- PackagedAuto	from	1.0.3.14	to	1.0.5.17
+			v1.0.4.15:
+				Added feature for packagers to not require exact inputs under certain circumstances
+				Added feature where packages can be used as patterns in the packager
+			1.0.4.16:	
+				Added redstone control to packagers when not used in ME systems
+				Added config for packagers to not require exact inputs
+			v1.0.5.17:	
+				Fixed blocks not connecting to secured ME systems, blocks will now respect security terminal settings
+				Fixed packager/unpackager accessible slots including the recipe pattern/energy storage slots
+				Fixed not being to extract input from packager extension
+		- PackagedExCrafting	from	1.0.1.2	to	1.0.2.3
+			Fixed blocks not connecting to secured ME systems, blocks will now respect security terminal settings
+			Fixed combination crafter not sending the progress bar properly to client
+		PotionDescriptions	from	1.2.3	to	1.2.4
+			Added zh_cn (unluckylin)
+		- SimplyJetpacks2	from	2.2.18.1	to	2.2.19.0
+			joinAdvancement config being on wrong side
+			Curse Maven dependency
+			Spectator checks
+		- (Corail) TombStone	from	4.0.1	to	4.1.2
+			Look up on Curseforge for full Changelog.
+		- ZeroCore	from	1.2.8	to	1.2.9
+			Added support for Patchouli
+			Added Forge-update support
+			Updated Forge to version 14.23.5.2847
+			Bumped version to 0.1.2.9
+v10.0.0-001
+	StorageDrawers Conversions:
+		Botania Livingwood Planks / Log / wig
+		MysticalAgriculture Basic Essence
+		Metallurgy Adamantine Block / Ingot
+		Landia Ore Chunks from Pieces
+	Unidict:
+		Added hunk & piece to oreDict Kind
+	ModularMachinery
+		Implemented "Electrolytic Crystal Chamber"
+v10.0.0-002
+	Fixed:
+		1x/2x Compressed Dust Ingridient for 1x/2x Compressed Bedrock Cobblestone
+v10.0.0-003
+	StorageDrawers Conversions (Chunk to Piece):
+		- Shadow Iron
+		- Lemurite
+		- Astral Silver
+		- Carmot
+		- Adamantine
+		- Midasium
+		- Ignatius
+		- Kalendrite
+		- Ceruclase
+		- Silicon
+		- Vyroxeeres
+v10.0.0-004
+	BetterQuesting:
+		- Added TimeInABottle from RandomThings as a QuestReward by defeating BigBrother (Landia Boss)
+			- This Item aint too OP as you have to charge it and only gives a finite amount of speedup,
+			  but to prevent the user from stacking them up and abuse it through multicharge glitches or else
+			  it can be obtained only once.
+			  Keep in Mind: OG PO3 doesnt give you acces to this Item anyway, but PSOZ does ! 
+		- Added Alchemistry Electrolyzer Quest
+	IngameInfoXML:
+		- Moved Speed Allignement a bit up and to the left to not overlap the item-count-holding-in-hand-display
+	StorageDrawers Conversions:
+		- Twilight DarkWood	Log-Plank
+		- Sulfur			Dust-TinyDust
+		- Sanguinite	C/P
+		- Meutoite		C/P
+		- Friscion		C/P
+		- Landium		C/P
+		- Starmetal		C/P
+	Removed Mod:
+		- modnametooltip_1.12.2-1.10.1 as it is obsolete because the modname is already shown in tooltip via a different method.
+	Lootbags:
+		- Added cyclicmagic:heart_food to Global Blacklist as 20 Bonus HP shouldnt be for free
+	FluidDrawers Tooltip:
+		- Removed ")" at the end and made a minor change (Vanilla) - (Forge/Vanilla)
+	JEI Remove&Hide (Deduplication/Altenrantive Methods):
+		- extendedcrafting:handheld_table	(ActuallyAdditions is Used for this: has CraftingTweaks Compat)
+		- exnihilocreatio:block_end_cake	(DimensionalEdibles is used for this: natively Implemented)
+	Scripts:
+		- Cleanup / Rearrangement / Deduplication / ArmorRecipeRemovals
+		- Added missing #modloaded headers for GeneralAllModes Scripts and PackSpecific
+		- Lootbags
+		- Erebus
+		- ExtraPlanets
+		- Magneticraft
+		- OpenBlocks
+		- PamsHarvestCraft
+		- ActuallyAdditions
+		- EnderIO
+		- ExNihiloCreatio
+		- MysticalAgriculture
+		- Quark
+		- Mekanism
+		- ProjectE
+		- RandomThings
+		- DraconicEvolution
+		- SolarFluxReborn
+		- Overloaded
+		- TiC
+		- Galacticraft
+		- AoA3
+		- ContentTweaker
+		- ModularMachinery
+		- matc
+		- oredict_fixes
+		- industrialforegoing:
+			- removed Recipe Removals of Laser Lenses as their recipes seem to be hard-coded D:
+	JetPack Progression:
+		- Moved Jetpack Recipes to Progression specific file
+	Removed emptied File:
+		- /scripts/PackSpecific/speecker_recipes_any.zs as it contained duplicates and all other recipes got moved
+		- /scripts/PackSpecific/speecker_recipes_any_aoa3.zs as all recipes got moved to file in GeneralAllModes
+v10.0.0-005
+	BloodMagic:
+		- Fixed Block of Slates Naming(s)
+	NuclearCraft:
+		- Added Pressurizer Plate Recipe for Tungsten
+v10.0.0-006
+	StorageDrawers Conversions (Ingot to Block):
+		- Silicon
+		- QuickSilver
+		- Black Steel
+		- Damascus Steel
+		- Etherium
+		- Shadow Steel
+		- Hepatizon
+		- Celenegil
+		- Inolashite
+		- Haderoth
+		- Desichalkos
+	JEI:
+		- Added rh(<agricraft:grate:*>); might solve the Verticals Already Constructing Bug
+	Astral Sorcery:
+		- Changed Required Constellation for Crystal Cluster (BloodMagic) back to Horologium and removed the
+		  Extended Crafting Table Recipe (7x7) as the Bug got Fixed and the Altar Recipe does work now
+			Tipp: Use the BloodMagic Imperfect Lapis Ritual to forward Day/Night Cycle
+	ModularMachinery:
+		- Fixing Electrolytic Crystal Chamber Setup (but did not get the recipes working yet)
+v10.0.0-007
+	ModularMachinery:
+		- Added Recycler Recipe for EIO Sag Mill	
+	Im now using MPUtils IngameChangelog as "Quick Changelog"
+v10.0.0-008
+	UniDict/MysticalAgriculture:
+		- Fixed Standard Recipes for MysticalAgriculture Ingots that were added by UniDict
+v10.0.0-009
+	Oredict:
+		- Added an OredictEntry for Compressed Iron Gear (PneumaticCraft) to get it be preferred over MorePlates
+	UniDict:
+		- Added PneumaticCraft to priority list
+v10.0.0-010
+	Official Beta Release
+v10.0.0-011
+	FluidCows:
+		- Changed Reinforced Pink Slime to Pink Metal (Still Optional besides OG Pink Slime)
+	NuclearCraft:
+		- Added Alloy Furnace Recipe for Dawnstone Blocks (to avoid TiC Laggyness and for MassProduction - on NC Alloyer its earned)
+	TP (TinyProgression):
+		- Backported Blaze CobbleGen Recipe again but it now uses Firewood instead of LavaWood, which brings back Blaze reference alongside another crafting step
+	Minecraft:
+		- Added Dye:2 (Cactus Green) Recipe from Dye Essence
+	PneumaticCraft:
+		- Changed Up The Flux Compressor Recipe to match progression
+	BetterQuesting:
+		- Added Quest for PneumaticCraft Flux Compressor
+v10.0.0-012
+	NuclearCraft:
+		- Changed Abyssalnite Liquid Output / Input to MoltenAbyssalnite from AbyssalCraftIntegration instead of JAOPCA
+		- Added Melter Recipe for Boron Ingot
+v10.0.0-013
+	AgriCraft:
+		- Added recipe for Potato Seeds as it was overtaken by Inspirations
+		- cfg:
+			- changed Item Drops from Raking back to Default (true) - Seed wont drop but Essences do
+	BetterQuesting:
+		- Added Quest for Enhanced SAG Mill and rearranged Page Eta to make it fit in
+		- Started to add AgriCraft Questlines on Page Delta
+		- Expanded Page Tau (Mekanism) with Quests for the ChargePad, Configurator & Atomic Disassembler
+	MagnetiCraft:
+		- Removed Duplicate Recipe without Previous Tank Tier for Small Tank
+v10.0.0-014
+	ExtraCells2/AE2:
+		- Added PneumaticCraft Capacitor (High-End Capacitor) to the 4k ME Gas Storage Component Recipe to be like
+		  the Item and Fluid Types
+	ModularMachinery:
+		Multi Compressor:
+			- Removed all recipes as they are the same as those for the Laser Cutter.
+			- Gonna make a different use of this machine later on.
+		Laser Cutter:
+			- Replaced the middle Modularium Block on the back side (2 blocks behind the Machine Controller Block)
+			  to use the Galacticraft Electric Compressor instead
+	Mekanism:
+		- Added .withTag expression to the recipe removement so it will only ony remove Tier I but not the others
+	ResourcePack Update: v6.3.1
+	NuclearCraft:
+		- Added Alchemistry Thorium Ingot to Infuser Recipe for Thorium Oxide Ingot
+v10.0.0-015
+	NuclearCraft:
+		- Added Manufactory Recipe for Copper Dust from Ingot
+		- Added Manufactory Recipe for Palladium Dust from Ingot
+		- Added Manufactory Recipe for Manganese Dust from Ingot
+		- Added Manufactory Recipe for Lutetium Dust from Ingot
+		- Added Manufactory Recipe for Boron Dust from Ingot
+		- Added Manufactory Recipe for Lithium Dust from Ingot
+		- Added Manufactory Recipe for Silicon Dust from Ingot
+		- Added Manufactory Recipe for Uranium Dust from Ingot
+	ResourcePack/TexturePack Update: v6.3.2
+v10.0.0-016 "Seed Rework: Custom Seed Pilot"
+	MysticalCreations:
+		- Added Full Integration for Baronyte
+			- Essence to Ingot Recipe
+			- AgriCraft Seed Compat
+			- StorageDrawers Compat
+			- Seed Recipe
+			- BQ-Quest
+		- Added Borer with Full Integration + JEI Rename to "Borer Core" as we add Borer Essence
+	NuclearCraft:
+		- Added AlloyFurnace Recipe for Dark Steel to automate Block proscessing
+	StorageDrawers Conversions:
+		- HDPE / Ethylene Pellets/Ingots/Sticks
+	RenameAndTooltip:
+		- HDPE Rod is now HDPE Ingot
+		- PlaStick is now HDPE Rod and has "PlaStick" as Tooltip
+v10.0.0-017
+	Scripts:
+		- renamed speecker_galacticraft_compression to speecker_galacticraft
+	Galacticraft:
+		- Changed CircuitFabricator Recipe for Titanium Wafer to use Alchemistry Ingot instead.
+		- Edited/Changed Recipe for the Advanced Compressor to use the Electric Compressor and Carbon Wafer instead of Anvil and Advanced Wafer
+		- Replaced Ingot Inputs for Compressed Plates from Compressor to Alchemistry Ingots:
+			- Palladium, Magnesium, Zinc, Platinum, Tungsten, Armor Layer 2/3/4, Titanium
+	BetterQuesting:
+		- Added Quest for Advanced Compressor (Galacticraft) on page Upsilon
+	ExNihiloCreatio:
+		- Added Jupiter Gravel as Sieve Block Input with Jupiter Ore Outputs and removed Palladium from Red Sand
+		- Added Saturn Gravel as Sieve Block Input with Saturn Ore Outputs and removed Magnesium from Red Sand
+	MysticalAgriculture:
+		- Changed Starmetal Seed Tier to 4 to match with Recipe and BQ Quest
+	PneumaticCraft:
+		- Added Pressure Chamber Recipe to create 5 Lava Crystal Ore from 9 Stacks of Magma
+	Vanilla Furnace Recipe for Taiga Prometheum Ore
+v10.0.0-018
+	NuclearCraft:
+		- Fixed inconveniences
+	StorageDrawers Conversions:
+		- Fixed Lava Crystal Conversions
+		- Added Infused Lava Crystal Conversions
+	AdvancedRocketry:
+		- Removed Vanilla Grid Recipes to make the AR Precision Assembler more useful / beeing used a bit more:
+			- Control Circuit Board
+			- Liquid IO Circuit Board
+	ExNihiloCreatio:
+		- Removed Iridium Ore Pieces from Crushed Endstone and moved it to Moon Turf and Saturn/Neptune Gravel
+		  to do justice to its value
+	ModularMachinery:
+		- Auto-Sieve/Electric-Sieve: Removed Iridium Output from Crushed Endstone (1x/2x Compressed)
+	ExtraPlanets:
+		- Made the Advanced/Ultimate Refinery Recipe accept any Palladium/Zinc Ingot OreDict Entry
+	ModularMachinery:
+		- Duplicator:
+			- Added Tier 1 Armor Dupe Recipes
+		- Electrolytic Crystal Chamber: Recipesa are now working
+	ArmorPlus / Armor Progression:
+		- Removed duplicate recipes for Faraday & Clay Armor
+v10.0.0-019
+	IngameInfoXML:
+		- Rearranged Top Left & Top Right to give space for Advanced Rocketry GUI
+v10.0.0-020
+	Armor Progression:
+		- Fixed DeepIron Ingot in Mithril Boots Recipe
+	Ender Star:
+		- Made the ActuallyAdditions Ender Star Recipe available again and it is now renamed and
+		  used as Base for ExtendedCrafting Ender Star
+	BetterQuesting:
+		- Fixed Hazmat Suite Quest (NuclearCraft)
+	BloodMagic:
+		(- Fixed not removed Living Armor Recipes: Should now be removed as intended)
+	DraconicEvolution:
+		- ReEnabled Dislocator Pedestal Recipe
+	StorageDrawers Conversions (Pieces/Chunks):
+		- Meteoric Iron, Dark Iron, Desh, Carbon
+		- Carbon (Ingot/Block)
+v10.0.0-021
+	ExtraPlanets/Galacticraft:
+		- Added Progressive Recipes for Thermal Padding T1 to T2
+		- Added Progressive Recipes for Launch Pad T1 to T2
+		- Edited Recipe for Launchpad Tier 3 with Progression (Made with T2 in Top Row)
+v10.0.0-022
+	Mekanism:
+		- Added modloaded and importers to GeneralAllModes mekanism
+	ExNihilo
+		- moved output for Lithium from Red Sand to GC Planet Gravels
+v10.0.1-000 "Mod Updates/Progression Update"
+	Mod Backport:
+		- Galacticraft Suite	from 4.0.2.281 to 4.0.2.280
+			- Fixes the Dungeon Issue
+	Mod Updates:
+		- ExtraPlanets from 0.7.1 to 0.7.2
+			*Fixed a crash with the BasicDensifier when restarting world during a machine operating
+			*Updated comments on some config sections to outline the importance of there usage
+			*Added IC2 nano armour and Galaxy Space Space suit to be default entered for "List of armour items to be considered as a space suit" in config (Will only work for new generated configs)
+			*Added IC2 quantum armour to be default entered for "List of armour items to be considered as a space suit" in config (Will only work for new generated configs) & tweaked nano armour values
+			*Added support to use ExtraPlanets Radiation System on other addon planets/moons
+			*Fixed issue #302 - Unable to Install Module, After Uninstalling with requirement items already in inventory
+			*Fixed inventory being full when uninstalling a module causing a crash
+			*Fixed issue #597 - Space Suit Breaking at 0 Power
+			*Fixed issue #621 - Iapetus has tier 6, but Saturn and its other moons have 5
+			*Updated ru_RU.lang(Thanks to Romz24)
+		- LordCraft from 2.10.1 to 2.10.2
+			-Update 2.10.2 --Final Update for 1.12.2 (Working on full rewrite with Lord Craft 3)
+			--Added ability to switch between tier 2 elements at cost of 15 xp levels (Or Free if in Creative)
+			--Made it so that Void Matter research can be reobtained if you've reset your research by simply talking to an Overlord after reaching level 3 fire
+			--Added the missing localization for Void Matter Research
+		- BrokenWings from 2.1.1 to 3.0.0
+			- See Changelog at CurseForge
+		- AdvancedRocketry 1.7.0.238 to 1.7.0.240
+			- See Changelog at CurseForge
+		- CraftTweaker2 from 4.1.20.624 to 4.1.20.631
+			- See Changelog at CurseForge
+	StorageDrawers Conversions:
+		- Mercury Piece/Chunk
+	NuclearCraft:
+		- Moved Up the Radiation HUD below IGI Left to not overlap with Journey MiniMap
+v10.0.1-001
+	ModularMachinery:
+		- Alloy Smelter: Exchanged Lava with Compressed Lava Crystal Block to lower TPS consumption
+	StorageDrawers Conversions:
+		- Mercury Ingot/Block
+	GalacriCraftPlanets:
+		- Added Vis/Versa Recipe for Tier 3 Rocket / Cargo Rocket
+	ModularMachinery:
+		- Buffed Chaos Crucible Output from 100 to 250mb
+	AbyssalCraft:
+		- Fixed Recipe for Shard Of Oblivion
+v10.0.1-002
+	ModularMachinery:
+		- Auto-Sieve/Electrical Sieve: Replaced 2xCompressedGravel Output of Sapphire Block to ProjectRed instead of AoA3
+	Seeds:
+		- Removed Vanilla Recipe for Refined/Liquified Coralium Seeds
+v10.0.1-003
+	NuclearCraft:
+		- Alchemistry Compat for Nickel Plates
+	QuantumStorage:
+		- Replcaed BloodMagic Tank Tier 15 with Overloaded Infinte Tank in Quantum Tank Recipe
+	Progressive Seed Automation (ThermalSeries/ActuallyAdditions/ExtendedCrafting):
+		- Custom (CraftTweaker) Recipes for machines now use Mekanism Steel Casings as well instead of "just" Machine Frames
+		- Seed Automation machines/mechanics are now progressive: T1 Phytogenic Insulator, T2 ActuallyAdditions Farmer, T3 Garden Cloche, T4 Plant Interactor, T5 Plant Gatherer
+		- Added ActuallyAdditions Farmer to the Cloche 5x5 Recipe
+		- mixed the Plant Interactor Recipe with the Plant Gatherer Recipe and made the Plant Gatherer Recipe 5x5
+	Progressive Wireless Energy Transfer (RandomThings/QuantumFlux/ContentTweaker/FluxNetworks)
+		- Added a recipe for Excitation Coil which is now made out of Exciters and Exciter Upgrades
+		- Excitation Coil is now used as replacement for Glass in the Spectre Coil/Charger (Normal) Recipe
+		- Edited recipe for the RFEntangler (QF) and replaced NetherStar with ShifitingStar and QuibitCluster T2 with T5
+		- Edited Spectre Energy Injector Recipe with a replacement of the middle Sprectre String with the RFEntangler
+		- Edited Recipes to use Spectre Energy Injectors and Spectre Coils in Addition or as Replacement
+		- FluxNetworks Recipes now integrate RandomThings equivalents
+	ThermalSeries:
+		- Fix: Removed Flux Crystal Transposer Recipe from Diamond and added Conversion for Factorizer & StorageDrawers
+	FluxNetworks:
+		- Fixed FluxStorage Recipes using Creative/Unobtainable items
+v10.0.1-004
+	RandomThings:
+		- Nerfed Number Spectre Coil Further to 16RF/t
+	ExtraPlanets:
+		- Reworked the Space Suit Recipes to match Progression
+	Emberbore/RusticWaters Port:
+		- Removed Iridium Ore from Outputs
+	ModularMachinery:
+		- Laser Cutter Build Setup: Exchanged the Electric Compressor with Advanced Compressor
+	ExtendedCrafting T3/5x5 Crafting Table:
+		- Removed Seed recipes as they were duplicates / were moved to specific seed script
+	GalacticraftPlanets:
+		- Removed Alt Recipe for Heavy Rocket Fins
+	MineMenu:
+		- Added New Category "Commands" with TPS and Quest Database Refresh
+	Natura/IndustrialForegoing:
+		- Added Tainted Soils as Sludge Refiner Outpout as it was like that in MineFactoryReloaded.
+	StorageDrawers Conversions:
+		- Dreadlands Wood Log/Planks
+	Botania:
+		- Added Spectre Illuminator at the empty Spot in the Top Row for the Rune Altar Recipe
+v10.0.1-005
+	NuclearCraft:
+		- Alchemistry Compat: Uranium Oxide Recipe
+	StorageDrawers Conversions:
+		- Natura Tainted Soils can now be exchanged vis/versa within a Trident Compacting Drawer
+	TinyProgression:
+		- Blaze CobbleGen is now using Firewood instead of just Lavawood
+v10.0.1-006
+	ExtraPlanets/GalactiCraft:
+		- Alchemistry Compat: Rocket Fins (Tier 4) Recipe
+		- Thermal Padding Recipes are now progressive as well
+	ThermalSeries:
+		- Added Transposer Recipe for Sky Stone to mass Produce it
+	ModularMachinery:
+		- Arcane Construct: Added Recipe for Shard Of Water
+	BQ:
+		- Fixed White Gem Quest Naming
+	Seeds:
+		- All Seeds (Tier 3) now use Blocks instead of Gems
+	StorageDrawers Conversions:
+		- Red Gem to Block
+v10.0.2-000
+	Script Cleanups
+		- All Scripts are now fully Modular
+		- Fixed Pebble Drops
+	Galacticraft/ExtraPlanets/ModularMachinery:
+		- All Heavy Duty Plates can now be automated inside the Laser Cutter
+	ModularMachinery:
+		- Laser Cutter: Palladium now uses Alchemistry Ingots
+	EnderIO/GalactiCraft/ExtraPlanets:
+		- Added SAG-Mill Recipes for Jupiter & Saturn Gravel
+	TConstruct/Mekanism/ExtraPlanets:
+		- Added Compat for Glowstone Fluid from Saturn
+v10.0.2-001
+	ExtendedCrafting/Seeds:
+		- Made all the Tier 5 Seeds a bit harder/grindier by exchanging the normal "Void Ingot" with "Enhanced Void Ingot"
+		  which requires some Dragon fight action and having a way to gather Guardian Scales
+	ModularMachinery:
+		- LaserCutter: Fixed Compressed Magnesium Recipe
+	NuclearCraft:
+		- Alchemistry Compat: Magnesium Dust, Uranium Ingot
+	Seeds:
+		- WhiteGem is now Tier 4
+	EnderIO:
+		- Added a recipe with Ender Essence for Ender Crystals for better automation
+	Botania:
+		- Created GeneralAllModes script for Botania and added an Elven Trade for Quartz Block to Elven Quartz Block for QOL
+	MysticalCreations/Seeds:
+		- Added a Seed for Black Steel
+v10.0.2-002
+	MysticalCreations:
+		- Created dedicated files for modspecific MysticalCreations Seeds
+	ModualrMachinery:
+		- MagicaConverter:
+			- Cleanup
+			- Buffed ManaQuartz Outputs x2
+			- Buffed Elven Quarz Outputs x4
+			- Nerfed Mana & Ember Outputs from making Antimatter with staged values depending on the Landia Ingot Tier
+			- Changed all Life Essence Recipes to now use Ember as Energy Input with Coagulated Blood as catalyst
+	NuclearCraft:
+		- Fixed Ingot Former Fluid Values for added recipes
+	InControl:
+		- Banned Slimes from Spwaning in the Overworld - If you want slime spawns go to the Hunting Dim or catch one there and use other Spawn mechanics
+		- This was made due to the annoying mass spawning of Slimes while standing still in a slime biome
+v10.1.0-000 "Mod Updates & Seed Rework PreWork" / "Modlist Finalization"
+	ActuallyAdditions-1.12.2-r151-2		to	ActuallyAdditions-1.12.2-r152
+		- CrankySupertoon: Fixed Crystal Flux Localization
+		- Falcion: Updated russian translation
+		- Jammehcow: Fixed a rare NPE with other mods on the worm entity
+	AmbientSounds_v3.0.18_mc1.12.2		to	AmbientSounds_v3.1.5_mc1.12.2
+		- Added overallRaining and snowing condition
+		- Fixed wall detection not respecting glass for example
+		- Fixed not playing plains sound in mushroom biome
+		- Fixed sound not respecting dimension volume
+	CreativeCore_v1.10.44_mc1.12.2		to	CreativeCore_v1.10.47_mc1.12.2
+		v1.10.45:
+			- Fixed inaccurate vectorfans could collide even though they don't
+			- Fixed not disabling depth in certain cases
+			- Added color palette to color picker
+			- Added ability to configure config holder in list
+		v1.10.46:
+			- Fixed crash when setting color in color picker without alpha slider
+			- Added flip for facing
+		v1.10.47:
+			- Added isAntialiasing to OptifineHelper
+			- Added flip for facing
+			- Fixed another inaccuracy calculations which resulted in slices intersection even though they do not
+			- Fixed crash when setting color in color picker without alpha slider
+	EmbersRekindled-1.17				to	EmbersRekindled-1.18
+		- Fixes infinite recursion from Blasting Core explosions
+		- Fixes Magma Worm crashing the server when you kill it
+	Erebus-1.0.31						to	Erebus-1.0.32
+		- See CurseForge for full Changelog
+	foamfix-0.10.10						to	foamfix-0.10.11
+		- Fixed multiple "ghost chunkloading" bugs across the 1.12.2 codebase,
+		  particularly involving Biomes o' Plenty grass, but also vanilla farmland and modded fluids.
+		- Minor code cleanup.
+	FWPArchitecturalEnhancements_v2.2	to	FWPArchitecturalEnhancements_v3.1
+		- v3.0 Crafting for all blocks down to carpet has been completed.
+		- v3.1 A few Valentines Day blocks, please enjoy them.
+	IntegrationForegoing-1.12.2-1.10	to	IntegrationForegoing-1.12.2-1.11
+		- 1.11 is now a full release version (See CurseForge for full Changelog)
+	LibVulpes-1.12.2-0.4.2-75-universal	to	LibVulpes-1.12.2-0.4.2-83-universal
+		- See CurseForge for full Changelog
+	Lord+Craft+2.10.2					to	Lord Craft 2.10.3
+		- Fixed a bug preventing the Magnetic Skill from being disabled
+	Metallurgy-4-Reforged-1.2.4			to	Metallurgy-4-Reforged-1.2.5
+		- Vanilla Buckets can be now made of any metal that you can also use to make tools (#300)
+		- Fix Crash (NPE) when using Desichalkos Sword Effect and Malisis Core is installed (#311)
+		- Metal dusts can now be paired with Midasium dust in a crafting table to create Gold (#300)
+		- Updates and Fixes to Russian Translation (#310)
+	MoreTweaker-1.0.17					to	MoreTweaker-1.0.19
+		- 1.0.18: HearthWell support
+		- 1.0.19: Fix crash on startup
+	mysticallib-1.12.2-1.9.0			to	mysticallib-1.12.2-1.10.0
+		- Support for changes in Mystical World.
+		- Support for future changes in Roots 3.1.
+		- Bowl-based stacking foods.
+		- ListRandomItemWithPrice is more sensitive to output stack size.
+	tweakersconstruct-1.12.2-1.5.5		to	tweakersconstruct-1.12.2-1.6.0
+		- 1.5.6: Fix embossing recipes being removed when traits are tweaked.
+	UniDict-1.12.2-3.0.4				to	UniDict-1.12.2-3.0.7
+		v3.0.5:
+			- Improved Immersive Engineering integration to unify slag and coke oven output.
+			- Fixed a bug in TechReborn integration causing some machines not to be unified.
+			- Rewrote Forestry Carpenter integration, it now rewrites the recipes instead of removing them.
+			- Fixed a problem where recipes would have the same name causing one to be removed.
+		v3.0.6:
+			- Added support for Mekanism PRC and Crystallizer.
+			- Simplify RecipeBook fixing code, now using vanilla code instead of some reflection hacks.
+			- Fixed keepOneEntry blacklists implementation.
+			- Added two config options "keepOneEntryDisableHideFromJEI" and "autoHideInJEIItemBlackList".
+			- Added support for Forestry's Squeezer extra output.
+			- Fixed a bug with CraftTweaker integration which caused kinds to be detected incorrectly.
+			- Improved the code for CrafTweaker created recipes so they have proper shape now.
+			- Fixed a bug with the IE crusher duplication removal which caused some recipes to be removed accidentally.
+		v3.0.7:
+			- Improved IE crusher input detection yet again
+			- Added astral sorcery grindstone integration
+			- Fixed some issues during unification when an oredict had no items
+			- Print errors to log to make troubleshooting later issues easier
+	Xtones-1.2.1						to	Xtones-1.2.2
+		- Fixed incompatibility with existing resource packs
+
+	DimensionalEdibles/Scripts(GeneralAllModes):
+		- Changed Dimension ID for Void Cake from 119 to -2 (VoidCraft Void) as 119 doesnt exist and DimensionalEdibles v1.3.2 causes a crash on invalid DimIDs
+	DimensionalEdibles-1.12.2-1.3.1		to	DimensionalEdibles-1.12.2-1.3.2
+		- 1.3.2 is now a full release version (See CurseForge for full Changelog)
+		- Did not Updated to 1.3.2 as it causes a crash
+v10.1.0.001
+	Fixed some Uranium issues
+	StorageDrawers Conversions:
+		- Added all Botania Quartz Types
+	QuantumFlux / Wireless Energy Transmission Mechanics Rework:
+		As the WETMs are now fully progressive (QuantumFlux/RandomThings/FluxNetworks) and White Gem Wafers are used in the
+		Quibit Crystal Recipe (Which served the purpose to make the Imaginary Time Block harder to craft (in OG PO3)) QuantumFlux became unreasonably/unlogically
+		way too difficult as "Stage I" for those WETMs.
+		To solve that inconviniences Following Changes are made:
+			- renameandtooltip: added QuantumFlux dedicated file with 1st entry beeing a hint for Hyper Diamonds to be only created from Industrial Grade Graphite
+			- speecker_beast_quantumflux: Quibit Cell Recipe now uses the White Gem Wafers, a Tier5 instead of Tier3 Quibit Cluster & RedQuartz for Redstone 
+			- ExtendedCrafting 5x5 (Beast): Imaginary Time Block now uses a Quibit Cell instead of a Tier 3 Quibit Cluster and Exotic Materials Catalysts instead of Quibit Crystals
+			- contentTweaker: Exotic Materials Catalyst now has a 5x5 ExtendedCrafting Recipe with a single Elite Catalyst surrounded by 24 White Gem Wafers
+							  This serves as compensation for the 96 White Gem Wafers that would else fall apart
+			- QuantumFlux: Quibit Crystal: Replaced the White Gem Wafers with Dilithium Crystals
+						   (Which requires to either find Dilithium Ore in the world or make it from Blocks of Dilithium in a AbyssalCraft Crystallizer
+						   ... or you make the Makenism "x5OreProcessingLine")
+	BetterQuesting:
+		- Omicron Page: Added AbyssalCraft Crystallizer Quest
+	DimensionalEdibles 1.3.2 Custom Cakes needed some changes to make the updated version work properly
+	QuantumFlux:
+		- Buffed Energy Usage of the Imaginary Time Block to max (1000 Max Input & RF/t Usage)
+	RandomThings:
+		- Replaced Heavy Steel Plates with Quibit Cells for the Spectre Energy Injector Recipe
+v10.1.0-002
+	ModualrMachinery:
+		- Nerfed Ember Value needed for Magic Conversion of Life Essence from Blood Slime Block to round 1000 to ease stack craft
+	Mekanism:
+		- Combiner: Added Recipes for Gold & Iron Ore (Vanilla)
+	Seeds:
+		- Seed Recipes now use mostly 10/10/10 variants
+	BetterQuesting:
+		- Delta Page:	Added some more 10/10/10 AgriCraft Clipping Quests
+		- Beta Page:	Added Woot Guide Book as Reward for the Stygian Anvil Quest
+	Woot:
+		- All Factory Base Blocks that are made out of MobDrops with Factory Base are now using Full Blocks around the Factory Base for more Grind/Resource useage
+v10.1.0-003
+	Woot:
+		- Fixed Ender Dragon (+Wither) Farm not taking ingredients (Seems to brake on multiple items at once) and added Simple Power Catalyst as ingredient instead of
+		  multiple entries of the same items
+		- Buffed Custom Dragon Heart drop to take looting upgrades into effect
+	Seeds:
+		- Ardite is now also Tier4 (like Cobalt) to match progression with Manyullyn beeing Tier 5. Are now AS-Recipes
+		- Aluminum/Aluminium is now Tier 3 as it uses an AgriCraft 10/10/10 Seed in Recipe. Is now a BOT-Recipe with either blockAluminum or blockAluminium
+		- Copper is now Tier 3 as it uses an AgriCraft 10/10/10 Seed in Recipe. Is now a BOT-Recipe
+		- Added Recipe for Vanilla Wheat Seeds from Nature & Water Essences (As alternative to Sifting like flint can be obtained the same way already)
+	ModularMachinery:
+		- Magica Converter Blood to Life Essence Recipes got nerfed as the Ember usage was way too high
+v10.1.0-004
+	Unidict/fixes:
+		- Made a hotfix so you can get Unobtainable Ores by Swapping OreDict as they are a requirement to produce some of the AgriCraft Special Seeds
+	AgriCraft:
+		- Added Recipe for Brown Mushroom Seed as Nether Wart does not grow and the CrossBreading is broken for Mushrooms
+		- All Output Seeds from Vanilla Grid Crafting are now 5/5/5 as if they would have been crossbread
+	MysticalAgriculture/Essence:
+		- Added Recipe for: Charcoal, Raw Salmon, Clownfish, Pufferfish
+	Seeds/MysticalCreations/MysticalAgriculture:
+		- Added Zinc Seed (Force Enabled)
+		- Fixed AgriCraft Compat / Seed Tiers are now matching
+v10.1.0-005
+	MysticalAgriculture:
+		- ForceLoaded any Seed that wasnt loaded yet with Implementations (Essence to Ingot/Gem Recipes & StorageDrawers Conversions):
+			- Amber
+			- Brass
+			- QuickSilver
+			- Rubber
+			- Tungsten
+			- Uranium 238
+		- Fixed Ender Seeds Recipe: Now uses OreDicct instead of ThermalSolars only
+		- Fixed Niter/Saltpeter Seed Recipes
+		- Metallurgy Compat (not yet implemented):
+			- (Amordrine)
+			- (Haderoth)
+			- (Etherium)
+			- (Hepatizon)
+			- (Bronze)
+			- (Desichalkos)
+			- (Celenegil)
+			- (Steel)
+			- (Damascus Steel)
+			- (Adamantine)
+			- (Electrum)
+			- (Tartarite)
+			- (Inolashite)
+			- (Shadow Steel)
+			- (Krik)
+			- Alduorite
+			- Vulcanite
+			- Ceruclase
+			- Ignatius
+			- Astral Silver
+			- Lemurite
+			- Sanguinite
+			- Eximite
+			- Shadow Iron
+			- Carmot
+			- Kalendrite
+			- Prometheum
+			- Atlarus
+			- Vyroxeres
+			- Oureclase
+			- Meutoite
+			- Orichalcum
+			- Infuscolium
+			- Midasium
+			- Rubracium
+			- Phosphorus
+			- Potash
+			- Deep Iron
+		Alchemistry/Metallurgy:
+			- Lutetium
+	Botania/Seeds:
+		- Lowered Mana Cost (Crafting Time) from 10k to 8k Mana needed to shorten waiting times but still using up a bit of Mana
+	WitherskeletonFix/mysticalagriculture:
+		- Added recipe and Storage Drawer Conversion for Wither SKull Fragments from Wither Skeleton Essence
+v10.1.1-000
+	Unidict: ReArranged Metallurgy priority as it still made some ugly inconveniences
+	StorageDrawers Conversions:
+		- Steel (TS)
+		- Mana Infused / Mithril (TS)
+		- Bronze (TS)
+		- Electrum (TS)
+	Seeds/Botania/JAOPCA/BloodMagic: - Added Niter Block and Bloodmagic Saltpeter to each Seed Recipe to ditinguish the seeds from each other
+	AppliedEnergistics2:
+		- Disabled Conversion Crafting of Crafting Storage Cells
+	AgriCraft: "Single spread stat increase" was set to false to force the user to enhance the seeds by hand to prevent the VERTICALS ALREADY CONSTRUCTING Bug
+				as it will most likely occur when spreading seeds from CropStick to CropStick. (Doesnt matter weather Single or Double). If (only) CrossBread
+				is actively used with the Clipper & Rake it seems to be quite stable and the Bug may be avoided this way as the crops are always rendered right in front of the user.
+	Seeds:
+		- Adamantine (Metallurgy) is now fully implemented
+		- Rock Crystal Seeds (Tier5) is now moved to the seeds file as well and Void Ingots got replaced with Enhanced Void Ingots
+	DarkUtils/MysticalAgriculture:
+		- Added Recipe for Shulker Pearls from Essence as alternative to Sifting
+v10.1.1-001
+	AppliedEnergistics2/AE2Stuff:
+		- Added White Gem Wafer to the Wireless Reciever Recipe
+v10.2.0-000 "Seed Rework"-Update:
+	Seeds/Metallurgy4:
+		- Aluminum Brass is now Tier3
+		- Metallurgy is now fully Implemented and Modular (Seeds added by JAOPCA are disabled by default)
+		- Metallurgy Seeds that are an alloy are now all Tier4 and use there base material as 10/10/10 seed ingredient for their crafting recipes
+			MysticalCreations Custom Additions (without any seed available yet):
+				- Adamantine		(Refactored)
+				- Amordrine			cpot (Tier4 / Alloy)
+				- Angmallen			cpot (Tier4 / Alloy)
+				- Black Steel		cpot (Refactored) (Tier4 / Alloy)
+				- Celenegil			cpot (Tier4 / Alloy)
+				- Damascus Steel	cpot (Tier4 / Alloy)
+				- Desichalkos		cpot (Tier4 / Alloy)
+				- Etherium			cpot (Tier4 / Alloy)
+				- Haderoth
+				- Hepatizon			cpot (Tier4 / Alloy)
+				- Inolashite		cpot (Tier4 / Alloy)
+				- Krik				cpot (Tier4 / Alloy)
+				- Shadow Steel		cpot (Tier4 / Alloy)
+				- Tartarite			cpot (Tier4 / Alloy)
+			JAOPCA Implemented:
+				- Alduorite
+				- Astral Silver
+				- Atlarus
+				- Carmot
+				- Ceruclase
+				- Deep Iron
+				- Eximite
+				- Ignatius
+				- Infuscolium
+				- Kalendrite
+				- Lemurite
+				- Meutoite
+				- Midasium
+				- Orichalcum
+				- Oureclase
+				- Prometheum
+				- Rubracium
+				- Sanguinite
+				- Shadow Iron
+				- Vulcanite
+				- Vyroxeres
+			MysticalAgriculture ForceLoaded in PSOZdev (Because unloaded - Will be fully implemented Standalone later):
+				- QuickSilver (ThaumCraft)
+				- Brass (OreDict)	cpot (Tier4 / Alloy)
+			Not Loaded due to Unidict Unification:
+				- Bronze
+				- Copper
+				- Electrum
+				- Lutetium (JAOPCA Implemented)
+				- Manganese
+				- Mithril
+				- Osmium
+				- Platinum (MysticalAgriculture)
+				- Silver
+				- Steel
+				- Tin
+				- Zinc
+	TiC/Infini-TiC/GregTech:
+		- Commented out a line that used a non existent GregTech Liquid for the Electrotine Alloy Alloying Recipe
+		- This now removes the on world spawn message "trying to access ghost liquid before its ready "annealed_copper" [...]"
+	ModularMachinery:
+		- Created new Machine "Compact Empowerer" which replaces the "Mechanical Empowerer" as it is too large. May be fully implemented or else overthrown later (Just disabled/Unused not removed).
+		  Test Recipe: Octadic Capacitor / Test Upgrades: Imaginary Time Block for Speedup and the same two for Items that are already used for the Alloy Smelter
+		- Disabled the "Mechanical Empowerer" as it is Unused
+		- Disabled the "Multi Compressor" as it is more or less the same as the "Laser Cutter" and its recipes are disabled (ported to the Laser Cutter) already
+	StorageDrawers/Scripts ("renameandtooltip"):
+		- Buffed Controller Range to 256 on each side and edited its Tooltip
+v10.2.0-001
+	Seeds:
+		- Added ThermalExpansion Phytogenic Insulator Compat for all new Custom MysticalCreations Seeds for Metallurgy (from v.10.1.2-000)
+	IndustrialForegoing/ExtendedCrafting:
+		- Replaced 1 of the 2 Hydrators with an Plant Fertilizer
+		- Made Alchemistry Fertilizer an alternative to IndustrialForegoing Fertilizer in the Hydrator Recipe
+	Resourcepack:
+		- v6.3.3: Added Alchemistry Fertilizer Texture (Copy of IndustrialForegoing Fertilizer) for Unification
+	Rustic:
+		- Slate now generates in the nether as we are most likely in SkyBlock
+	ClassicBar:
+		- Disabled warning messages for AdvancedRocketry & Rustic
+v10.2.1-000
+	JAOPCA:
+		- is now using gem_oreless, ingot_oreless & reloadColorConfigs set to true to load much more materials (even alloys etc.) and 
+	Seeds/MysticalAgriculture/MysticalCreations:
+		- All Custom MysticalCreations Seeds etc. for Metallurgy materials are now disabled but kept as Standalone for packs without JAOPCA except the following:
+			- Adamantine
+		- All MysticalAgriculture Seeds are now back to be soft-enabled except the following:
+			- Amber
+			- QuickSilver
+			- Rubber
+			- Tungsten
+			- Zinc
+	ThermalExpansion/Seeds/MysticalCreations:
+		- Added Compat for Baronyte and Borer Seeds
+v10.2.1-001
+	TConstruct:
+		- Removed Neutron Fluid Recipes as JAOPCA now adds native Compat to Neutronium and Neutron Fluid is supposed to be only obtained from Fission Reactors
+	JAOPCA:
+		- Molten / Fluid Cleanup of duplicate fluids and TiC Compat that is already done by other Integration Mods / Methods
+			- AbyssalCraft
+			- TAIGA
+			- NuclearCraft (Partly)
+			- Fluxed Electrum
+			- ExtraUtils2
+		- Duplicate Seeds removed:
+			- AluBrass
+			- Elementium (ElvenElementium)
+			- ElectricalSteel
+			- Neutronium (Cosmic)
+v10.2.2-000 Debugging Work
+	Minecraft/MysticalAgriculture:
+		- Added a recipe for Melon Slices from Nature Essence to not depend on having a melon seed running 24/7 (same with other vanilla seeds)
+	Seeds/MysticalCreations:
+		- Added Alugentum Seed
+		- Added Arsenic Seed
+	ResourcePack:
+		- v6.3.4: JAOPCA Polishing Update
+	Unidict: Kinds Update for even more Unification
+		- Sorted Kind List
+		- Added alloy, circuit, clump, coil
+	Quark:
+		- Blacklisted Stonelings from Spawning in the Overworld to avoid TPS Lags by them
+	RenameAndTooltip: Added Shift-Toolips for TPS-Info on:
+		- ExNihiloCreatio: Crucible, Barrels (Stone/Wood)
+		- AgriCraft: CropSticks
+		- QuantumFlux: Imaginary Time Block
+	ThermalSeries:
+		- Added Fluid Transposer Recipe for Liquid Starlight from Aquamarine for TPS friendlier mechanics
+	TellMe:
+		- Refreshed all the dumps and updated inernal Content-Lists which are now completed
+v10.2.2-001
+	Stackie/Stacksize:
+		- Minor Internal Config Updates for Filled Buckets
+		- Added Iron Paxels to be able to be stacked to easy the automation/mass production of Plant Gatherers
+	GalactiCraftCore:
+		- Added/Replaced middle 2 Heavy Plates with HDPE Sheets in the Advanced Compressor Recipe to match with the lower tier recipe schemes
+	IndustrialForegoing:
+		- Added/Replaced the upper 2 Amethysts with HDPE Sheets in the Mob Duplicator Recipe to up the crafting difficulty
+		- Renamed Plastic to Rubber Sheets
+		- Made the Tooltips OnShift for Preview purposes of upcoming update Ideas
+	UniDict:
+		- Removed Botania Materials as it has its own sets that arent supposed to get overriden by JAOPCAs
+	ExtendedCrafting:
+		- Black Iron Slate Compat Fix due to the recent JAOPCA changes:
+			- Standard Recipe Removals from: ImmersiveEngineering, MagnetiCraft & ThermalSeries (Also added JAOPCA modloaded header for the sake of later modularity)
+			- Added a Fluid Transposer (ThermalSeries) and Fluid Infuser (NuclearCraft) Recipe
+			- Blacklisted modules for Black Iron to not have Recipes for Plates n stuff automatically added by JAOPCA to avoid duplicate / unusable recipes
+v10.2.2-002
+	StorageDrawers Conversions:
+		- hSLA Steel
+	CarryOn:
+		- Sorted Blacklist and added Alchemistry with a Wildcard as Picked Up (Multiblock) Machines cause a crash after placing back down and dupe in the process.
+		  Also you cant get rid of the picked up block anymore
+		- May Test and determine which blocks do trigger this incompatibility and which not so compatible blocks can still be picked up.
+		  but for now any Alchemistry Block is disabled for CarryOn to prevent the unwise from sticking blocks to their hands with randon crashbombs if trying to
+		  whipe em away
+v10.2.2-003
+	ExNihiloCreatio/ExtraPlanets/AbyssalCraft: Removed Red Sand completely from Sifting as its empty
+		- Removed Abyssalnite from Red Sand Sifting output as it is supposed to be only found in the Abyssal Wasteland
+		- Removed Crystal from Red Sand Sifting output as it a Tier 6 (7) Item that is only available on Uranus
+		- Removed Dark Iron from Moon Turf Sifting output as it is a Tier 9 (10) Item that is only available on Eris
+		- Removed Liquified/Refined Coralium from Red Sand Sifting output as it is supposed to be only found in the Abyssal Wasteland
+		- Removed Mercury from Moon Turf Sifting output as it is a Tier 3 (4) Item that is only available on Mercury
+	UniDict/CraftTweaker2:
+		- Corrected the recipeToRemoveList: Is now working as intended. CT Command did not work as intended so gonna use the tideous by-hand variant that does work.
+	Seeds:
+		- Haderoth: Added Base Seeds (Mithril/Mana Infused & Rubracium) as it is actually an Alloy
+	TAIGA/Metallurgy:
+		- Prometheum (Fluid) Compat & Deduplication:
+			- FluidCows: Disabled Fluid Cow for prometheum_fluid (TAIGA)
+			- JEI: Remove & Hide: TAGIA "Prometheum Fluid"
+			- TiC-Compat: Replacing TAIGA "Prometheum Fluid" with Metallurgy "Molten Prometheum" for Alloy Recipe of Imperomite & Proxii
+	ProjectRed//MysticalAgriculture:
+		- Fixed Recipe for ProjectRed Silicon from Essence
+		- Added Recipe for AE2 Silicon from Essence
+	ExtraUtils2:
+		- Added a new file for replaceAllOccurences with Unstable Ingots to Stable Unstable Ingots to make them usable
+	replaceAllOccurences:
+		- Moved the complete folder to /scripts/PackSpecific/ to find them much easier instead of searching beast folder every time
+		- added all packmodes to the files for replaceAllOccurences
+v10.2.2-004
+	ExtendedCrafting:
+		- Compression Crafting: Fixed duplicate input of Crystal Matrix Ingots and replaced it with Crystal Matrix Plates for the Matrixite Plate in BetaTesters
+	ExtendedCrafting/ExtraPlanets:
+		- Replaced Blue Diamonds with Blue Gems for the Elite Crafting Table as Blue Diamonds require a Tier 10 Rocket (Kepler 22b) and Elite would be kinda obsolete
+		  if you can go directly to the Ultimate Crafting Table that is made with Green Diamonds (Also Tier 10 from Kepler 22b). Thus making a better progression
+	Alchemistry:
+		- Renamed Fertilizer to Synthetic Fertilizer to distinguish it from IndustrialForegoing Fertizer as the PSOZ Resourcepack Unifies their Texture and
+		  also to make clear that it is "artificially" produced instead of "naturally" made from Sewage (which woud require to make some kind of Animal Farm)
+v10.2.3-000 "Seed Rework: Recipes"
+	Seed Rework:
+		- Completed the Sheet for all available Seeds and finalized the Layout Rework
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1
+	To-Do/Idea List Cleanup
+v10.2.3-001
+	LordCraft/ExtendedCrafting:
+		- Added !modularmachinery to the modloaded header to only load the lordcraft support script if it cant be automated with modularmachinery
+		  ExtendedCrafting will then be an alternative way of automation for LordCraft Stuff if ModularMachinery is missing, but if its there its obsolete
+		  to have the compat/alternative activated
+	Seeds:
+		- Coal Seed Recipe is now only accepting Vanilla Coal Blocks as theres a Visual Glitch with Chisel Coal Blocks that show incorrectly as 8 in count
+	ActuallyAdditions:
+		- Empowerer: Lowered the production duration by 1/10 (&-2) but increased energy cost x10 and unfied values for all Recipes
+		- Awesome side-effect from this beaatiful star-spread show while operating multiple of them at once
+v10.2.3-002
+	Minecraft/renameandtooltip:
+		- Renamed Vanilla Stone (Smelted Cobblestone) to "Clean Stone Block" to ease finding it without beeing distracted by any of the modded Stones
+	Erebus / renameandtooltip / AgriCraft / ThermalExpansion:	Mandrake Compat
+		- Added OnShift Tooltips for the Mandrake Root giving the Wiki Info directly InGame
+		- Added AgriCraft compat for the Mandrake Root Plant and its Soil (Dust (Erebus))
+		- Added a copy of the OG Mandrake Root Texture as AgriCraft Seed Texture to match its OG Seed
+		- Added Placeholder Textures for the AgriCraft Plant
+		- Added ThermalExpansion Magma Crucible Compat to make Formic Acid from Mandrake Roots (for better/tps-friendlier Automation)
+	AstralSorcery/ThermalExpansion:
+		- Edited the Energy Amount for Liquid Starlight from Aquamarine and made it a Magma Crucible Recipe (makes more sense than a Fluid Transposer Extraction)
+	ExtendedCrafting:
+		- Compression Crafting: Fixed duplicate input of Draconium Ingots and replaced it with Draconium Plates for the TexCubite Plate in BetaTesters
+		- Compression Crafting: Fixed duplicate input of Crystal Ingots and replaced it with Crystal Plates for the Buttite Plate in BetaTesters
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1 (since v10.2.3-000)
+		- Tier 1,2
+			- Quartz Seeds has a specific IItemStack as theres an unfinished block with a missing texture shown in the JEI Input Rotation for ElvenQuartz
+			- Aluminium/Aluminum: OutCommented blockAluminium Variant so theres no duplicate Recipe InGame (Line kept in file for Modular Version).
+v10.2.3-003
+	Unidict Unifications:
+		Some more Unifications for missing listings of TAIGA materials (JAOPCA Blocks will be priorized over TAIGAs own - same with AE2):
+			- Abyssum
+			- Aurorium
+			- Duranite
+			- Eezo
+			- Jauxum
+			- Karmesine
+			- Tiberium
+			- Osram
+			- Ovium
+			- Uru
+			- Valyrium
+			- Vibranium
+		AppliedEnergistics2 (Because Unification ...):
+			- CertusQuartz
+			- ChargedCertusQuartz
+	Seeds filenaming explained while "()" is Optional:
+		[dev]_seeds_[packmode]_[MechnicFromMod]_[MechanicUsed]_[SeedFromMod]_[MaterialFromMod](_[IngredientsFromMod])
+	BigReactors/ExteremeReactors:
+		- Ludicrite Block Recipe: Replaced Void Ingots with Enhanced Void Ingots
+	EnderIO:
+		- Added Grid Recipe for Prescient Crystals as the soul binder is not really/easely automatable
+		- Changed the Recipe for Infinity Reagent (InfinityGoop) to serve its now given purpose as Tier 5 Seed Ingredient and Placeholder for any Alloy Seeds.
+v10.2.3-004
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1 (since v10.2.3-000)
+		- Tier 1,2 (since v10.2.3-002)
+		- Tier 2,1 & 2,2
+			- Reinforced Obsidian uses Iron & Obsidian Seeds
+			- Evil Metal uses Wither Skeleton Seeds 10/10/10 for a NetherStar
+			- Graphite Seeds use Coal Seeds & Fire Seeds (To Simulate Furnace Smelting)
+			- Refined Obsidian uses Osmium Seeds (To Simulate Osmium Compression)
+			- Refined Glowstone uses Osmium Seeds (To Simulate Osmium Compression)
+v10.2.3-005
+	MysticalAgriculture/Natura:
+		- Added a Recipe for Natura Thorn Vines from Nether Essence in the same shape you would make Overworld Vines with Nature Essence
+	StorageDrawers Conversions:
+		- Cyanite Blocks
+	Unidict Unifications:
+		- Adamant
+		- Adamantine
+		- Astrium
+		- Ignitz
+		- Imperomite
+		- Fractum
+		- Lumix
+		- Niob
+		- Proxii
+		- Terrax
+		- Tritonite
+		- Seismum
+		- Yrdeen
+v10.2.3-006
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1 (since v10.2.3-000)
+		- Tier 1,2 (since v10.2.3-002)
+		- Tier 2,1 & 2,2 (since v10.2.3-004)
+		- Tier 3,1 & 3,2
+			- Fluid Alloys: Fire Seeds for Lava, Water Seeds for Water
+			- Unstable Seeds use Wood Seeds for Sticks 
+			- Boron Nitride Seeds use Boron for Boric Acid as it is a fluid but Boron is a Base Ingredient Seed besides Hydrogen (which is a Gas) for Boric Acid
+			- Fluid Alloys: If theres neither a direct Seed nor a Base Ingredient Seed available a Filled Bucket (Forge) is used instead
+			- Fluix Seeds use Certus Quartz Seed for Charged Certus Quartz and uses an additional Water Seed
+			- Manasteel Seeds use a Filled Bucket (Forge) of Primal Mana for Mana (Botania) as it is an Energy-Type and has neither a bucket nor other direct item
+			- Conductive Iron Seeds use MysticalAgriculture Redstone Alloy Seeds (EnderIO) because Red Alloy Seeds are from ProjectRed/JAOPCA.
+				- Red Alloy (ProjectRed) will be needed anyway and by using the Redstone Alloy (EnderIO) instead the user will passively be "soft-forced" to make use of it
+				- Red Alloy (ProjectRed) is used as Base for Redstone Alloy (EnderIO) anyways		
+			- End Steel Seeds use End Seeds for Endstone
+			- Enderium Seeds use the Seeds of the Materials used for the Enderium Base Ingots directly as this is a unique Item
+				- Enderman Seeds used for Ender Pearls as there are no "Ender Pearl" Seeds, but Enderman Essence is used to gather Ender Pearls
+				- Fire Seeds & Dirt Seeds used for Sand/RedSand as A: Sand is made out of their Essences and B: to make Enderium Seeds a bit harder to get
+			- Knightslime Seeds use Slime Seeds for Pink Slime & Stone Seeds for Seared Stone
+			- Pigiron Seeds use Zombie Seeds for Blood (As Blood can be made out of Zombie Flesh) & Water/Dirt Seeds for Clay
+v10.2.3-007
+	Unidict Unifications:
+		- Nihilite
+		- Nucleum
+		- Solarium
+v10.2.3-008
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1 (since v10.2.3-000)
+		- Tier 1,2 (since v10.2.3-002)
+		- Tier 2,1 & 2,2 (since v10.2.3-004)
+		- Tier 3,1 & 3,2 (since v10.2.3-006)
+		- Tier 4,1 & 4,2
+			- Terrasteel Seeds use 2 Buckets of Primal Mana for the lower 2 Whetstone Powder
+			- CrystalFlux Seeds use Grains of Piezallity as theres no direct Seed for Pulsating Crystals and its a compound
+			- Cyanite Seeds use Fire Seeds (to simulate furnace burning)
+			- Plutonium Seeds use Fire Seeds (to simulate furnace burning)
+			- Blutonium Seeds use 2 Buckets of Formic Acid (No Cyanite Seed) to prevent a paradoxon loop
+			- hSLASteel Seeds use Graphite & Manganese Seeds as theres no Carbon-Manganes Seed
+			- StellarAlloy Seeds use Triple Compressed Nethar Star Blocks instead of a Nether Star/Wither Skeleton Seed
+			- VividAlloy/VibrantAlloy Seeds use Enderman Seeds for Ender Pearls
+	Seed Compat:
+		- Dilithium Seeds got ForceLoaded and their Recipe was changed up to TAIGA Dilithium Ingots as usually it would be added with MatterOverdrive
+	NuclearCraftExtraIngotBlocks:
+		- Updated/Made a PSOZ Custom variant since JAOPCA adds native Integration for NuclearCraft and makes NC-EIB obsolete
+	Alchemistry/ContentTweaker:
+		- Made a copy of the NCEIB and transformed/manipulated it into AlCEIB adding in Blocks for Alchemistry Ingots wihtout Blocks and no JAOPCA Support
+			- Test Material/Ingot: Arsenic
+v10.2.3-009
+	Seed Recipes Rework (finished so far):
+		- Tier 1,1 (since v10.2.3-000)
+		- Tier 1,2 (since v10.2.3-002)
+		- Tier 2,1 & 2,2 (since v10.2.3-004)
+		- Tier 3,1 & 3,2 (since v10.2.3-006)
+		- Tier 4,1 & 4,2 (since v10.2.3-008)
+		- Tier 5,1 & 5,2
+			- Same Mechanics/Patterns/Schemes/etc. as prior Tiers
+v10.2.3-010
+	AdvancedRocketry:
+		- Added Pilot Recipe for the Precision Assembler which should make the Modular Machinery Assemblers obsolete
+	Alchemistry/NuclearCraft Compat:
+		- Added missing Plate Recipes for Alchemistry Ingots with the Pressurizer
+	PneumaticCraft:
+		- Lowered Required Pressure Value for Nether Stars and Magma Blocks as the high value bottlenecked automation
+	NuclearCraft:
+		- Started to make Scripts completely modular by adding Conditional Statments
+			- So no matter if the mod is available or not all recipes can be inside a single file
+			- Main Mods will still have their seperate Scripts but the overall script count will decrease as "_SubMod/DependencyMod" annotations become obsolete
+v10.2.3-011
+	Seeds Rework:
+		Partly made Tier 1,1/1,2 Seed Recipes fully universal modular already
+	Unidict:
+		- Removed Reecipes for Insanium Ingots as theres noBlockify & Custom Recipe is used (with Gaia Ingots)
+	BuildingGadgets/renameandtooltip:
+		- Made the info on the Requirements for EMC Building onShift and added a "(shift)" behind the ":"
+		- Added Warning Information for the Exchanging Gadgets and a hint to use Exchangers instead if
+		  you want to replace blocks that have signs or similar items sticked to them as they will fall off when replacing them with the Exchanger Gadget
+	ModularMachinery:
+		- refactored compact_empowerer to compact_hyper_empowerer and added a recipe for Endergised Capacitors as they are needed a very lot so this will speed up
+		  Mass Production of a lot of stuff that requires them
+		- Updated all recipes to properly work and to be consistent for the Compact Hyper Empowerer and heavily nerfed RF/t consumption as it was way too high
+v10.2.3-012
+	ExtendedCrafting:
+		- 9x9 Table Recipe: Replaced Vibrant Ingots with Vibrant Crystlas for A: Nicer Visuals of the Recipe B: Make a minor Buff
+	StorageDrawers Conversions & Fixes (due to UniDict Changes some are missing again)
+		- Zombie Essence/Flesh/Flesh Block
+		- Steel Block (ThermalSeries)
+		- Spider Eye/Essence/String
+		- Rubber Essence / Rubber Sheets (IF Plastic) / Pressed Rubber Sheets (AoA3 Plastic Block - Renamed)
+		- Abyssum (JAOPCA Block)
+		- Dimensional Shards (JAOPCA Block)
+	TexturePack: Updated to v6.3.5
+v10.2.3-013
+	Mekanism/Seeds/mysticalagriculture/Alchemistry:
+		- Added a recipe for Alchemistry Osmium Ingots
+		- Added Pilot recipes for the (Osmium) Compressor and Combiner as Top-Tier Machines as Elite Variants for faster Plate & Gear Mass Production
+	StorageDrawers Conversions
+		- NuclearCraft/Alchemistry Rock Crusher Ingots/Dusts Conversions
+	Wireless Universal Terminal:
+		- Fixed Recipe
+		- All Wireless Terminals can be combined into the Universal one with 4 Coloured Diamonds (Any Color)
+	ModularMachinery:
+		- Added A Compressed Tin Recipe for Alchemistry Tin Ingots
+		- Added A Compressed Titanium Recipe for Alchemistry Titanium Ingots
+v10.2.4-000
+	Fly & Jetpack Updates:
+		- Brokenwings: Whitelisted Chaotic Chestplate to allow flight while wearing it.
+		- Added some more Dimension IDs to the Blacklist to deny creative Fly in (except the whitelisted Armor
+        	Planets & Space in General:
+				- 100, 102, 103, 105, 106 & 108
+			Named Planets:
+				- Asteroids: -30, Ceres: -20, Eris: -21, Jupiter: -15, Keplar22b: -22, Mars: -29, Mercury: -13, Neptune: -18, Pluto: -19, Saturn: -16, Uranus: -17,
+			  	  Venus: -31, Callisto: -1505, Deimos: -1503, Europa: -1501, Ganymede: -1506, Iapetus: -1511
+			Mooons:
+				- Io: -1500, Moon (Earth): -28, Oberon: -1509, Phobos: -1502, Rhea: -1507, Titan: -1508, Titania: -1510 & Triton: -1504
+	Progressives:
+		- SimplyJetpacks2 got its Progression now fixed once more - seems like v2.2.19.0 may be finally the finished one for 1.12.2 (Mod-Internal-Progression wont change up again)
+		- Edited (Mainly Buffed) the Energy Values for Top-Tier Jetpacks (Mek4/Ultimate, TE5/Flux & EIO5/DarkSoularium) so they can be used much longer to better match their cost.
+	ProjectRed:
+		- Added some Recipes for items that did not have any yet
+v10.2.4-001
+	ModularMachinery:
+		- Some more Alchemistry Compat Fixes
+	StorageDrawers Conversions:
+		- EnderIO Crystalline & Crystalline Pink Slime
+		- Vivid Alloy
+	Seeds Rework WIP Edits
+v10.2.4-002
+	IndustrialForegoing:
+		- Fixed Tree Fluid Extractor Recipe (blockElectrotine is now blockElectrotineAlloy)
+			(Feel free to let me know if there are any other broken recipes due to the recent JAOPCA Changes. Thx in advance)
+	SimplyJetPacks2:
+		- Included its own Flux Capacitors in the Jetpack Progression Recipes as well to give them more purpose
+v10.2.5-000
+	Mod Changes:
+		- Added:
+			- JustEnoughDrags (Beta Version of JEI-Drag Support for yet unsuported Mods)
+		- Updated:
+			- Metallurgy4Reforged from v1.2.5 to v1.2.7
+				v1.2.6:
+					- Iron and Gold Decorative blocks are now unregistered when disabling a specific block types (#316)
+					- Fixed Celenegil and Orichalcum effects being applied to Deep Iron and Shadow steel instead (#319)
+					- Improved random mob metallurgy equipment generation performance
+					- Fixed JEI Alloyer Recipes displaying wrong information when you changed some ingredients' oredict names (#317)
+					- Fixed faulty CT integration that automatically converted other mods' materials to their metallurgy equivalents when adding custom recipes (#318)
+				v1.2.7:
+					- Fixed Forge errors spam in log caused by broken JSON recipes when disabling registration of items and blocks in the mod (#322)
+					- Fixed ore generation biome filters in config files (#323)
+					- Fixed a crash that occured when a non-player entity tried to use Lemurite Shield (#325)
+					- Improved the look of Creative tabs when mod content is disabled via the registry.cfg config file
+			- (Corail) Tombstone from 4.1.2 to 4.4.1:
+					- See CurseForge for Changelog
+			- CraftTweaker2 from 4.1.20.631 to 4.1.20.646
+					- See CurseForge for Changelog
+			- NuclearCraft from 2.18y to 2.18z
+					- See CurseForge for Changelog
+			- FoamFix from 0.10.11 to 0.10.14
+					- See CurseForge for Changelog
+		- Replaced:
+			- EnderUtilities instead of ProjectStorage/PlayerStorage:	
+				- Replaces ProjectStorage/PlayerStorage (& OverpoweredInventory (prior to PlayerStorage)) as a secondary large Inventory Solution as it is much more
+				  stable, versatile and brings some additional utilities & useful mechanics with it as a side effect
+				- One of the great benefits of it is being able to be very well Organized. There is also no direct 1-to-1 swap like OverPoweredInventory had,
+				  but you can store a lot more items of the same type, move stuff around in a more or less similar manner.
+				- Another reason why EnderUtilities was chosen over OverpoweredInventory & PlayerStorage is the fact that you are able to
+				  just grab the whole inventory by card and place/use it in a Chest, which was missing in ProjectStorage/PlayerStorage
+				  (There was a version of this mod with some kind of disposal block & internal Fluid Tanks but these were always laggy and buggy/glitchy)
+				- Also EnderUtilities is more likely to recieve further support/updates/fixes etc.
+				- Empty your PlayerStorage Inventory before updating/removing the mod if you want to keep the items inside
+		(- Forge got an update from 14.23.5.2854 to 14.23.5.2855 - feel free to use it without any worries)
+	BetterQuesting:
+		- Fixed the Copper Armor Quest still using Thermal Series Variant. Metallurgy Copper Armor is now used for the Quest as it is the prefered one of the two similar.
+		(- Metallurgy Copper Armor has slightly better stats than Thermal Series Copper Armor)
+	Exchangers/BuildingGadgets:
+		- Progressive Recipes are now done
+		- Progressive Ranges, Energy Values & Harvest Levels are now done
+		- Energy Values are now shown in RF instead of FE
+		- All Recipes are now set to "hard"
+		- BuildingGadgets Recipes now use Ultiimate Exchanger as this is now the top tier Exchanger
+v10.2.5-001
+	Cyclic Cleanup:
+		- Removed Blocks/Machines/Items duo to being obsolete to enhance overall load times and performance:
+			- Autocrafter, Automated User, Block Placer, Clock, ControlledMiner, EnderBook, EntityDetector, ExchangeScepters, Pipes, Spikes, Sprinkler, StorageBag,
+			WorkBench, Packager, Battery, InfiniteBattery, FireStarter, Fluid Placer, Trash, WirelessTransmitter
+v10.2.5-002
+		- Minecraft (scipts/Modes/beast/speecker_best_minecraft/speecker_best_minecraft.zs):
+			- Shulkerboxes now require End Rods to be crafted
+		- LostCities (config/lostcities/general.cfg):
+			- Portal Block is now Infused Lava Crystal Block instead of normal Lava Crystal Block
+			- Lost Cities Profile is now set to "chisel"
+		- ExtraUtils2/Overloaded:
+			- Fixed an issue with Mechanical/Analog Crafters using fallback compressing recipes from Overloaded for Compressed Cobblestones. EU2s Own Compressed are now used correctly.
+v10.2.6-000
+	Mod Changes:
+		- Updated:
+			- RebornCore from 3.19.4.529 to 3.19.5
+				- See CurseForge for Changelog
+			- CraftTweaker2	from 14.1.20.646 to 14.1.20.673
+				- See CurseForge for Changelog
+			- Performant from 1.10 to 1.11
+				- See CurseForge for Changelog
+			- tombstone (Corail Tombstone) from 4.4.1 to 4.5.2
+				- See CurseForge for Changelog
+			- Metallurgy4 from 1.2.7 to 1.3.0
+				- See CurseForge for Changelog
+			- ContentTweaker from 4.9.1 to 4.10.0
+				- Various Fixes
+			- AdvancedRocketry from 1.7.0-240 to 2.0.0-257	+ LibVulpes from 0.4.2-83 to 0.4.2-87
+				- See CurseForge for Changelog
+			- DraconicEvolution from 2.3.27.353 to 2.3.28.354
+				- See CurseForge for Changelog
+			- DraconicAdditions from 1.15.1.39 to 1.17.0.45
+				- See CurseForge for Changelog
+			- AbyssalCraft from 1.10.3 to 1.10.4, AbyssalCraftHeads from 2.1.0 to 2.1.1 & AbyssalCraftIntegration from 1.11.2 to 1.11.3
+				- Added Supporters List & Chinese Lang-File for Heads
+				- The explosion size config options now specify the bounds for the option
+				- The Staff of Rending now drops the essence on the ground if your inventory's full when it creates it
+				- Fixed a bug with the Materializer being unable to list all recipes when surpassing 110 registered recipes
+			- AgriCraft2 from a6 to b2 + InfinityLib from 1.12.0 to 1.12.1
+				- ! STILL NEEDS TESTING & COMPARISON !
+				- ! UNTESTED: Hopefully this may fix the random Crash on breaking down AgriSeeds !
+			- AmbientSounds from v3.1.5 to v3.1.7
+				- Fixed playing biome sounds in the end (v3.1.6)
+				- Fixed playing desert and ocean sounds at the same time (causing weird wind sound) (v3.1.7)
+			- JAOPCA from 2.2.8.103 to 2.2.8.106
+				(2.2.8.104):
+					- Updated Advanced Rocketry
+				(2.2.8.105)
+					- Embers melting recipe now outputs extra ore
+					- TechReborn module no longer throws exceptions
+					- Removed Tinkers' Construct OreDictInit compat
+					- Removed NuclearCraft OreDictInit nugget compat
+				(2.2.8.106)
+					- Fixed third extra config not working
+					- Fixed CraftTweaker compat ore entry getting extra returning self
+			- JAOPCAAgriculture from 1.2.1.16 to 1.2.1.17
+				- Updated to newer AgriCraft Version
+			- CarryOn from 1.12.3.15 to 1.12.6.20
+				(1.12.4.16)
+					- Improved compatibility with many mods
+					- Added more defaults to the blacklist
+					- Improved compatibility on Sponge and other server architectures.
+				(1.12.5.18)
+					- Made it harder to place blocks where they're not supposed to be
+				(1.12.6.20)
+					- Fixed debug log spam
+			- ImmersivePetroleum from 1.1.9 to 1.1.10
+				- See CurseForge for Changelog
+			- MagnetiCraft from 2.8.3dev to 2.8.4.3dev
+			 	- Many Mod-Compat fixes (especilly for ModPacks)
+			- CreativeCore from 1.10.47 to 1.10.69
+				- See CurseForge for Changelog
+
+		- Replaced:
+			- NotEnoughEnergistics instead of JustEnoughEnergistics:
+				- ! NEEDS TESTING & COMPARISON (?AutoFillToCraft-Requesting?) !
+				- Works fine so far
+				- Has addtitional functions (i.e.: shortcuts) and adapts to some other popular Mods
+			- AE Addtitons - ExtraCells2 Fork instead of deprecated OG:
+				- (TexturePack got Added ExtraCells Textures)
+				- Is supposed to fix some Bugs from OG
+				- Has addtitional functions (i.e.: Upgrade Cards are now also insertable into a Gas Interface)
+v10.2.6-001
+	ExNihilo/Unidict:
+		- Tin Ore Pieces should now be ignored and no more get converted into regular Block Ore
+	ProjectE:
+		- Removed EMC values for items that arent supposed to have any
+			- ExNihilo OrePieces and OreChunks
+			- Worm
+			- Morphing Tool & Akashik Tome
+			- Engineers Hammer
+		- Fixed value for Clay Block
+	
+v10.2.6-002
+	projectE:
+		- Added EMC Value for Lavawood
+	Minecraft:
+		- Removed Recipe for Iron Bars to force using Plates for the recipe
+	BetterQuesting:
+		- Changed Mode of the Aether Quest into HIDDEN as there is no Aether Dim anymore (for now)
+
+v10.2.6-003
+	AE Additions:
+		- Edited Recipes to match AE Additions instead of ExtraCells
+			- Modes/beast/speecker_beast_actuallyadditions.zs
+			- PackSpecific/speecker_beta_testers.zs
+			- Modes/beast/speecker_beast_extended_crafting/speecker_beast_extendedcrafting_9x9.zs
+		- Created/Edited ExtraCells2 duplicate to port the custom recipes
+	AdvancedRocketry:
+		- Modes/GeneralAllModes/renameandtooltip/speecker_renameandtooltip_advancedrocketry.zs
+			- OutCommented AstroBed as it is no more available in newer Version
+	ProjectE:
+		Alchemistry:
+			- removed EMC Values for Compounds as they make EMC exploitable
+			- Cellulose, Water, Silicium Dioxide, Khaolinite
+			- removed EMC Value for the Ingame Wiki Guide Book (No need to have EMC on that)
+		QuantumStorage:
+			- removed EMC Value from Quantum Bag as it has no NBT Tags. Without EMC it is less likely to accidentally loose its contents in some situations
+	DimensionalEdibles:
+		- Edited recipe for Overworld Cake to use ActuallyAdditions Biomass instead of Pulped Biomass (IndustrialForegoing) as it is Unobtainable for the point of time for the quest
+			(GeneralAllModes/speecker_dimensional_edibles)
+	Alchemistry:
+		- Added/Created new file "Modes/beast/speecker_beast_alchemistry.zs"
+		- Removed all dust recipes from the Chemical Combiner as they are supposed to be obtained by a pulverization mechanic instead of a chemical combination
+	BetterQuesting:
+		- Binnies: Made all Binnies Quests on Page Beta HIDDEN as it is no longer in the Pack
+		- Alchemistry: Fixed Chemical Combiner Quest Item Issue
+		- MagnetiCraft:
+			- Hydraulic Press Quest: Fixed missing Iron Grate Machine Block (with correct amount)
+			- Added Quests for the Electric Engine & RF Transformer and rearranged all Magneticraft Quests accordingly
+	Magneticraft:
+		- Added Electric Engines to the RF Transformer Recipe to fill in the gaps that came up by removing Portality
+		- Added Hydraulic Press Recipe for Diamond Plates (GeneralAllModes/specker_magneticraft.zs)
+
+v10.2.6-004
+	ProjectE:
+		EnderIO:
+			- Fixed EMC Values for Energetic Silver & Vivid Alloy
+		ActuallyAdditions:
+			- Fixed Moonstone EMC Value
+		MysticalAgriculture:
+			- Fixed missing EMC Value for Porperity Block
+		AoA3:
+			- Added EMC Value for Runium Chunk
+	Landcore/Landcraft:
+		- Created Modes/beast/beastspecific/speecker_beast_noBlockify/speecker_beast_noBlockify_landcore
+			- removed any Block recipes with * (might have to remove it in unidict instead)
+	InWorldCrafting:
+		- Changed electrum to elecctrotine_alloy liquid for the modularium ingot recipe as it was just a placeholder but the corresponding fluid is now available
+	ModularMachinery:
+		- Changed missing ore:basicCurcuit to quantumflux Advanced Curcuit (Originally it used the Basic Circuit form Mekanism but that requires Pneumatic Compression)
+	ProjectRed:
+		- Added Immersive Engineering Circuit Board to the Silicon / Energized Silicon Chips for more complexity - passively forces the Player to build the IE Workbench early on
+	Quark:
+	- GeneralAllModes: Edited Basalt Pavement Recipe to not interfere with compressed Basalt
+	BetterQuesting:
+		Heaphaestus:
+			- Overhauled all Descriptions with spelling corrections, updated Information etc.
+			- Rearranged the Quests and Updated their Questline to follow the Gameplay Order
+			- Added all missing Realmstones as Quests
+		Zeta:
+			- Made the Portality Quests Hidden as the mod is no longer present
+			- Added IE Deco & Redtstone Coil Quest and reaaranged the Portality Questline
+		Lost Cities Quest:
+			- Updated Lava Crystal Block with Infused Lava Crystal Block to match correct Block in use as of the v10.2.5-002 Update
+	Progressives/ArmorStages/Tier I/speecker_tier1_armor_workbench_#0-24.zs:
+		- Fixed duplicate Slime (#01) to #02-Armors Recipes and missing Chicken (#01-)Armor Issue
+	AoA3:
+		- GeneralAllModes: Changed Compressed Basalt to Ancient Rock for the Corrupted Traveler Recipe
+		- Added Runium Chunk to the Ancient Rock Recipe
+	Metallurgy:
+		- Removed OreGen from Lost Cities for:
+			- Manganese
+	LordCraft:
+		- Removed SimpleCrystal from OreGen in the LostCities Dimenesion as it should only be found in The Twilight Forest or Landia
+		- SimpleCrystal OreGen should have been fixed for the Landia Dimension as of v9.4.0op
+	LandCraft:
+		- Removed Thorium Ore from LostCities OreGen (Landia exclusive Ore should be exclusive!)
+	FluidCows:
+		- Removed & Updated Spawn (spawnrate = 0) for various new Cows generated from couple mod updates since the last file Patch
+		- 10 Fluid Cows can be found in Wilderness, rest must be Crafted - some recipes may be missing for newer Cows.
+v10.2.6-005		ProjectE:
+		Chisel: - Added EMC Value for Raw Basalt
+		TConstruct: - Fixed EMC Value for Aluminum Brass Ingot & Block
+	BetterQuesting:
+		Alpha:
+			- Added EnderUtilities Ender Furnace Quest
+		Beta:
+			- Added EnderUtilities Quests for its Storage Items
+		Zeta:
+			- Added EnderUtilities Items as Quests as the Portal Network is the Recplacement for Portality
+		Eta:
+			- Added EnderIO Enhanced SAG Mill Quest
+	ActuallyAdditions:
+		- GeneralAllModes: Fixed Recipe Issue for Double Layer Capacitor (EIO) that used outdated/old TF Pulverized Coal
+		- Fixed Modular Machinery Recipe for the Double Layer Capacitor in the Compact Hyper Empowerer
+v10.2.7-000
+	Mod Update:
+		- Botania from 1.10-363 to 1.10-364.4
+		- ItemPhysicsFull from 1.4.34 to 1.4.37
+		- SimplyJetPacks2 from 2.2.19.0 to 2.2.20.0
+		- Unidict from 3.0.7 to 3.0.10
+	Config / StorageDrawers:
+		- Added missing exnihilocreatio Ore Pieces to the compactingRules
+	MineMenu:
+		- Added QuantumStorage Bag Access in Inventory Tab by default
+v10.2.7-001
+	SolarFluxReborn:
+		- Fixed/Corrected Solar Panel VII Recipe that used 2xVI/2xV instead of 4xVI
+	RedstoneArsenal:
+		- Added Factroizer Conversion for Crystal Flux
+v10.3.0-000 - The "Mythic" Merge
+	- Added a FluidOnTop Recipe for Tainted Soil to ease automation and remove the need of reproducing Witchwater all the time
+	- Recipe Removals will be temporarely disabled for dev-purposes to ease recipe Comparison
+v10.3.0-001
+	Merging all Mythic-Mode edits with Beast-Mode !PENDING!
+	Essences ReWork: Essences shall create Ore Pieces instead of directly Ingots !PENDING!
+		- Removes the need of dual compacting drawers, brings back nuggets and fixes visuals on drawers with ore Pieces
+		- ALL Essences for Ores now use 8 essences per ore piece
+		- Implement Mekanism Ore Multplication
+		- ! Removed Mod: CompactDrawers due to beeing obsolete and Dual Compacting Drawer does not have a framed Version anyways
+	Embers/TConstruct:
+		- Added Casting Basin Recipe for Dawnstone Block
+	AEAdditons/renameandtooltip:
+		- Created a duplicate file of extracells and replaced the modID with AEAdditions
+v10.3.1-000
+	EnderIO now uses User defined recipes to re-unlock boss and other modded mobs be catchable with the soul vial to be used in powered spawners
+	FluidCows now use per-mod-scripts with Arrays & Loop !PENDING! (Just started)
+	RFTools:
+		- Updated the Machine Base recipe with ManganeseOxide to match Mythic Mode Recipe
+v10.3.1-001
+	PneumaticCraft:
+		- Removed 1 Witherskeleton Skull from Nether Star Recipe for QOL
+v10.3.1-002
+	ExNihilo/NetherEx:
+		- Updated HammerRegistry to match updated mod and item IDs for NetherEx Netherrack variants
+v10.3.2-000
+	Mod Updates:
+		- JustEnoughDrags from 1.1-beta5 to 1.4-beta.1
+		NotEnoughEnergistics from 1.2.1 to 1.2.4
+			- fixes an uncertain crash and 1.2.1 was a bit laggy.
+v10.3.2-001
+	ContentTweaker:
+		- Added new Mythic Mode Items: Prism Block, Omen Ingot
+	- Removed #packmode preprocessors for scripts that should be loaded for any mode:
+		- contenttweaker, Fixes, PackSpecific/speecker_loot_tables.zs
+	FluidCows:
+		- Created and edited Mod-Specific files for: Alchemistry, DraconicEvolution, IndustrialForegoing and Pneumaticraft. All untested in Standalone.
+		- Standalone: TiC & Vanilla
+	GeneralAllModes:
+		- Created speecker_exnihilocreatio.zs and added a recipe with oreDict for Obsidian Dust to be able to craft the Crushing Doll with any Obsidian Dust
+v10.3.2-002
+	Mod Update:
+		- CraftTweaker2 from 4.1.20.673 to 4.1.20.674
+	speecker_beast_recipes_replace_all_occurences_tconstruct:
+	- added missing mod dependencies in #modloaded
+	Modes/GeneralAllModes/speecker_tconstruct:
+		- Made seperate files for all modded items/fluids
+		- removed duplicate entries
+		- ??? Why remove Ender Fluid and then add it again ? - Because of Amount generated ? ???
+		- Added modtweaker dependencies to #modloaded
+	Modes/beast/speecker_beast_tconstruct:
+		- removed ReplaceAllOccurencies as it is already in a specific file to handle RAOs
+	Added missing dependencies for mods that need modtweaker for crafttweaker support:
+		GeneralAllModes:
+			- ActuallyAdditions
+			- BloodMagic
+			- Botania
+			- Chisel
+			- ExtraUtils2 (Created the file)
+			- Forestry (Created the file)
+			- Inspirations (Created the file)
+			- RefinedStorage (Created the file)
+			- TConstruct
+			- TComplement (Created the file)
+			- Thaumcraft (Created the file)
+			- ThermalSeries
+	Modes/GeneralAllModes/speecker_extendedcrafting_compression
+		- Added mod specific files
+	Modes/GeneralAllModes/speecker_extendedcrafting_combination
+		- Added mod specific files
+v10.3.2-003
+	Essence Rework / StorageDrawers:
+		- changed essence-to-ingot into essence-to-piece conversions for available ExNihilo/JAOPCA oreChunks
+v10.3.2-004
+	FluidCows:
+		- Went further in seperating them into mod-specific scripts
+		- Nerfed the Extended Table Recipes from 9x9 to 7x7 (except Plastic) as the 7x7 Table still needs ExtraPlanets Resources (T5 Gem Seed)
+		- At the point of reaching the 9x9 Table: Fluid Cows will most likely become less important or even obsolete
+	ExtendedCrafting:
+		- Added missing T3(7x7) Tables in the T4(9x9) Table recipe
+v10.3.3-000
+	Merged all Scripts with GitHub to use the repository from now on
+v10.3.3-001
+	Merged config/abyssalcraft
+v10.3.3-002
+	Merged all other configs NoOverride
+v10.3.3-003
+	Updated EnderIO Configs
+v10.3.3-004
+	Updated StorageDrawers Configs
+
+###################################################################################################################################################################
+//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
+###################################################################################################################################################################

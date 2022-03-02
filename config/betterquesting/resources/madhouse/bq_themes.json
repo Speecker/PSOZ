@@ -1,0 +1,12 @@
+[
+    {
+        name:"The Madhouse Light",
+        texture:"madhouse:textures/gui/madhouse_gui.png",
+        textColor:0
+    },
+    {
+        name:"The Madhouse Dark",
+        texture:"madhouse:textures/gui/madhouse_dark_gui.png",
+        textColor:16777215
+    },
+]

@@ -1,0 +1,36 @@
+{
+    "machine": "assembler_standard",
+    "registryName": "as_ufuel",
+    "recipeTime": 267,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateIron",
+            "amount": 10
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "bigreactors:dustmetals",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 19
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bigreactors:ingotmetals",
+            "amount": 10
+        }
+    ]
+}

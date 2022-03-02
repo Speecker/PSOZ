@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_quartz",
+    "recipeTime": 250,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 420
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "techguns:sand_hard",
+            "amount": 28
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:quartz",
+            "amount": 1
+        }
+    ]
+}

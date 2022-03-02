@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.charger",
+  "Registry ID": "aoa3:charger",
+  "Class": "net.tslat.aoa3.entity.mobs.overworld.EntityCharger"
+}

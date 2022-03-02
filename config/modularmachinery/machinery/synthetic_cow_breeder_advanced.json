@@ -1,0 +1,173 @@
+{
+    "registryname": "synthetic_cow_breeder_advanced",
+    "localizedname": "Advanced Synthetic Cow Breeder",
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": "extendedcrafting:table_ultimate"
+        },
+
+
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "fluidcows:feeder"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "fluidcows:feeder"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "fluidcows:sorter"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "fluidcows:sorter"
+        },
+
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "extendedcrafting:interface"
+        },
+
+
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "extendedcrafting:interface"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "fluidcows:accelerator"
+        }
+    ]
+}

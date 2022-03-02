@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.hive_worker",
+  "Registry ID": "aoa3:hive_worker",
+  "Class": "net.tslat.aoa3.entity.boss.hiveking.EntityHiveWorker"
+}

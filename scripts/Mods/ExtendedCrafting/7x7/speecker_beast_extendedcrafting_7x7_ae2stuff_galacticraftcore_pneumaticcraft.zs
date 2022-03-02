@@ -1,0 +1,7 @@
+#packmode mythic beast
+#modloaded extendedcrafting ae2stuff galacticraftcore pneumaticcraft
+
+import mods.extendedcrafting.TableCrafting as TC;
+//quantum compressor
+recipes.remove(<extendedcrafting:compressor>);
+TC.addShaped(0, <extendedcrafting:compressor>, [[<ore:ingotBlackIron>, <ore:plateTungsten>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <ore:plateTungsten>, <ore:ingotBlackIron>], [<ore:plateTungsten>, <ore:plateTungsten>, <ore:enderDragonScale>, <ore:blockRacheline>, <ore:enderDragonScale>, <ore:plateTungsten>, <ore:plateTungsten>], [<extendedcrafting:material:16>, <ore:enderDragonScale>, <galacticraftcore:machine2>, <pneumaticcraft:advanced_air_compressor>, <galacticraftcore:machine2>, <ore:enderDragonScale>, <extendedcrafting:material:16>], [<extendedcrafting:material:16>, <ore:blockRacheline>, <ae2stuff:inscriber>, <extendedcrafting:frame>, <ae2stuff:inscriber>, <ore:blockRacheline>, <extendedcrafting:material:16>], [<extendedcrafting:material:16>, <ore:enderDragonScale>, <galacticraftcore:machine2>, <ae2stuff:inscriber>, <galacticraftcore:machine2>, <ore:enderDragonScale>, <extendedcrafting:material:16>], [<ore:plateTungsten>, <ore:plateTungsten>, <ore:enderDragonScale>, <ore:blockRacheline>, <ore:enderDragonScale>, <ore:plateTungsten>, <ore:plateTungsten>], [<ore:ingotBlackIron>, <ore:plateTungsten>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <ore:plateTungsten>, <ore:ingotBlackIron>]]);

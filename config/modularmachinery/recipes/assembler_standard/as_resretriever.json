@@ -1,0 +1,43 @@
+{
+    "machine": "fassembler_standard",
+    "registryName": "as_resretriever",
+    "recipeTime": 267,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 1000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermaldynamics:retriever@3",
+            "amount": 1
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@2",
+            "amount": 2
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "advancedrocketry:productplate",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermaldynamics:retriever@4",
+            "amount": 1
+        }
+    ]
+}

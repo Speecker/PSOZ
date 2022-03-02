@@ -1,0 +1,362 @@
+{
+  "minecraft:end_stone:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_endstone_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:sand:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:cobblestone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_pebble",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 1,
+      "chance": 3.0,
+      "fortuneChance": 1.25
+    }
+  ],
+  "minecraft:stone:5": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_pebble",
+        "amount": 1,
+        "meta": 3
+      },
+      "miningLevel": 1,
+      "chance": 3.0,
+      "fortuneChance": 1.25
+    }
+  ],
+  "minecraft:stone:1": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_pebble",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 1,
+      "chance": 3.0,
+      "fortuneChance": 1.25
+    }
+  ],
+  "minecraft:stone:3": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_pebble",
+        "amount": 1,
+        "meta": 2
+      },
+      "miningLevel": 1,
+      "chance": 3.0,
+      "fortuneChance": 1.25
+    }
+  ],
+  "minecraft:gravel:0": [
+    {
+      "stack": {
+        "name": "minecraft:sand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:netherrack:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressednetherrack:0": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressednetherrack:1": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_netherrack_crushed",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "nex:netherrack:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "nex:netherrack:1": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "nex:netherrack:2": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+    "nex:netherrack:3": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_netherrack_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+   "extrautils2:compressedcobblestone:0": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedgravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressedgravel:0": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedsand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressedsand:0": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log:0": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log:1": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log:2": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log:3": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log2:0": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:log2:1": [
+    {
+      "stack": {
+        "name": "mekanism:Sawdust",
+        "amount": 4,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+   "extrautils2:compressedcobblestone:1": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedgravel",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressedgravel:1": [
+    {
+      "stack": {
+        "name": "extrautils2:compressedsand",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "extrautils2:compressedsand:1": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_dust",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "overloaded:compressed_endstone": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_endstone_crushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "overloaded:compressed_endstone:1": [
+    {
+      "stack": {
+        "name": "overloaded:compressed_endstone_crushed",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "machine": "biogen_advanced",
+    "registryName": "bg_biofuel2",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:bioproducts",
+            "amount": 9
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "forestry:fertilizer_compound",
+            "amount": 1,
+            "chance" : 0.10
+        },
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "biomass",
+            "amount": 100
+        }
+    ]
+}

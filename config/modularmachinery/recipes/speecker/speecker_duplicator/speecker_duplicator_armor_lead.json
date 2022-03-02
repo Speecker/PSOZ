@@ -1,0 +1,82 @@
+{
+    "machine": "duplicator",
+    "registryName": "duplicator_armor_lead",
+    "recipeTime": 13,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1400
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:void_catalyst",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "embers:isolated_materia",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:armor.helmet_lead",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:armor.plate_lead",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:armor.legs_lead",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:armor.boots_lead",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:armor.helmet_lead",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:armor.plate_lead",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:armor.legs_lead",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:armor.boots_lead",
+            "amount": 1
+        }
+   ]
+}

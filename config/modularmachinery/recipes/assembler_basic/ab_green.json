@@ -1,0 +1,33 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_green",
+    "recipeTime": 240,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:conveyor",
+            "amount": 1,
+            "nbt": {
+                 "conveyorType": "immersiveengineering:conveyor"
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:inserter",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:coin@1",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <capacitor key="enderio:block_inventory_chest_tiny/intake" base="80" scaler="POWER" 
+/>
+  <capacitor key="enderio:block_inventory_chest_tiny/buffer" base="100000" scaler="POWER" />
+  <capacitor key="enderio:block_inventory_chest_tiny/use" base="20" scaler="POWER" />
+  <capacitor key="enderio:block_inventory_panel_sensor/intake" base="20" scaler="FIXED" />
+  <capacitor key="enderio:block_inventory_panel_sensor/buffer" base="10000" scaler="FIXED" />
+  <capacitor key="enderio:block_inventory_panel_sensor/use" base="2" scaler="FIXED" />
+</enderio:recipes>

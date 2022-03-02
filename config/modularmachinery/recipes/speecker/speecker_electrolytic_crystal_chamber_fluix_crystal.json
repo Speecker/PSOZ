@@ -1,0 +1,36 @@
+{
+    "machine": "electrolytic_crystal_chamber",
+    "registryName": "electrolytic_crystal_chamber_fluix_crystal",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 125
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:quartz",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@7",
+            "amount": 2
+        }
+    ]
+}

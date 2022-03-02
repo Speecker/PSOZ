@@ -1,0 +1,48 @@
+{
+    "machine": "alloy_transformer",
+    "registryName": "alloy_transformer_mirion",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12288
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@0",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "botania:manaresource@4",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@7",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "tconstruct:ingots@0",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:glass",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:mirioningot",
+            "amount": 6
+        }
+    ]
+}

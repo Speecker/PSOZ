@@ -1,0 +1,6 @@
+
+{
+  "Name": "lord_spirit",
+  "Registry ID": "lordcraft:lord_spirit",
+  "Class": "com.cobbs.lordcraft.Utils.Entity.LordSpirit"
+}

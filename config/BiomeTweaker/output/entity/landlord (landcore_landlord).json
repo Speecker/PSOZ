@@ -1,0 +1,6 @@
+
+{
+  "Name": "landlord",
+  "Registry ID": "landcore:landlord",
+  "Class": "landmaster.landcore.entity.EntityLandlord"
+}

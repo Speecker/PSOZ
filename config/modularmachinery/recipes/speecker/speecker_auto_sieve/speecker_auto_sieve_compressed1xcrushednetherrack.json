@@ -1,0 +1,81 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed1xcrushednetherrack",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1256
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_pieceplatinum",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_ardite@0",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_cobalt@0",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_piecemithril",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_piecetitanium",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_piecetungsten",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_piecedilithium",
+            "amount": 1,
+            "chance": 0.75
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:coal@0",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:coal@1",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "overloaded:compressed_netherrack_crushed@0",
+            "amount": 1
+        }
+    ]
+}

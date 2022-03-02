@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.lelyetian_trader",
+  "Registry ID": "aoa3:lelyetian_trader",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityLelyetianTrader"
+}

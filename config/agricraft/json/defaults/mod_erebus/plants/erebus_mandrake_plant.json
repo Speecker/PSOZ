@@ -1,0 +1,72 @@
+{
+  "path": "mod_erebus/plants/erebus_mandrake_plant.json",
+  "enabled": true,
+  "id": "erebus_mandrake_plant",
+  "plant_name": "Mandrake Flower",
+  "seed_name": "Mandrake Seeds",
+  "seed_items": [
+    {
+      "item": "erebus:mandrake_root",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Mandrake Root is a necessary ingredient of the amazing Titan Stew"
+  },
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 4,
+        "chance": 1.0,
+        "required": true,
+        "item": "erebus:mandrake_root",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 8,
+    "max_light": 16,
+    "soils": [
+      "erebus_dust_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "agricraft:items/mod_erebus/seed_erebus_mandrake",
+    "plant_textures": [
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake0",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake1",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake2",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake2",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake3",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake3",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake4",
+      "agricraft:blocks/mod_erebus/crop_erebus_mandrake5"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.portal_master",
+  "Registry ID": "aoa3:portal_master",
+  "Class": "net.tslat.aoa3.entity.npcs.ambient.EntityPortalMaster"
+}

@@ -1,0 +1,36 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_goo",
+    "recipeTime": 96,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "techguns:sand_hard",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "xpjuice",
+            "amount": 1000
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "redstone",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:slimy",
+            "amount": 1
+        }
+    ]
+}

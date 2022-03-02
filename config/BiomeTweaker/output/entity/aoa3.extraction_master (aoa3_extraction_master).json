@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.extraction_master",
+  "Registry ID": "aoa3:extraction_master",
+  "Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityExtractionMaster"
+}

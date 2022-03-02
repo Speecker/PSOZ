@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_unusual",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:burnt_limestone@1",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bigreactors:minerals@1",
+            "amount": 1
+        }
+    ]
+}

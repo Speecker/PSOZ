@@ -1,0 +1,39 @@
+{
+    "machine": "recycler",
+    "registryName": "rc_drill2",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:plateIron",
+            "amount": 8,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:gearIron",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:controlcircuit",
+            "amount": 2,
+            "chance": 0.50
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:concrete_powder@15",
+            "amount": 1
+        }
+
+    ]
+}

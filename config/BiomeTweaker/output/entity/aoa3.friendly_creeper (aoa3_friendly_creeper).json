@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.friendly_creeper",
+  "Registry ID": "aoa3:friendly_creeper",
+  "Class": "net.tslat.aoa3.entity.minions.EntityFriendlyCreeper"
+}

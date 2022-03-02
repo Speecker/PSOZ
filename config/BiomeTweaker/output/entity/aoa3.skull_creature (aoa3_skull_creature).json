@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.skull_creature",
+  "Registry ID": "aoa3:skull_creature",
+  "Class": "net.tslat.aoa3.entity.mobs.greckon.EntitySkullCreature"
+}

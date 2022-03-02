@@ -1,0 +1,16 @@
+{
+  "OGA": {
+    "chance": 65,
+    "schematic": [
+      {
+        "fileName": "Oga.ccs",
+        "falling": false,
+        "delay": 1,
+        "xOffSet": 0,
+        "yOffSet": 0,
+        "zOffSet": 0,
+        "relativeToPlayer": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"dependencies": "lordcraft",
+	"populate": {
+		"simplecrystal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "lordcraft:orecrystalb",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3,
+					-6,
+					1304,
+					111,
+					0
+				]
+			}
+		}
+	}
+}
