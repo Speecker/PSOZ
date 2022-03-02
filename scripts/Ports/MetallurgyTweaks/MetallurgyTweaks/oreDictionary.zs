@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 98
 #modloaded metallurgy crafttweaker
 import crafttweaker.item.IItemStack;
