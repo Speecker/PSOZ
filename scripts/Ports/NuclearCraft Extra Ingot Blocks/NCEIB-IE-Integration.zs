@@ -1,4 +1,4 @@
-#modloaded immersiveengineering
+#modloaded nuclearcraft immersiveengineering
 
 import mods.immersiveengineering.ArcFurnace;
 
