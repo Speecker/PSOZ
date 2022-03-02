@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting actuallyadditions bloodmagic
 
 //black iron ingot
