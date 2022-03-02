@@ -1,3 +1,4 @@
+#packmode mythic beast
 #modloaded simplyjetpacks
 
 if(loadedMods has "projectred-expansion")
