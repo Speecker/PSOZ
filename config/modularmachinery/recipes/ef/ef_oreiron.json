@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_oreiron",
+    "recipeTime": 50,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 420
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:oreIron",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:iron_ingot",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_dustalum",
+    "recipeTime": 43,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 360
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustAluminum",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@132",
+            "amount": 1
+        }
+    ]
+}

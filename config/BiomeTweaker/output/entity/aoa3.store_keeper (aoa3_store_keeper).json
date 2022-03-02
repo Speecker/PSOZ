@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.store_keeper",
+  "Registry ID": "aoa3:store_keeper",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityStoreKeeper"
+}

@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_electrode",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockFuelCoke",
+            "amount": 8
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "sulfuricacid",
+            "amount": 200
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:graphite_electrode",
+            "amount": 1
+        }
+    ]
+}

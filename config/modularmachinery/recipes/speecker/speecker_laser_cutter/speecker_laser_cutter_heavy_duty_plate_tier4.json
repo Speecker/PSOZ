@@ -1,0 +1,30 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_heavy_duty_plate_tier4",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:compressed_mercury@0",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:heavy_plates@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:tier4_items@3",
+            "amount": 2
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

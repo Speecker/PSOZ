@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_transformer",
+    "registryName": "alloy_transformer_alumite",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12288
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@132",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "minecraft:iron_ingot",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:obsidian",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:alumiteingot",
+            "amount": 3
+        }
+    ]
+}

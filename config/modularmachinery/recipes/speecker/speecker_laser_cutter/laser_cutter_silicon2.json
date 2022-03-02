@@ -1,0 +1,24 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_silicon2",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@5",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@20",
+            "amount": 1
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

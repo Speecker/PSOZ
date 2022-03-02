@@ -1,0 +1,18 @@
+{
+  "path": "mod_erebus/soils/erebus_dust_soil.json",
+  "enabled": true,
+  "id": "erebus_dust_soil",
+  "name": "erebus_dust",
+  "varients": [
+    {
+      "item": "erebus:dust",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

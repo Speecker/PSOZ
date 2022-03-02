@@ -1,0 +1,6 @@
+
+{
+  "Name": "witherling",
+  "Registry ID": "armorplus:witherling",
+  "Class": "com.sofodev.armorplus.common.registry.entities.mobs.dungeon.skeletalking.projectile.EntityWitherling"
+}

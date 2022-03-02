@@ -1,0 +1,37 @@
+{
+    "machine": "frogman",
+    "registryName": "or_oil2",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 980
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:sand",
+            "amount": 1,
+            "chance": 0.50
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersivepetroleum:material",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "oil",
+            "amount": 100
+        }
+    ]
+}

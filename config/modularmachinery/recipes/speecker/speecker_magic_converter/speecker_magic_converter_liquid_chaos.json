@@ -1,0 +1,47 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_both5",
+    "recipeTime": 30,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:draconic_block@0",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "avaritia:resource@2",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:basicblock@2",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier4_items@5",
+            "amount": 8
+        },
+		{
+			"type": "ember",
+			"io-type": "output",
+			"ember": 1000.0
+		},
+		{
+			"type": "mana",
+			"io-type": "output",
+			"mana": 2000
+		},
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "c_fluid",
+            "amount": 10
+        }
+    ]
+}

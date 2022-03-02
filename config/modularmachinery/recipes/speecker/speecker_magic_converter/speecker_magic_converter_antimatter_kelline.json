@@ -1,0 +1,29 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_both4",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "landcraft:landia_ingot@0",
+            "amount": 1
+        },
+		{
+			"type": "ember",
+			"io-type": "output",
+			"ember": 64.0
+		},
+		{
+			"type": "mana",
+			"io-type": "output",
+			"mana": 128
+		},
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquidantimatter",
+            "amount": 200
+        }
+    ]
+}

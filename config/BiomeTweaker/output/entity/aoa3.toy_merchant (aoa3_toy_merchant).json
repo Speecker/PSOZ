@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.toy_merchant",
+  "Registry ID": "aoa3:toy_merchant",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityToyMerchant"
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "metal_former",
+    "registryName": "mf_steelwire",
+    "recipeTime": 40,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 70
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSteel",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@23",
+            "amount": 1
+        }
+    ]
+}

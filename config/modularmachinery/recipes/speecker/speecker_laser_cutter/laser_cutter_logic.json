@@ -1,0 +1,24 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_logic",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_ingot",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@18",
+            "amount": 1
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

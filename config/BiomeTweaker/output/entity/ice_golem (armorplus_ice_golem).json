@@ -1,0 +1,6 @@
+
+{
+  "Name": "ice_golem",
+  "Registry ID": "armorplus:ice_golem",
+  "Class": "com.sofodev.armorplus.common.registry.entities.mobs.EntityIceGolem"
+}

@@ -1,0 +1,43 @@
+{
+    "machine": "cokeoven_advanced",
+    "registryName": "co_coaldust",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@768",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 2000
+        },
+	{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "polluted_water",
+            "amount": 1000
+        },
+	{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "creosote",
+            "amount": 600
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@17",
+            "amount": 1
+        }
+    ]
+}

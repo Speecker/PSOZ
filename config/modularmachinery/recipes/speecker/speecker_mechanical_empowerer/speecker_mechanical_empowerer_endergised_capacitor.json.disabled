@@ -1,0 +1,36 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_endergised_capacitor",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_capacitor_energetic_silver@0",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@6",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:glowstone",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_capacitor_vivid@0",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 3000
+        }
+    ]
+}

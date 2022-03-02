@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.butchery_master",
+  "Registry ID": "aoa3:butchery_master",
+  "Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityButcheryMaster"
+}

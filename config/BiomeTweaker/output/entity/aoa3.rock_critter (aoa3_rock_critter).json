@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.rock_critter",
+  "Registry ID": "aoa3:rock_critter",
+  "Class": "net.tslat.aoa3.entity.mobs.deeplands.EntityRockCritter"
+}

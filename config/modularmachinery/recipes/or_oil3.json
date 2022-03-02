@@ -1,0 +1,36 @@
+{
+    "machine": "frogman",
+    "registryName": "or_oil3",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 980
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "xpjuice",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:rotten_flesh",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:bone",
+            "amount": 4
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "oil",
+            "amount": 500
+        }
+    ]
+}

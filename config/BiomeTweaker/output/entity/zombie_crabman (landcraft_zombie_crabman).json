@@ -1,0 +1,6 @@
+
+{
+  "Name": "zombie_crabman",
+  "Registry ID": "landcraft:zombie_crabman",
+  "Class": "landmaster.landcraft.entity.EntityZombieCrabman"
+}

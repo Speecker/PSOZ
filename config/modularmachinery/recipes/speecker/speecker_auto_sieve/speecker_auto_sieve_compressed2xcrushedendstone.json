@@ -1,0 +1,74 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed2xcrushedendstone",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1256
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkdraconium",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkyellorium",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkender",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:chorus_flower",
+            "amount": 9,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mysticalagriculture:storage@5",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:gunpowder",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "darkutils:shulker_pearl",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrautils2:enderlilly",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "overloaded:compressed_endstone_crushed@1",
+            "amount": 1
+        }
+    ]
+}

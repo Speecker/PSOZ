@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.healing_golem",
+  "Registry ID": "aoa3:healing_golem",
+  "Class": "net.tslat.aoa3.entity.minions.EntityHealingGolem"
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_engineering",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:diamond",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@17",
+            "amount": 1
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

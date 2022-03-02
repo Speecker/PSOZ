@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.foraging_master",
+  "Registry ID": "aoa3:foraging_master",
+  "Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityForagingMaster"
+}

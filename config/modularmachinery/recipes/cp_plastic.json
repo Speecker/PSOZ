@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_plastic",
+    "recipeTime": 16,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:coal",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "gasoline",
+            "amount": 200
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "techguns:itemshared@55",
+            "amount": 2
+        }
+    ]
+}

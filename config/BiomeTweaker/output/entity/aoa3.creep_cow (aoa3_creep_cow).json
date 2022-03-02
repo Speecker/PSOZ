@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.creep_cow",
+  "Registry ID": "aoa3:creep_cow",
+  "Class": "net.tslat.aoa3.entity.animals.EntityCreepCow"
+}

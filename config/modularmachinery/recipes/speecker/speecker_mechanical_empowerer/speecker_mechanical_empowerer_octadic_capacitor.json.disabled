@@ -1,0 +1,36 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_octadic_capacitor",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_basic_capacitor@1",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_ingot@2",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:glowstone",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_basic_capacitor@2",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 3000
+        }
+    ]
+}

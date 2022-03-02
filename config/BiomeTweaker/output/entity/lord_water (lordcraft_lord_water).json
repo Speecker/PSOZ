@@ -1,0 +1,6 @@
+
+{
+  "Name": "lord_water",
+  "Registry ID": "lordcraft:lord_water",
+  "Class": "com.cobbs.lordcraft.Utils.Entity.LordWater"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "ender_dragon_zombie",
+  "Registry ID": "armorplus:ender_dragon_zombie",
+  "Class": "com.sofodev.armorplus.common.registry.entities.mobs.EntityEnderDragonZombie"
+}

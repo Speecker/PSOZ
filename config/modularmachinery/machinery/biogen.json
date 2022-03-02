@@ -1,0 +1,41 @@
+{
+    "registryname": "biogen_basic",
+    "localizedname": "Bio Generator",
+    "color": "808080",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "magneticraft:inserter@3",
+                "magneticraft:inserter@0",
+                "magneticraft:inserter@1",
+                "magneticraft:inserter@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanismgenerators:generator@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        }
+    ]}

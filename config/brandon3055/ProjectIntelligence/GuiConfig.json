@@ -1,0 +1,28 @@
+{
+  "downloadsAllowed": true,
+  "tutorialDisplayed": true,
+  "editMode": false,
+  "etCheckFluid": true,
+  "editingRepoLoc": "",
+  "editorAlwaysOnTop": false,
+  "editorLineWrap": false,
+  "maxTabs": 64,
+  "editorLAF": "",
+  "screenMode": 0,
+  "screenPosOverride": false,
+  "screenPosX": 0,
+  "screenPosY": 0,
+  "userLanguage": "[MINECRAFT-LANG]",
+  "homePage": "projectintelligence:",
+  "searchMode": "EVERYWHERE",
+  "pageLangOverrides": {
+    "draconicevolution:": "en_us",
+    "draconicevolution:draconium": "en_us",
+    "enderio:": "en_us",
+    "draconicevolution:draconium/draconium_ore": "en_us",
+    "draconicadditions:": "en_us",
+    "projectintelligence:": "en_us"
+  },
+  "modLangOverrides": {},
+  "modVersionOverrides": {}
+}

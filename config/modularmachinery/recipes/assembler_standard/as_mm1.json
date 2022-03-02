@@ -1,0 +1,37 @@
+{
+    "machine": "assembler_standard",
+    "registryName": "as_mm1",
+    "recipeTime": 133,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcasing",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockcasing",
+            "amount": 4
+        }
+    ]
+}

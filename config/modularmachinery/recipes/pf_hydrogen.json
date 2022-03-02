@@ -1,0 +1,24 @@
+{
+    "machine": "purifier",
+    "registryName": "pf_hydrogen",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4
+        },
+        {
+            "type": "gas",
+            "io-type": "input",
+            "gas": "hydrogen",
+            "amount": 10
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "hydrogen",
+            "amount": 10
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_crack2",
+    "recipeTime": 48,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lubricant",
+            "amount": 300
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 300
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "gasoline",
+            "amount": 200
+        }
+    ]
+}

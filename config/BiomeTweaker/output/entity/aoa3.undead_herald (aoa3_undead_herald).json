@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.undead_herald",
+  "Registry ID": "aoa3:undead_herald",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityUndeadHerald"
+}

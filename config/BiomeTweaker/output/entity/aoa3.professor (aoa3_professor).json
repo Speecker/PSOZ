@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.professor",
+  "Registry ID": "aoa3:professor",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityProfessor"
+}

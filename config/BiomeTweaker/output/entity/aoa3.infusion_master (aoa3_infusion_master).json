@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.infusion_master",
+  "Registry ID": "aoa3:infusion_master",
+  "Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityInfusionMaster"
+}

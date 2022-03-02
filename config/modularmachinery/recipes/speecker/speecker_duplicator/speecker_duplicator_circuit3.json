@@ -1,0 +1,36 @@
+{
+    "machine": "duplicator",
+    "registryName": "dp_circuit3",
+    "recipeTime": 115,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:void_catalyst",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:controlcircuit@2",
+            "amount": 2
+        }
+    ]
+}

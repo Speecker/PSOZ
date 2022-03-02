@@ -1,0 +1,29 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_mana_lifeessence_congealed_bloodblock",
+    "recipeTime": 20,
+    "requirements": [
+		{
+			"type": "ember",
+			"io-type": "input",
+			"ember": 64.0
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "tconstruct:slime_congealed@3",
+            "amount": 1
+        },
+		{
+			"type": "mana",
+			"io-type": "output",
+			"mana": 200
+		},
+				{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "lifeessence",
+            "amount": 400
+        }
+    ]
+}

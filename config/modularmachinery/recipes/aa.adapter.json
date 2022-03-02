@@ -1,0 +1,18 @@
+{
+    "machine": "assembler_advanced",
+    "adapter": "modularmachinery:assembler_standard",
+    "modifiers": [
+        {
+            "io": "input",
+            "target": "energy",
+            "operation": 1,
+            "multiplier": 1.4
+        },
+        {
+            "io": "input",
+            "target": "duration",
+            "operation": 1,
+            "multiplier": 0.6
+        }
+    ]
+}

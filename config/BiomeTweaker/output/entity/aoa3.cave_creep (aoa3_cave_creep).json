@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.cave_creep",
+  "Registry ID": "aoa3:cave_creep",
+  "Class": "net.tslat.aoa3.entity.mobs.deeplands.EntityCaveCreep"
+}

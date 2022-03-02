@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.explosives_expert",
+  "Registry ID": "aoa3:explosives_expert",
+  "Class": "net.tslat.aoa3.entity.npcs.trader.EntityExplosivesExpert"
+}

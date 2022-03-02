@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.rock_crawler",
+  "Registry ID": "aoa3:rock_crawler",
+  "Class": "net.tslat.aoa3.entity.mobs.deeplands.EntityRockCrawler"
+}

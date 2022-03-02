@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.mechbot",
+  "Registry ID": "aoa3:mechbot",
+  "Class": "net.tslat.aoa3.entity.boss.mechbot.EntityMechbot"
+}

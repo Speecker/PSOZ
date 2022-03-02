@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoa3.creation_master",
+  "Registry ID": "aoa3:creation_master",
+  "Class": "net.tslat.aoa3.entity.npcs.skillmaster.EntityCreationMaster"
+}

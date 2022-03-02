@@ -1,0 +1,6 @@
+
+{
+  "Name": "overlord_of_the_guardians",
+  "Registry ID": "armorplus:overlord_of_the_guardians",
+  "Class": "com.sofodev.armorplus.common.registry.entities.mobs.dungeon.guardianoverlord.EntityGuardianOverlord"
+}

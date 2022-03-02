@@ -1,0 +1,62 @@
+    "modifiers": [
+        {
+            "elements": "minecraft:gold_block",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Increase speed by 50%",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.1
+            }
+        }
+    ],
+
+
+
+
+
+    "modifiers": [
+        {
+            "elements": "chisel:technical@4",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "Increase speed by 20%",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.8
+            }
+        },
+        {
+            "elements": "chisel:technicalnew@3",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "Reduce RF required by 30%",
+            "modifier": {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.7
+            }
+        },
+        {
+            "elements": "chisel:futura@2",
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "description": "4% chance of not consuming ingredients",
+            "modifier": {
+                "io": "input",
+                "target": "item",
+                "operation": 0,
+                "multiplier": -0.04,
+                "affectChance": true
+            }
+        }
+    ],

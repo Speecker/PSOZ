@@ -1,0 +1,24 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_tungsten_landcore",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "landcore:item_ingot@1",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:tier9_items@4",
+            "amount": 1
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

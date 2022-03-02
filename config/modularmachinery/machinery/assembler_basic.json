@@ -1,0 +1,244 @@
+{
+    "registryname": "assembler_basic",
+    "localizedname": "Basic Assembler",
+    "color": "3f3b38",
+    "modifiers": [
+        {
+            "elements": "minecraft:concrete_powder@6",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "+20% speed, +50% RF/t",
+            "modifier": [{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.8
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.5
+			}]
+        },
+		{
+            "elements": "minecraft:concrete_powder@7",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "+30% speed, +60% RF/t",
+            "modifier": [{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.7
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.6
+			}]
+        },
+		{
+            "elements": "minecraft:concrete_powder@8",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "+50% speed, +70% RF/t",
+            "modifier": [{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.7
+			}]
+        },
+        {
+            "elements": "minecraft:concrete_powder@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "+4% productivity, +40% RF/t, -15% speed",
+            "modifier": [{
+                "io": "input",
+                "target": "item",
+                "operation": 0,
+                "multiplier": -0.04,
+                "affectChance": true
+            },
+			{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 1.15
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.4
+			}]
+        },
+		{
+            "elements": "minecraft:concrete_powder@1",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "+6% productivity, +60% RF/t, -15% speed",
+            "modifier": [{
+                "io": "input",
+                "target": "item",
+                "operation": 0,
+                "multiplier": -0.06,
+                "affectChance": true
+            },
+			{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 1.15
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.6
+			}]
+        },
+		{
+            "elements": "minecraft:concrete_powder@2",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "+10% productivity, +80% RF/t, -15% speed",
+            "modifier": [{
+                "io": "input",
+                "target": "item",
+                "operation": 0,
+                "multiplier": -0.10,
+                "affectChance": true
+            },
+			{
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 1.15
+            },
+		    {
+				"io": "input",
+				"target": "energy",
+				"operation": 1,
+				"multiplier": 1.8
+			}]
+        },
+		{
+            "elements": "minecraft:concrete_powder@3",
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "description": "-30% RF/t",
+            "modifier": [{
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.7
+            }]
+        },
+		{
+            "elements": "minecraft:concrete_powder@4",
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "description": "-40% RF/t",
+            "modifier": [{
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.6
+            }]
+        },
+		{
+            "elements": "minecraft:concrete_powder@5",
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "description": "-50% RF/t",
+            "modifier": [{
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.5
+            }]
+        }
+
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "magneticraft:inserter@0",
+		"magneticraft:inserter@1",
+		"magneticraft:inserter@2",
+		"magneticraft:inserter@3",
+                "appliedenergistics2:sky_stone_slab"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        }
+    ]
+}

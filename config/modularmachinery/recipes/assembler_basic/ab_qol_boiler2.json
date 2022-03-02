@@ -1,0 +1,31 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_qol_boiler2",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:burnt_limestone",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "betterboilers:firebox",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "betterboilers:firebox",
+            "amount": 4
+        }
+    ]
+}

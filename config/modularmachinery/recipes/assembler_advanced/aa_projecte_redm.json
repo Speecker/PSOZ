@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_advanced",
+    "registryName": "aa_projecte_redm",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "projecte:item.pe_fuel@2",
+            "amount": 20
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "projecte:item.pe_matter",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projecte:item.pe_matter@1",
+            "amount": 1
+        }
+    ]
+}
