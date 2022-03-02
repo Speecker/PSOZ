@@ -1,13 +1,13 @@
 #packmode normal titan kappa mythic beast
-#modloaded exnihilocreatio mysticalcreations alchemistry
+#modloaded exnihilocreatio mysticalcreations aoa3
 
 import crafttweaker.item.IItemStack;
 
 val modSeed = "mysticalcreations";
-val modMaterial = "alchemistry";
+val modMaterial = "aoa3";
 
 val Items  = {
-    arsenic_ingot : [<alchemistry:ingot:33>, <mysticalcreations:arsenic_essence>]
+    baronyte : [<aoa3:baronyte_ingot>, <mysticalcreations:baronyte_essence>]
 } as IItemStack[][string];
 
 for material, item in Items {

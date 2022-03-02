@@ -1,13 +1,13 @@
 #packmode normal titan kappa mythic beast
-#modloaded exnihilocreatio mysticalcreations alchemistry
+#modloaded exnihilocreatio mysticalcreations twilightforest
 
 import crafttweaker.item.IItemStack;
 
 val modSeed = "mysticalcreations";
-val modMaterial = "alchemistry";
+val modMaterial = "twilightforest";
 
 val Items  = {
-    arsenic_ingot : [<alchemistry:ingot:33>, <mysticalcreations:arsenic_essence>]
+    borer : [<twilightforest:borer_essence>, <mysticalcreations:borer_essence>]
 } as IItemStack[][string];
 
 for material, item in Items {
