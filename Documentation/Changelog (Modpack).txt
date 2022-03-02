@@ -2766,6 +2766,11 @@ v10.3.3-004
 v10.3.3-005
 	Added mod folder with link to zip-file
 	Added all missing files required for a full Pack that can be played as a new Launcher Profile (Standard MC)
+v10.3.3-006
+	Fixed inconveniences:
+		- removed old speecker_beast_tconstruct script
+		- addded #norun in renameandtooltip template
+		- outcommented all Items/Blocks from Cyclicmagic as they are not present in PSOZ
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
