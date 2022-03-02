@@ -26,18 +26,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "fuel_gaseous"}), [
 [<forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "fuel_gaseous", Amount: "1000"})]]);
 
-// Fluid Cow	-	Glass
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "glass"}), [
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <cookingforblockheads:cow_jar>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
-
 // Fluid Cow	-	Heavy Oil
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "oil_heavy"}), [
 [<forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "oil_heavy", Amount: "1000"})],
