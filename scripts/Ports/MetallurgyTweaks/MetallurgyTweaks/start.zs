@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded metallurgy
 #priority 100
 print("-----------------------------------------------------------------------------------------------------");
