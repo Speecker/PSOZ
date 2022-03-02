@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded astralsorcery simplyjetpacks mysticalagriculture botania
 
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
