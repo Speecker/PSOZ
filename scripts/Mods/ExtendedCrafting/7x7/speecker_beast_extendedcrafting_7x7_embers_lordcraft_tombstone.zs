@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting embers lordcraft tombstone
 
 import mods.extendedcrafting.TableCrafting as TC;
