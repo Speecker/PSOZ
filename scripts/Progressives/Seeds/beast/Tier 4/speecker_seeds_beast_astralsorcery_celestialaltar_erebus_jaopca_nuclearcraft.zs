@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded astralsorcery erebus mysticalagriculture jaopca nuclearcraft
 
 import mods.astralsorcery.Altar.addConstellationAltarRecipe as ASC;
