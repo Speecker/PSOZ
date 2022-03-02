@@ -13646,7 +13646,7 @@
     "Parent Second": ""
   },
   "eezo": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13657,7 +13657,7 @@
     "Parent Second": ""
   },
   "duranite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13668,7 +13668,7 @@
     "Parent Second": ""
   },
   "ethaxium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13679,7 +13679,7 @@
     "Parent Second": ""
   },
   "manganese_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13690,7 +13690,7 @@
     "Parent Second": ""
   },
   "ovium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13701,7 +13701,7 @@
     "Parent Second": ""
   },
   "uranium_235_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13712,7 +13712,7 @@
     "Parent Second": ""
   },
   "valyrium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13723,7 +13723,7 @@
     "Parent Second": ""
   },
   "shibuichi": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13734,7 +13734,7 @@
     "Parent Second": ""
   },
   "zircaloy": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13745,7 +13745,7 @@
     "Parent Second": ""
   },
   "thermoconducting": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13756,7 +13756,7 @@
     "Parent Second": ""
   },
   "black_iron": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13767,7 +13767,7 @@
     "Parent Second": ""
   },
   "lithium_6": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13778,7 +13778,7 @@
     "Parent Second": ""
   },
   "curium_243_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13789,7 +13789,7 @@
     "Parent Second": ""
   },
   "uranium_235_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13800,7 +13800,7 @@
     "Parent Second": ""
   },
   "lithium_7": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13811,7 +13811,7 @@
     "Parent Second": ""
   },
   "dreadium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13822,7 +13822,7 @@
     "Parent Second": ""
   },
   "si_c_si_ccmc": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13844,7 +13844,7 @@
     "Parent Second": ""
   },
   "tin_silver": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13855,7 +13855,7 @@
     "Parent Second": ""
   },
   "californium_251_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13866,7 +13866,7 @@
     "Parent Second": ""
   },
   "triberium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13877,7 +13877,7 @@
     "Parent Second": ""
   },
   "boron_11": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13888,7 +13888,7 @@
     "Parent Second": ""
   },
   "proxii": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13899,7 +13899,7 @@
     "Parent Second": ""
   },
   "seismum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13910,7 +13910,7 @@
     "Parent Second": ""
   },
   "nihilite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13921,7 +13921,7 @@
     "Parent Second": ""
   },
   "obsidiorite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13932,7 +13932,7 @@
     "Parent Second": ""
   },
   "curium_246_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13943,7 +13943,7 @@
     "Parent Second": ""
   },
   "uranium_233_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13954,7 +13954,7 @@
     "Parent Second": ""
   },
   "magnesium_diboride": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13965,7 +13965,7 @@
     "Parent Second": ""
   },
   "curium_245_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13976,7 +13976,7 @@
     "Parent Second": ""
   },
   "plutonium_241_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13987,7 +13987,7 @@
     "Parent Second": ""
   },
   "plutonium_242_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -13998,7 +13998,7 @@
     "Parent Second": ""
   },
   "meteorite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14009,7 +14009,7 @@
     "Parent Second": ""
   },
   "neptunium_237_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14031,7 +14031,7 @@
     "Parent Second": ""
   },
   "boron_10": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14042,7 +14042,7 @@
     "Parent Second": ""
   },
   "reinforced_obsidian": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14053,7 +14053,7 @@
     "Parent Second": ""
   },
   "insanium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14064,7 +14064,7 @@
     "Parent Second": ""
   },
   "californium_251_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14075,7 +14075,7 @@
     "Parent Second": ""
   },
   "uranium_238_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14097,7 +14097,7 @@
     "Parent Second": ""
   },
   "uru": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14108,7 +14108,7 @@
     "Parent Second": ""
   },
   "lithium_manganese_dioxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14119,7 +14119,7 @@
     "Parent Second": ""
   },
   "plutonium_241_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14130,7 +14130,7 @@
     "Parent Second": ""
   },
   "americium_243_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14141,7 +14141,7 @@
     "Parent Second": ""
   },
   "curium_243_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14152,7 +14152,7 @@
     "Parent Second": ""
   },
   "imperomite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14163,7 +14163,7 @@
     "Parent Second": ""
   },
   "titanium_aluminide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14174,7 +14174,7 @@
     "Parent Second": ""
   },
   "ignitz": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14185,7 +14185,7 @@
     "Parent Second": ""
   },
   "zirconium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14196,7 +14196,7 @@
     "Parent Second": ""
   },
   "adamant": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14207,7 +14207,7 @@
     "Parent Second": ""
   },
   "californium_252_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14218,7 +14218,7 @@
     "Parent Second": ""
   },
   "draconium_awakened": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14229,7 +14229,7 @@
     "Parent Second": ""
   },
   "elven_elementium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14240,7 +14240,7 @@
     "Parent Second": ""
   },
   "fractum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14251,7 +14251,7 @@
     "Parent Second": ""
   },
   "nucleum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14262,7 +14262,7 @@
     "Parent Second": ""
   },
   "americium_242_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14273,7 +14273,7 @@
     "Parent Second": ""
   },
   "berkelium_247_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14284,7 +14284,7 @@
     "Parent Second": ""
   },
   "hsla_steel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14295,7 +14295,7 @@
     "Parent Second": ""
   },
   "curium_245_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14306,7 +14306,7 @@
     "Parent Second": ""
   },
   "electrum_flux": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14317,7 +14317,7 @@
     "Parent Second": ""
   },
   "neptunium_236_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14328,7 +14328,7 @@
     "Parent Second": ""
   },
   "americium_242_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14339,7 +14339,7 @@
     "Parent Second": ""
   },
   "tiberium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14350,7 +14350,7 @@
     "Parent Second": ""
   },
   "plutonium_239_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14372,7 +14372,7 @@
     "Parent Second": ""
   },
   "californium_249_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14383,7 +14383,7 @@
     "Parent Second": ""
   },
   "tritonite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14394,7 +14394,7 @@
     "Parent Second": ""
   },
   "californium_249_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14405,7 +14405,7 @@
     "Parent Second": ""
   },
   "ultimate": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14416,7 +14416,7 @@
     "Parent Second": ""
   },
   "iox": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14427,7 +14427,7 @@
     "Parent Second": ""
   },
   "neptunium_236_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14438,7 +14438,7 @@
     "Parent Second": ""
   },
   "enchanted_metal": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14449,7 +14449,7 @@
     "Parent Second": ""
   },
   "curium_247_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14460,7 +14460,7 @@
     "Parent Second": ""
   },
   "astrium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14471,7 +14471,7 @@
     "Parent Second": ""
   },
   "californium_250_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14482,7 +14482,7 @@
     "Parent Second": ""
   },
   "uranium_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14493,7 +14493,7 @@
     "Parent Second": ""
   },
   "solarium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14515,7 +14515,7 @@
     "Parent Second": ""
   },
   "lumix": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14526,7 +14526,7 @@
     "Parent Second": ""
   },
   "cosmic_neutronium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14537,7 +14537,7 @@
     "Parent Second": ""
   },
   "plutonium_238_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14548,7 +14548,7 @@
     "Parent Second": ""
   },
   "thorium_232": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14559,7 +14559,7 @@
     "Parent Second": ""
   },
   "titanium_iridium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14570,7 +14570,7 @@
     "Parent Second": ""
   },
   "niob": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14581,7 +14581,7 @@
     "Parent Second": ""
   },
   "electrotine_alloy": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14592,7 +14592,7 @@
     "Parent Second": ""
   },
   "evil_metal": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14603,7 +14603,7 @@
     "Parent Second": ""
   },
   "uranium_233_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14614,7 +14614,7 @@
     "Parent Second": ""
   },
   "americium_241_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14625,7 +14625,7 @@
     "Parent Second": ""
   },
   "terrax": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14636,7 +14636,7 @@
     "Parent Second": ""
   },
   "thorium_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14647,7 +14647,7 @@
     "Parent Second": ""
   },
   "lead_platinum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14658,7 +14658,7 @@
     "Parent Second": ""
   },
   "dyonite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14669,7 +14669,7 @@
     "Parent Second": ""
   },
   "aurorium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14680,7 +14680,7 @@
     "Parent Second": ""
   },
   "plutonium_239_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14691,7 +14691,7 @@
     "Parent Second": ""
   },
   "vibranium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14702,7 +14702,7 @@
     "Parent Second": ""
   },
   "extreme": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14713,7 +14713,7 @@
     "Parent Second": ""
   },
   "violium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14724,7 +14724,7 @@
     "Parent Second": ""
   },
   "yrdeen": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14735,7 +14735,7 @@
     "Parent Second": ""
   },
   "abyssum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14746,7 +14746,7 @@
     "Parent Second": ""
   },
   "thorium_232_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14757,7 +14757,7 @@
     "Parent Second": ""
   },
   "osram": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14768,7 +14768,7 @@
     "Parent Second": ""
   },
   "thorium_232_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14779,7 +14779,7 @@
     "Parent Second": ""
   },
   "hop_graphite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14790,7 +14790,7 @@
     "Parent Second": ""
   },
   "karmesine": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14801,7 +14801,7 @@
     "Parent Second": ""
   },
   "thorium_230_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14812,7 +14812,7 @@
     "Parent Second": ""
   },
   "jauxum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14823,7 +14823,7 @@
     "Parent Second": ""
   },
   "crystaltine": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14834,7 +14834,7 @@
     "Parent Second": ""
   },
   "berkelium_248_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14845,7 +14845,7 @@
     "Parent Second": ""
   },
   "silicon_carbide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14856,7 +14856,7 @@
     "Parent Second": ""
   },
   "curium_247_base": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -14867,7 +14867,7 @@
     "Parent Second": ""
   },
   "berkelium_248_oxide": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,

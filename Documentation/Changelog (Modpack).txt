@@ -2779,6 +2779,8 @@ v10.3.3-007
 		- fixed incompatibility and added a 3rd entry in the array to remove the ingot recipes - may need to be done byRecipeName or Ignore in Unidict#
 	AEAdditions/JEI:
 		- created and edited speecker_jai_aeadditions to RemoveAndHide the fluid patterns
+v10.3.3-008
+	config Update non-folder
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
