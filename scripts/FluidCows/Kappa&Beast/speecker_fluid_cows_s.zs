@@ -38,18 +38,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "seismum_fluid"}), [
 [<ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>],
 [<ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>, <ore:blockSeismum>]]);
 
-// Fluid Cow	-	Sodium
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "sodium"}), [
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <cookingforblockheads:cow_jar>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>],
-[<alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>, <alchemistry:element:11>]]);
-
 // Fluid Cow	-	Soularium
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "soularium"}), [
 [<ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>],
