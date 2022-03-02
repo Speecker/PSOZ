@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded netherex
 
 recipes.removeShapeless(<netherex:amethyst_crystal>, [<ore:blockAmethyst>]);

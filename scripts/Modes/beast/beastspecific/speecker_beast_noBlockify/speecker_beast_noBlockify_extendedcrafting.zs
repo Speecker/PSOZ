@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting
 
 recipes.removeShapeless(<extendedcrafting:material:24>, [<ore:blockCrystaltine>]);

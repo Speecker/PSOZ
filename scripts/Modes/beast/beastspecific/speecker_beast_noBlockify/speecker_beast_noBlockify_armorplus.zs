@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded armorplus
 
 recipes.removeShapeless(<armorplus:steel_ingot>, [<ore:blockSteel>]);

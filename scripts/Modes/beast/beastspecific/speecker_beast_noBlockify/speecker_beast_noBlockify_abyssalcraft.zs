@@ -1,4 +1,4 @@
-#priority 5
+#priority mythic 5
 #packmode beast
 #modloaded abyssalcraft
 

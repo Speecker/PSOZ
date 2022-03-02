@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded tcomplement
 
 recipes.removeShapeless(<tcomplement:materials:10>, [<ore:blockSteel>]);

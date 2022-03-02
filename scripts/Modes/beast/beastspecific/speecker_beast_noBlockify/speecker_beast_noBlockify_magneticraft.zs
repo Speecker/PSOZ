@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded magneticraft
 
 recipes.remove(<magneticraft:storage_blocks:3>);

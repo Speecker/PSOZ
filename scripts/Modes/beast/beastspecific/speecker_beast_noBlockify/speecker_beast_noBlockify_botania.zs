@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded botania
 
 recipes.removeShapeless(<botania:manaresource:0>, [<ore:blockManasteel>]);

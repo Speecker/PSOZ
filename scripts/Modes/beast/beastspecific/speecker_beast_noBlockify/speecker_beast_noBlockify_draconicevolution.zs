@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded draconicevolution
 
 recipes.removeShapeless(<draconicevolution:draconium_ingot>, [<ore:blockDraconium>]);

@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 
 recipes.remove(<ore:blockAbyssalnite>);
 recipes.remove(<ore:blockAluminum>);

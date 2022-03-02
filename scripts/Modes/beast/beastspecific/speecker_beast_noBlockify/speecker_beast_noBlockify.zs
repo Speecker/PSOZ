@@ -1,3 +1,3 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded 

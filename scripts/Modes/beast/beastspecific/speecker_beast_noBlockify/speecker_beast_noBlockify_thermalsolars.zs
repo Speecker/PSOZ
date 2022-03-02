@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded thermalsolars
 
 recipes.removeShapeless(<thermalsolars:itemtitaniumingot>, [<ore:blockTitanium>]);

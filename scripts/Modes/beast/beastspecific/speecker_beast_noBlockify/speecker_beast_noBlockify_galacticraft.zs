@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded galacticraftcore galacticraftplanets
 
 recipes.removeShaped(<galacticraftcore:basic_item:3>, [[<ore:blockCopper>]]);

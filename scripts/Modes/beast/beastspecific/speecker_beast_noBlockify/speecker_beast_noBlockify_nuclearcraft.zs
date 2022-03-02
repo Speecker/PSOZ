@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded nuclearcraft
 
 recipes.removeShapeless(<nuclearcraft:ingot:0>, [<ore:blockCopper>]);

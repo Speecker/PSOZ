@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded bigreactors
 
 recipes.removeShapeless(<bigreactors:ingotsteel>, [<ore:blockSteel>]);

@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded tconstruct
 
 recipes.removeShapeless(<tconstruct:ingots:0>, [<ore:blockCobalt>]);

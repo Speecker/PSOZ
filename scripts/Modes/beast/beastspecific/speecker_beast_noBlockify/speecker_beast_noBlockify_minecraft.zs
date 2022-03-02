@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded minecraft
 
 recipes.removeShaped(<minecraft:iron_ingot>, [[<ore:blockIron>]]);

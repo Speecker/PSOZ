@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded twilightforest
 
 recipes.removeShapeless(<twilightforest:ironwood_ingot>, [<ore:blockIronwood>]);

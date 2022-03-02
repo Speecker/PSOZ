@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded redstonearsenal
 
 recipes.removeShapeless(<redstonearsenal:material:160>, [<ore:blockCrystalFlux>]);

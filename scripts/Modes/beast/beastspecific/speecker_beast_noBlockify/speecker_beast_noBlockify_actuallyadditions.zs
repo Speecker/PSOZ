@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded actuallyadditions
 
 recipes.removeShapeless(<actuallyadditions:item_crystal:0>, [<actuallyadditions:block_crystal:0>]);

@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded immersiveengineering
 
 recipes.remove(<immersiveengineering:material:1>);

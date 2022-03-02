@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded erebus
 
 recipes.removeShapeless(<erebus:materials:43>, [<ore:blockCopper>]);

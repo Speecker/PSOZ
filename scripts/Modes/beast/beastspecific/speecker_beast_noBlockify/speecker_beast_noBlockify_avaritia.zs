@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded avaritia
 
 recipes.removeShapeless(<avaritia:resource:1>, [<ore:blockCrystalMatrix>]);

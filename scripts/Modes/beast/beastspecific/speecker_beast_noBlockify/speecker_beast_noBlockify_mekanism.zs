@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded mekanism
 
 recipes.remove(<mekanism:basicblock:2>);

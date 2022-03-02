@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded projectred-core
 
 recipes.removeShapeless(<projectred-core:resource_item:100>, [<ore:blockCopper>]);

@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded extraplanets
 
 recipes.removeShapeless(<extraplanets:ingot_lead:0>, [<ore:blockLead>]);

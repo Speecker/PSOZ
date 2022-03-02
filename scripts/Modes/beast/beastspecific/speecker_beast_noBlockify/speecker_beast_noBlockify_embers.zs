@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded embers
 
 recipes.removeShapeless(<embers:ingot_nickel>, [<ore:blockNickel>]);

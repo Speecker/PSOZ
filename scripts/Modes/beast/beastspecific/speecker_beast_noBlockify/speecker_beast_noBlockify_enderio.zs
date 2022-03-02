@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded enderio
 
 recipes.removeShapeless(<enderio:item_alloy_ingot:0>, [<ore:blockElectricalSteel>]);

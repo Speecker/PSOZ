@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded extrautils2
 
 recipes.removeShapeless(<extrautils2:ingredients:11>, [<ore:blockDemonicMetal>]);

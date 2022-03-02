@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded pneumaticcraft
 
 recipes.removeShapeless(<pneumaticcraft:ingot_iron_compressed>, [<ore:blockIronCompressed>]);
