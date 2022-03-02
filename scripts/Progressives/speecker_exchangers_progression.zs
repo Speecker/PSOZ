@@ -1,4 +1,4 @@
-#packmode titan kappa beast
+#packmode mythic beast
 #modloaded buildinggadgets exchangers
 
 recipes.addShaped(<buildinggadgets:buildingtool>.withTag({blockstate: {Name: "minecraft:air"}}), [[<ore:blockLithiumManganeseDioxide>, <ore:blockStellarAlloy>, <ore:blockLithiumManganeseDioxide>],[<ore:blockLeadPlatinum>, <ore:blockLeadPlatinum>, <ore:blockLeadPlatinum>], [<ore:blockTough>, <ore:blockTough>, <ore:blockTough>]]);
