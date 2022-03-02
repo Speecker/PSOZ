@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 9
 #modloaded armorplus
 
@@ -53,10 +52,10 @@ recipes.remove(<immersiveengineering:faraday_suit_chest>);
 recipes.remove(<immersiveengineering:faraday_suit_legs>);
 recipes.remove(<immersiveengineering:faraday_suit_feet>);
 
-WB.addShaped(<immersiveengineering:faraday_suit_head>, [[<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<armorplus:slime_helmet>,<ore:plateAluminum>], [null,null,null]]);
-WB.addShaped(<immersiveengineering:faraday_suit_chest>, [[<ore:plateAluminum>,<armorplus:slime_chestplate>,<ore:plateAluminum>], [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>]]);
-WB.addShaped(<immersiveengineering:faraday_suit_legs>, [[<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<armorplus:slime_leggings>,<ore:plateAluminum>], [<ore:plateAluminum>,null,<ore:plateAluminum>]]);
-WB.addShaped(<immersiveengineering:faraday_suit_feet>, [[<ore:plateAluminum>,<armorplus:slime_boots>,<ore:plateAluminum>], [<ore:plateAluminum>,null,<ore:plateAluminum>], [null,null,null]]);
+WB.addShaped(<immersiveengineering:faraday_suit_head>, [[<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<armorplus:chicken_helmet>,<ore:plateAluminum>], [null,null,null]]);
+WB.addShaped(<immersiveengineering:faraday_suit_chest>, [[<ore:plateAluminum>,<armorplus:chicken_chestplate>,<ore:plateAluminum>], [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>]]);
+WB.addShaped(<immersiveengineering:faraday_suit_legs>, [[<ore:plateAluminum>,<ore:plateAluminum>,<ore:plateAluminum>], [<ore:plateAluminum>,<armorplus:chicken_leggings>,<ore:plateAluminum>], [<ore:plateAluminum>,null,<ore:plateAluminum>]]);
+WB.addShaped(<immersiveengineering:faraday_suit_feet>, [[<ore:plateAluminum>,<armorplus:chicken_boots>,<ore:plateAluminum>], [<ore:plateAluminum>,null,<ore:plateAluminum>], [null,null,null]]);
 
 WB.addShaped(<immersiveengineering:faraday_suit_head>, [[<ore:plateAluminium>,<ore:plateAluminium>,<ore:plateAluminium>], [<ore:plateAluminium>,<armorplus:slime_helmet>,<ore:plateAluminium>], [null,null,null]]);
 WB.addShaped(<immersiveengineering:faraday_suit_chest>, [[<ore:plateAluminium>,<armorplus:slime_chestplate>,<ore:plateAluminium>], [<ore:plateAluminium>,<ore:plateAluminium>,<ore:plateAluminium>], [<ore:plateAluminium>,<ore:plateAluminium>,<ore:plateAluminium>]]);
@@ -69,10 +68,10 @@ recipes.remove(<ceramics:clay_chestplate>);
 recipes.remove(<ceramics:clay_leggings>);
 recipes.remove(<ceramics:clay_boots>);
 
-WB.addShaped(<ceramics:clay_helmet>, [[<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<armorplus:slime_helmet>,<ore:plateClay>], [null,null,null]]);
-WB.addShaped(<ceramics:clay_chestplate>, [[<ore:plateClay>,<armorplus:slime_chestplate>,<ore:plateClay>], [<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<ore:plateClay>,<ore:plateClay>]]);
-WB.addShaped(<ceramics:clay_leggings>, [[<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<armorplus:slime_leggings>,<ore:plateClay>], [<ore:plateClay>,null,<ore:plateClay>]]);
-WB.addShaped(<ceramics:clay_boots>, [[<ore:plateClay>,<armorplus:slime_boots>,<ore:plateClay>], [<ore:plateClay>,null,<ore:plateClay>], [null,null,null]]);
+WB.addShaped(<ceramics:clay_helmet>, [[<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<armorplus:chicken_helmet>,<ore:plateClay>], [null,null,null]]);
+WB.addShaped(<ceramics:clay_chestplate>, [[<ore:plateClay>,<armorplus:chicken_chestplate>,<ore:plateClay>], [<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<ore:plateClay>,<ore:plateClay>]]);
+WB.addShaped(<ceramics:clay_leggings>, [[<ore:plateClay>,<ore:plateClay>,<ore:plateClay>], [<ore:plateClay>,<armorplus:chicken_leggings>,<ore:plateClay>], [<ore:plateClay>,null,<ore:plateClay>]]);
+WB.addShaped(<ceramics:clay_boots>, [[<ore:plateClay>,<armorplus:chicken_boots>,<ore:plateClay>], [<ore:plateClay>,null,<ore:plateClay>], [null,null,null]]);
 
 WB.addShaped(<ceramics:clay_helmet>, [[<ore:plateBrick>,<ore:plateBrick>,<ore:plateBrick>], [<ore:plateBrick>,<armorplus:slime_helmet>,<ore:plateBrick>], [null,null,null]]);
 WB.addShaped(<ceramics:clay_chestplate>, [[<ore:plateBrick>,<armorplus:slime_chestplate>,<ore:plateBrick>], [<ore:plateBrick>,<ore:plateBrick>,<ore:plateBrick>], [<ore:plateBrick>,<ore:plateBrick>,<ore:plateBrick>]]);
@@ -85,15 +84,15 @@ recipes.remove(<minecraft:leather_chestplate>);
 recipes.remove(<minecraft:leather_leggings>);
 recipes.remove(<minecraft:leather_boots>);
 
-WB.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:slime_helmet>,<minecraft:leather>], [null,null,null]]);
-WB.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>,<armorplus:slime_chestplate>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>]]);
-WB.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:slime_leggings>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>]]);
-WB.addShaped(<minecraft:leather_boots>, [[<minecraft:leather>,<armorplus:slime_boots>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>], [null,null,null]]);
-
 WB.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:chicken_helmet>,<minecraft:leather>], [null,null,null]]);
 WB.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>,<armorplus:chicken_chestplate>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>]]);
 WB.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:chicken_leggings>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>]]);
 WB.addShaped(<minecraft:leather_boots>, [[<minecraft:leather>,<armorplus:chicken_boots>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>], [null,null,null]]);
+
+WB.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:slime_helmet>,<minecraft:leather>], [null,null,null]]);
+WB.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>,<armorplus:slime_chestplate>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>]]);
+WB.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>], [<minecraft:leather>,<armorplus:slime_leggings>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>]]);
+WB.addShaped(<minecraft:leather_boots>, [[<minecraft:leather>,<armorplus:slime_boots>,<minecraft:leather>], [<minecraft:leather>,null,<minecraft:leather>], [null,null,null]]);
 
 //	#03	-	ImpSkin
 recipes.remove(<natura:imp_armor_helmet>);
@@ -445,6 +444,7 @@ WB.addShaped(<metallurgy:ignatius_chestplate>, [[<ore:ingotIgnatius>,<thermalfou
 WB.addShaped(<metallurgy:ignatius_leggings>, [[<ore:ingotIgnatius>,<ore:ingotIgnatius>,<ore:ingotIgnatius>], [<ore:ingotIgnatius>,<thermalfoundation:armor.legs_nickel>,<ore:ingotIgnatius>], [<ore:ingotIgnatius>,null,<ore:ingotIgnatius>]]);
 WB.addShaped(<metallurgy:ignatius_boots>, [[<ore:ingotIgnatius>,<thermalfoundation:armor.boots_nickel>,<ore:ingotIgnatius>], [<ore:ingotIgnatius>,null,<ore:ingotIgnatius>], [null,null,null]]);
 
+/*
 //	#18	-	Hardened Leather
 recipes.remove(<harvestcraft:hardenedleatherhelmitem>);
 recipes.remove(<harvestcraft:hardenedleatherchestitem>);
@@ -465,6 +465,7 @@ WB.addShaped(<harvestcraft:hardenedleatherhelmitem>, [[<harvestcraft:hardenedlea
 WB.addShaped(<harvestcraft:hardenedleatherchestitem>, [[<harvestcraft:hardenedleatheritem>,<thermalfoundation:armor.plate_nickel>,<harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>]]);
 WB.addShaped(<harvestcraft:hardenedleatherleggingsitem>, [[<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>,<harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>,<thermalfoundation:armor.legs_nickel>,<harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>,null,<harvestcraft:hardenedleatheritem>]]);
 WB.addShaped(<harvestcraft:hardenedleatherbootsitem>, [[<harvestcraft:hardenedleatheritem>,<thermalfoundation:armor.boots_nickel>,<harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>,null,<harvestcraft:hardenedleatheritem>], [null,null,null]]);
+*/
 
 //	#19	-	Astral Silver
 recipes.remove(<metallurgy:astral_silver_helmet>);
@@ -487,10 +488,12 @@ WB.addShaped(<metallurgy:astral_silver_chestplate>, [[<ore:ingotAstralSilver>,<m
 WB.addShaped(<metallurgy:astral_silver_leggings>, [[<ore:ingotAstralSilver>,<ore:ingotAstralSilver>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,<metallurgy:ignatius_leggings>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,null,<ore:ingotAstralSilver>]]);
 WB.addShaped(<metallurgy:astral_silver_boots>, [[<ore:ingotAstralSilver>,<metallurgy:ignatius_boots>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,null,<ore:ingotAstralSilver>], [null,null,null]]);
 
+/*
 WB.addShaped(<metallurgy:astral_silver_helmet>, [[<ore:ingotAstralSilver>,<ore:ingotAstralSilver>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,<harvestcraft:hardenedleatherhelmitem>,<ore:ingotAstralSilver>], [null,null,null]]);
 WB.addShaped(<metallurgy:astral_silver_chestplate>, [[<ore:ingotAstralSilver>,<harvestcraft:hardenedleatherchestitem>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,<ore:ingotAstralSilver>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,<ore:ingotAstralSilver>,<ore:ingotAstralSilver>]]);
 WB.addShaped(<metallurgy:astral_silver_leggings>, [[<ore:ingotAstralSilver>,<ore:ingotAstralSilver>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,<harvestcraft:hardenedleatherleggingsitem>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,null,<ore:ingotAstralSilver>]]);
 WB.addShaped(<metallurgy:astral_silver_boots>, [[<ore:ingotAstralSilver>,<harvestcraft:hardenedleatherbootsitem>,<ore:ingotAstralSilver>], [<ore:ingotAstralSilver>,null,<ore:ingotAstralSilver>], [null,null,null]]);
+*/
 
 //	#19	-	Crimson Knight (Thaumcraft) - Upgraded Version of Armor Obtained during a World Event
 
