@@ -1,5 +1,0 @@
-#packmode normal titan kappa beast
-#modloaded mysticalcreations metallurgy
-
-recipes.addShaped("speecker_mysticalcreations_metallurgy_adamantine_ingot", <metallurgy:adamantine_ingot>*4, [[<mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>],[<mysticalcreations:adamantine_metal_essence>, null, <mysticalcreations:adamantine_metal_essence>], [<mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>]]);
-recipes.addShaped("speecker_mysticalcreations_metallurgy_quicksilver_ingot", <metallurgy:quicksilver_ingot>*4, [[<mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>],[<mysticalagriculture:quicksilver_essence>, null, <mysticalagriculture:quicksilver_essence>], [<mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>]]);
