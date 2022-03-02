@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extrautils2
 
 //Rename

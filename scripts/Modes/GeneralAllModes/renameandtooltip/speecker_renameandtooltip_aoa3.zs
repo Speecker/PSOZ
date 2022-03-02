@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded none
+#modloaded aoa3
 
 //Rename
 

@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded mob_grinding_utils
 
 //Rename

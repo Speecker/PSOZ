@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extendedcrafting
 
 //Rename
@@ -12,5 +11,7 @@
 <extendedcrafting:lamp:1>.displayName = "Creative Core";
 
 //Tooltip
+
+<extendedcrafting:ender_crafter>.addTooltip(format.yellow("AOE: 7x7x7"));
 
 // This Script is made for PSOZ by Speecker

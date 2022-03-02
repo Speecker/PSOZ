@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded appliedenergistics2
 
 <appliedenergistics2:grindstone>.displayName = "Grindstone";

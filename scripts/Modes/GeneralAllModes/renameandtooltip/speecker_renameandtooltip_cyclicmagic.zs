@@ -1,6 +1,4 @@
-#packmode normal titan kappa beast
 #modloaded cyclicmagic
-#norun
 
 //Rename
 

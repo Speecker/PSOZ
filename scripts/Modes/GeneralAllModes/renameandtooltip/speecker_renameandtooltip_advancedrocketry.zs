@@ -1,9 +1,8 @@
-#packmode normal titan kappa beast
 #modloaded advancedrocketry
 
 //Rename
 <advancedrocketry:airlock_door>.displayName = "Small Airlock Door";
-<advancedrocketry:astrobed>.displayName = "Astro Bed";
+//<advancedrocketry:astrobed>.displayName = "Astro Bed"; N/A in current Version
 <advancedrocketry:lightsource>.displayName = "Lightsource";
 
 //Tooltip
