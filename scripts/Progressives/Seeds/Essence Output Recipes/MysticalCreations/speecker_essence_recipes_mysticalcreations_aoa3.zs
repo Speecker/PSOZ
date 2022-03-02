@@ -1,4 +1,3 @@
-#packmode normal titan kappa mythic beast
 #modloaded exnihilocreatio mysticalcreations aoa3
 
 import crafttweaker.item.IItemStack;

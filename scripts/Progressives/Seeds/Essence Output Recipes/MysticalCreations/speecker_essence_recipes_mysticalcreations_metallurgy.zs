@@ -1,4 +1,3 @@
-#packmode normal titan kappa mythic beast
 #modloaded exnihilocreatio mysticalcreations metallurgy
 
 import crafttweaker.item.IItemStack;

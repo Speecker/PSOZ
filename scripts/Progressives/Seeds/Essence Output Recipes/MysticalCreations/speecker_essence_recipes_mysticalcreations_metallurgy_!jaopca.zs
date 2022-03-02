@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded mysticalcreations metallurgy !jaopca
 
 recipes.addShaped("speecker_mysticalcreations_metallurgy_adamantine_ingot", <metallurgy:adamantine_ingot>*4, [[<mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>],[<mysticalcreations:adamantine_metal_essence>, null, <mysticalcreations:adamantine_metal_essence>], [<mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>, <mysticalcreations:adamantine_metal_essence>]]);
