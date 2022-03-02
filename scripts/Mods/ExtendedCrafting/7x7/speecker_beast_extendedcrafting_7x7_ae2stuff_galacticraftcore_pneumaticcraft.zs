@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting ae2stuff galacticraftcore pneumaticcraft
 
 import mods.extendedcrafting.TableCrafting as TC;
