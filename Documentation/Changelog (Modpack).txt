@@ -2764,7 +2764,8 @@ v10.3.3-003
 v10.3.3-004
 	Updated StorageDrawers Configs
 v10.3.3-005
-	Added mod folder
+	Added mod folder with link to zip-file
+	Added all missing files required for a full Pack that can be played as a new Launcher Profile (Standard MC)
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

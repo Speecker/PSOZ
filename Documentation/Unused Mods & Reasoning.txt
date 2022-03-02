@@ -1,0 +1,127 @@
+===========================================================OUTTAKES================================================================================
+
+ActuallyBaubles:
+	- They are emptied out way too fast and cant be refilled quickly or at least automated
+Alternatives:
+	- Battery	=	Draconic Evolution Capacitors
+	- MagnetRing	=	Botania, Quantum Flux or Thermal Series
+	- Else theres Everlasting Abilities with PotionCore installed
+ArcaneArchives:		Redundant Storage Solution (Even Though It Has Dang Beautiful Graphics)
+ArtisanWorkSuite:	Unused Crafting System (Would Need Scripting 1. & Theres ExtendedCrafting and other Options of Crafting Variation)
+	- ArtisanAutomation
+	- ArtisanIntegrations
+	- ArtisanWorkStumps
+	- ArtisanWorkTables
+	- Arthenaeum (Lib)
+	- CTMoratar
+	- WaterCan
+EnvironmentalTechSuite:		Redundant ResourceGathering Method - You May Use IndustrialForegoing.
+				Else theres ExNihilo (Custom Config'd), Chickens, FluidCows & MicroVerseMiners (ModularMachinery Port from Omnifactory).
+	- EnvironmentalTech
+	- EnvironmentalMaterials
+	- EnvironmentalLunar
+GooglyEyes + iChunUtils:	Funny but useless ... sry
+Morpheus:	Sry Bro but ur not welcome here ... see u elsewhere :)
+Petrock, StoneBlockUtils & StoneChest:	These Were StoneBlock Specific Mods that are more or less obsolete. (There are enogh StoneBlock Reminders left)
+ProjectExploit:	Good Idea but it conflicts with my pack mechanics (might take a look on it later)
+ThermalTinkering:	Whats the Purpose of Automated Casting if you have to ReCraft the Casts all the time and automate them therefore as well ?
+Buildcraft-All:	Yeah it may be nostalgic n stuff but sry there are more than enough more recent mods and other solutions doing the same things (even better)
+LogisticsPipes + LogicisticsBridge:	Redundant: There are more than enough Piping & Network Solutions (EIO/TS/Meka/GTCE/...)
+CompactStorage + ComPatchedStorage:	Redundant: There are more than enough Storage Solutions (Binnies/AA/TS/QS)
+tmel: (TooManyEfficiencyLosses)		Redundant
+BlackHoleStorage:	Redundant Storage Solution, Overcomplicated, Uncontrollable/Clearing aint ez, The Concept on its own is nice but the Implementation not the yellow from the egg
+MFFS (+ Guide-API):	Redundant: Has no real use in a SkyBlock Setting and there are other Methods of Fortune Defence (ModularTurrets & else)
+SimpleGenerators (+ ValkyrieLib):	Redundant Energy Generation (Even though it has nice Graphics)
+SodiumCraft (+ CsokiCraftUtil):		Redundant: Gonna Make My Own Usage Through Scripting
+EquivalentAdditions:	Redundant: We Got ProjectEx ...
+BotanicAdditions:	Redundant
+AIOTBotania:		Redundant
+SGCraft/Stargate Network:	Really Awesome Mod with unique Visuals and Mechanics but to be honest Draconic Evolutions Dislocation makes it obsolete :/
+WorldOfChemistry:	Alchemistry Says it all ... :D
+JAOPCACustom:		Did not what was expected from it :/
+ConquestReforged:	Changed Way Too Much Staahf!
+SolarPanelsReforged:	Beautiful AF but theres already SolarFluxReborn ...
+ItemCollectors:		Redundant:	RandomThings has ItemCollectors
+TombManyGraves2 (+ TMG2API, TMG2GC)
+Scannable:	SkyBlock Setting ...
+PartyParrots:	Useless Fun Mod
+MagicBooks:	OMEGA
+DankStorage:	DankNull is fine enough
+ColossalChests:	Redundant Storage Solution
+
+===========================================================RefinedStorage Stuff================================================================================
+
+RefinedStorage:		AE2 Contrahend
+
+	- EquivalentStorage
+	- MoreRefinedStorage
+	- RebornStorage
+	- RefinedAvaritia
+	- RefinedExchange
+	- RefinedStorage
+	- RefinedStorageAddons
+	- RefinedStorageRequestify
+	- StorageTech
+
+===========================================================(IC2)================================================================================
+
+IC2 Experimental:	IndustrialForegoing (& GregTech Are More Recent)
+
+	- AdvancedMachines	+	AdvMachinesPatch
+	- AdvancedSolarPanels	+ 	AdvSolarPanelsPatch
+	- EnergyControl
+	- IC2-RPG
+	- IC2 Tweaker
+	- WTF-IC2 Addon
+	- IridiumSource
+
+===========================================================TFC Stuff================================================================================
+
+TFCTinkers
+OversizedItemInStorageArea
+AdvancedTFCTech
+TFCStorage
+TerraFirmaThings
+TFC-Metallum
+TFC-AnimalCrate
+MineralTracker
+WaterFlasks
+TFCTechUnofficial
+TinkersForging
+TFC-MC
+
+===========================================================Tinkers================================================================================
+
+TinkersReforged
+Materialis
+TinkersOddities
+
+===========================================================Alternatives================================================================================
+
+HUD in Use:	InGameInfoXML
+Alternatives:
+	- RPG-HUD
+	- BetterHUD
+	- InGameInfoXML
+	- Indicatia
+	- ArmorHUD
+
+Inventory in Use:	ProjectStorage
+Alternatives:
+	- OverPoweredInventory
+	- AdvancedInventory
+
+BackPacks in Use:	Thermal Series / ShulkerBoxToBackpack
+Alternatives:
+	- IronBackPacks
+	- TravelersBackPacks
+	- AdventureBackPack
+WR-CBE:	Theres RFTools that can do the same already
+InControl	-	BadMobs in Use
+BetterQuestingTriggerer	-	BetterQuesting QuestBook
+Resource Gathering in Use:	ExNihilo / MysticalAgriculture & else
+	- ResourcefulCrops
+	- SkyOrchards (+ SkyOrchards)
+	- WaterStrainer
+CorailTombStones:
+	- TombManyGraves2
