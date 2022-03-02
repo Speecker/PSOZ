@@ -1,0 +1,8 @@
+#packmode beast
+#modloaded extendedcrafting actuallyadditions bloodmagic
+
+import mods.extendedcrafting.TableCrafting as TC;
+
+//9x9 table
+recipes.remove(<extendedcrafting:table_ultimate>);
+TC.addShaped(0, <extendedcrafting:table_ultimate>, [[<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>], [<extendedcrafting:material:17>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:itemVibrantCrystal>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <extendedcrafting:material:17>], [<extendedcrafting:material:17>, <ore:ingotAstralStarmetal>, <ore:gemGreenDiamond>, <actuallyadditions:item_crystal_empowered:4>, <ore:gemGreenDiamond>, <ore:ingotAstralStarmetal>, <extendedcrafting:material:17>], [<ore:itemVibrantCrystal>, <ore:itemVibrantCrystal>, <actuallyadditions:item_crystal_empowered:4>, <bloodmagic:decorative_brick:2>, <actuallyadditions:item_crystal_empowered:4>, <ore:itemVibrantCrystal>, <ore:itemVibrantCrystal>], [<extendedcrafting:material:17>, <ore:ingotAstralStarmetal>, <ore:gemGreenDiamond>, <actuallyadditions:item_crystal_empowered:4>, <ore:gemGreenDiamond>, <ore:ingotAstralStarmetal>, <extendedcrafting:material:17>], [<extendedcrafting:material:17>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:itemVibrantCrystal>, <ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>, <extendedcrafting:material:17>], [<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <ore:itemVibrantCrystal>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>]]);
