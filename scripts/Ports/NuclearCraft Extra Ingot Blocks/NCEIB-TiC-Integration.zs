@@ -1,4 +1,4 @@
-#modloaded tconstruct modtweaker
+#modloaded nucleacraft tconstruct modtweaker
 
 import mods.tconstruct.Casting;
 
