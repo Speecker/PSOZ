@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded armorplus
 
 //	#25-S   -   Space Suit
