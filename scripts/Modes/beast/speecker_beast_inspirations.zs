@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded inspirations
 
 recipes.remove(<inspirations:wooden_crook>);

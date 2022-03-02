@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded waystones
 
 recipes.remove(<waystones:warp_stone>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded astralsorcery
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.StarlightInfusion;

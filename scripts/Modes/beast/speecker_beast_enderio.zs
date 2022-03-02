@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded enderio
 import mods.enderio.AlloySmelter as AS;
 import mods.enderio.Enchanter as E;

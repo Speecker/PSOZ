@@ -1,6 +1,7 @@
-#packmode beast
+#packmode mythic beast
 #modloaded randomthings
 
+recipes.remove(<randomthings:enderbucket>); //Mythic
 recipes.remove(<randomthings:fertilizeddirt>);
 recipes.remove(<randomthings:ingredient:3>);
 recipes.remove(<randomthings:ingredient:12> * 4);
@@ -22,5 +23,7 @@ recipes.addShaped("speecker_beast_randomthings_spectreplank", <randomthings:spec
 recipes.addShaped("speecker_beast_randomthings_spectrecoil_normal", <randomthings:spectrecoil_normal>, [[<ore:obsidian>, <randomthings:ingredient:12>, <ore:obsidian>], [<ore:obsidian>, <randomthings:ingredient:3>, <contenttweaker:excitationcoil>], [<ore:obsidian>, <randomthings:ingredient:12>, <ore:obsidian>]]);
 
 recipes.addShapeless("speecker_beast_randomthings_ingredient_0", <randomthings:ingredient:0>, [<minecraft:brown_mushroom>,<exnihilocreatio:item_material:3>]);
+
+recipes.addShapedMirrored("cazador_mythic_randomthings_enderbucket", <randomthings:enderbucket>, [[null, null, null],[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateEnderium>, null]]);
 
 recipes.replaceAllOccurences(<randomthings:glowingmushroom>, <ore:ShroomGlowing>, <randomthings:ingredient:5>);

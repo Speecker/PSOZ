@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded tcomplement
 
 recipes.remove(<tcomplement:materials:0>);

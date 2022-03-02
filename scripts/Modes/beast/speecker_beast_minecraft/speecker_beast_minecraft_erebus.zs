@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded erebus
 
 recipes.removeShapeless(<minecraft:string> * 9, [<erebus:silk>]);

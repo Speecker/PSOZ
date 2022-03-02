@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded furnaceoverhaul
 
 recipes.remove(<furnaceoverhaul:blank_upgrade>);
@@ -16,3 +16,7 @@ recipes.addShaped("speecker_beast_furnaceoverhaul_liquid_fuel_upgrade", <furnace
 recipes.addShaped("speecker_beast_furnaceoverhaul_ore_processing_upgrade", <furnaceoverhaul:ore_processing_upgrade>, [[<ore:ingotSteel>, <ore:ingotLumium>, <ore:ingotSteel>],[<ore:ingotLumium>, <furnaceoverhaul:blank_upgrade>, <ore:ingotLumium>], [<ore:ingotSteel>, <ore:ingotLumium>, <ore:ingotSteel>]]);
 recipes.addShaped("speecker_beast_furnaceoverhaul_speed_upgrade", <furnaceoverhaul:speed_upgrade>, [[<ore:ingotSignalum>, <ore:ingotLumium>, <ore:ingotSignalum>],[<ore:ingotLumium>, <furnaceoverhaul:blank_upgrade>, <ore:ingotLumium>], [<ore:ingotSignalum>, <ore:ingotLumium>, <ore:ingotSignalum>]]);
 recipes.addShaped("speecker_beast_furnaceoverhaul_processing_upgrade", <furnaceoverhaul:processing_upgrade>, [[<ore:gemPurpleDiamond>, <ore:ingotUltimate>, <ore:gemPurpleDiamond>],[<ore:ingotUltimate>, <furnaceoverhaul:ore_processing_upgrade>, <ore:ingotUltimate>], [<ore:gemPurpleDiamond>, <ore:ingotUltimate>, <ore:gemPurpleDiamond>]]);
+
+recipes.addShaped("cazador_mythic_furnaceoverhaul_speed_upgrade", <furnaceoverhaul:speed_upgrade>, [[<ore:quartzBlaze>, <extendedcrafting:material:7>, <ore:quartzBlaze>],[<extendedcrafting:material:7>, <furnaceoverhaul:blank_upgrade>, <extendedcrafting:material:7>], [<ore:quartzBlaze>, <extendedcrafting:material:7>, <ore:quartzBlaze>]]);
+recipes.addShaped("cazador_mythic_furnaceoverhaul_electric_upgrade", <furnaceoverhaul:electric_fuel_upgrade>, [[<ore:ingotSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotSteel>],[<ore:ingotRedstoneAlloy>, <furnaceoverhaul:blank_upgrade>, <ore:ingotRedstoneAlloy>], [<ore:ingotSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotSteel>]]);
+recipes.addShaped("cazador_mythic_furnaceoverhaul_ore_processing_upgrade", <furnaceoverhaul:ore_processing_upgrade>, [[<ore:gearInvar>, <extendedcrafting:material:7>, <ore:gearInvar>],[<extendedcrafting:material:7>, <furnaceoverhaul:blank_upgrade>, <extendedcrafting:material:7>], [<ore:gearInvar>, <extendedcrafting:material:7>, <ore:gearInvar>]]);

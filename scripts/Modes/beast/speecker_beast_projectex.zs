@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded projectex
 
 recipes.remove(<projectex:compressed_refined_link>);

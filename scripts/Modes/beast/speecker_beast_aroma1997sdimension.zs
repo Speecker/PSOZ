@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded aroma1997sdimension
 
 recipes.remove(<aroma1997sdimension:dimensionchanger>);

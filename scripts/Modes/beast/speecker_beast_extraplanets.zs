@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extraplanets
 
 recipes.remove(<extraplanets:eris:7>);

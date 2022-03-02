@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded twilightforest
 
 recipes.removeShapeless(<twilightforest:fiery_ingot>, [<twilightforest:fiery_blood>, <ore:ingotIron>]);

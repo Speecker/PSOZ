@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded solarflux thaumcraft
 
 recipes.addShaped("speecker_beast_solarflux_solar_panel_3", <solarflux:solar_panel_3>, [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>], [<solarflux:solar_panel_2>|<solarflux:solar_panel_alchemical>, <nuclearcraft:solar_panel_basic>, <solarflux:solar_panel_2>|<solarflux:solar_panel_alchemical>], [<solarflux:solar_panel_2>|<solarflux:solar_panel_alchemical>, <ore:blockElectricalSteel>, <solarflux:solar_panel_2>|<solarflux:solar_panel_alchemical>]]);

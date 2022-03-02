@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded yabba
 
 recipes.remove(<yabba:antibarrel>);

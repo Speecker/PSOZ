@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded compactdrawers
 
 recipes.remove(<compactdrawers:compact_drawer_2by1>);

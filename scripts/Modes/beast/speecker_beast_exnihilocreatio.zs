@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded exnihilocreatio
 
 recipes.remove(<exnihilocreatio:block_waterwheel>);

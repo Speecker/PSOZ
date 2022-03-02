@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded quantumstorage
 
 recipes.remove(<quantumstorage:chest_quantum>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded xreliquary
 
 recipes.remove(<xreliquary:alkahestry_tome:1>);

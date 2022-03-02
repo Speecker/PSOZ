@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded bhc
 
 recipes.remove(<bhc:canister>);

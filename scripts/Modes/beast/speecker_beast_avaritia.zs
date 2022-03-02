@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded avaritia
 import mods.avaritia.ExtremeCrafting;
 import mods.avaritia.Compressor;

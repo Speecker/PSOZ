@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded galacticraftcore galacticraftplanets
 
 recipes.remove(<galacticraftcore:basic_block_core:12>);

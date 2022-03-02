@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded guideapi bloodmagic
 
 recipes.removeShapeless(<guideapi:bloodmagic-guide>, [<minecraft:book>, <ore:blockGlass>, <ore:feather>]);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded blockcraftery
 
 recipes.remove(<blockcraftery:editable_block>);

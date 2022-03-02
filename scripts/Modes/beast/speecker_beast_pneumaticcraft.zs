@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded pneumaticcraft
 import mods.pneumaticcraft.pressurechamber;
 
@@ -14,7 +14,7 @@ pressurechamber.addRecipe([<pneumaticcraft:plastic:2>, <ore:ingotIronCompressed>
 pressurechamber.addRecipe([<pneumaticcraft:plastic:11> * 4, <ore:ingotRedAlloy> * 4, <ore:pcb>, <opencomputers:material:4>, <opencomputers:material:9>], 3.0, [<pneumaticcraft:advanced_pcb>]);
 
 pressurechamber.addRecipe([<thermalexpansion:florb>.withTag({Fluid: "liquidcoralium"}), <thermalexpansion:florb>.withTag({Fluid: "formic_acid"}), <lordcraft:crystal_basic_cosmic:0>, <randomthings:ingredient:1>], 2.0, [<thermalexpansion:florb>.withTag({Fluid: "liquidantimatter"})]);
-pressurechamber.addRecipe([<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], 2.0, [<minecraft:nether_star>]);
+pressurechamber.addRecipe([<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], 2.0, [<minecraft:nether_star>]);
 
 //Vanilla Recipes
 

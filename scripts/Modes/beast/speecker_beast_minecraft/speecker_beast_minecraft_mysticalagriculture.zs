@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded mysticalagriculture
 
 recipes.addShaped("speecker_beast_minecraft_mysticalagriculture_dye_2", <minecraft:dye:2>*6, [[<mysticalagriculture:dye_essence>, null, null],[null, <mysticalagriculture:dye_essence>, null], [<mysticalagriculture:dye_essence>, null, null]]);

@@ -12,5 +12,3 @@ import mods.alchemistry.Liquifier;
 import mods.alchemistry.Util;
 
 Combiner.removeRecipe(<bigreactors:dustblutonium>);
-
-//SUKA BLJIAT COMMIT THIS SHIAT !

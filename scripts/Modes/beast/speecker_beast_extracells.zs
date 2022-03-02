@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extracells
 
 recipes.remove(<extracells:certustank>);

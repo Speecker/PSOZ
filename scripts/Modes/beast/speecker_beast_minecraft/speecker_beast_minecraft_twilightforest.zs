@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded twilightforest
 
 recipes.removeShaped(<minecraft:planks> * 4, [[<twilightforest:twilight_log>]]);

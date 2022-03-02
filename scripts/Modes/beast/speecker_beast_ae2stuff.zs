@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded appliedenergistics2
 
 recipes.remove(<ae2stuff:grower>);

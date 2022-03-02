@@ -1,2 +1,2 @@
-#packmode beast
+#packmode mythic beast
 #modloaded lootbags

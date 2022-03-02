@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded darkutils mysticalagriculture
 
 recipes.remove(<darkutils:material:1>);

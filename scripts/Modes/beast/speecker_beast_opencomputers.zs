@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded opencomputers
 
 recipes.remove(<opencomputers:material:6>);

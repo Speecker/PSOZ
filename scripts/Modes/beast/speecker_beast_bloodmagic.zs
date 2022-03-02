@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded bloodmagic
 
 recipes.remove(<bloodmagic:altar>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded thermalexpansion thermalfoundation thermalsolars
 
 import mods.thermalexpansion.InductionSmelter as IS;
@@ -85,9 +85,11 @@ SM.addRecipe(<natura:overworld_planks:6>*6, <natura:overworld_logs2:2>, 1500, <t
 SM.addRecipe(<natura:overworld_planks:7>*6, <natura:overworld_logs2:3>, 1500, <thermalfoundation:material:800>, 100);
 SM.addRecipe(<natura:overworld_planks:8>*6, <natura:redwood_logs:1>, 1500, <thermalfoundation:material:800>, 100);
 
+/*
 SM.addRecipe(<minecraft:planks:1>*6, <harvestcraft:pammaple>, 1500, <thermalfoundation:material:800>, 100);
 SM.addRecipe(<minecraft:planks:3>*6, <harvestcraft:pampaperbark>, 1500, <thermalfoundation:material:800>, 100);
 SM.addRecipe(<minecraft:planks:3>*6, <harvestcraft:pamcinnamon>, 1500, <thermalfoundation:material:800>, 100);
+*/
 
 SM.addRecipe(<randomthings:spectreplank>*6, <randomthings:spectrelog>, 1500, <thermalfoundation:material:800>, 100);
 

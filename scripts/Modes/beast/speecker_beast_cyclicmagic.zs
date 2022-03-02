@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded cyclicmagic
 
 recipes.remove(<cyclicmagic:heart_food>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded enderio excompressum
 import mods.enderio.SagMill as SM;
 

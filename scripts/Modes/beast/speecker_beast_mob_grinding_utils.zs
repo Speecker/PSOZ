@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded mob_grinding_utils
 
 recipes.remove(<mob_grinding_utils:fan>);

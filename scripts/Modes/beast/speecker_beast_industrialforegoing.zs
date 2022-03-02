@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded industrialforegoing
 
 recipes.remove(<industrialforegoing:animal_resource_harvester>);

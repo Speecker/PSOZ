@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded witherskelefix
 
 recipes.remove(<witherskelefix:blade>);

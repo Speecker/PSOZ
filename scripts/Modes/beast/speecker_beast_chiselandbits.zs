@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded chiselsandbits
 
 recipes.remove(<chiselsandbits:wrench_wood>);

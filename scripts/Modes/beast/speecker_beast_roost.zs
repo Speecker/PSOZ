@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #modloaded roost
 
 recipes.addShaped("speecker:beast:roost:breeder", <roost:breeder>, [[<hatchery:pen>, <industrialforegoing:animal_growth_increaser>, <hatchery:pen>], [<hatchery:pen>, <industrialforegoing:animal_stock_increaser>, <hatchery:pen>], [<ore:plankWood>, <ore:chest>, <ore:plankWood>]]);

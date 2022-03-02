@@ -1,1 +1,1 @@
-#packmode beast
+#packmode mythic beast

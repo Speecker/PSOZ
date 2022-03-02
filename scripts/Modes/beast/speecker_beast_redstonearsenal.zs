@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded redstonearsenal
 
 recipes.remove(<redstonearsenal:material:96>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded contenttweaker
 
 recipes.removeShapeless(<contenttweaker:klein_star_6_inert>, [<projecte:item.pe_klein_star:5>]);

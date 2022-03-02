@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded solarflux !thaumcraft
 
 recipes.remove(<solarflux:mirror>);
@@ -25,7 +25,7 @@ recipes.addShaped("speecker_beast_solarflux_solar_panel_3", <solarflux:solar_pan
 recipes.addShaped("speecker_beast_solarflux_solar_panel_4", <solarflux:solar_panel_4>, [[<solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>], [<solarflux:solar_panel_3>, <thermalsolars:blocksolarpanel4>, <solarflux:solar_panel_3>], [<solarflux:solar_panel_3>, <ore:blockEnergeticAlloy>, <solarflux:solar_panel_3>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_5", <solarflux:solar_panel_5>, [[<solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>], [<solarflux:solar_panel_4>, <nuclearcraft:solar_panel_advanced>, <solarflux:solar_panel_4>], [<solarflux:solar_panel_4>, <ore:blockVibrantAlloy>, <solarflux:solar_panel_4>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_6", <solarflux:solar_panel_6>, [[<solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_4>], [<solarflux:solar_panel_5>, <mekanismgenerators:solarpanel>, <solarflux:solar_panel_5>], [<solarflux:solar_panel_5>, <ore:blockVividAlloy>, <solarflux:solar_panel_5>]]);
-recipes.addShaped("speecker_beast_solarflux_solar_panel_7", <solarflux:solar_panel_7>, [[<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>], [<solarflux:solar_panel_6>, <nuclearcraft:solar_panel_du>, <solarflux:solar_panel_6>], [<solarflux:solar_panel_5>, <modularmachinery:blockcasing:0>, <solarflux:solar_panel_5>]]);
+recipes.addShaped("speecker_beast_solarflux_solar_panel_7", <solarflux:solar_panel_7>, [[<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>], [<solarflux:solar_panel_6>, <nuclearcraft:solar_panel_du>, <solarflux:solar_panel_6>], [<solarflux:solar_panel_6>, <modularmachinery:blockcasing:0>, <solarflux:solar_panel_6>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_8", <solarflux:solar_panel_8>, [[<solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>, <solarflux:photovoltaic_cell_6>], [<solarflux:solar_panel_7>, <nuclearcraft:solar_panel_elite>, <solarflux:solar_panel_7>], [<solarflux:solar_panel_7>, <ore:dragonEgg>, <solarflux:solar_panel_7>]]);
 
 recipes.addShapedMirrored("speecker_beast_solarflux_mirror_*3", <solarflux:mirror> * 3, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],[null, <ore:ingotIron>, null], [null, null, null]]);

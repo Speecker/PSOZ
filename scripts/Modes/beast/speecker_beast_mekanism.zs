@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded mekanism mekanismtools
 import mods.mekanism.infuser;
 
@@ -68,5 +68,6 @@ recipes.addShaped("speecker_beast_mekanism_controlcircuit_2", <mekanism:controlc
 recipes.addShaped("speecker_beast_mekanism_controlcircuit_3", <mekanism:controlcircuit:3>, [[<ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>],[<ore:alloyUltimate>, <mekanism:controlcircuit:2>, <ore:alloyUltimate>], [<ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>]]);
 recipes.addShaped("speecker_beast_mekanism_machineblock_8", <mekanism:machineblock:8>, [[<ore:ingotRedstoneAlloy>, <nuclearcraft:nuclear_furnace_idle>, <ore:ingotRedstoneAlloy>], [<ore:ingotOsmium>, <mekanism:basicblock:8>, <ore:ingotOsmium>], [<ore:ingotRedstoneAlloy>, <nuclearcraft:nuclear_furnace_idle>, <ore:ingotRedstoneAlloy>]]);
 recipes.addShaped("speecket_beast_mekanism_machineblock2_11", <mekanism:machineblock2:11>.withTag({tier:0}), [[<ore:ingotRedAlloy>, <ore:ingotSteel>, <ore:ingotRedAlloy>],[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:ingotRedAlloy>, <ore:ingotSteel>, <ore:ingotRedAlloy>]]);
-recipes.addShaped("speecker_beast_mekanism_teleportationcore", <mekanism:teleportationcore>, [[<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>],[<waystones:warp_stone>, <portality:module_interdimensional>, <waystones:warp_stone>], [<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>]]);
+recipes.addShaped("speecker_beast_mekanism_teleportationcore", <mekanism:teleportationcore>, [[<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>],[<waystones:warp_stone>, null, <waystones:warp_stone>], [<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>]]);
+//recipes.addShaped("speecker_beast_mekanism_teleportationcore", <mekanism:teleportationcore>, [[<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>],[<waystones:warp_stone>, <portality:module_interdimensional>, <waystones:warp_stone>], [<ore:alloyUltimate>, <waystones:warp_stone>, <ore:alloyUltimate>]]);
 recipes.addShaped("speecker_beast_mekanism_tierinstaller_0", <mekanism:tierinstaller:0>, [[<minecraft:redstone>, <ore:circuitBasic>, <minecraft:redstone>],[<ore:ingotMelodicAlloy>, <actuallyadditions:block_crystal:3>, <ore:ingotMelodicAlloy>], [<minecraft:redstone>, <ore:circuitBasic>, <minecraft:redstone>]]);

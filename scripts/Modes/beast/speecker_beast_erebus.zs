@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #priority 99
 #modloaded erebus
 
@@ -30,4 +30,4 @@ recipes.addShaped("speecker_beast_erebus_planks_6", <erebus:planks:6>, [[<erebus
 recipes.addShaped("speecker_beast_erebus_planks_9", <erebus:planks:9>, [[<erebus:log_rotten>]]);
 recipes.addShaped("speecker_beast_erebus_planks_10", <erebus:planks:10>, [[<erebus:log_marshwood>]]);
 recipes.addShaped("speecker_beast_erebus_planks_11", <erebus:planks:11>, [[<erebus:log_scorched>]]);
-recipes.addShaped("speecker_beast_erebus_silk", <erebus:silk>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null],[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [null, null, null]]);
+//recipes.addShaped("speecker_beast_erebus_silk", <erebus:silk>, [[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null],[<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, null], [null, null, null]]);

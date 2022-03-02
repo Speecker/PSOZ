@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded projecte
 
 recipes.remove(<projecte:alchemical_chest>);

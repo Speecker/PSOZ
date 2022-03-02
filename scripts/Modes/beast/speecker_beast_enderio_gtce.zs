@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded enderio gregtech
 import mods.enderio.AlloySmelter as AS;
 import mods.enderio.SagMill as SM;

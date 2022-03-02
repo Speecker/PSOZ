@@ -1,12 +1,14 @@
-#packmode beast
+#packmode mythic beast
 
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:end_crystal>);
 recipes.remove(<minecraft:fire_charge> * 3);
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.remove(<minecraft:furnace>);
+recipes.remove(<minecraft:iron_bars>);
 recipes.remove(<minecraft:piston>);
 recipes.remove(<minecraft:redstone_block>);
+recipes.remove(<minecraft:purple_shulker_box>);
 recipes.remove(<minecraft:skull:1>);
 recipes.remove(<minecraft:tnt>);
 
@@ -30,5 +32,6 @@ recipes.addShaped("speecker_beast_minecraft_leather", <minecraft:leather> * 3, [
 recipes.addShaped("speecker_beast_minecraft_piston", <minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<ore:cobblestone>, <ore:ingotInvar>, <ore:cobblestone>], [<ore:cobblestone>, <ore:ingotRedAlloy>|<ore:ingotElectrotineAlloy>, <ore:cobblestone>]]);
 recipes.addShaped("speecker_beast_minecraft_planks_4", <minecraft:planks:4>, [[<minecraft:log2>]]);
 recipes.addShaped("speecker_beast_minecraft_planks_5", <minecraft:planks:5>, [[<minecraft:log2:1>]]);
+recipes.addShaped("speecker_beast_minecraft_purple_shulker_box", <minecraft:purple_shulker_box>, [[<minecraft:end_rod>, <ore:shulkerShell>, <minecraft:end_rod>],[<minecraft:end_rod>, <ore:chest>|<ore:chestWood>, <minecraft:end_rod>], [<minecraft:end_rod>, <ore:shulkerShell>, <minecraft:end_rod>]]);
 
 recipes.addShapeless("speecker_beast_minecraft_flint_and_steel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:flint>]);

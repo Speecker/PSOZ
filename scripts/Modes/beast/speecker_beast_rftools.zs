@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded rftools rftoolsdim
 
 recipes.remove(<rftools:builder>);
@@ -14,7 +14,7 @@ recipes.remove(<rftoolsdim:dimension_enscriber>);
 
 recipes.addShaped("speecker_beast_rftools_builder", <rftools:builder>, [[<mekanism:crystal:4>, <ore:gearEnderium>, <mekanism:crystal:4>],[<thermalfoundation:material:513>, <rftools:machine_frame>, <thermalfoundation:material:513>], [<mekanism:crystal:4>, <mekanism:energycube>.withTag({tier: 1}), <mekanism:crystal:4>]]);
 recipes.addShaped("speecker_beast_rftools_dialing_device", <rftools:dialing_device>, [[<quantumflux:craftingpiece:3>, <quantumflux:craftingpiece>, <quantumflux:craftingpiece:3>],[<thermalfoundation:material:513>, <rftools:machine_frame>, <thermalfoundation:material:513>], [<ore:gearPlatinum>, <ore:circuitElite>, <ore:gearPlatinum>]]);
-recipes.addShaped("speecker_beast_rftools_machine_base", <rftools:machine_base>, [[null, null, null],[<ore:slabSheetmetalConstantan>, <ore:slabSheetmetalConstantan>, <ore:slabSheetmetalConstantan>], [<ore:ingotElectrotineAlloy>, <magneticraft:crafting:3>, <ore:ingotElectrotineAlloy>]]);
+recipes.addShaped("speecker_beast_rftools_machine_base", <rftools:machine_base>, [[null, null, null],[<ore:slabSheetmetalConstantan>, <ore:slabSheetmetalConstantan>, <ore:slabSheetmetalConstantan>], [<ore:ingotManganeseOxide>, <magneticraft:crafting:3>, <ore:ingotManganeseOxide>]]);
 recipes.addShaped("speecker_beast_rftools_machine_frame", <rftools:machine_frame>, [[<ore:ingotMorganine>, <ore:ingotHardCarbon>, <ore:ingotMorganine>],[<ore:plateElectrum>, <mekanism:basicblock:8>, <ore:plateElectrum>], [<ore:ingotMorganine>, <ore:ingotHardCarbon>, <ore:ingotMorganine>]]);
 recipes.addShaped("speecker_beast_rftools_powercell", <rftools:powercell>, [[<ore:blockRedstone>, <ore:blockDiamond>, <ore:blockRedstone>],[<ore:blockPrismarineBrick>, <rftools:powercell_simple>, <ore:blockPrismarineBrick>], [<ore:blockRedstone>, <ore:blockEmerald>, <ore:blockRedstone>]]);
 recipes.addShaped("speecker_beast_rftools_powercell_simple", <rftools:powercell_simple>, [[<ore:blockRedstone>, <ore:blockDiamond>, <ore:blockRedstone>],[<ore:blockLithium>, <ore:blockLead>, <ore:blockLithium>], [<ore:blockRedstone>, <ore:blockDiamond>, <ore:blockRedstone>]]);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded modularmachinery
 
 recipes.remove(<modularmachinery:blockcasing:0>);
@@ -7,7 +7,7 @@ recipes.remove(<modularmachinery:itemmodularium> * 5);
 
 recipes.addShaped("speecker_beast_modularmachinery_blockcasing_1", <modularmachinery:blockcasing:1>, [[<modularmachinery:itemmodularium>, <minecraft:iron_bars>, <modularmachinery:itemmodularium>],[<minecraft:iron_bars>, null, <minecraft:iron_bars>], [<modularmachinery:itemmodularium>, <minecraft:iron_bars>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped("speecker_beast_modularmachinery_blockcasing_3", <modularmachinery:blockcasing:3>, [[<modularmachinery:itemmodularium>, <ore:gearSteel>, <modularmachinery:itemmodularium>],[<ore:gearSteel>, null, <ore:gearSteel>], [<modularmachinery:itemmodularium>, <ore:gearSteel>, <modularmachinery:itemmodularium>]]);
-recipes.addShaped("speecker_beast_modularmachinery_blockcasing_5", <modularmachinery:blockcasing:5>, [[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],[<ore:circuitBasic>, null, <ore:circuitBasic>], [<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped("speecker_beast_modularmachinery_blockcasing_5", <modularmachinery:blockcasing:5>, [[<modularmachinery:itemmodularium>, <quantumflux:craftingpiece:5>, <modularmachinery:itemmodularium>],[<quantumflux:craftingpiece:5>, null, <quantumflux:craftingpiece:5>], [<modularmachinery:itemmodularium>, <quantumflux:craftingpiece:5>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped("speecker_beast_modularmachinery_blockenergyinputhatch_2", <modularmachinery:blockenergyinputhatch:2>, [[null, <thermaldynamics:duct_0>, null],[<modularmachinery:itemmodularium>, <modularmachinery:blockenergyinputhatch:1>, <modularmachinery:itemmodularium>], [<minecraft:redstone>, <modularmachinery:itemmodularium>, <minecraft:redstone>]]);
 recipes.addShaped("speecker_beast_modularmachinery_blockenergyinputhatch_3", <modularmachinery:blockenergyinputhatch:3>, [[null, <thermaldynamics:duct_0>, null],[<modularmachinery:itemmodularium>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:itemmodularium>], [<minecraft:redstone>, <modularmachinery:itemmodularium>, <minecraft:redstone>]]);
 recipes.addShaped("speecker_beast_modularmachinery_blockenergyinputhatch_4", <modularmachinery:blockenergyinputhatch:4>, [[null, <thermaldynamics:duct_0>, null],[<modularmachinery:itemmodularium>, <modularmachinery:blockenergyinputhatch:3>, <modularmachinery:itemmodularium>], [<minecraft:redstone>, <modularmachinery:itemmodularium>, <minecraft:redstone>]]);

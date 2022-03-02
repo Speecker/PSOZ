@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded modulardiversity
 
 recipes.addShaped("speecker_beast_modulardiversity_blockdaylightdetector", <modulardiversity:blockdaylightdetector>, [[<modularmachinery:itemmodularium>, <minecraft:iron_bars>, <modularmachinery:itemmodularium>],[<minecraft:iron_bars>, <furnaceoverhaul:processing_upgrade>, <minecraft:iron_bars>], [<modularmachinery:itemmodularium>, <minecraft:iron_bars>, <modularmachinery:itemmodularium>]]);

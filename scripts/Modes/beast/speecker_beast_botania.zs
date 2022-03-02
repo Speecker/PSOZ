@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded botania
 import mods.botania.RuneAltar as RA;
 import mods.botania.ElvenTrade as ET;

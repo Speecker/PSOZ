@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded quark
 
 recipes.remove(<quark:reed_block>);

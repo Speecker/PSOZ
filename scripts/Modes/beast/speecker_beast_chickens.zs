@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded chickens
 
 recipes.addShaped("speecker_beast_chickens_colored_egg_0", <chickens:colored_egg:0>, [[<quark:stained_clay_tiles:15>, <quark:stained_clay_tiles:15>, <quark:stained_clay_tiles:15>], [<quark:stained_clay_tiles:15>, <ore:egg>, <quark:stained_clay_tiles:15>], [<quark:stained_clay_tiles:15>, <quark:stained_clay_tiles:15>, <quark:stained_clay_tiles:15>]]);

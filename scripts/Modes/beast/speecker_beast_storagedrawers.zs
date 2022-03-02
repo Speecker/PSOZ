@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded storagedrawers
 
 recipes.remove(<storagedrawers:basicdrawers:1>.withTag({material:"oak"}));
@@ -78,4 +78,4 @@ recipes.addShapeless("speecker_beast_storagedrawers_basicdrawers_4_birch_shapele
 recipes.addShapeless("speecker_beast_storagedrawers_basicdrawers_4_jungle_shapeless", <storagedrawers:basicdrawers:4>.withTag({material:"jungle"})*2, [<storagedrawers:basicdrawers:2>.withTag({material:"jungle"})]);
 recipes.addShapeless("speecker_beast_storagedrawers_basicdrawers_4_acacia_shapeless", <storagedrawers:basicdrawers:4>.withTag({material:"acacia"})*2, [<storagedrawers:basicdrawers:2>.withTag({material:"acacia"})]);
 recipes.addShapeless("speecker_beast_storagedrawers_basicdrawers_4_dark_oak_shapeless", <storagedrawers:basicdrawers:4>.withTag({material:"dark_oak"})*2, [<storagedrawers:basicdrawers:2>.withTag({material:"dark_oak"})]);
-recipes.addShapeless("speecker_beast_storagedrawers_compdrawers_shapeless", <storagedrawers:compdrawers>, [<compactdrawers:compact_drawer_half>*2]);
+//recipes.addShapeless("speecker_beast_storagedrawers_compdrawers_shapeless", <storagedrawers:compdrawers>, [<compactdrawers:compact_drawer_half>*2]);

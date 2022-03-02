@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded abyssalcraft lordcraft embers
 
 recipes.remove(<abyssalcraft:abyssalniteu>);

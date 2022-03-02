@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded tp
 
 recipes.remove(<tp:blaze_cobblegen_block>);

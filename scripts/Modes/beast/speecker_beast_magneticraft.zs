@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded magneticraft
 
 recipes.remove(<magneticraft:brick_furnace>);
@@ -51,7 +51,8 @@ recipes.addShaped("speecker_beast_magneticraft_multiblock_parts_3", <magneticraf
 recipes.addShaped("speecker_beast_magneticraft_multiblock_parts_4", <magneticraft:multiblock_parts:4> * 4, [[<ore:ingotTungsten>, <ore:plateCopper>, <ore:ingotTungsten>],[<ore:plateCopper>, <ore:stone>, <ore:plateCopper>], [<ore:ingotTungsten>, <ore:plateCopper>, <ore:ingotTungsten>]]);
 recipes.addShaped("speecker_beast_magneticraft_multiblock_parts_5", <magneticraft:multiblock_parts:5> * 4, [[<ore:ingotIron>, <ore:ingotZinc>, <ore:ingotIron>],[<ore:plateTungsten>, <ore:stone>, <ore:plateTungsten>], [<ore:ingotIron>, <ore:ingotZinc>, <ore:ingotIron>]]);
 recipes.addShaped("speecker_beast_magneticraft_pumpjack_drill", <magneticraft:pumpjack_drill>, [[<ore:ingotZinc>, null, <ore:ingotZinc>],[<ore:ingotZinc>, <magneticraft:small_tank>, <ore:ingotZinc>], [<ore:ingotZinc>, null, <ore:ingotZinc>]]);
-recipes.addShaped("speecker_beast_magneticraft_rf_transformer", <magneticraft:rf_transformer>, [[<ore:plateTungsten>, <portality:module_energy>, <ore:plateTungsten>],[<portality:module_energy:1>, <ore:wireCopper>, <portality:module_energy:1>], [<ore:plateTungsten>, <portality:module_energy>, <ore:plateTungsten>]]);
+recipes.addShaped("speecker_beast_magneticraft_rf_transformer", <magneticraft:rf_transformer>, [[<ore:plateTungsten>, <magneticraft:electric_engine>, <ore:plateTungsten>],[<magneticraft:electric_engine>, <ore:wireCopper>, <magneticraft:electric_engine>], [<ore:plateTungsten>, <magneticraft:electric_engine>, <ore:plateTungsten>]]);
+//recipes.addShaped("speecker_beast_magneticraft_rf_transformer", <magneticraft:rf_transformer>, [[<ore:plateTungsten>, <portality:module_energy>, <ore:plateTungsten>],[<portality:module_energy:1>, <ore:wireCopper>, <portality:module_energy:1>], [<ore:plateTungsten>, <portality:module_energy>, <ore:plateTungsten>]]);
 recipes.addShaped("speecker_beast_magneticraft_small_tank_0", <magneticraft:small_tank:0>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:quartz_glass>, <enderio:block_tank:0>|<openblocks:tank>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:quartz_glass>, <ore:plateCopper>, <appliedenergistics2:quartz_glass>]]);
 recipes.addShaped("speecker_beast_magneticraft_steel_gear", <magneticraft:steel_gear>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <ore:ingotZinc>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped("speecker_beast_magneticraft_steam_boiler", <magneticraft:steam_boiler>, [[null, <magneticraft:multiblock_parts:5>, null],[<magneticraft:multiblock_parts:5>, <magneticraft:small_tank>, <magneticraft:multiblock_parts:5>], [null, <magneticraft:multiblock_parts:5>, null]]);

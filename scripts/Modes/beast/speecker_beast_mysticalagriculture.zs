@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded mysticalagriculture
 
 recipes.remove(<mysticalagriculture:crafting:1>);

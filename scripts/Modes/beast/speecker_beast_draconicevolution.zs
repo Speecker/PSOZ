@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded draconicevolution
 
 recipes.remove(<draconicevolution:dislocator>);

@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded advancedrocketry
 
 recipes.remove(<advancedrocketry:ic:3>);

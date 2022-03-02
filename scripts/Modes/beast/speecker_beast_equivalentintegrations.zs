@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded equivalentintegrations
 
 recipes.remove(<equivalentintegrations:soulbound_talisman>);

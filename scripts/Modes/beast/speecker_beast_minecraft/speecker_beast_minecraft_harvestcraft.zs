@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded harvestcraft
 
 recipes.removeShapeless(<minecraft:planks:1> * 4, [ <harvestcraft:pammaple>]);

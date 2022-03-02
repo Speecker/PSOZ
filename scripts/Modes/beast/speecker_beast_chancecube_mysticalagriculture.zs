@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded chancecubes mysticalagriculture
 
 recipes.remove(<chancecubes:chance_pendant_tier1>);

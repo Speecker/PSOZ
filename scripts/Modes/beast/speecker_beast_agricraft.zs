@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded agricraft
 
 recipes.remove(<agricraft:crop_sticks>);

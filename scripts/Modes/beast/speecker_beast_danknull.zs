@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded danknull
 
 recipes.remove(<danknull:dank_null_0>);

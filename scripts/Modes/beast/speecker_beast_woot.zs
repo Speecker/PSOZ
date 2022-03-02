@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded woot
 
 recipes.remove(<woot:anvil>);

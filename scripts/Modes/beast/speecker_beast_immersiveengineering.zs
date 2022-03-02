@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded immersiveengineering
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Crusher;

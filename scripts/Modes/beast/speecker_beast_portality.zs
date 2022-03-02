@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded portality
 
 recipes.remove(<portality:controller>);
