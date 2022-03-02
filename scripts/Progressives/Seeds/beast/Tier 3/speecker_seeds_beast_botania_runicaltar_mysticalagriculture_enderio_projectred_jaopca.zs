@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded botania mysticalagriculture enderio projectred-core jaopca
 
 import mods.botania.RuneAltar.addRecipe as bot;

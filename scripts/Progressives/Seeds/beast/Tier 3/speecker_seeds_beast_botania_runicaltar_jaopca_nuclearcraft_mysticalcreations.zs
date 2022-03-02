@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded botania mysticalagriculture jaopca nuclearcraft mysticalcreations
 
 import mods.botania.RuneAltar.addRecipe as bot;

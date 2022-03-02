@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded botania mysticalagriculture tconstruct
 
 import mods.botania.RuneAltar.addRecipe as bot;
