@@ -1,4 +1,3 @@
-#packmode beast
 #modloaded gregtech mekanism
 
 #MARKER REPLACE ALL OCCURENCES
