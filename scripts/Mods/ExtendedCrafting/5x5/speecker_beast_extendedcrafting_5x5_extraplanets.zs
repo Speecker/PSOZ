@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting extraplanets
 
 import mods.extendedcrafting.TableCrafting as TC;
