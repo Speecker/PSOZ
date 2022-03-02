@@ -1,4 +1,4 @@
-#modloaded thermalexpansion modtweaker
+#modloaded nuclarcraft thermalexpansion modtweaker
 
 import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.InductionSmelter;
