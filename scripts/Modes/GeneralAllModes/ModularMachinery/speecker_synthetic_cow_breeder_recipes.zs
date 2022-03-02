@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded modularmachinery
 
 import mods.modularmachinery.RecipeBuilder;
