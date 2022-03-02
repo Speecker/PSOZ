@@ -1,5 +1,4 @@
 #priority -1
-#packmode normal titan kappa beast
 #modloaded jei appliedenergistics2
 
 import mods.jei.JEI.hideCategory as hc;

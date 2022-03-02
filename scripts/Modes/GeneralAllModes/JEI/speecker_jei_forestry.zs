@@ -1,5 +1,4 @@
 #priority -1
-#packmode normal titan kappa beast
 #modloaded jei forestry
 
 import mods.jei.JEI.addDescription as add;
