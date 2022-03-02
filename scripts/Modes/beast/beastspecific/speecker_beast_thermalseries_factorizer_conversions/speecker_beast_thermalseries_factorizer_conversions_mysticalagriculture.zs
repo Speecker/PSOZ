@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #priority 99
 #modloaded thermalexpansion mysticalagriculture
 
