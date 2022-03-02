@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting contenttweaker pneumaticcraft quantumflux xreliquary tp
 
 import mods.extendedcrafting.TableCrafting as TC;
