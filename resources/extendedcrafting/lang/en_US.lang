@@ -1,0 +1,7 @@
+tile.ec.storage_ender.name=Block of Void
+tile.ec.storage_enhanced_ender.name=Block of Enhanced Void
+
+item.ec.material_ender_ingot.name=Void Ingot
+item.ec.material_ender_nugget.name=Void Nugget
+item.ec.material_enhanced_ender_ingot.name=Enhanced Void Ingot
+item.ec.material_enhanced_ender_nugget.name=Enhanced Void Nugget

@@ -1,0 +1,25 @@
+Known Issues:
+	- Translocators:
+		- You Might Not Want To Use Them On A Smeltery - It Might Cause A Ticking Tile Entity Error !
+		- Only use Translocators where you really need them. They may cause a high TPS in certain situations.
+		- Better Prefer Ender IO Conduits in huge quantity because they are much more TPS-Friendly.
+	- Server-Crash/MainMenu-Crash when trying to autofill into AE2 Crafting Terminal with some Recipes that use oreDict for Planks (Payload above limit)
+	- Verticals Already Constructing Soft-Crash with InfinityLib And JEI when searching too fast
+		  or after working with CropSticks & AgriSeeds.	
+		- To Avoid This Soft-Crash Close MC Completely, Exchange JEI Versions and Restart. Redo If Nacessary.
+		- Unfortunately this Bug cant be avoided and sooner or later you WILL run into it as soon as you set up CropSticks.
+	- TiC Crafting Station Display Chests As Missing Texture. Just a known Graphical Glitch. Nothing to worry about.
+	- ExtraUtils2 & More Plates:	Empowered Gear Recipe Show Vanilla Items with Missing Texture. Might Try To ReMap The Recipes
+	- Cyclic / PlayerStorage: Rendering Glitch when placing Extraction Pipes while having some inside PlayerStorage. Any other Rendering Stuff will be empty then.
+				Workaround: Place Pipes while not having any in PlayerStorage
+	- FluidDrawers: Rightclick Filling/Emptying with a Stacked Bucket on FluidDrawers causes the bucket to turn into a single count. Dont use Stacked Buckets on them !
+	- Startup Issue with the Texturepacks activated if theres not enough RAM or VRAM available/allocated. If you do run into crashes with 
+	  net.minecraft.client.renderer.StitcherException: Unable to fit: texturepathxyz either youve allocated too less RAM/VRAM or your system doesnt have enough.
+	  How To Fix: Either use different Texturepack or remove any mods inside assets you dont care about having standard textures.
+	  Suggested Texturepack to use depending on your GPUs VRAM:
+	  	0-3GB VRAM: U can try to run "Low" but most likely none of my TPs will work. You may use "OldSchool" as alternative.
+	  	3-6GB: Use the Low Version if you cant run the Standard TP.
+		6GB or more: GG u can use the Standard TP
+		Over 10GB: U may have a try with the dev addtions or get even higher resolutions for the TP on demand.
+	 
+	- Visual Glitch to Black Screen in Main Menu

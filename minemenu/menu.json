@@ -1,0 +1,859 @@
+{
+  "Building": {
+    "0": {
+      "title": "Building Gadgets",
+      "icon": {
+        "name": "buildinggadgets:buildingtool",
+        "damage": 0
+      },
+      "action": {
+        "category": "Building Gadgets"
+      }
+    },
+    "1": {
+      "title": "Better Builders Wands",
+      "icon": {
+        "name": "extrautils2:itemcreativebuilderswand",
+        "damage": 0
+      },
+      "action": {
+        "category": "Better Builders Wands"
+      }
+    },
+    "9": {
+      "title": "Exchangers",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "category": "Exchangers"
+      }
+    }
+  },
+  "Better Builders Wands": {
+    "0": {
+      "title": "Change Fluid Mode",
+      "icon": {
+        "name": "extrautils2:itemcreativebuilderswand",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "bbw.key.fluidmode",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Change Build Mode",
+      "icon": {
+        "name": "extrautils2:itembuilderswand",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "bbw.key.mode",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Building"
+      }
+    }
+  },
+  "Advanced Rocketry": {
+    "0": {
+      "title": "Rocket GUI",
+      "icon": {
+        "name": "extraplanets:advanced_launch_pad",
+        "damage": 1
+      },
+      "action": {
+        "key": {
+          "key": "Open Rocket GUI",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Toggle RCS",
+      "icon": {
+        "name": "minecraft:hopper_minecart",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Toggle RCS",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Module Manager",
+      "icon": {
+        "name": "galacticraftcore:basic_item",
+        "damage": 19
+      },
+      "action": {
+        "key": {
+          "key": "Open Module Manager",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Mods"
+      }
+    },
+    "8": {
+      "title": "PreLaunch Checklist",
+      "icon": {
+        "name": "galacticraftcore:prelaunch_checklist",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Open Pre Launch Checklist GUI",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Toggle Jetpack",
+      "icon": {
+        "name": "projectred-expansion:jetpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Toggle Jetpack",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Exchangers": {
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Building"
+      }
+    }
+  },
+  "Dark Steel Armor": {
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Mods"
+      }
+    }
+  },
+  "Emotes": {
+    "0": {
+      "title": "Cheer",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "quark.emote.cheer",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "main": {
+    "0": {
+      "title": "Inventory",
+      "icon": {
+        "name": "minecraft:ender_chest",
+        "damage": 0
+      },
+      "action": {
+        "category": "Inventory"
+      }
+    },
+    "1": {
+      "title": "Quests",
+      "icon": {
+        "name": "questbook:itemquestbook",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.betterquesting.quests",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Knowledge of Death",
+      "icon": {
+        "name": "tombstone:decorative_tombstone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "tombstone.message.knowledge_of_death",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "Emotes",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "category": "Emotes"
+      }
+    },
+    "4": {
+      "title": "Configurations",
+      "icon": {
+        "name": "mekanism:configurator",
+        "damage": 0
+      },
+      "action": {
+        "category": "Configurations"
+      }
+    },
+    "5": {
+      "title": "Commands",
+      "icon": {
+        "name": "minecraft:command_block",
+        "damage": 0
+      },
+      "action": {
+        "category": "Commands"
+      }
+    },
+    "8": {
+      "title": "Mods",
+      "icon": {
+        "name": "bloodmagic:base_item_filter",
+        "damage": 2
+      },
+      "action": {
+        "category": "Mods"
+      }
+    },
+    "9": {
+      "title": "Building",
+      "icon": {
+        "name": "appliedenergistics2:facade",
+        "damage": 0
+      },
+      "action": {
+        "category": "Building"
+      }
+    }
+  },
+  "AbyssalCraft": {
+    "0": {
+      "title": "Staff Of The Gatekeeper Mode",
+      "icon": {
+        "name": "abyssalcraft:staff",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.staff_mode.desc",
+          "toggle": true
+        }
+      }
+    },
+    "1": {
+      "title": "Clear Path Of The Spirit Tablet",
+      "icon": {
+        "name": "abyssalcraft:configurator_shard",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.configurator_path.desc",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Spirit Tablet Filter Mode",
+      "icon": {
+        "name": "abyssalcraft:configurator_shard",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "key.configurator_filter.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Mods"
+      }
+    },
+    "9": {
+      "title": "Spirit Table Mode",
+      "icon": {
+        "name": "abyssalcraft:configurator",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.configurator_mode.desc",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Mods": {
+    "0": {
+      "title": "AbyssalCraft",
+      "icon": {
+        "name": "abyssalcraft:ingotblock",
+        "damage": 0
+      },
+      "action": {
+        "category": "AbyssalCraft"
+      }
+    },
+    "1": {
+      "title": "Rocketry \u0026 SpaceCraft",
+      "icon": {
+        "name": "extraplanets:item_tier8_rocket",
+        "damage": 0
+      },
+      "action": {
+        "category": "Advanced Rocketry"
+      }
+    },
+    "8": {
+      "title": "Dark Steel Armor",
+      "icon": {
+        "name": "simplyjetpacks:metaitemmods",
+        "damage": 6
+      },
+      "action": {
+        "category": "Dark Steel Armor"
+      }
+    },
+    "9": {
+      "title": "Draconic Evolution",
+      "icon": {
+        "name": "draconicevolution:info_tablet",
+        "damage": 0
+      },
+      "action": {
+        "category": "Draconic Evolution"
+      }
+    }
+  },
+  "Commands": {
+    "0": {
+      "title": "Quest Database Refresh",
+      "icon": {
+        "name": "questbook:itemquestbook",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/bq_admin default load",
+          "clipboard": false
+        }
+      }
+    },
+    "5": {
+      "title": "TPS Info",
+      "icon": {
+        "name": "minecraft:clock",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/forge tps",
+          "clipboard": false
+        }
+      }
+    }
+  },
+  "Wireless Terminals": {
+    "0": {
+      "title": "Wireless Crafting Terminal",
+      "icon": {
+        "name": "wct:wct_creative",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wct.desc",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Wireless Interface Terminal",
+      "icon": {
+        "name": "wit:wit_creative",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wit.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Inventory"
+      }
+    },
+    "8": {
+      "title": "Wireless Pattern Terminal",
+      "icon": {
+        "name": "wpt:wpt_creative",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wpt.desc",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Wireless Fluid Terminal",
+      "icon": {
+        "name": "wft:wft_creative",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wft.desc",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Building Gadgets": {
+    "0": {
+      "title": "Material List",
+      "icon": {
+        "name": "buildinggadgets:buildingtool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.material_list",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Anchor",
+      "icon": {
+        "name": "buildinggadgets:buildingtool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.anchor",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Connected Area",
+      "icon": {
+        "name": "buildinggadgets:buildingtool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.connected_area",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Fuzzy",
+      "icon": {
+        "name": "buildinggadgets:buildingtool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.fuzzy",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Undo",
+      "icon": {
+        "name": "buildinggadgets:exchangertool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.undo",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Building"
+      }
+    }
+  },
+  "Configurations": {
+    "0": {
+      "title": "Smooth Font GUI",
+      "icon": {
+        "name": "opencomputers:keyboard",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "smoothfont.key.guiOpen",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "TOP / WAILA",
+      "icon": {
+        "name": "agricraft:magnifying_glass",
+        "damage": 0
+      },
+      "action": {
+        "category": "WAILA"
+      }
+    },
+    "2": {
+      "title": "World Tooltips GUI",
+      "icon": {
+        "name": "randomthings:floosign",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "World Tooltips Configuration",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "/dank/null HUD Visibility",
+      "icon": {
+        "name": "microblockcbe:microblock",
+        "damage": 2
+      },
+      "action": {
+        "key": {
+          "key": "key.togglehud.desc",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Fancy Block Particles GUI",
+      "icon": {
+        "name": "simplyjetpacks:metaitem",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Open Menu",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "WAILA": {
+    "0": {
+      "title": "WAILA Config GUI",
+      "icon": {
+        "name": "mekanism:configurator",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "waila.keybind.wailaconfig",
+          "toggle": true
+        }
+      }
+    },
+    "1": {
+      "title": "Toggle Show WAILA Liquids",
+      "icon": {
+        "name": "minecraft:water_bucket",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "waila.keybind.liquid",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Toggle Show TOP Liquids",
+      "icon": {
+        "name": "minecraft:lava_bucket",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleLiquids",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Toggle TOP Visibility",
+      "icon": {
+        "name": "agricraft:magnifying_glass",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleVisible",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Configurations"
+      }
+    }
+  },
+  "Inventory": {
+    "0": {
+      "title": "Wireless Terminals",
+      "icon": {
+        "name": "appliedenergistics2:wireless_terminal",
+        "damage": 0
+      },
+      "action": {
+        "category": "Wireless Terminals"
+      }
+    },
+    "1": {
+      "title": "Baubles",
+      "icon": {
+        "name": "baubles:ring",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keybind.baublesinventory",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Cyclic Mobile Crafting Grid",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraCraftin",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Space Ship",
+      "icon": {
+        "name": "extraplanets:item_tier8_rocket",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "[GC] Open Spaceship Inventory",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "/dank/null/",
+      "icon": {
+        "name": "thermalexpansion:frame",
+        "damage": 64
+      },
+      "action": {
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Draconic Evolution": {
+    "0": {
+      "title": "Toggle Item Dislocator",
+      "icon": {
+        "name": "draconicevolution:magnet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleDislocator",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Toggle Draconic Shielding",
+      "icon": {
+        "name": "draconicevolution:reactor_core",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleShields",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Rotate Armor Profiles",
+      "icon": {
+        "name": "minecraft:armor_stand",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.armorProfileChange",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Rotate Tool Profiles",
+      "icon": {
+        "name": "modularmachinery:itemconstructtool",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toolProfileChange",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Back",
+      "icon": {
+        "name": "minecraft:banner",
+        "damage": 1
+      },
+      "action": {
+        "category": "Mods"
+      }
+    },
+    "6": {
+      "title": "Toggle Overload Belt",
+      "icon": {
+        "name": "draconicadditions:overload_belt",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.overload",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Toggle Chaos Injector",
+      "icon": {
+        "name": "draconicadditions:chaos_container",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.chaosInjection",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Toggle Creative Flight",
+      "icon": {
+        "name": "minecraft:elytra",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleFlight",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Tool \u0026 Armor Config GUI",
+      "icon": {
+        "name": "mekanism:configurator",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toolConfig",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

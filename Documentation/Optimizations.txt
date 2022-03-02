@@ -1,0 +1,181 @@
+Mods:
+
+ - Additions / Content:
+	Advanced Rocketry + ARTweaker
+	AOA3 + AOA3Info
+	changeling-1.2.5-1.12.2	+ dominionlib-2.1.3-1.12.2 (dependency Lib)
+	Cyclic-1.12.2-1.20.8
+	FluxNetworks-1.12.2-4.1.1.34
+	furniture-6.3.1-1.12.2
+	FWPArchitecturalEnhancements_v2.2
+	Inspirations-1.12.2-0.2.9
+	missing_pieces-1.12.2-4.3.0
+	rustic-1.1.7
+	Xtones-1.2.1
+
+ - Addons:
+	AbyssalCraft+Heads-1.12.2-2.1.0
+	AetherWorks-1.12.2-1.0.0.3
+	Aetherium+Ashen+Armor-Release-1.12.2-1.2.1
+	avaritiaio-1.4
+	BloodArsenal-1.12.2-2.2.2-31
+	ClocheCall-1.1.2
+	CompactDrawers-1.12.2-1.0.5.125
+	Draconic-Additions-1.12.2-1.15.0.38-universal
+	EMCGadgets-1.0.2.9-universal
+	eternalsingularity-1.12.2-1.0.7
+	EverlastingAbilities-PotionCore-1.12.2-1.0.2
+		+ PotionCore-1.9_for_1.12.2
+	Exchangers-1.12.2-2.10.1
+	fluiddrawers-1.12.2-1.0.5
+	framedcompactdrawers-1.2.7
+	ieclochecompat-2.1.7-dev.454
+	IGI-BloodMagic-1.2
+	IGI-RFTools-1.2
+	PackagedAuto-1.12.2-1.0.3.14
+	PackagedExCrafting-1.12.2-1.0.1.2
+	ProjectEIntegration-1.12.2-2.5.0
+	ProjectRed-1.12.2-4.9.4.120-compat
+	ProjectRed-1.12.2-4.9.4.120-fabrication
+	ProjectRed-1.12.2-4.9.4.120-integration
+	ProjectRed-1.12.2-4.9.4.120-lighting
+	tconevo-1.12.2-1.0.38
+	ViewEMC-1.12.2-v8
+	WirelessFluidTerminal-1.12.2-1.0.4
+	WirelessPatternTerminal-1.12.2-1.0.3
+
+ - Debugging:
+	packcrashinfo-1.0.1
+
+ - JAOPCA Suit:
+	alchemistry-1.12.2-41
+	JAOPCA -Additions/-Agriculture/-Singularities
+	Metallurgy-4-Reforged-1.2.4
+	moreplates-1.12.2-5.5.2
+
+ - JEI Addons
+	blockdrops-1.12.2-1.4.0
+	BigExtremeReactor-JEI
+	jeiintegrations 1.6.0
+	jeivillagers 1.0.2
+	jebp 1.2.1
+	JEROreIntegration 1.1.0
+	jeitif 1.5.2
+	JustEnoughResources-1.12.2-0.9.2.60
+	PamsHarvestcraft-JEI
+	TiC-JEI
+
+ - Performance / Fixes / Compat:
+	[___MixinCompat-0.8___]
+	AnvilFix-1.12.2-1.0.5
+	Born+In+A+Barn+V1.8-1.12-1.1
+	CommonCapabilities-1.12.2-2.4.8
+	EnergySynergy-1.12.2-1.1.4
+	OptiFine_1.12.2_HD_U_G5
+	particleculling-1.12.2-v1.0.1
+	performant-1.12.2-1.10
+	Surge-1.12.2-2.0.77
+	TexFix+V-1.12-4.0
+	unloader-1.2.0
+	VanillaFix-1.0.10-150
+
+ - QOL / Visuals:
+	Advancement_Book-1.12-1.0.3
+	AmbientSounds_v3.0.18_mc1.12.2
+	BaubleShulkerBoxes-4r
+	BetterBedrockGenerator-1.12-6.1.1
+	Blur-1.0.4-14
+	BringMeTheRings-0.4
+	carryon-1.12.2-1.12.3.15
+	DynamicLights-1.12.2
+	dynamistics-1.0.2
+	FancyBlockParticles-1.12.x-2.4.1
+	FullscreenWindowed-1.12-1.6.0
+	Jade-0.1.0
+	MainMenuScale-1.3.2
+	MineMenu-1.12.2-1.6.11-universal
+	noRecipeBook_v1.2.2formc1.12.2
+	PickUpNotifier-v1.1.5-1.12.2
+	projectstorage-1.12.2-1.3
+	SmoothFont-mc1.12.2-2.1.2
+	SplashAnimation-0.2.1
+	theoneprobe-1.12-1.4.28 + topaddons-1.12.2-1.13.0
+	tramplestopper-1.12.2-1.2.0.5-universal
+
+ - ReImps:
+	landcore-1.5.0.1
+	landcraft-2.3.0.2
+	plustic-8.0.0.1
+	VoidCraft-1.12-0.26.10
+
+ - Replacements
+	questbook-3.1.1-1.12				for 	BetterQuestingTriggerer
+	FluidCows-1.1.22				for	MooFluids-1.12.2-1.8.12.02a
+	
+	moartinkers-0.6.0 / taiga-1.12.2-1.3.4 / Tinkers'+Addons-1.12.1-1.0.7
+	for
+	materialis-1.12.2-1.2.1 & tinkers_reforged-1.3.5
+	
+	classicbar-0.5.4 for AppleSkin-mc1.12-1.0.14 / AppleCore-mc1.12.2-3.4.0 & overloadedarmorbar-1.0.4g
+
+ - Tooltips / Info:
+	anviltooltipmod-MC1.12.2-1.0.0
+	Durability101-1.12-0.0.3
+	EnchantmentDescriptions-1.12.2-1.1.15
+	EquipmentTooltips-1.12.2-1.0.3-4
+	IGW-Mod-1.12.2-1.4.4-15-universal
+	potiondescriptions-1.12.2-1.2.3
+	World-Tooltips-1.12.2-1.3.0-111
+
+ - Tweaking:
+	FoodTweaker-1.1.3
+	incontrol-1.12-3.9.18
+	Infini-TiC-1.12.2-0.1.46
+	inworldcrafting-1.12.2-1.2.0-universal
+	mekatweaker-1.12-1.2.0
+	MoreTweaker-1.0.16
+	MysticalCreations-1.12.2-1.6
+
+ - Updated:
+	Avaritia		3.3.0.33	to	3.3.0.37
+	BioLib			1.0.8		to	1.1.2
+	BiomeTweaker		3.2.368		to	3.1.369
+	ChanceCubes		5.0.2.345	to	5.0.2.385
+	CraftTweaker2		4.1.20.594	to	4.1.20.614
+	CreativeCore		1.10.28		to	1.10.44
+	CyclopsCore		1.6.6		to	1.6.7
+	EmbersRekindled		1.14hotfix	to	1.17
+	EnderIO/Endergy		5.2.59		to	5.2.66
+	EnderTweaker		1.2.0		to	1.2.1
+	ExpandedEquivalence	12.3.16		to	12.3.17
+	ExtraPlanets		0.7.0		to	0.7.1
+	FTBUtilities		5.4.1.130	to	5.4.1.131
+	GalactiCraftSuit	4.0.2.280	to	4.0.2.281
+	GunpowderLib		1.0		to	1.1
+	HammerLib		2.0.6.23	to	2.0.6.26
+	LibraryEx		1.0.12		to	1.2.1
+	NetherEx		2.0.15		to	2.2.4
+	ompd			3.1.0-61	to	3.1.1-76
+	Patchouli		1.0-21		to	1.0-23.6
+	randompatches		1.22.1.7	to	1.22.1.10
+	SimpleSponge		3.6.3		to	3.7
+	SimplyJetpacks2		2.2.16.1	to	2.2.18.1
+	tombstone		4.0.0		to	4.0.1
+	tweakersconstruct	1.5.4		to	1.5.5
+	UniDict			2.9.7		to	3.0.4
+
+ - BackPorts:
+	modularmachinery	1.11.1	to 1.10.0	for	ModularDiversity 1.10.0
+
+ - Removals:
+	Morpheus-1.12.2-3.5.106 Unnecessary Online/Server Mod
+	WaitingTime-1.0.1.jar
+	rockcandy-1.12.2-3.0.0
+
+ - Libs / Dependencies:
+	alib-1.0.12
+	libnine-1.12.2-1.2.0
+	LibVulpes-1.12.2-0.4.2-75-universal
+	limelib-1.12.2-1.7.12
+	TamModized-1.12.2-0.15.6
+	WrapUp-1.12-1.1.3
