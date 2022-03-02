@@ -1,5 +1,4 @@
 #priority 5
-#packmode normal titan kappa beast
 #modloaded excompressum overloaded
 
 recipes.addShapeless(<excompressum:compressed_block:6>*9, [<overloaded:compressed_crushed_netherrack:1>]);

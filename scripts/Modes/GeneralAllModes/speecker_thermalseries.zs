@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded thermalexpansion thermalfoundation
+#modloaded modtweaker thermalexpansion thermalfoundation
 
 import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.Crucible;

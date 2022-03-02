@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded thermalexpansion thermalfoundation mysticalcreations !jaopca
+#modloaded modtweaker thermalexpansion thermalfoundation mysticalcreations !jaopca
 
 import mods.thermalexpansion.InductionSmelter as IS;
 import mods.thermalexpansion.Pulverizer as Pulver;

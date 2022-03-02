@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded rustic
 
 import mods.rustic.CrushingTub as CT;

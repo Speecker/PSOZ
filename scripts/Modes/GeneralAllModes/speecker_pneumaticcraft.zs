@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded pneumaticcraft
+#modloaded pneumaticcraft armorplus
 
 import mods.pneumaticcraft.pressurechamber as pc;
 

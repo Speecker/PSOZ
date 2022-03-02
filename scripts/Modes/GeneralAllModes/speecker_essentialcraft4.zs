@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded essentialcraft
 
 recipes.remove(<essentialcraft:genitem:40>);

@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded galacticraftcore galacticraftplanets extraplanets
 import mods.GalacticraftTweaker as GT;
 

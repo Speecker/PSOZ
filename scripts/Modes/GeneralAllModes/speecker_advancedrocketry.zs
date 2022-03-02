@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded advancedrocketry
 
 import mods.advancedrocketry.ArcFurnace as AF;

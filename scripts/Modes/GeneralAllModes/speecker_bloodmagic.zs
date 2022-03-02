@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded bloodmagic
+#modloaded modtweaker bloodmagic
 import mods.bloodmagic.BloodAltar;
 
 //Blood Altar

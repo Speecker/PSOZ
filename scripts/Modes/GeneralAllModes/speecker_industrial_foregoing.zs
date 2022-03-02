@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded industrialforegoing extendedcrafting jaopca
 
 //Vanilla Grid Recipes

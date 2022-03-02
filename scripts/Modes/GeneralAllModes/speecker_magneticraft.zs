@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded magneticraft jaopca
 
 import mods.magneticraft.CrushingTable as CT;
@@ -78,6 +77,7 @@ HP.addRecipe(<alchemistry:ingot:28> * 1, <thermalfoundation:material:325> * 1, 8
 HP.addRecipe(<alchemistry:ingot:78> * 1, <thermalfoundation:material:326> * 1, 80, 0, true);
 HP.addRecipe(<alchemistry:ingot:77> * 1, <thermalfoundation:material:327> * 1, 80, 0, true);
 HP.addRecipe(<thermalfoundation:material:136> * 1, <thermalfoundation:material:328> * 1, 80, 0, true);
+HP.addRecipe(<minecraft:diamond> * 1, <jaopca:item_platediamond> * 1, 80, 0, true);
 
 //Oil Heater
 //OH.removeRecipe(<liquid:oil>);

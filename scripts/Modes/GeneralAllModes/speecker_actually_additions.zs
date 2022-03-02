@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded actuallyadditions
+#modloaded modtweaker actuallyadditions
 import mods.actuallyadditions.Crusher;
 import mods.actuallyadditions.Empowerer;
 
@@ -35,7 +34,7 @@ Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
 Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
 Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
 
-Empowerer.addRecipe(<enderio:item_basic_capacitor:1>, <thermalfoundation:material:768>, <enderio:item_basic_capacitor>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>, 10000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<enderio:item_basic_capacitor:1>, <thermalfoundation:material:768>|<ore:dustCoal>, <enderio:item_basic_capacitor>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>, 10000, 8, [0.1,0.1,0.1]);
 Empowerer.addRecipe(<enderio:item_basic_capacitor:2>, <minecraft:glowstone>, <enderio:item_basic_capacitor:1>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, 10000, 8, [0.1,0.1,0.1]);
 Empowerer.addRecipe(<enderio:item_capacitor_energetic_silver>, <thermalfoundation:material:768>|<enderio:item_material:23>, <enderio:item_capacitor_silver>, <enderio:item_capacitor_silver>, <enderio:item_alloy_endergy_ingot:5>, <enderio:item_alloy_endergy_ingot:5>, 10000, 8, [0.1,0.1,0.1]);
 Empowerer.addRecipe(<enderio:item_capacitor_vivid>, <minecraft:glowstone>, <enderio:item_capacitor_energetic_silver>, <enderio:item_capacitor_energetic_silver>, <enderio:item_alloy_endergy_ingot:6>, <enderio:item_alloy_endergy_ingot:6>, 10000, 8, [0.1,0.1,0.1]);

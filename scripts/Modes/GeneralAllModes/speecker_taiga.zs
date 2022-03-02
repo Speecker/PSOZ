@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded taiga mysticalagriculture
 
 recipes.removeByRecipeName("mysticalagriculture:gemdilithium");

@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded dimensionaledibles
 
 //Remove
@@ -17,7 +16,7 @@ recipes.addShaped("speecker_all_cake_base", <enderio:item_material:70>, [[<minec
 recipes.addShaped("speecker_all_cake_normal", <minecraft:cake>, [[<minecraft:milk_bucket>|<ceramics:clay_bucket:1>,<minecraft:milk_bucket>|<ceramics:clay_bucket:1>,<minecraft:milk_bucket>|<ceramics:clay_bucket:1>],[<minecraft:sugar>,<ore:egg>,<minecraft:sugar>],[<actuallyadditions:item_misc:4>,<actuallyadditions:item_misc:4>,<actuallyadditions:item_misc:4>]]);
 
 //Overworld Cake
-recipes.addShaped("speecker_all_cake_overworld", <dimensionaledibles:overworld_cake>, [[<ore:dustRedstone>,<ore:dustGold>,<ore:dustRedstone>],[<ore:treeSapling>,<enderio:item_material:70>,<ore:treeSapling>],[<ore:itemBiomass>,<ore:gemDiamond>,<ore:itemBiomass>]]);
+recipes.addShaped("speecker_all_cake_overworld", <dimensionaledibles:overworld_cake>, [[<ore:dustRedstone>,<ore:dustGold>,<ore:dustRedstone>],[<ore:treeSapling>,<enderio:item_material:70>,<ore:treeSapling>],[<actuallyadditions:item_misc:21>,<ore:gemDiamond>,<actuallyadditions:item_misc:21>]]);
 <dimensionaledibles:overworld_cake>.addTooltip(format.darkAqua(format.italic("Refill using Oak Saplings.")));
 
 //Nether Cake

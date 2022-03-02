@@ -1,6 +1,5 @@
-#packmode normal titan kappa beast
 #priority 99
-#modloaded thermalexpansion
+#modloaded modtweaker thermalexpansion
 
 import mods.thermalexpansion.Factorizer.addRecipeBoth as addB;
 import mods.thermalexpansion.Factorizer.addRecipeSplit as addS;
@@ -80,3 +79,6 @@ addB(<lordcraft:crystal_basic_neutralb>, <lordcraft:crystal_basic_neutral:0> * 9
 
 // Solidified Experience
 addB(<actuallyadditions:item_solidified_experience>, <mysticalagriculture:xp_droplet> * 9);
+
+// Flux Crystal
+addB(<redstonearsenal:storage:1>, <redstonearsenal:material:160> * 9);

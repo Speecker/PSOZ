@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded inworldcrafting
 
 import mods.inworldcrafting.FluidToItem;
@@ -14,7 +13,7 @@ FireCrafting.addRecipe(<minecraft:sponge:0>, <minecraft:sponge:1>, 100);
 
 //Fluid to Item
 
-FluidToItem.transform(<modularmachinery:itemmodularium> * 12, <liquid:electrum>, [<ore:blockVibrantAlloy>, <ore:blockVividAlloy>, <ore:blockElectrotine>], true);
+FluidToItem.transform(<modularmachinery:itemmodularium> * 12, <liquid:electrotine_alloy>, [<ore:blockVibrantAlloy>, <ore:blockVividAlloy>, <ore:blockElectrotine>], true);
 FluidToItem.transform(<thermaldynamics:duct_64> * 8, <liquid:creosote>, [<thermaldynamics:duct_64:3> * 8], true);
 
 //	Fluix Crystal Block Ease

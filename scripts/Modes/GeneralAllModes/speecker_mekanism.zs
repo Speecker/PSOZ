@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded mekanism
 
 import mods.mekanism.chemical.crystallizer as crystallize;

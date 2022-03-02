@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded lootbags
 
 recipes.remove(<lootbags:loot_opener>);

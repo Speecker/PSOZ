@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded extraplanets
 
 recipes.remove(<extraplanets:advanced_refinery>);

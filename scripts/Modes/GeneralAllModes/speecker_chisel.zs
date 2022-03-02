@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded chisel
+#modloaded modtweaker chisel
 import mods.chisel.Carving;
 
 // Group

@@ -1,5 +1,4 @@
-#packmode normal titan kappa beast
-#modloaded botania
+#modloaded modtweaker botania
 import mods.botania.ElvenTrade;
 
 //mods.botania.ElvenTrade.addRecipe(IIngredient[] outputs, IIngredient[] input);

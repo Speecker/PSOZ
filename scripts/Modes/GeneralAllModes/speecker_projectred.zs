@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded projectred-expansion
 
 recipes.remove(<projectred-expansion:infused_ender_pearl>);

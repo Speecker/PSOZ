@@ -1,5 +1,4 @@
 #priority 5
-#packmode normal titan kappa beast
 #modloaded fluiddrawers
 
 recipes.remove(<fluiddrawers:tank:0>);
