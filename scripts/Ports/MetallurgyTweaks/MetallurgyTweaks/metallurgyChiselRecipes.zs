@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 96
 #modloaded metallurgy chisel crafttweaker
 print("---------------------------------------------------------------------------------------------------------------------------------------------");
