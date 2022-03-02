@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting solarflux
 
 import mods.extendedcrafting.TableCrafting;
