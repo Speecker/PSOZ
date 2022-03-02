@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting actuallyadditions exnihilocreatio industrialforegoing rftools teslacorelib thermalexpansion
 
 import mods.extendedcrafting.TableCrafting as TC;
