@@ -1,4 +1,3 @@
-#packmode beast
 #modloaded extendedcrafting jaopca modtweaker
 #norun
 
