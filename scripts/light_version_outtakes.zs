@@ -1,4 +1,3 @@
-#packmode beast
 #norun
 
 import mods.aoa3.InfusionTable as IT;
