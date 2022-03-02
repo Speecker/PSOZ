@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded astralsorcery mysticalagriculture enderio tconstruct
 
 import mods.astralsorcery.Altar.addAttunementAltarRecipe as ASA;

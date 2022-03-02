@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded astralsorcery mysticalagriculture jaopca enderio taiga
 
 import mods.astralsorcery.Altar.addAttunementAltarRecipe as ASA;
