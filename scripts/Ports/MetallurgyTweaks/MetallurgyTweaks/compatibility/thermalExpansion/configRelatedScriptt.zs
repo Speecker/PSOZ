@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 87
 #modloaded metallurgy thermalexpansion crafttweaker modtweaker
 
