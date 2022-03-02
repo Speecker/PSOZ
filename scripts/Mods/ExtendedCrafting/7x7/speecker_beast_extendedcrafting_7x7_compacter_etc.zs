@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting ceramics compacter extrautils2 furnaceoverhaul magneticraft mysticalagriculture mysticalagradditions nuclearcraft pneumaticcraft tp
 
 import mods.extendedcrafting.TableCrafting as TC;
