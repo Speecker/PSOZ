@@ -2755,6 +2755,8 @@ v10.3.2-004
 		- Added missing T3(7x7) Tables in the T4(9x9) Table recipe
 v10.3.3-000
 	Merged all Scripts with GitHub to use the repository from now on
+v10.3.3-001
+	Merged config/abyssalcraft
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
