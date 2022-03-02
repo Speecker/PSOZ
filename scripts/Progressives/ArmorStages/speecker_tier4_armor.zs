@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #modloaded armorplus
 
 //dark matter armor 
