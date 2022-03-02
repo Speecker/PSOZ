@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 91
 #modloaded metallurgy thermalexpansion crafttweaker modtweaker
 import mods.thermalexpansion.SteamDynamo;
