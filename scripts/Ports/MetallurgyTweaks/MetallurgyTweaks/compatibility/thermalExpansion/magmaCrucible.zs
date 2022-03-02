@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 92
 #modloaded metallurgy thermalexpansion crafttweaker modtweaker
 import mods.thermalexpansion.Crucible;
