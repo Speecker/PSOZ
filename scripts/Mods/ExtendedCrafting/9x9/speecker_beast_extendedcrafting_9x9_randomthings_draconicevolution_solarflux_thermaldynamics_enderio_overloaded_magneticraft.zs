@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting randomthings draconicevolution solarflux thermaldynamics enderio overloaded magneticraft
 
 //Genesis Spectre Charger
