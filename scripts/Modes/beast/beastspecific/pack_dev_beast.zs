@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded contenttweaker
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:bear_metal>, [[<contenttweaker:jak_metal>, <contenttweaker:mis_metal>, <contenttweaker:ann_metal>], [<contenttweaker:hep_plate>, <contenttweaker:mem_plate>, <contenttweaker:dat_plate>], [<contenttweaker:fatp_gear>, <contenttweaker:yzul_gear>, <contenttweaker:jack_gear>]]);

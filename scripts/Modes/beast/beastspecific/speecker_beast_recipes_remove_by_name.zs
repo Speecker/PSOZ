@@ -1,5 +1,5 @@
 #priority 5
-#packmode beast
+#packmode mythic beast
 #MARKER REMOVE
 
 recipes.removeByRecipeName("crafttweaker:magneticraft-copper_coil_normal-rereremodified");
