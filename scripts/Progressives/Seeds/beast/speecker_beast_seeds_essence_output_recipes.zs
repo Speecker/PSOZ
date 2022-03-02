@@ -1,3 +1,0 @@
-#packmode beast
-#modloaded mysticalagriculture
-
