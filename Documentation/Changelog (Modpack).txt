@@ -2781,6 +2781,9 @@ v10.3.3-007
 		- created and edited speecker_jai_aeadditions to RemoveAndHide the fluid patterns
 v10.3.3-008
 	config Update non-folder
+v10.3.3-009
+	config folders should be updated now
+	ensured betterquesting is updated
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
