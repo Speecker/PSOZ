@@ -1,0 +1,81 @@
+#modloaded modtweaker tconstruct thermalfoundation
+
+import mods.tconstruct.Alloy;
+import mods.tconstruct.Casting;
+import mods.tconstruct.Melting;
+import mods.tconstruct.Fuel;
+//Mana Dust Implementation
+recipes.addShaped(<thermalfoundation:material:1028>*2, [[<ore:dustMithril>, <ore:dustMithril>, null], [<ore:dustRedstone>, <lordcraft:void_crystal>, null], [null, null, null]]);
+//Basin
+Casting.addBasinRecipe(<thermalfoundation:storage_alloy:7>, null, <liquid:enderium>, 1296, false, 200);
+Casting.addBasinRecipe(<thermalfoundation:storage_alloy:5>, null, <liquid:signalum>, 1296, false, 200);
+Casting.addBasinRecipe(<thermalfoundation:storage_alloy:6>, null, <liquid:lumium>, 1296, false, 200);
+Casting.addBasinRecipe(<thermalfoundation:storage_alloy:2>, null, <liquid:invar>, 1296, false, 200);
+Casting.addBasinRecipe(<thermalfoundation:storage:7>, null, <liquid:iridium>, 1296, false, 200);
+Casting.addBasinRecipe(<thermalfoundation:storage:6>, null, <liquid:platinum>, 1296, false, 200);
+//Table
+Casting.addTableRecipe(<thermalfoundation:material:23>, <tconstruct:cast_custom:4>, <liquid:alubrass>, 144, true, 40);
+Casting.addTableRecipe(<thermalfoundation:material:27>, <tconstruct:cast_custom:4>, <liquid:emerald>, 2664, false, 200);
+Casting.addTableRecipe(<thermalfoundation:material:134>, <tconstruct:cast_custom:0>, <liquid:platinum>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:135>, <tconstruct:cast_custom:0>, <liquid:iridium>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:162>, <tconstruct:cast_custom:0>, <liquid:invar>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:165>, <tconstruct:cast_custom:0>, <liquid:signalum>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:166>, <tconstruct:cast_custom:0>, <liquid:lumium>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:167>, <tconstruct:cast_custom:0>, <liquid:enderium>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:198>, <tconstruct:cast_custom:1>, <liquid:platinum>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:199>, <tconstruct:cast_custom:1>, <liquid:iridium>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:226>, <tconstruct:cast_custom:1>, <liquid:invar>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:229>, <tconstruct:cast_custom:1>, <liquid:signalum>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:230>, <tconstruct:cast_custom:1>, <liquid:lumium>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:231>, <tconstruct:cast_custom:1>, <liquid:enderium>, 16, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:262>, <tconstruct:cast_custom:4>, <liquid:platinum>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:263>, <tconstruct:cast_custom:4>, <liquid:iridium>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:290>, <tconstruct:cast_custom:4>, <liquid:invar>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:293>, <tconstruct:cast_custom:4>, <liquid:signalum>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:294>, <tconstruct:cast_custom:4>, <liquid:lumium>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:295>, <tconstruct:cast_custom:4>, <liquid:enderium>, 576, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:326>, <tconstruct:cast_custom:3>, <liquid:platinum>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:327>, <tconstruct:cast_custom:3>, <liquid:iridium>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:354>, <tconstruct:cast_custom:3>, <liquid:invar>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:357>, <tconstruct:cast_custom:3>, <liquid:signalum>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:358>, <tconstruct:cast_custom:3>, <liquid:lumium>, 144, false, 40);
+Casting.addTableRecipe(<thermalfoundation:material:359>, <tconstruct:cast_custom:3>, <liquid:enderium>, 144, false, 40);
+//Fuel
+Fuel.registerFuel(<liquid:pyrotheum> * 25, 2400);
+//Melting
+Melting.addRecipe(<liquid:enderium> * 16,<thermalfoundation:material:231>);
+Melting.addRecipe(<liquid:enderium> * 144,<thermalfoundation:material:167>);
+Melting.addRecipe(<liquid:enderium> * 144,<thermalfoundation:material:103>);
+Melting.addRecipe(<liquid:enderium> * 576,<thermalfoundation:material:295>);
+Melting.addRecipe(<liquid:enderium> * 144,<thermalfoundation:material:359>);
+Melting.addRecipe(<liquid:enderium> * 1296,<thermalfoundation:storage_alloy:7>);
+Melting.addRecipe(<liquid:invar> * 16,<thermalfoundation:material:226>);
+Melting.addRecipe(<liquid:invar> * 144,<thermalfoundation:material:162>);
+Melting.addRecipe(<liquid:invar> * 144,<thermalfoundation:material:98>);
+Melting.addRecipe(<liquid:invar> * 576,<thermalfoundation:material:290>);
+Melting.addRecipe(<liquid:invar> * 144,<thermalfoundation:material:354>);
+Melting.addRecipe(<liquid:invar> * 1296,<thermalfoundation:storage_alloy:2>);
+Melting.addRecipe(<liquid:iridium> * 16,<thermalfoundation:material:199>);
+Melting.addRecipe(<liquid:iridium> * 144,<thermalfoundation:material:135>);
+Melting.addRecipe(<liquid:iridium> * 144,<thermalfoundation:material:71>);
+Melting.addRecipe(<liquid:iridium> * 576,<thermalfoundation:material:263>);
+Melting.addRecipe(<liquid:iridium> * 144,<thermalfoundation:material:327>);
+Melting.addRecipe(<liquid:iridium> * 1296,<thermalfoundation:storage:7>);
+Melting.addRecipe(<liquid:lumium> * 16,<thermalfoundation:material:230>);
+Melting.addRecipe(<liquid:lumium> * 144,<thermalfoundation:material:166>);
+Melting.addRecipe(<liquid:lumium> * 144,<thermalfoundation:material:102>);
+Melting.addRecipe(<liquid:lumium> * 576,<thermalfoundation:material:294>);
+Melting.addRecipe(<liquid:lumium> * 144,<thermalfoundation:material:358>);
+Melting.addRecipe(<liquid:lumium> * 1296,<thermalfoundation:storage_alloy:6>);
+Melting.addRecipe(<liquid:platinum> * 16,<thermalfoundation:material:198>);
+Melting.addRecipe(<liquid:platinum> * 144,<thermalfoundation:material:134>);
+Melting.addRecipe(<liquid:platinum> * 144,<thermalfoundation:material:70>);
+Melting.addRecipe(<liquid:platinum> * 576,<thermalfoundation:material:262>);
+Melting.addRecipe(<liquid:platinum> * 144,<thermalfoundation:material:326>);
+Melting.addRecipe(<liquid:platinum> * 1296,<thermalfoundation:storage:6>);
+Melting.addRecipe(<liquid:signalum> * 16,<thermalfoundation:material:229>);
+Melting.addRecipe(<liquid:signalum> * 144,<thermalfoundation:material:165>);
+Melting.addRecipe(<liquid:signalum> * 144,<thermalfoundation:material:101>);
+Melting.addRecipe(<liquid:signalum> * 576,<thermalfoundation:material:293>);
+Melting.addRecipe(<liquid:signalum> * 144,<thermalfoundation:material:357>);
+Melting.addRecipe(<liquid:signalum> * 1296,<thermalfoundation:storage_alloy:5>);
