@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting astralsorcery botania darkutils embers extrautils2 mysticalagradditions overloaded
 
 //creative mill
