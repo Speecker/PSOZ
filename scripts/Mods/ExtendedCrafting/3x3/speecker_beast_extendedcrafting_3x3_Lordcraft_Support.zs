@@ -1,5 +1,5 @@
 #norun
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting lordcraft !modularmachinery
 
 import mods.extendedcrafting.TableCrafting as TC;
