@@ -1,4 +1,4 @@
-#packmode beast
+#packmode mythic beast
 #modloaded extendedcrafting immersiveengineering actuallyadditions appliedenergistics2 natura
 
 import mods.extendedcrafting.TableCrafting as TC;
