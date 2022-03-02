@@ -1,4 +1,3 @@
-#packmode normal titan kappa beast
 #priority 101
 #modloaded metallurgy
 import mods.metallurgyreforged.Alloyer;
