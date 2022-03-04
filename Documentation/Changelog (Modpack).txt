@@ -2790,6 +2790,10 @@ v10.3.3-010
 v10.3.3-011
 	MysticalAgriculture:
 		- made the Dye Cluster a bit harder by replacing the any dye ingredients with 10/10/10 AgriSeeds that give Dyes and are needed for Seed Progression anyways
+v10.3.3-012
+	config/ProjectE/customEMC.json:
+		- Further Sorting - WIP
+
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
