@@ -2797,6 +2797,13 @@ v10.3.3-013
 	scripts/Progressives/Seeds/beast/Tier6/speecker_beast_seeds.zs:
 		- added missing dependecies to #modloaded
 	renamed "Options - TP OFF" to just "options"
+v10.3.3-014
+	scripts/Ports/vizthex's_foregoing_reactors.zs:
+		- created and added missing dependecies to #modloaded
+	NCEIB:
+		- moved !JACOPCA PreProcessor to first check
+	ExtendedCrafting/EnderCrafter:
+		- moved recipes with dependecies into mod-specific files WIP
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

@@ -2,6 +2,8 @@
 # Script by vizthex
 # https://www.curseforge.com/members/vizthex/projects
 
+#modloaded industrialforegoing natura
+
 import mods.industrialforegoing.Extractor;
 import mods.industrialforegoing.BioReactor;
 import mods.industrialforegoing.ProteinReactor;

@@ -1,4 +1,4 @@
-#modloaded contenttweaker nuclearcraft enderio endertweaker !jaopca
+#modloaded !jaopca contenttweaker nuclearcraft enderio endertweaker
 
 import mods.enderio.AlloySmelter;
 

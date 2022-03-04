@@ -1,5 +1,5 @@
 #loader contenttweaker
-#modloaded contenttweaker nuclearcraft !jaopca
+#modloaded !jaopca contenttweaker nuclearcraft
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
