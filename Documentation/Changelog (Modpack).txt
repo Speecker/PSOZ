@@ -2793,7 +2793,7 @@ v10.3.3-011
 v10.3.3-012
 	config/ProjectE/customEMC.json:
 		- Further Sorting - WIP
-v10.3.3-012
+v10.3.3-013
 	scripts/Progressives/Seeds/beast/Tier6/speecker_beast_seeds.zs:
 		- added missing dependecies to #modloaded
 	renamed "Options - TP OFF" to just "options"
