@@ -2778,7 +2778,7 @@ v10.3.3-007
 	speecker_essence_recipes_jaopca_metallurgy:
 		- fixed incompatibility and added a 3rd entry in the array to remove the ingot recipes - may need to be done byRecipeName or Ignore in Unidict#
 	AEAdditions/JEI:
-		- created and edited speecker_jai_aeadditions to RemoveAndHide the fluid patterns
+		- created and edited speecker_jei_aeadditions to RemoveAndHide the fluid patterns
 v10.3.3-008
 	config Update non-folder
 v10.3.3-009
@@ -2793,7 +2793,10 @@ v10.3.3-011
 v10.3.3-012
 	config/ProjectE/customEMC.json:
 		- Further Sorting - WIP
-
+v10.3.3-012
+	scripts/Progressives/Seeds/beast/Tier6/speecker_beast_seeds.zs:
+		- added missing dependecies to #modloaded
+	renamed "Options - TP OFF" to just "options"
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

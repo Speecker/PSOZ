@@ -1,5 +1,5 @@
 #packmode beast
-#modloaded mysticalagriculture
+#modloaded mysticalagriculture mysticalagradditions abyssalcraft lordcraft pneumaticcraft draconicevolution botania
 
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 
