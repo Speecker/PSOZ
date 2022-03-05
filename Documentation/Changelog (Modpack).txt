@@ -2804,6 +2804,9 @@ v10.3.3-014
 		- moved !JACOPCA PreProcessor to first check
 	ExtendedCrafting/EnderCrafter:
 		- moved recipes with dependecies into mod-specific files WIP
+v10.3.3-015
+	scripts/PProgressives/beast/Tier2/speecker_seeds_beast_astralsorcery_attunementaltar_jaopca_metallurgy.zs:
+		- Fixed Recipes for Tartarite and Shadow Steel Seeds (Misspelled NBT-Tags)
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
