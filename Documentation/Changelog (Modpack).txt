@@ -2810,7 +2810,18 @@ v10.3.3-015
 v10.3.3-016
 	scripts/Progressives/beast/Tier3/speecker_seeds_beast_botania_runicaltar_jaopca_extrautils2
 		- Fixed Recipe for Demon Metal (EU2) (Misspelled NBT-Tags)
+v10.3.3-016
+	BloodMagic/RenameAndTooltip:
+		- Added On-Shift Tooltip to view the Holding Capacities of Blood Orbs
+	Added some comments for undone stuff
 
+UNDONE:
+	- ElvenQuartz Block to Gem Factorizer Recipe
+	- Thermal Alloys only made with Nuce ? (Lumium/Signalum/Enderium)
+	- BloodMagic Efficiency Rune missing recipe ?
+	- EIO Endergy Grinding Balls missing recipes and stats : Crude Steel, Crystalline Alloy, Melodic Alloy, Stellar Alloy, Crystalline Pink Slime, Energetic Silver, Vivid Alloy
+		- Check Standard Values and add them back in by hand in config/EnderIO/recipes/user/balls.XML
+		
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
 ###################################################################################################################################################################
