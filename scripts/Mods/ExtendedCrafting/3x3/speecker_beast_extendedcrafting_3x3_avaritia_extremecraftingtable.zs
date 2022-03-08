@@ -3,5 +3,5 @@
 
 import mods.extendedcrafting.TableCrafting as TC;
 
-//3x3 Shapeless
+//Extreme Crafting Table
 TC.addShapeless(1, <avaritia:extreme_crafting_table>, [<extendedcrafting:table_ultimate>, <extendedcrafting:table_ultimate>, <extendedcrafting:table_ultimate>]);

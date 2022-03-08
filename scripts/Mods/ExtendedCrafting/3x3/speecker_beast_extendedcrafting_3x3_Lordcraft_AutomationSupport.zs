@@ -1,6 +1,9 @@
-#modloaded extendedcrafting lordcraft
+#packmode normal kappa titan mythic beast
+#modloaded extendedcrafting lordcraft !modularmachinery
+
 import mods.extendedcrafting.TableCrafting as TC;
 
+//3x3 Shaped
 TC.addShaped(1, <lordcraft:water_siphon>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<ore:blockGlass>, <lordcraft:crystal_basic_water>, <ore:blockGlass>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
 TC.addShaped(1, <lordcraft:earth_siphon>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<ore:blockGlass>, <lordcraft:crystal_basic_earth>, <ore:blockGlass>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
 TC.addShaped(1, <lordcraft:fire_siphon>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<ore:blockGlass>, <lordcraft:crystal_basic_fire>, <ore:blockGlass>], 	[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
@@ -22,6 +25,7 @@ TC.addShaped(1, <lordcraft:cyclicforgeb>, [[<ore:ingotIron>, <minecraft:lava_buc
 TC.addShaped(1, <lordcraft:translocatorb>, [[<lordcraft:gem_magic>, <lordcraft:ingot_magic>, <lordcraft:gem_magic>], [<lordcraft:ingot_magic>, <ore:pearlEnderEye>, <lordcraft:ingot_magic>], [<lordcraft:gem_magic>, <lordcraft:ingot_magic>, <lordcraft:gem_magic>]]);
 TC.addShaped(1, <lordcraft:translocator_pb>, [[<lordcraft:gem_magic>, <lordcraft:ingot_magic>, <lordcraft:gem_magic>], [<lordcraft:ingot_magic>, <lordcraft:translocatorb>, <lordcraft:ingot_magic>], [<lordcraft:gem_magic>, <lordcraft:ingot_magic>, <lordcraft:gem_magic>]]);
 
+//3x3 Shapeless
 TC.addShapeless(1, <lordcraft:rod_1>, [<ore:logWood>, <ore:logWood>]);
 TC.addShapeless(1, <lordcraft:rod_2>, [<lordcraft:rod_1>, <lordcraft:rod_1>, <lordcraft:rod_1>]);
 TC.addShapeless(1, <lordcraft:staff_crafterb>, [<lordcraft:arcanetableb>]);
@@ -32,11 +36,16 @@ TC.addShapeless(1, <lordcraft:crystal_basic_lightning>, [<ore:crystalLord>, <ore
 TC.addShapeless(1, <lordcraft:crystal_basic_nature:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <mysticalagriculture:mystical_fertilizer>, <lordcraft:crystal_basic_nature>]);
 TC.addShapeless(1, <lordcraft:crystal_basic_cosmic:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <bloodmagic:sigil_void>, <lordcraft:crystal_basic_cosmic>]);
 TC.addShapeless(1, <lordcraft:crystal_basic_lightning:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:clothManaweave>, <lordcraft:crystal_basic_lightning>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_neutral:1>, [<lordcraft:crystal_basic_neutral:0>, <lordcraft:crystal_basic_neutral:0>, <lordcraft:crystal_basic_neutral:0>, <lordcraft:crystal_basic_neutral:0>, <ore:crystalLord>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_water:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:water_bucket>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_earth:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:coal:0>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_fire:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:lava_bucket>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_air:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:quartz>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_light:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:glowstone>]);
+TC.addShapeless(1, <lordcraft:crystal_basic_dark:1>, [<lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <lordcraft:crystal_basic_neutral:1>, <ore:crystalLord>, <minecraft:obsidian>]);
 TC.addShapeless(1, <lordcraft:purple_matter>, [<lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>, <ore:netherStar>, <lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>, <lordcraft:crystal_basic_lightningb>]);
 TC.addShapeless(1, <lordcraft:transporterb>, [<lordcraft:translocatorb>, <lordcraft:crystal_basic_water:1>, <lordcraft:crystal_basic_earth:1>, <lordcraft:crystal_basic_fire:1>, <lordcraft:crystal_basic_air:1>, <lordcraft:crystal_basic_light:1>, <lordcraft:crystal_basic_dark:1>]);
 TC.addShapeless(1, <lordcraft:spell_focus:0>, [<lordcraft:knowledge_book>, <lordcraft:crystal_basic_water:1>]);
 TC.addShapeless(1, <lordcraft:spell_focus:1>, [<lordcraft:knowledge_book>, <lordcraft:crystal_basic_earth:1>]);
 TC.addShapeless(1, <lordcraft:spell_focus:2>, [<lordcraft:knowledge_book>, <lordcraft:crystal_basic_fire:1>]);
 TC.addShapeless(1, <lordcraft:spell_focus:3>, [<lordcraft:knowledge_book>, <lordcraft:crystal_basic_air:1>]);
-
-

@@ -2827,6 +2827,12 @@ v10.3.3-019
 	 - removed obsolete general ender crafter file
 	 - removed obsolete general 7x7 file
 	 - renamed 7x7 files the same way as the EnderCrafter files
+v10.3.3-020
+	Updated the Forge Version in the README
+	ExtendedCrafting:
+		- same with 5x5 recipes
+		- same for 3x3 recipes and removed duplicate recipe for Overloaded Item Core
+		- removed duplicate file for LordCraft, removed obsolete single item file and renamed it to AutomationSupport
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
