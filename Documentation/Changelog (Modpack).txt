@@ -2822,7 +2822,11 @@ v10.3.3-018
 		- Removed all other recipes that are now in mod specific sub-files
 		- Renamed all files to just main mod and item (if it has just a single item)
 		- renamed the GeneralAllModes file to beast_avaritiaio_infinitycapacitor and added all #packmode(s) as PreProcessor as there are no mode specific recipes for now
-	
+v10.3.3-019
+	ExtendedCrafting/EnderCrafter:
+	 - removed obsolete general ender crafter file
+	 - removed obsolete general 7x7 file
+	 - renamed 7x7 files the same way as the EnderCrafter files
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
