@@ -1,4 +1,4 @@
-#modloaded !jaopca contenttweaker nuclearcraft
+#modloaded !jaopca nuclearcraft contenttweaker
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;

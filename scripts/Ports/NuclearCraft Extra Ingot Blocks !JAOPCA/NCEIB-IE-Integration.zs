@@ -1,4 +1,4 @@
-#modloaded !jaopca immersiveengineering
+#modloaded !jaopca nuclearcraft immersiveengineering
 
 import mods.immersiveengineering.ArcFurnace;
 

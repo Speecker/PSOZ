@@ -1,4 +1,4 @@
-#modloaded !jaopca tconstruct modtweaker
+#modloaded !jaopca nuclearcraft tconstruct modtweaker
 
 import mods.tconstruct.Casting;
 

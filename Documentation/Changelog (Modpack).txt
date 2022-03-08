@@ -2810,10 +2810,19 @@ v10.3.3-015
 v10.3.3-016
 	scripts/Progressives/beast/Tier3/speecker_seeds_beast_botania_runicaltar_jaopca_extrautils2
 		- Fixed Recipe for Demon Metal (EU2) (Misspelled NBT-Tags)
-v10.3.3-016
+v10.3.3-017
 	BloodMagic/RenameAndTooltip:
 		- Added On-Shift Tooltip to view the Holding Capacities of Blood Orbs
 	Added some comments for undone stuff
+v10.3.3-018
+	NCEIB-!JAOPCA:
+		- Added missing nuclearcraft dependency for #modloaded in IE/TE/TiC Integratedtions
+	ExtendedCrafting:
+		- Removed Enhanced Ender Ingot Recipe from general file as it got moved to mod specific file
+		- Removed all other recipes that are now in mod specific sub-files
+		- Renamed all files to just main mod and item (if it has just a single item)
+		- renamed the GeneralAllModes file to beast_avaritiaio_infinitycapacitor and added all #packmode(s) as PreProcessor as there are no mode specific recipes for now
+	
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
