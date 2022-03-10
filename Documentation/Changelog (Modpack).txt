@@ -2836,6 +2836,11 @@ v10.3.3-020
 v10.3.3-021
 	MaystycalAgradditions, MysticalAgriculture/AgriCraft & ExNihiloCreatio:
 		- Added dependencies in #modloaded
+v10.3.3-022
+	FluidCows:
+		- Moved folder into scripts/Mods/
+		- Corrected Cow Jar Postition for the 7x7 Table recipes
+		- Moved various recipes into mod-specific sub-scripts (NEEDS PLAYTEST FOR EXACT IItemStacks)
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
