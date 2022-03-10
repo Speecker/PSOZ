@@ -22,9 +22,9 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 */
 
 val Solids = {
-    demonmetal : [<extrautils2:simpledecorative:1>],
-    enchantedmetal : [<extrautils2:simpledecorative:0>],
-    evilmetal : [<extrautils2:simpledecorative:2>]
+    xu_demonic_metal : [<extrautils2:simpledecorative:1>],
+    xu_enchanted_metal : [<extrautils2:simpledecorative:0>],
+    xu_evil_metal : [<extrautils2:simpledecorative:2>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -38,5 +38,5 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
 
-<fluidcows:cow_halter>.addTooltip(format.green("LandCraft Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
+<fluidcows:cow_halter>.addTooltip(format.green("ExtraUtils2 Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

@@ -20,9 +20,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 
 /*
 val Solids = {
-    friscion : [<ore:blockFriscion>],
-    garfax : [<ore:blockGarfax>],
-    kelline : [<ore:blockKelline>],
     landium : [<ore:blockLandium>]
 } as IItemStack[][string];
 

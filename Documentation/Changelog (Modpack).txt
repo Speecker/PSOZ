@@ -2816,7 +2816,7 @@ v10.3.3-017
 	Added some comments for undone stuff
 v10.3.3-018
 	NCEIB-!JAOPCA:
-		- Added missing nuclearcraft dependency for #modloaded in IE/TE/TiC Integratedtions
+		- Added missing nuclearcraft dependency for #modloaded in IE/TE/TiC Integrations
 	ExtendedCrafting:
 		- Removed Enhanced Ender Ingot Recipe from general file as it got moved to mod specific file
 		- Removed all other recipes that are now in mod specific sub-files
@@ -2845,6 +2845,39 @@ v10.3.3-023
 	FluidCows:
 		- MysticalAgriculture - DONE
 		- ExtraUtils2 - WIP
+v10.3.3-023
+	FluidCows:
+		- ExtraUtils2 - DONE
+		- AbyssalCraft - DONE
+		- Alchemistry - No Standalone Fluids
+		- AstralSorcery - WIP (Starmetal ?)
+		- BigReactors - DONE/WIP (just for TinkersReforged - Renamed)
+		- BloodMagic - DONE
+		- Botania - DONE (added JAOPCA dependency in #modloaded)
+		- CyclicMagic - DONE
+		- DraconicEvolution/ContentTweaker - DONE
+		- DraconicEvolution/JAOPCA - DONE
+		- Embers - DONE
+		- EnderIO - DONE
+		- Erebus - DONE
+		- Extraplanets (Fluids and JAOPCA for Solids) - DONE
+		- ExtraUtils2 - DONE
+		- GalactiCraft (Fluids and JAOPCA for Solids) - DONE
+		- ImmersiveEngineering - DONE
+		- IndustrialForegoing - DONE
+		- IndustrialMeat - DONE
+		(- IntegratedDynamics - DONE)
+		- LandCraft - WIP
+		- Mekanism - DONE (Needs Testing)
+		- MysticalAgriculture/MysticaAgradditions - DONE
+		- PneumaticCraft - DONE
+		- RedstoneArsenal - WIP
+		- TAIGA - WIP
+		- TConstruct - DONE/WIP (Standalone missing blocks not yet)
+		- TwilightForest - DONE
+		- ThermalSeries - DONE
+		- MagnetiCraft - DONE
+		- ExNihiloCreatio - DONE
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
@@ -2852,7 +2885,10 @@ UNDONE:
 	- BloodMagic Efficiency Rune missing recipe ?
 	- EIO Endergy Grinding Balls missing recipes and stats : Crude Steel, Crystalline Alloy, Melodic Alloy, Stellar Alloy, Crystalline Pink Slime, Energetic Silver, Vivid Alloy
 		- Check Standard Values and add them back in by hand in config/EnderIO/recipes/user/balls.XML
-		
+	- Palladium, IronWood & Steeleaf have no fluid nor a TiC Material ?!
+	- Red/White Gem Factorizer recipe ?
+	- Liquid Concrete to Concrete (Block) machine recipe Integrations
+
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
 ###################################################################################################################################################################

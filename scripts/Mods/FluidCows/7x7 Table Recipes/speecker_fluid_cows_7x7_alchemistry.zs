@@ -21,13 +21,12 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 */
 
+/*
 val Solids = {
-    antimony : [<alchemistry:element:51>],
-    nitrogen : [<alchemistry:element:7>],
-    plutonium : [<alchemistry:element:94>],
-    potassium : [<alchemistry:element:19>],
-    "if.protein" : [<alchemistry:element:9>],
-    sodium : [<alchemistry:element:11>]
+//    antimony : [<alchemistry:element:51>],
+//    plutonium : [<alchemistry:element:94>],
+//    potassium : [<alchemistry:element:19>],
+//    sodium : [<alchemistry:element:11>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -40,5 +39,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
+*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("Alchemistry Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));

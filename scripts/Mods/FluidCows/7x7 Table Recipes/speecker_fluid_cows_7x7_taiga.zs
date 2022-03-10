@@ -62,4 +62,3 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 */
 
 <fluidcows:cow_halter>.addTooltip(format.green("TAIGA Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
-

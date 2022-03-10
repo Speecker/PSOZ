@@ -5,6 +5,8 @@ import crafttweaker.item.IItemStack;
 
 val Fluids = {
     "etchacid" //Etching Acid
+//    "kerosene" //Deactivated
+//    "lpg" //Deactivated
 } as string[];
 
 for i, fluid in Fluids {
@@ -17,23 +19,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})],
 }
-
-/*
-val Solids = {[
-    plastic : [<alchemistry:element:9>]
-]} as IItemStack[][string];
-
-for cow, solid in Solids {
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], cow_recipe_item, solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
-}
-*/
 
 // Plastic Special Recipe - Kept in 9x9
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "plastic"}), [

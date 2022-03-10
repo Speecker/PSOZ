@@ -4,7 +4,11 @@ import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
 val Fluids = {
-    "formic_acid"
+    "anti_venom",
+    "beetle_juice",
+    "formic_acid",
+    "honey"
+//    "milk" // Ez Mc Recipe
 } as string[];
 
 for i, fluid in Fluids {

@@ -1,12 +1,11 @@
 #packmode kappa mythic beast
-#modloaded fluidcows cookingforblockheads extendedcrafting botania
+#modloaded fluidcows cookingforblockheads extendedcrafting nuclearcraft contenttweaker
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
 /*
 val Fluids = {
-    "liquidantimatter",
-    "liquidcoralium"
+    "boron_nitride_solution"
 } as string[];
 
 for i, fluid in Fluids {
@@ -21,10 +20,8 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 */
 
-/*
 val Solids = {
-    manasteel : [<ore:blockManasteel>],
-    terrasteel : [<ore:blockTerrasteel>]
+    alugentum : [<contenttweaker:alugentum_block:0>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -39,5 +36,4 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 }
 */
 
-<fluidcows:cow_halter>.addTooltip(format.green("Botania Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
-
+<fluidcows:cow_halter>.addTooltip(format.green("NuclearCtaft (ContentTweaker) Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));

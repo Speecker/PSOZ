@@ -1,7 +1,8 @@
 #packmode kappa mythic beast
-#modloaded fluidcows cookingforblockheads extendedcrafting bigreactors
+#modloaded fluidcows cookingforblockheads extendedcrafting redstonearsenal
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
+#norun
 
 /*
 val Fluids = {
@@ -21,13 +22,8 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 */
 
-/*
 val Solids = {
-    cyanite : [<ore:blockCyanite>],
-    blutonium : [<ore:blockBlutonium>],
-    ludicrite : [<ore:blockLudicrite>],
-    uranium : [<ore:blockUranium>],
-    yellorium : [<ore:blockYellorium>]
+    electrumflux : [<redstonearsenal:storage:0>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -40,7 +36,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
-*/
 
-<fluidcows:cow_halter>.addTooltip(format.green("BigReactors Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
+<fluidcows:cow_halter>.addTooltip(format.green("RedstoneArsenal Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

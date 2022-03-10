@@ -4,7 +4,14 @@ import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
 val Fluids = {
-    "latex"
+    "biofuel",
+    "essence",
+    "if.protein",
+//    "if.ore_fluid_fermented", //explicit fluid
+//    "if.ore_fluid_raw", //explicit fluid
+    "latex",
+    "sewage"
+//    "sludge" //deactivated
 } as string[];
 
 for i, fluid in Fluids {
@@ -19,7 +26,8 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 
 val Solids = {
-    pink_metal : [<industrialforegoing:pink_slime_ingot>] //Reinforced Pink Slime / Pink Metal / Pink Slime
+    "if.pink_slime" : [<industrialforegoing:pink_slime>] //Pink Slime
+    pink_metal : [<industrialforegoing:pink_slime_ingot>] //Reinforced Pink Slime / Pink Metal
 } as IItemStack[][string];
 
 for cow, solid in Solids {

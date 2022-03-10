@@ -3,10 +3,23 @@
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
-/*
 val Fluids = {
-    "liquidantimatter",
-    "liquidcoralium"
+    "brine",
+    "heavywater",
+    "liquidchlorine",
+    "liquiddeuterium",
+    "liquidethene",
+    "liquidfusionfuel",
+    "liquidhydrogen",
+    "liquidhydrogenchloride",
+    "liquidlithium",
+    "liquidoxygen",
+    "liquidsodium",
+    "liquidsulfurdioxide",
+    "liquidsulfurtrioxide",
+    "liquidtritium",
+    "steam",
+    "sulfuricacid"
 } as string[];
 
 for i, fluid in Fluids {
@@ -19,25 +32,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})],
 }
-*/
-
-/*
-val Solids = {
-    refinedglowstone : [<ore:blockRefinedGlowstone>],
-    refinedobsidian : [<ore:blockRefinedObsidian>]
-} as IItemStack[][string];
-
-for cow, solid in Solids {
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], cow_recipe_item, solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
-[solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
-}
-*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("Mekanism Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 
