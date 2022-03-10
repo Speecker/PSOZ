@@ -26,18 +26,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "soularium"}), [
 [<ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>],
 [<ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>, <ore:blockSoularium>]]);
 
-// Fluid Cow	-	Soulium
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "soulium"}), [
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <cookingforblockheads:cow_jar>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>],
-[<ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>, <ore:blockSoulium>]]);
-
 // Fluid Cow	-	Steam
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "steam"}), [
 [<forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "steam", Amount: "1000"})],

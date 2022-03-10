@@ -2841,6 +2841,10 @@ v10.3.3-022
 		- Moved folder into scripts/Mods/
 		- Corrected Cow Jar Postition for the 7x7 Table recipes
 		- Moved various recipes into mod-specific sub-scripts (NEEDS PLAYTEST FOR EXACT IItemStacks)
+v10.3.3-023
+	FluidCows:
+		- MysticalAgriculture - DONE
+		- ExtraUtils2 - WIP
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

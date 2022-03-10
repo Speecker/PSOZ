@@ -4,6 +4,7 @@ import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
 val Fluids = {
+    "ender_distillation", //Dew Of The Void
     "hootch"
 } as string[];
 

@@ -21,13 +21,14 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 */
 
-/*
 val Solids = {
-    inferium : [<ore:blockInferium>],
-    intermedium : [<ore:blockIntermedium>],
-    prudentium : [<ore:blockPrudentium>],
-    supremium : [<ore:blockSupremium>],
-    superium : [<ore:blockSuperium>]
+    base_essence : [<mysticalagriculture:ingot_storage:0>],
+    inferium : [<mysticalagriculture:ingot_storage:1>],
+    intermedium : [<mysticalagriculture:ingot_storage:3>],
+    prudentium : [<mysticalagriculture:ingot_storage:2>],
+    soulium : [<mysticalagriculture:ingot_storage:6>],
+    superium : [<mysticalagriculture:ingot_storage:4>],
+    supremium : [<mysticalagriculture:ingot_storage:5>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -40,7 +41,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
-*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("MysticalAgriculture Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

@@ -1,5 +1,5 @@
 #packmode kappa mythic beast
-#modloaded fluidcows cookingforblockheads extendedcrafting extraplanets
+#modloaded fluidcows cookingforblockheads extendedcrafting extrautils2
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
@@ -21,10 +21,10 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 */
 
-/*
 val Solids = {
-    desh : [<ore:blockDesh>],
-    meteoric_iron : [<ore:blockMeteoricIron>]
+    demonmetal : [<extrautils2:simpledecorative:1>],
+    enchantedmetal : [<extrautils2:simpledecorative:0>],
+    evilmetal : [<extrautils2:simpledecorative:2>]
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -37,7 +37,6 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
-*/
 
-<fluidcows:cow_halter>.addTooltip(format.green("Extraplanets Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
+<fluidcows:cow_halter>.addTooltip(format.green("LandCraft Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

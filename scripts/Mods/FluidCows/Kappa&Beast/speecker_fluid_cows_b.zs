@@ -2,18 +2,6 @@
 #modloaded fluidcows cookingforblockheads extendedcrafting
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 
-// Fluid Cow	-	Base Essence
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "base_essence"}), [
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <cookingforblockheads:cow_jar>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>],
-[<ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>, <ore:blockBaseEssence>]]);
-
 // Fluid Cow	-	Beryllium
 TC(0, <fluidcows:cow_displayer>.withTag({fluid: "beryllium"}), [
 [<ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>, <ore:blockBeryllium>],
