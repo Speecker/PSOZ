@@ -2833,6 +2833,9 @@ v10.3.3-020
 		- same with 5x5 recipes
 		- same for 3x3 recipes and removed duplicate recipe for Overloaded Item Core
 		- removed duplicate file for LordCraft, removed obsolete single item file and renamed it to AutomationSupport
+v10.3.3-021
+	MaystycalAgradditions, MysticalAgriculture/AgriCraft & ExNihiloCreatio:
+		- Added dependencies in #modloaded
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded mysticalagradditions
+#modloaded mysticalagradditions matc
 
 recipes.removeShaped(<mysticalagradditions:storage>, [[null, <mysticalagriculture:storage:4>, null],[<mysticalagriculture:storage:4>, <mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:4>], [null, <mysticalagriculture:storage:4>, null]]);
 

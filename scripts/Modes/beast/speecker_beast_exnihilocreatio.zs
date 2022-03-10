@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded exnihilocreatio
+#modloaded exnihilocreatio immersiveengineering
 
 recipes.remove(<exnihilocreatio:block_waterwheel>);
 recipes.remove(<exnihilocreatio:crook_andesite>);

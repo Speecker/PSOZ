@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded mysticalagriculture
+#modloaded mysticalagriculture agricraft matc lordcraft
 
 recipes.remove(<mysticalagriculture:crafting:1>);
 recipes.remove(<mysticalagriculture:crafting:2>);
