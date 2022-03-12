@@ -2887,6 +2887,9 @@ v10.3.3-025
 v10.3.3-026
 	FluidCows:
 		- exnihilocreatio: fixed missing bracket issue
+v10.3.3-027
+	FluidCows:
+		- Fixed all bracket failures
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
