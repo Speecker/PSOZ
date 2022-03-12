@@ -116,5 +116,11 @@
 			"name": "mekanism:ingot",
 			"meta": 1
 		}
+	},
+	{
+		"name": "black_iron",
+		"color": "000000",
+		"result": "extendedcrafting:material:0",
+		"oredictName": "ingotBlackIron"
 	}
 ]

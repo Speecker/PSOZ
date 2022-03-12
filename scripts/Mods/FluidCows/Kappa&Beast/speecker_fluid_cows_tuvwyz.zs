@@ -25,15 +25,3 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: "tritanium"}), [
 [<ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>],
 [<ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>],
 [<ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>, <ore:blockTritanium>]]);
-
-// Fluid Cow	-	Zinc
-TC(0, <fluidcows:cow_displayer>.withTag({fluid: "zinc"}), [
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <cookingforblockheads:cow_jar>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>],
-[<ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>, <ore:blockZinc>]]);

@@ -23,9 +23,8 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 */
 
 val Solids = {
-    xu_demonic_metal : [<extrautils2:simpledecorative:1>],
-    xu_enchanted_metal : [<extrautils2:simpledecorative:0>],
-    xu_evil_metal : [<extrautils2:simpledecorative:2>]
+    xu_enchanted_metal : [<extrautils2:simpledecorative:0>], //BlockRecipe as there is no Lapis Fluid
+    xu_evil_metal : [<extrautils2:simpledecorative:2>] //BlockRecipe as there is no Nether Star Fluid
 } as IItemStack[][string];
 
 for cow, solid in Solids {
@@ -38,6 +37,11 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
+
+// Is BreedingOnly
+/*
+    xu_demonic_metal : [<extrautils2:simpledecorative:1>],
+*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("ExtraUtils2 Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

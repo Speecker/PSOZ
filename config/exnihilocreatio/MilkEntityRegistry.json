@@ -4,5 +4,11 @@
     "result": "milk",
     "amount": 10,
     "coolDown": 20
+  },
+  {
+    "entityOnTop": "Witch",
+    "result": "witchwater",
+    "amount": 10,
+    "coolDown": 20
   }
 ]
