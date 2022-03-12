@@ -118,7 +118,7 @@
 		}
 	},
 	{
-		"name": "black_iron",
+		"name": "Black Iron",
 		"color": "000000",
 		"result": "extendedcrafting:material:0",
 		"oredictName": "ingotBlackIron"

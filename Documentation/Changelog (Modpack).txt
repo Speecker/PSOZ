@@ -2895,11 +2895,14 @@ v10.3.3-028
 		- Added Witchwater from Witch to MilkEntryRegistry.json
 v10.3.3-029
 	ExNihiloCreatio:
-		- Added BlackIron to OreRegistry.json as a TEST
+		- Added BlackIron to OreRegistry.json as a TEST - Works #DeezNuts
 	FluidCows/TConstruct:
 		- Sorted BreedingOnly Cows out and cleaned up the script
 		- Removed Zinc from old general files.
 		- Added Recipe for BlueSlime
+v10.3.3-030
+	FluidCows:
+		- #ahshitherewegoagain Fixed the same issues once again
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
