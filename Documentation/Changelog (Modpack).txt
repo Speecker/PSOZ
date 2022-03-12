@@ -2884,6 +2884,9 @@ v10.3.3-025
 	Progressives/Armor:
 		- Tier II: Added all missing Metallurgy Armors in the #norun file
 		- Added a template in tier I final
+v10.3.3-026
+	FluidCows:
+		- exnihilocreatio: fixed missing bracket issue
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
