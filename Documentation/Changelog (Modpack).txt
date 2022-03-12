@@ -2878,6 +2878,12 @@ v10.3.3-024
 		- ThermalSeries - DONE
 		- MagnetiCraft - DONE
 		- ExNihiloCreatio - DONE
+v10.3.3-025
+	Botania/ThermalSeries:
+		- Created a file for the Factorizer with #norun
+	Progressives/Armor:
+		- Tier II: Added all missing Metallurgy Armors in the #norun file
+		- Added a template in tier I final
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

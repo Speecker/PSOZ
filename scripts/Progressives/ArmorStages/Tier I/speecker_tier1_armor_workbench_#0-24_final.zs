@@ -6,7 +6,19 @@ import mods.jei.JEI.removeAndHide as rh;
 import mods.armorplus.Workbench as WB;
 import mods.botania.RuneAltar as RA;
 
-//	#00	-	???
+/*
+//	#26	-	BIG
+
+recipes.remove(<metallurgy:small_helmet>);
+recipes.remove(<metallurgy:small_chestplate>);
+recipes.remove(<metallurgy:small_leggings>);
+recipes.remove(<metallurgy:small_boots>);
+
+HB.addShaped(<metallurgy:small_helmet>, [[<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,<ore:ingotBIG>,<>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,null,null,null,<ore:ingotBIG>], [null,null,null,null,null], [null,null,null,null,null]]);
+HB.addShaped(<metallurgy:small_chestplate>, [[<ore:ingotBIG>,null,<>,null,<ore:ingotBIG>], [<ore:ingotBIG>,null,null,null,<ore:ingotBIG>], [<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>]]);
+HB.addShaped(<metallurgy:small_leggings>, [[<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,null,<>,null,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,null,null,null,<ore:ingotBIG>], [<ore:ingotBIG>,null,null,null,<ore:ingotBIG>], [<ore:ingotBIG>,null,null,null,<ore:ingotBIG>]]);
+HB.addShaped(<metallurgy:small_boots>, [[<ore:ingotBIG>,<ore:ingotBIG>,<>,<ore:ingotBIG>,<ore:ingotBIG>], [<ore:ingotBIG>,<ore:ingotBIG>,null,<ore:ingotBIG>,<ore:ingotBIG>], [null,null,null,null,null], [null,null,null,null,null], [null,null,null,null,null]]);
+*/
 
 //	#00	-	Wood
 recipes.remove(<tp:wooden_helmet>);
