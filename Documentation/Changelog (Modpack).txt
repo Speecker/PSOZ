@@ -2912,8 +2912,7 @@ v10.3.4-000
 v10.3.4-001
 	Embers:
 		- Moved Beast-Mode file to sripts/Mods/ folder
-		- Edited in full CraftTweaker Support stuff
-		- Created/Added a mod-specific sub file for Jaopca containing an Alchemy Exchange Tablet recipe to ease mass production of Isolated Materia - TEST THIS
+		- Edited full CraftTweaker Support stuff
 v10.3.4-002
 	ExtendedCrafting:
 		- Moved wrong assorted Materials to correct Mod for CombinationCrafting
@@ -2927,6 +2926,9 @@ v10.3.4-002
 		- Added dependency and renamed it to match to nuclearcraft
 	Beast-Mode:
 		- removed Jaopca And EternalSingularities entries and moved them to sub-files
+v10.3.4-002
+	Embers/Jaopca:
+		- Created/Added a mod-specific sub file for Jaopca containing an Alchemy Exchange Tablet recipe to ease mass production of Isolated Materia
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
