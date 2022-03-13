@@ -2914,6 +2914,19 @@ v10.3.4-001
 		- Moved Beast-Mode file to sripts/Mods/ folder
 		- Edited in full CraftTweaker Support stuff
 		- Created/Added a mod-specific sub file for Jaopca containing an Alchemy Exchange Tablet recipe to ease mass production of Isolated Materia - TEST THIS
+v10.3.4-002
+	ExtendedCrafting:
+		- Moved wrong assorted Materials to correct Mod for CombinationCrafting
+		- ExtraUtils2/JAOPCA Lunar Block is Missing !?!?!??!?!
+		- 9x9/Avaritia: Removed all recipes containing DraconicEvolution stuff
+		- Created 9x9/Avaritia/Draconicevolution file
+		- Same with EternalSingularities
+		- Although with ProjectEx as sub-sub-mod-specific #bljiat
+		- same for all other misplaced singularities
+	GeneralAllModes/speecker_jaopca:
+		- Added dependency and renamed it to match to nuclearcraft
+	Beast-Mode:
+		- removed Jaopca And EternalSingularities entries and moved them to sub-files
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

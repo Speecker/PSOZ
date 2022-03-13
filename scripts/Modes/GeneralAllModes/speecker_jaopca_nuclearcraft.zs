@@ -1,4 +1,4 @@
-#modloaded jaopca
+#modloaded jaopca nuclearcraft
 
 recipes.addShapeless(<jaopca:item_hunkboron>, [<ore:pieceBoron>, <ore:pieceBoron>, <ore:pieceBoron>, <ore:pieceBoron>]);
 recipes.addShapeless(<jaopca:item_hunkpalladium>, [<ore:piecePalladium>, <ore:piecePalladium>, <ore:piecePalladium>, <ore:piecePalladium>]);

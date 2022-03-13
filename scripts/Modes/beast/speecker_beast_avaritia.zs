@@ -3,11 +3,9 @@
 import mods.avaritia.ExtremeCrafting;
 import mods.avaritia.Compressor;
 
-ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 ExtremeCrafting.remove(<avaritia:neutron_collector>);
 ExtremeCrafting.remove(<avaritia:resource:6>);
 
-Compressor.remove(<jaopca:item_singularityyellorium>);
 Compressor.remove(<avaritia:singularity:0>);
 Compressor.remove(<avaritia:singularity:1>);
 Compressor.remove(<avaritia:singularity:2>);
