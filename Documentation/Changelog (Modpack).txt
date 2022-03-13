@@ -2909,6 +2909,11 @@ v10.3.4-000
 			- Brings back the NEI feature that previews the Item on the left side in large size while hovering over it on the right side of JEI.
 	Mod Update:
 		- Metallurgy4Reforged from 1.3.0 to 1.3.1
+v10.3.4-001
+	Embers:
+		- Moved Beast-Mode file to sripts/Mods/ folder
+		- Edited in full CraftTweaker Support stuff
+		- Created/Added a mod-specific sub file for Jaopca containing an Alchemy Exchange Tablet recipe to ease mass production of Isolated Materia - TEST THIS
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
