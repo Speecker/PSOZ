@@ -2929,6 +2929,10 @@ v10.3.4-002
 v10.3.4-002
 	Embers/Jaopca:
 		- Created/Added a mod-specific sub file for Jaopca containing an Alchemy Exchange Tablet recipe to ease mass production of Isolated Materia
+v10.3.4-003
+	ModularMachinery:
+		- Created/Added speecker_duplicator_armor_slime
+		- Created Testfile for possible modular Duplicator Armor Recipe Addition
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

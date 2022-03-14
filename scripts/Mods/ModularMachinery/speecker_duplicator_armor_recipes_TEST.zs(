@@ -1,0 +1,24 @@
+#modloaded modularmachinery
+
+import mods.modularmachinery.RecipeBuilder as RB;
+import mods.modularmachinery.RecipePrimer;
+
+val armorAlphaYeti = RB.newBuilder("duplicator_armor_alphayeti", "duplicator", 1000, 0);
+
+val armorList {
+    armorAlphaYeti : [<twilightforest:yeti_helmet>.withTag({ench:[{lvl:2,id:0}]}), <twilightforest:yeti_chestplate>.withTag({ench:[{lvl:2,id:0}]}), <twilightforest:yeti_leggings>.withTag({ench:[{lvl:2,id:0}]}), <twilightforest:yeti_boots>.withTag({ench:[{lvl:2,id:0},{lvl:4,id:2}]})]
+} as IItemStack[][string];
+
+for armor, material in armorList {
+    armor.addEnergyPerTickInput(1400);
+    armor.addItemInput(<lordcraft:void_catalyst>*4).addItemInput(<immersiveengineering:metal:14>*4).addItemInput(<embers:isolated_materia>*4);
+    armor.addItemInput(material[0]).setChance(0.00);
+    armor.addItemInput(material[1]).setChance(0.00);
+    armor.addItemInput(material[2]).setChance(0.00);
+    armor.addItemInput(material[3]).setChance(0.00);
+    armor.addItemOutput(material[0]).addItemOutput(material[1]).addItemOutput(material[2]).addItemOutput(material[3]);
+    armor.build();
+}
+
+
+
