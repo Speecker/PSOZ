@@ -2955,6 +2955,9 @@ v10.3.4-006
 		- Created/Added mod-specific sub file for AE2 dependency
 	Mods/ModularMachinery:
 		- Finished Up the TwilightForest Armor Dupe file - Looping is unfortunately not possible with MM-Primer ... :(
+v10.3.4-007
+	ExtendedCrafting:
+		- Fixed inconsistency for the 9x9 Table Recipe not using 2 Elite (previous tier) Tables and now also 2 Catalysts instead of just 1
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
