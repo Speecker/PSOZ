@@ -2,6 +2,8 @@
 #modloaded fluidcows cookingforblockheads extendedcrafting extrautils2 jaopca
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
+#norun
+//Dunno why theres no Lunar Block ...
 
 val Solids = {
     lunar : [<jaopca:block_blocklunar>]

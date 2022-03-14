@@ -2936,6 +2936,12 @@ v10.3.4-003
 v10.3.4-004
 	FluidCows:
 		- Ah Shii... here we go again ... hopefully for once and all ...
+v10.3.4-005
+	ModularMachinery/BeastMode:
+		- Fixed missing dependecies in Modes/Beast/speecker_beast_modularmachinery.zs
+	FLuidCows/ExtraUtils2/JAOPCA:
+		- set speecker_fluid_cows_7x7_extrautils2_jaopca.zs to #norun until it is clear why
+			the Lunar Block is apperently not there for some random reason
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

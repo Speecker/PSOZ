@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded modularmachinery
+#modloaded modularmachinery thermaldynamics quantumflux
 
 recipes.remove(<modularmachinery:blockcasing:0>);
 recipes.remove(<modularmachinery:blockcasing:1>);
