@@ -2942,6 +2942,19 @@ v10.3.4-005
 	FLuidCows/ExtraUtils2/JAOPCA:
 		- set speecker_fluid_cows_7x7_extrautils2_jaopca.zs to #norun until it is clear why
 			the Lunar Block is apperently not there for some random reason
+v10.3.4-005
+	Modes/GeneralAllModes/speecker_immersiveengineering.zs:
+		- Added all dependencies for now
+	Modes/Beast/speecker_beast_immersiveengineering.zs:
+		- Added all dependencies for now
+v10.3.4-006
+	Mods/TConstruct/LordCraft:
+		- Added dependecy for ThermalFoundation "liquid:mana"
+	Modes/Beast/LordCraft:
+		- Updated dependencies
+		- Created/Added mod-specific sub file for AE2 dependency
+	Mods/ModularMachinery:
+		- Finished Up the TwilightForest Armor Dupe file - Looping is unfortunately not possible with MM-Primer ... :(
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

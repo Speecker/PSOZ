@@ -1,4 +1,4 @@
-#modloaded modtweaker tconstruct lordcraft
+#modloaded modtweaker tconstruct lordcraft thermalfoundation
 
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Casting;

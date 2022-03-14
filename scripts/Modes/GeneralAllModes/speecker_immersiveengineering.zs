@@ -1,4 +1,4 @@
-#modloaded immersiveengineering jaopca
+#modloaded immersiveengineering jaopca thermalfoundation enderio extendedcrafting soot embers
 
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Crusher;

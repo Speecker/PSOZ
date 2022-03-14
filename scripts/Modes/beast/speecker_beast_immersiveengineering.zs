@@ -1,5 +1,5 @@
 #packmode mythic beast
-#modloaded immersiveengineering
+#modloaded immersiveengineering exnihilocreatio thermalfoundation embers projectred-core extendedcrafting enderio magneticraft
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
