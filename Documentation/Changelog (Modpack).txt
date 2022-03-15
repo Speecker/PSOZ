@@ -2964,6 +2964,9 @@ v10.3.4-008
 			- AbyssalCraft
 			- NuclearCraft
 			- TwilightForest
+v10.3.4-009
+	ModularMachinery:
+		- replaced Duplicator Recipe files with correct updated files
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
