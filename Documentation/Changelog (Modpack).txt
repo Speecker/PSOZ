@@ -2958,6 +2958,12 @@ v10.3.4-006
 v10.3.4-007
 	ExtendedCrafting:
 		- Fixed inconsistency for the 9x9 Table Recipe not using 2 Elite (previous tier) Tables and now also 2 Catalysts instead of just 1
+v10.3.4-008
+	Mods/ModularMachinery/Duplicator:
+		- Created Sub-folders and mod-specific files for:
+			- AbyssalCraft
+			- NuclearCraft
+			- TwilightForest
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
