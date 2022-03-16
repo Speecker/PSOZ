@@ -2972,6 +2972,11 @@ v10.3.4-010
 		- Added some more Armors to the Duplicator (AbyssalCraft, ArmorPlus)
 	Seeds:
 		- Fixed Issue for Blaze Seed accidentally using Base Essence Seed instead of Tier II Crafting Seed
+v10.3.4-011
+	Updated Forge to version 2860
+	PENDING Updtes that require a world reset/restart:
+		- Metallurgy4Reforged Update to 1.3.1
+		- NuclearCraft: Underhauled to NuclearCraft: Overhauled
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
