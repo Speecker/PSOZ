@@ -2967,6 +2967,11 @@ v10.3.4-008
 v10.3.4-009
 	ModularMachinery:
 		- replaced Duplicator Recipe files with correct updated files
+v10.3.4-010
+	ModularMachinery:
+		- Added some more Armors to the Duplicator (AbyssalCraft, ArmorPlus)
+	Seeds:
+		- Fixed Issue for Blaze Seed accidentally using Base Essence Seed instead of Tier II Crafting Seed
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
