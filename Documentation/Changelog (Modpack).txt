@@ -2978,6 +2978,11 @@ v10.3.4-011
 		- Metallurgy4Reforged Update to 1.3.1
 		- NuclearCraft: Underhauled to NuclearCraft: Overhauled
 v10.3.4-012
+	AppliedEnergistics2:
+		- Changed up the Vibrant Quartz Glass Recipe to now use grains of vibrancy "speecker_beast_appliedenergistics2_quartz_vibrant_glass"
+	NuclearCraft:
+		- Replaced Cell Block Recipe to now use SiC-SiC CMC Ceramic Matrix and Pressure Chamber Glass
+v10.3.4-013
 	ModularMachinery - Extrnal Changes:
 		- Sorted and Standardized all machines with their recipes WIP
 		- HellForge:
