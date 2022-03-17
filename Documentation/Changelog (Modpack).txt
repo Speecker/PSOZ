@@ -2977,6 +2977,11 @@ v10.3.4-011
 	PENDING Updtes that require a world reset/restart:
 		- Metallurgy4Reforged Update to 1.3.1
 		- NuclearCraft: Underhauled to NuclearCraft: Overhauled
+v10.3.4-012
+	ModularMachinery - Extrnal Changes:
+		- Sorted and Standardized all machines with their recipes WIP
+		- HellForge:
+			- replaced rotten flesh with sand and red_mushroom with weat for better Overworld -> Nether transformations
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
