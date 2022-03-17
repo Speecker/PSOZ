@@ -2987,6 +2987,11 @@ v10.3.4-013
 		- Sorted and Standardized all machines with their recipes WIP
 		- HellForge:
 			- replaced rotten flesh with sand and red_mushroom with weat for better Overworld -> Nether transformations
+v10.3.4-014
+	NuclearCraft:
+		- move speecker_beast_nuclearcraft to Mods/NuclearCraft/
+		- Beefed up the Cooler recipes and changed some of their names as we now use Empowered Crystals from ActuallyAdditions
+			- They also got an own file for better dependency handling
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
