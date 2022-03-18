@@ -2992,6 +2992,12 @@ v10.3.4-014
 		- move speecker_beast_nuclearcraft to Mods/NuclearCraft/
 		- Beefed up the Cooler recipes and changed some of their names as we now use Empowered Crystals from ActuallyAdditions
 			- They also got an own file for better dependency handling
+v10.3.4-014
+	ModularMachinery:
+		config:
+			- Merged all Casing Variables from SevTech, E2E, CSSE & ATM3E
+		WIP:
+			- Sorted out all SevTech, E2E & PSOZ Modular Machines
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
