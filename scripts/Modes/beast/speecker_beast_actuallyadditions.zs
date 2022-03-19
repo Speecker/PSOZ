@@ -1,7 +1,6 @@
 #packmode mythic beast
 #modloaded actuallyadditions
 
-/*
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>); //Mythic removal
 recipes.remove(<actuallyadditions:block_farmer>);
 recipes.remove(<actuallyadditions:block_fluid_placer>);
@@ -30,7 +29,6 @@ recipes.remove(<actuallyadditions:item_potion_ring_advanced:7>);
 recipes.remove(<actuallyadditions:item_potion_ring_advanced:8>);
 recipes.remove(<actuallyadditions:item_potion_ring_advanced:9>);
 recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
-*/
 
 recipes.addShaped("cazador_mythic_actuallyadditions_block_atomic_reconstructor", <actuallyadditions:block_atomic_reconstructor>, [[<ore:ingotRedAlloy>, <ore:ingotPlatinum>, <ore:ingotRedAlloy>],[<ore:ingotPlatinum>, <actuallyadditions:block_misc:9>, <ore:ingotPlatinum>], [<ore:ingotRedAlloy>, <ore:ingotPlatinum>, <ore:ingotRedAlloy>]]);
 

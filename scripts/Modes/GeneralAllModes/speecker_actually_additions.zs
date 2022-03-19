@@ -41,18 +41,18 @@ Empowerer.addRecipe(<enderio:item_capacitor_vivid>, <minecraft:glowstone>, <ende
 Empowerer.addRecipe(<enderio:item_capacitor_crystalline>, <minecraft:prismarine_crystals>, <enderio:item_capacitor_vivid>, <enderio:item_capacitor_vivid>, <enderio:item_alloy_endergy_ingot:1>, <enderio:item_alloy_endergy_ingot:1>, 10000, 8, [0.1,0.1,0.1]);
 Empowerer.addRecipe(<enderio:item_capacitor_crystalline>, <minecraft:prismarine_crystals>, <enderio:item_basic_capacitor:2>, <enderio:item_basic_capacitor:2>, <enderio:item_alloy_endergy_ingot:1>, <enderio:item_alloy_endergy_ingot:1>, 10000, 8, [0.1,0.1,0.1]);
 Empowerer.addRecipe(<quantumflux:craftingpiece:2>, <appliedenergistics2:material:22>, <quantumflux:darkstone:0>, <nuclearcraft:ingot_oxide:1>, <thermalsolars:itemlunaringot>, <quantumflux:darkstone>, 10000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:0>, <actuallyadditions:block_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <ore:dyeRed>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:item_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <ore:dyeRed>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:dyeCyan>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:dyeCyan>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <ore:gemRhodochrosite>, <ore:ingotSteel>, <ore:ingotElectrotineAlloy>, <tconstruct:soil:0>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <ore:gemRhodochrosite>, <ore:ingotSteel>, <ore:ingotElectrotineAlloy>, <tconstruct:soil:0>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <ore:charcoal>, <ore:flint>, <ore:stone>, <ore:dyeBlack>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>, <ore:charcoal>, <ore:flint>, <ore:stone>, <ore:dyeBlack>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <minecraft:vine>, <ore:ingotBeryllium>, <nuclearcraft:gem:2>, <natura:nether_thorn_vines:0>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <minecraft:vine>, <ore:ingotBeryllium>, <nuclearcraft:gem:2>, <natura:nether_thorn_vines:0>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <ore:dyeGray>, 20000, 8, [0.1,0.1,0.1]);
-Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <ore:dyeGray>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:0>, <actuallyadditions:block_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <nuclearcraft:gem:0>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:item_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <nuclearcraft:gem:0>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <nuclearcraft:gem:4>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <nuclearcraft:gem:4>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <nuclearcraft:gem:3>, <ore:ingotSteel>, <ore:ingotElectrotineAlloy>, <tconstruct:soil:0>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <nuclearcraft:gem:3>, <ore:ingotSteel>, <ore:ingotElectrotineAlloy>, <tconstruct:soil:0>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <ore:charcoal>, <ore:flint>, <ore:stone>, <nuclearcraft:gem:6>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>, <ore:charcoal>, <ore:flint>, <ore:stone>, <nuclearcraft:gem:6>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <nuclearcraft:gem:1>, <ore:ingotBeryllium>, <nuclearcraft:gem:2>, <minecraft:vine>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <nuclearcraft:gem:1>, <ore:ingotBeryllium>, <nuclearcraft:gem:2>, <minecraft:vine>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <nuclearcraft:gem:5>, 20000, 8, [0.1,0.1,0.1]);
+Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <nuclearcraft:gem:5>, 20000, 8, [0.1,0.1,0.1]);
 
 //Vanilla Recipes
 

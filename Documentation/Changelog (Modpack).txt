@@ -3001,6 +3001,10 @@ v10.3.4-016
 			- Merged all Casing Variables from SevTech, E2E, CSSE & ATM3E
 		WIP:
 			- Sorted out all SevTech, E2E & PSOZ Modular Machines
+v10.3.4-017
+	GeneralAllModes/ActuallyAdditions:
+		- Empowered Recipes now use all NuclearCraft Gems instead of simple dye
+	Removed some still outcommented recipe removals
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
