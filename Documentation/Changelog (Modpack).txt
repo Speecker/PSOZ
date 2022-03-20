@@ -1876,7 +1876,7 @@ v10.1.0.001
 		As the WETMs are now fully progressive (QuantumFlux/RandomThings/FluxNetworks) and White Gem Wafers are used in the
 		Quibit Crystal Recipe (Which served the purpose to make the Imaginary Time Block harder to craft (in OG PO3)) QuantumFlux became unreasonably/unlogically
 		way too difficult as "Stage I" for those WETMs.
-		To solve that inconviniences Following Changes are made:
+		To solve that inconveniences Following Changes are made:
 			- renameandtooltip: added QuantumFlux dedicated file with 1st entry beeing a hint for Hyper Diamonds to be only created from Industrial Grade Graphite
 			- speecker_beast_quantumflux: Quibit Cell Recipe now uses the White Gem Wafers, a Tier5 instead of Tier3 Quibit Cluster & RedQuartz for Redstone 
 			- ExtendedCrafting 5x5 (Beast): Imaginary Time Block now uses a Quibit Cell instead of a Tier 3 Quibit Cluster and Exotic Materials Catalysts instead of Quibit Crystals
@@ -3016,8 +3016,22 @@ v10.3.4-018
 		- replaced Void Crystal with Void Catalyst as the Void Catalyst is ugly in mass production, has another purpose and void catalyst fits much better
 	speecker_beast_thermalseries:
 		- added in the updated recipe for Mana Dust - NEEDS CHECK IF OLD RECIPE IS STILL PRESENT !
+v10.3.4-019
 	Mods:
-		- ReAdded JustEnoughReactors
+		- Updated:
+			TiConEvolution from 1.0.38	to 	1.0.44 to match updtaed EIO versions
+v10.3.4-020
+	Mods/FluidCows/7x7:
+		- IndustrialForegoing, EnderIO, NuclearCraft & Nuclearcraft/ContentTweaker:
+			- Fixed inconveniences
+	Mods/Embers/JAOPCA:
+		- Fixed inconveniences
+	Beast/Overloaded:
+		- due to the removal once again of OpenModularTurrets their Items in the Railgun Recipe got repplaced by Embers Cartridges
+	Beast/EnderIO:
+		- fixed inconveniences
+	Beast/MysticalAgriculture/AgriCraft:
+		- fixed inconveniences
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

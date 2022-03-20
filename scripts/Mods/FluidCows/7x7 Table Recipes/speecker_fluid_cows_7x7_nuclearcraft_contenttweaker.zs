@@ -35,6 +35,5 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: cow}), [
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]],
 [solid[0], solid[0], solid[0], solid[0], solid[0], solid[0], solid[0]]]);
 }
-*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("NuclearCtaft (ContentTweaker) Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));

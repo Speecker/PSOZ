@@ -9,7 +9,7 @@ recipes.addShaped("speecker_all_fluidcows_cow_displayer_gelatin", <fluidcows:cow
 
 val Fluids = [
     "alumina",
-    "borax_solution"
+    "borax_solution",
     "boron_nitride_solution",
     "deuterium"
 ] as string[];

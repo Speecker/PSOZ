@@ -26,7 +26,7 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 }
 
 val Solids = {
-    "if.pink_slime" : [<industrialforegoing:pink_slime>] //Pink Slime
+    "if.pink_slime" : [<industrialforegoing:pink_slime>], //Pink Slime
     pink_metal : [<industrialforegoing:pink_slime_ingot>] //Reinforced Pink Slime / Pink Metal
 } as IItemStack[][string];
 

@@ -36,7 +36,7 @@ val Solids = {
     electrical_steel : [<enderio:block_alloy:0>],
     end_steel : [<enderio:block_alloy:8>],
     energetic_alloy : [<enderio:block_alloy:1>],
-    energetic_silver : [<enderio:block_alloy_emdergy:5>],
+    energetic_silver : [<enderio:block_alloy_endergy:5>],
     melodic_alloy : [<enderio:block_alloy_endergy:2>],
     pulsating_iron : [<enderio:block_alloy:5>],
     redstone_alloy : [<enderio:block_alloy:3>],
