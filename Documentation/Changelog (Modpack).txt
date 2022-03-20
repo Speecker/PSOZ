@@ -3005,6 +3005,19 @@ v10.3.4-017
 	GeneralAllModes/ActuallyAdditions:
 		- Empowered Recipes now use all NuclearCraft Gems instead of simple dye
 	Removed some still outcommented recipe removals
+v10.3.4-018
+	EnderIO:
+		- Locked up Dimensional Transceiver behind the Flux Controller as it can also transfer RF wirelessly and over dimensions.
+	Vanilla/ModularMachinery-Duplicator:
+		- Added a recipe for End Crystals as they are needed for the Ender Dragon in a Woot Farm and automation for mass production, to be honest - sucks for the recipe ingredients 
+	MATC-Backport:
+		- Added LandCraft dependency
+	speecker_tconctruct_thermalseries:
+		- replaced Void Crystal with Void Catalyst as the Void Catalyst is ugly in mass production, has another purpose and void catalyst fits much better
+	speecker_beast_thermalseries:
+		- added in the updated recipe for Mana Dust - NEEDS CHECK IF OLD RECIPE IS STILL PRESENT !
+	Mods:
+		- ReAdded JustEnoughReactors
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
@@ -3015,6 +3028,9 @@ UNDONE:
 	- Palladium, IronWood & Steeleaf have no fluid nor a TiC Material ?!
 	- Red/White Gem Factorizer recipe ?
 	- Liquid Concrete to Concrete (Block) machine recipe Integrations
+	- Check Impregnated Diamond for Sacksize: If not 64 set it to that!
+	- Mythic Mode Recipes Implementation:
+		- Endest Pearl, Ultimate Stew, Creative ME Storage, Omen Ingot, Prism, Neutron Collector, Creative Generator (Overloadded)
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

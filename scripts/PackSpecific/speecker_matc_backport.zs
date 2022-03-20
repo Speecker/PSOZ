@@ -1,5 +1,5 @@
 #priority 5
-#modloaded matc mysticalagriculture mysticalagradditions
+#modloaded matc mysticalagriculture mysticalagradditions landcraft
 
 recipes.remove(<matc:inferiumcrystal>);
 recipes.remove(<matc:prudentiumcrystal>);

@@ -137,6 +137,7 @@ recipes.remove(<thermalfoundation:material:293>);
 recipes.remove(<thermalfoundation:material:294>);
 recipes.remove(<thermalfoundation:material:295>);
 recipes.remove(<thermalfoundation:material:657>);
+recipes.remove(<thermalfoundation:material:1028>); //Mana Dust
 recipes.remove(<thermalfoundation:storage:3>);
 
 recipes.removeShaped(<thermalfoundation:ore:6>, [[<jaopca:item_piecepalladium>, <jaopca:item_piecepalladium>, null], [<jaopca:item_piecepalladium>, <jaopca:item_piecepalladium>, null], [null, null, null]]);
@@ -207,6 +208,7 @@ recipes.addShapeless("speecker_beast_thermalexpansion_augment_497_shapeless", <t
 recipes.addShaped("speecker_beast_thermalfoundation_material_22", <thermalfoundation:material:22>, [[null, <ore:stickWood>, null], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 recipes.addShaped("speecker_beast_thermalfoundation_material_24", <thermalfoundation:material:24>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:gearStone>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 recipes.addShaped("speecker_beast_thermalfoundation_material_657", <thermalfoundation:material:657>, [[<ore:plateSteel>, <ore:plateSteel>, null],[<ore:plateSteel>, <ore:gearConstantan>, <ore:plateSteel>], [null, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped("speecker_beast_thermalfoundation_material_1028", <thermalfoundation:material:1028>, [[<ore:dustMithril>, <ore:dustMithril>, null],[<ore:dustRedstone>, <lordcraft:void_catalyst>, null], [null, null, null]]);
 
 recipes.addShaped("speecker_beast_thermalsolars_blocksolarpanel1", <thermalsolars:blocksolarpanel1>, [[<thermalsolars:itemtitaniumpanel>, <thermalsolars:itemtitaniumpanel>, <thermalsolars:itemtitaniumpanel>], [<thermalsolars:itemsolarbase>, <thermalsolars:itemtitaniumsolarcell>, <thermalsolars:itemsolarbase>], [<thermalsolars:itemsolarbase>, <solarflux:solar_panel_2>, <thermalsolars:itemsolarbase>]]);
 recipes.addShaped("speecker_beast_thermalsolars_blocksolarpanel2", <thermalsolars:blocksolarpanel2>, [[<thermalsolars:itemtitaniumpanel>, <thermalsolars:itemtitaniumpanel>, <thermalsolars:itemtitaniumpanel>], [<thermalsolars:itemsolarbase>, <thermalsolars:blocksolarpanel1>, <thermalsolars:itemsolarbase>], [<thermalsolars:itemsolarbase>, <projectred-expansion:solar_panel>, <thermalsolars:itemsolarbase>]]);
