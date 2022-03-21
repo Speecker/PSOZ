@@ -1,0 +1,24 @@
+{
+    "machine": "laser_cutter",
+    "registryName": "laser_cutter_crystal",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier7_items@5",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:tier7_items@4",
+            "amount": 1
+        },
+		{
+			"type": "meklaser",
+			"io-type": "input",
+			"energy": 100000
+		}
+    ]
+}

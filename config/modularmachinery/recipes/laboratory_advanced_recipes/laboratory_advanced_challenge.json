@@ -1,0 +1,24 @@
+{
+    "machine": "advanced_laboratory",
+    "registryName": "advanced_laboratory_challenge",
+    "recipeTime": 266,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 560
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:coin@103",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:coin@69",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "machine": "lava_gen",
+    "registryName": "lg_power",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 2000
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 10
+        },
+	{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:cobblestone",
+            "amount": 1,
+	    "chance": 0.10
+        }
+
+    ]
+}
