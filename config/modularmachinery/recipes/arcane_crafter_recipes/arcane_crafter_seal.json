@@ -1,0 +1,51 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_seal",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:itemClay",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:nitor",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:dyeRed",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tallow",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 3,
+            "item": "thaumcraft:seal",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

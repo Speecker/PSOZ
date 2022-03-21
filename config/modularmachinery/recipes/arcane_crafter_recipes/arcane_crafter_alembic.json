@@ -1,0 +1,51 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_alembic",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aqua"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 4,
+            "item": "thaumcraft:plank_greatwood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "ore:plateBrass",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "thaumcraft:filter",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "minecraft:bucket",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:alembic",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

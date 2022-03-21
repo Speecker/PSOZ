@@ -1,0 +1,57 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_levitator",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 4,
+            "item": "ore:dreamwood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "ore:plateIron",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:plateThaumium",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:mechanism_simple",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:nitor",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:levitator",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_inlay",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aqua"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:ingotElectrum",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:ingotRedAlloy",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "thaumcraft:inlay",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

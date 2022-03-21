@@ -1,0 +1,25 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_jar_normal",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 7,
+            "item": "botania:elfglass",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "botania:dreamwood0slab",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:jar_normal",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

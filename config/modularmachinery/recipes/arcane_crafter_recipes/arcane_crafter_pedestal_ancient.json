@@ -1,0 +1,25 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_pedestal_ancient",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:stone_ancient",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 6,
+            "item": "thaumcraft:slab_ancient",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:pedestal_ancient",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

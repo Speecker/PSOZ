@@ -1,0 +1,33 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_tube_oneway",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aqua"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_oneway",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

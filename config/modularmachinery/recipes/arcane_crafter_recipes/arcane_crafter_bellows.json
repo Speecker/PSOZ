@@ -1,0 +1,45 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_bellows",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 4,
+            "item": "ore:dreamwood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:ingotElvenElementium",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "minecraft:leather",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:bellows",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

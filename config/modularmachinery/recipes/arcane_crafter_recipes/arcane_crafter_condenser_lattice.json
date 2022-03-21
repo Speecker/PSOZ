@@ -1,0 +1,59 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_condenser_lattice",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 3,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "terra"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 3,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 6,
+            "item": "ore:quartzElven",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "ore:plateThaumium",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:filter",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:condenser_lattice",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

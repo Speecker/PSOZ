@@ -1,0 +1,43 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_tube_buffer",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 4,
+            "item": "thaumcraft:phial",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "thaumcraft:tube",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_restrict",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_valve",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:plateIron",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_buffer",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

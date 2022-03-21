@@ -1,0 +1,33 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_jar_void",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "perditio"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:jar_normal",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:jar_void",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

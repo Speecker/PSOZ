@@ -1,0 +1,27 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_fabric",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 4,
+            "item": "ore:goldweave",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "ore:manaPearl",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:fabric",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}
+
+

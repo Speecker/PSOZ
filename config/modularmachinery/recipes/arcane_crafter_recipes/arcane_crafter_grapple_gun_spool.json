@@ -1,0 +1,45 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_grapple_gun_spool",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aqua"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 7,
+            "item": "ore:clothManaweave",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:mechanism_simple",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "minecraft:tripwire_hook",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:grapple_gun_spool",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_turret",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 2,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 4,
+            "item": "ore:plateIron",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:turret@0",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:mind@0",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:turret@1",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_cloth_boots",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "minecraft:leather_boots",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 4,
+            "item": "thaumcraft:fabric",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:cloth_boots",
+            "type": "item",
+            "io-type": "output"
+        },
+        {
+            "amount": 1,
+            "item": "minecraft:leather_boots",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

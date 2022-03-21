@@ -1,0 +1,53 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_hungry_chest",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thaumcraft:crystal_essence",
+            "amount": 1,
+            "nbt": {
+                "Aspects": [
+                    {
+                    "amount": "1",
+                    "key": "terra"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thaumcraft:crystal_essence",
+            "amount": 1,
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aqua"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": 1,
+            "item": "ore:trapdoorWood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 7,
+            "item": "thaumcraft:plank_greatwood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:hungry_chest",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_arcane_workbench_charger",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 2,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "aer"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "ordo"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "ore:ingotElvenElementium",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "thaumcraft:plank_greatwood",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:vis_resonator",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:arcane_workbench_charger",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

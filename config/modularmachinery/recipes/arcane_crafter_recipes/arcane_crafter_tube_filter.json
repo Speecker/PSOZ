@@ -1,0 +1,25 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_tube_filter",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:filter",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_filter",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

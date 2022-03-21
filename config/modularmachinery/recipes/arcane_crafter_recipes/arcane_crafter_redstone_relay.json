@@ -1,0 +1,45 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_redstone_relay",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "ordo"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 2,
+            "item": "minecraft:redstone_torch",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 3,
+            "item": "minecraft:stone_slab",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:mechanism_simple",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:redstone_relay",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

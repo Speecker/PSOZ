@@ -1,0 +1,33 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_tube_restrict",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:crystal_essence",
+            "nbt": {
+                "Aspects": [
+                    {
+                        "amount": "1",
+                        "key": "terra"
+                    }
+                ]
+            },
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_restrict",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

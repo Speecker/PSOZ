@@ -1,0 +1,25 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_tube_valve",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "minecraft:lever",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:tube_valve",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}

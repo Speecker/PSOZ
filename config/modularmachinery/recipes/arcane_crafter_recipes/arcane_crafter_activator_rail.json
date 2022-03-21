@@ -1,0 +1,19 @@
+{
+    "machine": "arcane_crafter",
+    "registryName": "arcane_crafter_activator_rail",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "amount": 1,
+            "item": "minecraft:activator_rail",
+            "type": "item",
+            "io-type": "input"
+        },
+        {
+            "amount": 1,
+            "item": "thaumcraft:activator_rail",
+            "type": "item",
+            "io-type": "output"
+        }
+    ]
+}
