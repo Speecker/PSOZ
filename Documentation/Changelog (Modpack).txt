@@ -3081,6 +3081,13 @@ v10.4.0-010
 	Deactivated BlockDrops as there are now way too many items in total ...
 v10.4.0-011
 	Added #modloaded dependecies for ModularMachinery Recipes added with CT
+v10.4.0-012
+	/scripts/Mods/ExtendedCrafting/9x9/ProjectE:
+		- replaced outdated extracells modID with newer aeadditions
+	/resources/
+		- moved matrixfuels folder in the correct directory (nuclearcraft instead of contenttweaker)
+	Mods:
+		- Changeling is deactivated but stays in as optional (Fun Mod that has some cheaty aspects like more HP and Creative Flight)
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
