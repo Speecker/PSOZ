@@ -1,0 +1,30 @@
+{
+    "machine": "carpenter_advanced",
+    "registryName": "carpenter_advanced_concrete1",
+    "recipeTime": 13,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:limestone",
+            "amount": 9
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:stone_decoration@5",
+            "amount": 4
+        }
+    ]
+}

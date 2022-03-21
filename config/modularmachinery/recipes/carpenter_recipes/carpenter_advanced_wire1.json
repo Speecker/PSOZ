@@ -1,0 +1,36 @@
+{
+    "machine": "carpenter_advanced",
+    "registryName": "carpenter_advanced_wire1",
+    "recipeTime": 7,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:wirecoil",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:material@5",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "creosote",
+            "amount": 100
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:wirecoil@6",
+            "amount": 1
+        }
+    ]
+}

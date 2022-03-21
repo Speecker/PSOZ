@@ -1,0 +1,42 @@
+{
+    "machine": "carpenter_advanced",
+    "registryName": "carpenter_advanced_concrete3",
+    "recipeTime": 7,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:material@7",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:clay_ball",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gravel",
+            "amount": 2
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:stone_decoration@5",
+            "amount": 12
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "machine": "carpenter_advanced",
+    "registryName": "carpenter_advanced_clayball",
+    "recipeTime": 7,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:dirt",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:material@7",
+            "amount": 2
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:clay_ball",
+            "amount": 1
+        }
+    ]
+}
