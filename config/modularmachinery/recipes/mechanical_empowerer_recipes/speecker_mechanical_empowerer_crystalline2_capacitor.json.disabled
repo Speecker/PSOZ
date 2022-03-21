@@ -1,0 +1,36 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_crystalline2_capacitor",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_capacitor_vivid@0",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@1",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:prismarine_crystals",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_capacitor_crystalline@0",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 6000
+        }
+    ]
+}

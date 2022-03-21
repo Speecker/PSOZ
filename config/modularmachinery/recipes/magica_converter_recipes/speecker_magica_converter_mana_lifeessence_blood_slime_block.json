@@ -1,0 +1,29 @@
+{
+    "machine": "magica_converter",
+    "registryName": "magica_converter_mana_lifeessence_blood_slime_block",
+    "recipeTime": 20,
+    "requirements": [
+		{
+			"type": "ember",
+			"io-type": "input",
+			"ember": 128.0
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "tconstruct:slime@3",
+            "amount": 1
+        },
+		{
+			"type": "mana",
+			"io-type": "output",
+			"mana": 450
+		},
+				{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "lifeessence",
+            "amount": 900
+        }
+    ]
+}
