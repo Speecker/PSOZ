@@ -1,0 +1,30 @@
+{
+    "machine": "pressure_poop_injector",
+    "registryName": "poop_injector3",
+    "recipeTime": 180,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+        {
+            "type": "modularaugment:deferred",
+            "io-type": "input",
+            "item": "compactmachines3:machine@3",
+            "amount": 1
+        },
+        {
+            "type": "modularaugment:deferred",
+            "io-type": "input",
+            "fluid": "sewagefluid",
+            "amount": 32000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:glitched3",
+            "amount": 1
+        }
+    ]
+}

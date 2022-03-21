@@ -1,0 +1,37 @@
+{
+    "machine": "oil_refinery",
+    "registryName": "oil_refinery_oil_input",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 980
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "oil",
+            "amount": 100
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "gasoline",
+            "amount": 40
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "diesel",
+            "amount": 30
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "lubricant",
+            "amount": 30
+        }
+
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "machine": "optimized_assembly",
+    "registryName": "oa_tesla",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "projectred-relocation:frame",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stone",
+            "amount": 4
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 4
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockRedstone",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "redstone",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20000
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "teslacorelib:machine_case",
+            "amount": 1
+        }
+    ]
+}

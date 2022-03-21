@@ -1,0 +1,24 @@
+{
+    "machine": "purifier_manufactory",
+    "registryName": "pf_oxygen",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4
+        },
+        {
+            "type": "gas",
+            "io-type": "input",
+            "gas": "oxygen",
+            "amount": 10
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "oxygen",
+            "amount": 10
+        }
+    ]
+}
