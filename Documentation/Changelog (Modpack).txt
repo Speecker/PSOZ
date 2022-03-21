@@ -3088,6 +3088,8 @@ v10.4.0-012
 		- moved matrixfuels folder in the correct directory (nuclearcraft instead of contenttweaker)
 	Mods:
 		- Changeling is deactivated but stays in as optional (Fun Mod that has some cheaty aspects like more HP and Creative Flight)
+v10.4.0-013
+	Moved all mod related scripts fomr GeneralAllModes to Mods
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
