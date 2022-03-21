@@ -1,0 +1,67 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed1xsoulsand",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1256
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:quartz",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:item_misc@5",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_material@20",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:blaze_powder",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:glowstone_dust",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dye@15",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:nether_wart",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "overloaded:compressed_soul_sand@0",
+            "amount": 1
+        }
+    ]
+}

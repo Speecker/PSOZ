@@ -1,0 +1,81 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed2xsand",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_tin@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_aluminium@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_silver@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_nickel@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_osmium@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:block_blockchargedcertusquartz",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:block_blockcertusquartz",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-exploration:stone@7",
+            "amount": 2,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dye@3",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:compressedsand@1",
+            "amount": 1
+        }
+    ]
+}

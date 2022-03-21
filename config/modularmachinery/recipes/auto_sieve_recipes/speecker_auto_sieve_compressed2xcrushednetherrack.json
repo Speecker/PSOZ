@@ -1,0 +1,81 @@
+{
+    "machine": "auto_sieve",
+    "registryName": "auto_sieve_compressed2xnetherrack",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1256
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkplatinum",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_ardite@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:item_ore_cobalt@1",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkmithril",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunktitanium",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunktungsten",
+            "amount": 2,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "jaopca:item_hunkdilithium",
+            "amount": 2,
+            "chance": 1
+        },
+	{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:coal_block",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:block_misc@5",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "overloaded:compressed_netherrack_crushed@1",
+            "amount": 1
+        }
+    ]
+}
