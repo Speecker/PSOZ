@@ -1,0 +1,37 @@
+{
+    "machine": "auto_hammer",
+    "registryName": "auto_hammer_endstone",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "sludge",
+            "amount": 40
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "exnihilocreatio:block_endstone_crushed",
+            "amount": 1,
+            "chance": 1.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:end_stone",
+            "amount": 1
+        }
+    ]
+}
