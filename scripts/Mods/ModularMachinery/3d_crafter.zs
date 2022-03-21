@@ -1,3 +1,5 @@
+#modloaded rockhounding_chemistry
+
 import mods.modularmachinery.RecipePrimer;
 import crafttweaker.item.IItemStack;
 import mods.actuallyadditions.Empowerer;

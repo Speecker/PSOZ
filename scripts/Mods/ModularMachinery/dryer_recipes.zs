@@ -1,3 +1,5 @@
+#norun
+
 import mods.modularmachinery.RecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

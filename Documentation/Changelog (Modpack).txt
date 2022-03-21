@@ -3077,7 +3077,10 @@ v10.4.0-010
 	Mods:
 		- Updated Metallurgy from 1.3.1 to 1.3.2
 	/config/JAOPCA:
-		- Blacklisted several Modules for NC Fuels 
+		- Blacklisted several Modules for NC Fuels to prevent an "ID range exceeded" Error on startup
+	Deactivated BlockDrops as there are now way too many items in total ...
+v10.4.0-011
+	Added #modloaded dependecies for ModularMachinery Recipes added with CT
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
