@@ -2,12 +2,14 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.nuclearcraft.infuser;
-import mods.nuclearcraft.dissolver;
-import mods.nuclearcraft.alloy_furnace;
-import mods.nuclearcraft.manufactory;
-import mods.nuclearcraft.melter;
+import mods.nuclearcraft.Infuser;
+import mods.nuclearcraft.Dissolver;
+import mods.nuclearcraft.Alloy_furnace;
+import mods.nuclearcraft.Manufactory;
+import mods.nuclearcraft.Melter;
 import mods.jei.JEI;
+
+//NOTE: NC-Underhaul used lower case. NC-Overhaul now uses upper case !
 
 var blocks = {
 	alugentum: [<contenttweaker:alugentum_block>, <nuclearcraft:compound:10>],

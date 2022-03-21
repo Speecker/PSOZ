@@ -1,5 +1,7 @@
 #loader contenttweaker
 #modloaded contenttweaker nuclearcraft
+#norun
+//NC-Underhaul Version
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;

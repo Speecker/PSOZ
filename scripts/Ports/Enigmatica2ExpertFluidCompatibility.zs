@@ -1,5 +1,5 @@
 import mods.thermalexpansion.Crucible;
-import mods.nuclearcraft.melter;
+import mods.nuclearcraft.Melter;
 #modloaded nuclearcraft thermalexpansion
 print("--- loading FluidCompatibility.zs ---");
 
@@ -24,6 +24,40 @@ print("--- loading FluidCompatibility.zs ---");
 	Crucible.addRecipe(<liquid:purpleslime> * 250, <tconstruct:edible:2>, 2500);
 	Crucible.addRecipe(<liquid:blood> * 40, <minecraft:rotten_flesh>, 2500);
 	
+	Melter.addRecipe(<ore:nuggetAlumite>, <liquid:alumite> * 16);
+	Melter.addRecipe(<ore:ingotAlumite>, <liquid:alumite> * 144);
+	Melter.addRecipe(<ore:blockAlumite>, <liquid:alumite> * 1296);
+	Melter.addRecipe(<ore:nuggetRefinedObsidian>, <liquid:refinedobsidian> * 16);
+	Melter.addRecipe(<ore:ingotRefinedObsidian>, <liquid:refinedobsidian> * 144);
+	Melter.addRecipe(<ore:blockRefinedObsidian>, <liquid:refinedobsidian> * 1296);
+	Melter.addRecipe(<ore:nuggetOsgloglas>, <liquid:osgloglas> * 16);
+	Melter.addRecipe(<ore:ingotOsgloglas>, <liquid:osgloglas> * 144);
+	Melter.addRecipe(<ore:blockOsgloglas>, <liquid:osgloglas> * 1296);
+	Melter.addRecipe(<ore:nuggetRefinedGlowstone>, <liquid:refinedglowstone> * 16);
+	Melter.addRecipe(<ore:ingotRefinedGlowstone>, <liquid:refinedglowstone> * 144);
+	Melter.addRecipe(<ore:blockRefinedGlowstone>, <liquid:refinedglowstone> * 1296);
+	Melter.addRecipe(<ore:nuggetOsmiridium>, <liquid:osmiridium> * 16);
+	Melter.addRecipe(<ore:ingotOsmiridium>, <liquid:osmiridium> * 144);
+	Melter.addRecipe(<ore:blockOsmiridium>, <liquid:osmiridium> * 1296);
+	Melter.addRecipe(<ore:nuggetElvenElementium>, <liquid:elementium> * 16);
+	Melter.addRecipe(<ore:ingotElvenElementium>, <liquid:elementium> * 144);
+	Melter.addRecipe(<botania:storage:2>, <liquid:elementium> * 1296);
+	Melter.addRecipe(<ore:nuggetMirion>, <liquid:mirion> * 16);
+	Melter.addRecipe(<ore:ingotMirion>, <liquid:mirion> * 144);
+	Melter.addRecipe(<ore:blockMirion>, <liquid:mirion> * 1296);
+
+	Melter.addRecipe(<ore:ingotInfinity>, <liquid:infinity> * 144);
+	Melter.addRecipe(<ore:blockInfinity>, <liquid:infinity> * 1296);
+	Melter.addRecipe(<ore:nuggetThaumium>, <liquid:thaumium> * 16);
+	Melter.addRecipe(<ore:ingotThaumium>, <liquid:thaumium> * 144);
+	Melter.addRecipe(<ore:blockThaumium>, <liquid:thaumium> * 1296);
+	Melter.addRecipe(<botania:storage:0>, <liquid:manasteel> * 1296);
+	Melter.addRecipe(<botania:storage:1>, <liquid:terrasteel> * 1296);
+	Melter.addRecipe(<ore:slimeballPurple>, <liquid:purpleslime> * 250);
+	Melter.addRecipe(<minecraft:rotten_flesh>, <liquid:blood> * 40);
+
+/*	
+//NC-Underhaul Version
 	melter.addRecipe(<ore:nuggetAlumite>, <liquid:alumite> * 16);
 	melter.addRecipe(<ore:ingotAlumite>, <liquid:alumite> * 144);
 	melter.addRecipe(<ore:blockAlumite>, <liquid:alumite> * 1296);
@@ -55,7 +89,7 @@ print("--- loading FluidCompatibility.zs ---");
 	melter.addRecipe(<botania:storage:1>, <liquid:terrasteel> * 1296);
 	melter.addRecipe(<ore:slimeballPurple>, <liquid:purpleslime> * 250);
 	melter.addRecipe(<minecraft:rotten_flesh>, <liquid:blood> * 40);
-
+*/
 print("--- FluidCompatibility.zs initialized ---");
 
 //	Crucible.addRecipe(<liquid:alumite> * 16, <ore:nuggetAlumite>, 500);			Added by Materialis

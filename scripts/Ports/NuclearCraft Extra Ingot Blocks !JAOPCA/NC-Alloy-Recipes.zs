@@ -1,4 +1,6 @@
 #modloaded !jaopca nuclearcraft contenttweaker
+#norun
+//NC-Underhaul Version
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;

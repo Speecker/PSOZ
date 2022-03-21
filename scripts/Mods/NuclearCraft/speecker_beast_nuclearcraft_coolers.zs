@@ -1,5 +1,7 @@
 #packmode mythic beast
 #modloaded nuclearcraft actuallyadditions metallurgy mekanism jaopca
+#norun
+//NC-Underhaul Version
 
 recipes.remove(<nuclearcraft:cooler:1>);    //  Water Cooler
 recipes.addShaped("speecker_beast_nuclearcraft_cooler_water", <nuclearcraft:cooler:1>, [[<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>],[<minecraft:water_bucket>, <nuclearcraft:cooler:0>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>]]);

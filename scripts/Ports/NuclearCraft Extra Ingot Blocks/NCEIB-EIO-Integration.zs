@@ -1,4 +1,6 @@
 #modloaded contenttweaker nuclearcraft enderio endertweaker
+#norun
+//NC-Underhaul Version
 
 import mods.enderio.AlloySmelter;
 

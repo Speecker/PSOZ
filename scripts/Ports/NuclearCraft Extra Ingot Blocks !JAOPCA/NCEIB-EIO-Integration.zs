@@ -1,4 +1,6 @@
 #modloaded !jaopca nuclearcraft contenttweaker enderio endertweaker
+#norun
+//NC-Underhaul Version
 
 import mods.enderio.AlloySmelter;
 

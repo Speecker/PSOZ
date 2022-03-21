@@ -1,4 +1,6 @@
 #modloaded nucleacraft tconstruct modtweaker
+#norun
+//NC-Underhaul Version
 
 import mods.tconstruct.Casting;
 

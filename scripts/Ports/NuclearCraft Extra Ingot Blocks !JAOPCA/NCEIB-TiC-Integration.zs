@@ -1,4 +1,6 @@
 #modloaded !jaopca nuclearcraft tconstruct modtweaker
+#norun
+//NC-Underhaul Version
 
 import mods.tconstruct.Casting;
 

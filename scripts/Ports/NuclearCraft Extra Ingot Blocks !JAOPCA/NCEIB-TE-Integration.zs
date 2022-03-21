@@ -1,4 +1,6 @@
 #modloaded !jaopca nuclearcraft thermalexpansion modtweaker
+#norun
+//NC-Underhaul Version
 
 import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.InductionSmelter;

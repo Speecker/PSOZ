@@ -9,15 +9,19 @@ recipes.remove(<jaopca:item_mysticalseedshardcarbon>);
 recipes.remove(<jaopca:item_mysticalseedslithiummanganesedioxide>);
 recipes.remove(<jaopca:item_mysticalseedsmanganeseoxide>);
 recipes.remove(<jaopca:item_mysticalseedssiliconcarbide>);
-recipes.remove(<jaopca:item_mysticalseedsthoriumoxide>);
-recipes.remove(<jaopca:item_mysticalseedsuraniumoxide>);
 
 // Tier 3,1
 
 bot(<jaopca:item_mysticalseedsboronnitride>, [<ore:blockBoronNitride>, <ore:blockBoronNitride>, <ore:blockBoronNitride>, <ore:blockBoronNitride>, <mysticalagriculture:boron_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "boron_plant", agri_growth: 10 as byte}), <forge:bucketfilled>.withTag({FluidName: "ammonia",Amount:1000}), <ore:elvenDragonstone>, <ore:elvenPixieDust>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 8000);
 bot(<jaopca:item_mysticalseedsmanganeseoxide>, [<ore:blockManganeseOxide>, <ore:blockManganeseOxide>, <ore:blockManganeseOxide>, <ore:blockManganeseOxide>, <jaopca:item_mysticalseedsmanganese>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "manganese_mystical_plant", agri_growth: 10 as byte}), <forge:bucketfilled>.withTag({FluidName: "oxygen",Amount:1000}), <ore:elvenDragonstone>, <ore:elvenPixieDust>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 8000);
+
+/*
+//NC-Unerhaul Recipes
+recipes.remove(<jaopca:item_mysticalseedsthoriumoxide>);
+recipes.remove(<jaopca:item_mysticalseedsuraniumoxide>);
 bot(<jaopca:item_mysticalseedsthoriumoxide>, [<ore:blockThoriumOxide>, <ore:blockThoriumOxide>, <ore:blockThoriumOxide>, <ore:blockThoriumOxide>, <mysticalagriculture:thorium_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "thorium_plant", agri_growth: 10 as byte}), <forge:bucketfilled>.withTag({FluidName: "oxygen",Amount:1000}), <ore:elvenDragonstone>, <ore:elvenPixieDust>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 8000);
 bot(<jaopca:item_mysticalseedsuraniumoxide>, [<ore:blockUraniumOxide>, <ore:blockUraniumOxide>, <ore:blockUraniumOxide>, <ore:blockUraniumOxide>, <mysticalagriculture:uranium_seeds>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "uranium_plant", agri_growth: 10 as byte}), <forge:bucketfilled>.withTag({FluidName: "oxygen",Amount:1000}), <ore:elvenDragonstone>, <ore:elvenPixieDust>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 8000);
+*/
 
 // Tier 3,2
 
