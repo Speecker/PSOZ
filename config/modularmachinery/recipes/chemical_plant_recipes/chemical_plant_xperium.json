@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_xperium",
+    "recipeTime": 48,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_ingot",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "xpjuice",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-core:resource_item@104",
+            "amount": 1
+        }
+    ]
+}

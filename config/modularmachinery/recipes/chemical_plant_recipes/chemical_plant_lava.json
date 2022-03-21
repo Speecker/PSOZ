@@ -1,0 +1,24 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_lava",
+    "recipeTime": 24,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "lava",
+            "amount": 800
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:phosphor",
+            "amount": 1
+        }
+    ]
+}

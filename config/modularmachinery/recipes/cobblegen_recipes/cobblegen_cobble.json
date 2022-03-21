@@ -1,0 +1,37 @@
+{
+    "machine": "cobblegen",
+    "registryName": "cg_cobble",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_pickaxe",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:cobblestone",
+            "amount": 1
+        }
+    ]
+}

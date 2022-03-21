@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_sulfur",
+    "recipeTime": 16,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 300
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "gasoline",
+            "amount": 300
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@771",
+            "amount": 2
+        }
+    ]
+}

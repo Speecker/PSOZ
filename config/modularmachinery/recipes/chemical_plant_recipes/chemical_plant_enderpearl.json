@@ -1,0 +1,30 @@
+{
+    "machine": "chemical_plant",
+    "registryName": "cp_enderpearl",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@69",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:ender_pearl",
+            "amount": 1
+        }
+    ]
+}

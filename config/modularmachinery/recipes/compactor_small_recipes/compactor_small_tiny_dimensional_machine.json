@@ -1,0 +1,27 @@
+{
+    "machine": "compactor_small",
+    "registryName": "compactor_tiny_compact_machine",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16
+        },
+        {
+            "type": "modularaugment:deferred",
+            "io-type": "input",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "compactmachines3:wallbreakable",
+            "amount": 1
+        }
+    ],
+    "processingCommands": [
+        "/time set day"
+    ]
+}

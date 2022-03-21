@@ -1,0 +1,24 @@
+{
+    "machine": "high_impact_compactor",
+    "registryName": "high_impact_bedrock",
+    "recipeTime": 50,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "modularaugment:deferred",
+            "io-type": "input",
+            "item": "bedrockminer:bedrock_chunk",
+            "amount": 9
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:bedrock",
+            "amount": 1
+        }
+    ]
+}
