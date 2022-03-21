@@ -1,46 +1,24 @@
+
 {
-    "registryname": "carpenter_advanced",
-    "localizedname": "Advanced Carpenter",
-    "color": "ce8e44",
+    "registryname": "crystal_infuser",
+    "localizedname": "Crystal Infuser",
+    "requires-blueprint": true,
+    "color": "4f4f4f",
     "parts": [
         {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass_alloy@3"
-            ]
-        },
-        {
             "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "forestry:carpenter@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@3"
-            ]
-        },
-        {
-            "x": -1,
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:glass_alloy@3"
+                "crystal_infuser"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "crystal_infuser"
             ]
         },
         {
@@ -48,15 +26,39 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "thermalfoundation:glass_alloy@3"
+                "crystal_infuser"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@5"
             ]
         },
         {
             "x": 0,
             "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:livingwood@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@0"
+                "botania:livingwood@5"
             ]
         },
         {
@@ -64,7 +66,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:glass_alloy@3"
+                "botania:livingwood@5"
             ]
         },
         {
@@ -72,7 +74,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -80,7 +82,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -88,15 +90,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -104,7 +98,15 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:livingrock@1"
             ]
         },
         {
@@ -112,7 +114,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -120,7 +122,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -128,7 +130,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -136,7 +138,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -144,7 +146,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -152,7 +154,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -160,7 +162,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -168,7 +170,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -176,7 +178,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -184,7 +186,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "botania:livingrock@1"
             ]
         },
         {
@@ -192,7 +194,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -200,7 +202,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -208,7 +210,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "botania:livingrock@1"
             ]
         }
     ]}

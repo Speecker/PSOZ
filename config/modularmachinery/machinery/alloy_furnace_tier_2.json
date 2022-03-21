@@ -1,0 +1,458 @@
+{
+    "registryname": "alloy_furnace_tier_2",
+    "localizedname": "Advanced Alloy Smelter",
+    
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },		
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+		
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@5"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_2"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "botania:storage@2"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": "actuallyadditions:block_empowered_oil"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": "casings_2"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": "actuallyadditions:block_crystal@3"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@1"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@2"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@4"
+        }
+    ]
+}

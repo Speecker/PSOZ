@@ -1,98 +1,168 @@
 {
     "registryname": "purifier",
-    "localizedname": "Purifier",
-	"color": "545454",
-    "parts": [
+    "localizedname": "Localized Purifier",
+	"requires-blueprint": true,
+	"color": "609EA1",
+	"parts": [
         {
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2",
-		"modularmachinery:blockfluidinputhatch@2"
-            ]
+            "elements": "casings_all"
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 1,
             "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
+            "elements": "openblocks:tank"
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2",
-		"modularmachinery:blockfluidoutputhatch@2"
-            ]
+            "elements": "casings_all"
+        },
+
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
         },
         {
             "x": 1,
-            "y": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 2,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@0",
-                "modularmachinery:blockcasing@0"
-            ]
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "openblocks:tank"
         },
         {
             "x": -1,
             "y": 2,
+            "z": 1,
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": "openblocks:tank"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "extracells:fluidcrafter"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "extracells:fluidcrafter"
+        },
+        {
+            "x": 1,
+            "y": 1,
             "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
+            "elements": "industrialforegoing:fluid_crafter"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": "industrialforegoing:fluid_crafter"
         },
         {
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
+            "elements": "industrialforegoing:fluid_crafter"
         },
         {
             "x": -1,
-            "y": -1,
+            "y": 2,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@0",
-                "modularmachinery:blockenergyinputhatch@0"
-            ]
+            "elements": "industrialforegoing:fluid_crafter"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "industrialforegoing:fluid_crafter"
         },
         {
             "x": 1,
             "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
+            "z": 2,
+            "elements": "industrialforegoing:fluid_crafter"
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
+            "z": 2,
+            "elements": "industrialforegoing:fluid_crafter"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": "industrialforegoing:fluid_crafter"
         }
-    ]}
+
+    ]
+}

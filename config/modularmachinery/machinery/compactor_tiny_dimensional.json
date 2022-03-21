@@ -1,0 +1,224 @@
+{
+    "registryname": "tiny_dimensional_compactor",
+    "localizedname": "Tiny Dimensional Compactor",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"busSize":"0","casingColor":"5082769","id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"orientation":"5","texture":{"Name":"minecraft:brick_block"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"busSize":"0","casingColor":"5082769","id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "nbt": {"orientation":"4","texture":{"Name":"minecraft:brick_block"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"orientation":"5","texture":{"Properties":{"variant":"stonebrick"},"Name":"minecraft:stonebrick"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"orientation":"0","texture":{"Properties":{"variant":"stonebrick"},"Name":"minecraft:stonebrick"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"orientation":"1","texture":{"Name":"minecraft:brick_block"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"orientation":"0","texture":{"Name":"minecraft:brick_block"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"hatchSize":"0","casingColor":"5082769","id":"minecraft:tileenergyinputhatch","energy":"0L"},
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"orientation":"1","texture":{"Properties":{"variant":"stonebrick"},"Name":"minecraft:stonebrick"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "nbt": {"orientation":"4","texture":{"Properties":{"variant":"stonebrick"},"Name":"minecraft:stonebrick"},"id":"minecraft:bwm.siding"},
+            "elements": [
+                "betterwithmods:siding_rock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "compactmachines3:wall@0"
+            ]
+        }
+    ]}

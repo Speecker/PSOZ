@@ -1,35 +1,7 @@
 {
-    "registryname": "alloy_smelter",
-    "localizedname": "Alloy Smelter",
-    "color": "30170E",
-    "modifiers": [
-        {
-            "elements": "modularmachinery:blockcasing@5",
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "description": "Replace block above controller with a Machine Circuitry\nfor double item output!",
-            "modifier": {
-                "io": "output",
-                "target": "item",
-                "operation": 1,
-                "multiplier": 2.0
-            }
-        },
-        {
-            "elements": "modulardiversity:blockdaylightdetector",
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "description": "Replace block above controller with a Time Detector\nfor quadruple item output!",
-            "modifier": {
-                "io": "output",
-                "target": "item",
-                "operation": 1,
-                "multiplier": 4.0
-            }
-        }
-    ],
+    "registryname": "alloy_furnace_tier_1",
+    "localizedname": "Basic Alloy Smelter",
+    
     "parts": [
         {
             "x": -1,
@@ -91,25 +63,25 @@
             "x": -1,
             "y": 0,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": "extrautils2:decorativesolid@7"
         },
         {
             "x": 1,
             "y": 0,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": "extrautils2:decorativesolid@7"
         },
         {
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": "extrautils2:decorativesolid@7"
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": "extrautils2:decorativesolid@7"
         },
 
         {
@@ -117,7 +89,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "casings_1"
             ]
         },
         {
@@ -125,7 +97,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "casings_1"
             ]
         },
         {
@@ -133,14 +105,14 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "casings_1"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 1,
-            "elements": "armorplus:block_compressed_infused_lava_crystal"
+            "elements": "minecraft:lava"
         },
 
 
@@ -196,7 +168,7 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "elements": "modularmachinery:blockcasing@0"
+            "elements": "modularmachinery:blockcasing@1"
         }
     ]
 }

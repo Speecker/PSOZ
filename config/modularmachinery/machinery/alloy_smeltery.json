@@ -1,0 +1,615 @@
+{
+    "registryname": "alloy_smeltery",
+    "localizedname": "Alloy Smeltery",
+    "requires-blueprint": true,
+    "color": "292929",
+    "modifiers": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"FluidName":"pyrotheum", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ],
+            "description": "Fill the tanks with pyrotheum instead of lava for faster processing",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "projectex:power_flower@15"
+            ],
+            "description": "Replace the Iox block with a Final Bonsai to triple output",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 3
+            }
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ],
+            "description": "Replace the Nucleum blocks with Stellar Alloy for cheaper alloying",
+            "modifier": {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ],
+            "description": "Replace the Nucleum blocks with Stellar Alloy for cheaper alloying",
+            "modifier": {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "taiga:iox_block"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockoutputbus",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"FluidName":"lava", "Amount":"4000"},
+            "elements": [
+                "tconstruct:seared_tank@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "taiga:nucleum_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "taiga:nucleum_block"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@3"
+            ]
+        }
+    ]}

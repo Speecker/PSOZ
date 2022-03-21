@@ -3064,6 +3064,8 @@ v10.4.0-004
 		- Added MoarFuels Customization
 v10.4.0-005
 	Updated ContentTweaker lang file for InertMatrixFuels
+v10.4.0-006
+	Updated and Implemented/Ported any ModularMachines from various other Packs
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

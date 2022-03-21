@@ -1,7 +1,7 @@
 {
-    "registryname": "fassembler_advanced",
-    "localizedname": "Advanced Fluid Assembler",
-    "color": "3e8b6b",
+    "registryname": "fluid_assembler_standard",
+    "localizedname": "Standard Fluid Assembler",
+	"color": "1d4046",
     "modifiers": [
         {
             "elements": "minecraft:concrete_powder@6",
@@ -181,22 +181,14 @@
     ],
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 0,
             "elements": [
+                "magneticraft:inserter@3",
                 "magneticraft:inserter@0",
                 "magneticraft:inserter@1",
                 "magneticraft:inserter@2",
-                "magneticraft:inserter@3",
                 "appliedenergistics2:sky_stone_slab"
             ]
         },
@@ -213,7 +205,19 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
+                "modularmachinery:blockenergyinputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "magneticraft:inserter@0",
+                "magneticraft:inserter@1",
+                "magneticraft:inserter@2",
+                "magneticraft:inserter@3",
+                "appliedenergistics2:sky_stone_slab"
             ]
         },
         {
@@ -226,14 +230,10 @@
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 1,
+            "y": 1,
+            "z": 2,
             "elements": [
-                "magneticraft:inserter@2",
-                "magneticraft:inserter@0",
-                "magneticraft:inserter@1",
-                "magneticraft:inserter@3",
-                "appliedenergistics2:sky_stone_slab"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
@@ -241,16 +241,16 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "magneticraft:inserter@1",
-                "magneticraft:inserter@0",
-                "magneticraft:inserter@3",
                 "magneticraft:inserter@2",
+                "magneticraft:inserter@0",
+                "magneticraft:inserter@1",
+                "magneticraft:inserter@3",
                 "appliedenergistics2:sky_stone_slab"
             ]
         },
         {
             "x": 2,
-            "y": 1,
+            "y": 0,
             "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
@@ -262,14 +262,6 @@
             "z": 2,
             "elements": [
                 "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
             ]
         },
         {

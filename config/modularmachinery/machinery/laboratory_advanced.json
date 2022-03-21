@@ -1,7 +1,7 @@
 {
-    "registryname": "fassembler_standard",
-    "localizedname": "Standard Fluid Assembler",
-	"color": "1d4046",
+   "registryname": "advanced_laboratory",
+    "localizedname": "Advanced Laboratory",
+    "color": "cb9e5f",
     "modifiers": [
         {
             "elements": "minecraft:concrete_powder@6",
@@ -62,9 +62,9 @@
         },
         {
             "elements": "minecraft:concrete_powder@0",
-            "x": 2,
-            "y": -1,
-            "z": 0,
+            "x": 0,
+            "y": 1,
+            "z": 1,
             "description": "+4% productivity, +40% RF/t, -15% speed",
             "modifier": [{
                 "io": "input",
@@ -88,9 +88,9 @@
         },
 		{
             "elements": "minecraft:concrete_powder@1",
-            "x": 2,
-            "y": -1,
-            "z": 0,
+            "x": 0,
+            "y": 1,
+            "z": 1,
             "description": "+6% productivity, +60% RF/t, -15% speed",
             "modifier": [{
                 "io": "input",
@@ -114,9 +114,9 @@
         },
 		{
             "elements": "minecraft:concrete_powder@2",
-            "x": 2,
-            "y": -1,
-            "z": 0,
+            "x": 0,
+            "y": 1,
+            "z": 1,
             "description": "+10% productivity, +80% RF/t, -15% speed",
             "modifier": [{
                 "io": "input",
@@ -140,9 +140,9 @@
         },
 		{
             "elements": "minecraft:concrete_powder@3",
-            "x": 1,
-            "y": -1,
-            "z": 1,
+            "x": 0,
+            "y": 1,
+            "z": 0,
             "description": "-30% RF/t",
             "modifier": [{
                 "io": "input",
@@ -153,9 +153,9 @@
         },
 		{
             "elements": "minecraft:concrete_powder@4",
-            "x": 1,
-            "y": -1,
-            "z": 1,
+            "x": 0,
+            "y": 1,
+            "z": 0,
             "description": "-40% RF/t",
             "modifier": [{
                 "io": "input",
@@ -166,9 +166,9 @@
         },
 		{
             "elements": "minecraft:concrete_powder@5",
-            "x": 1,
-            "y": -1,
-            "z": 1,
+            "x": 0,
+            "y": 1,
+            "z": 0,
             "description": "-50% RF/t",
             "modifier": [{
                 "io": "input",
@@ -181,20 +181,16 @@
     ],
     "parts": [
         {
-            "x": 1,
+            "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "magneticraft:inserter@3",
-                "magneticraft:inserter@0",
-                "magneticraft:inserter@1",
-                "magneticraft:inserter@2",
-                "appliedenergistics2:sky_stone_slab"
+                "immersiveengineering:metal_decoration1@0"
             ]
         },
         {
-            "x": 0,
-            "y": -1,
+            "x": -1,
+            "y": 0,
             "z": 1,
             "elements": [
                 "modularmachinery:blockoutputbus@0"
@@ -202,86 +198,54 @@
         },
         {
             "x": 0,
-            "y": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
             "z": 2,
             "elements": [
                 "modularmachinery:blockenergyinputhatch@1"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "magneticraft:inserter@0",
-                "magneticraft:inserter@1",
-                "magneticraft:inserter@2",
-                "magneticraft:inserter@3",
-                "appliedenergistics2:sky_stone_slab"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 2,
             "elements": [
-                "magneticraft:inserter@2",
-                "magneticraft:inserter@0",
-                "magneticraft:inserter@1",
-                "magneticraft:inserter@3",
-                "appliedenergistics2:sky_stone_slab"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "immersiveengineering:metal_decoration1@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 2,
             "y": -1,
             "z": 0,
             "elements": [
@@ -289,19 +253,139 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
             "x": 0,
             "y": -1,
-            "z": 0,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         }
     ]}

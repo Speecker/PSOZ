@@ -1,35 +1,6 @@
 {
-    "registryname": "alloy_smelter",
-    "localizedname": "Alloy Smelter",
-    "color": "30170E",
-    "modifiers": [
-        {
-            "elements": "modularmachinery:blockcasing@5",
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "description": "Replace block above controller with a Machine Circuitry\nfor double item output!",
-            "modifier": {
-                "io": "output",
-                "target": "item",
-                "operation": 1,
-                "multiplier": 2.0
-            }
-        },
-        {
-            "elements": "modulardiversity:blockdaylightdetector",
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "description": "Replace block above controller with a Time Detector\nfor quadruple item output!",
-            "modifier": {
-                "io": "output",
-                "target": "item",
-                "operation": 1,
-                "multiplier": 4.0
-            }
-        }
-    ],
+    "registryname": "master_assembler",
+    "localizedname": "Master Assembler 2k20",
     "parts": [
         {
             "x": -1,
@@ -65,25 +36,45 @@
             "x": -1,
             "y": -1,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2",
+                "modularmachinery:blockfluidinputhatch@3",
+                "modularmachinery:blockfluidinputhatch@4",
+                "modularmachinery:blockfluidinputhatch@5",
+                "modularmachinery:blockfluidinputhatch@6",
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@4"
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2",
+                "modularmachinery:blockfluidinputhatch@3",
+                "modularmachinery:blockfluidinputhatch@4",
+                "modularmachinery:blockfluidinputhatch@5",
+                "modularmachinery:blockfluidinputhatch@6",
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@2"
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3",
+                "modularmachinery:blockenergyinputhatch@4",
+                "modularmachinery:blockenergyinputhatch@5",
+                "modularmachinery:blockenergyinputhatch@6",
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 1,
-            "elements": "modularmachinery:blockcasing@0"
+            "elements": "techreborn:rolling_machine"
         },
 
 
@@ -117,7 +108,10 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockinputbus@3",
+                "modularmachinery:blockinputbus@4",
+                "modularmachinery:blockinputbus@5",
+                "modularmachinery:blockinputbus@6"
             ]
         },
         {
@@ -125,7 +119,10 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus@3",
+                "modularmachinery:blockoutputbus@4",
+                "modularmachinery:blockoutputbus@5",
+                "modularmachinery:blockoutputbus@6"
             ]
         },
         {
@@ -133,14 +130,14 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "galacticraftcore:basic_block_core@12"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 1,
-            "elements": "armorplus:block_compressed_infused_lava_crystal"
+            "elements": "sgcraft:naquadahblock"
         },
 
 
@@ -190,13 +187,13 @@
             "x": 0,
             "y": 1,
             "z": 2,
-            "elements": "modularmachinery:blockcasing@2"
+            "elements": "modularmachinery:blockcasing@5"
         },
         {
             "x": 0,
             "y": 1,
             "z": 1,
-            "elements": "modularmachinery:blockcasing@0"
+            "elements": "actuallyadditions:block_crystal_empowered@4"
         }
     ]
 }

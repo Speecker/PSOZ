@@ -1,0 +1,314 @@
+{
+    "registryname": "reinforced_stone_separator",
+    "localizedname": "Reinforced Stone Separator",
+	
+"modifiers" : [
+		{
+			"elements": "botania:storage@3",
+			"x": 1,
+			"y": 1,
+			"z": 1,
+			"description": "Replace reinforced stone at top level, left of controller above input/output block.",
+			"modifier": [
+                                                {
+				"io": "input",
+				"target": "item",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": true
+			},
+                                                {
+				"io": "input",
+				"target": "duration",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": false
+			}
+                                        ]
+		},
+		
+		{
+			"elements": "actuallyadditions:block_crystal_empowered@2",
+			"x": -1,
+			"y": 1,
+			"z": 1,
+			"description": "Replace reinforced stone at top level, right of controller above input/output block",
+			"modifier": [
+                                                {
+				"io": "input",
+				"target": "item",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": true
+			},
+                                                {
+				"io": "input",
+				"target": "duration",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": false
+			}
+                                         ]
+		},
+		
+		{
+			"elements": "redstonearsenal:storage@1",
+			"x": 0,
+			"y": 1,
+			"z": 2,
+			"description": "Replace reinforced stone at top level, back of controller above input/output block",
+			"modifier": [
+                                                {
+				"io": "input",
+				"target": "item",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": true
+			},
+                                                {
+				"io": "input",
+				"target": "duration",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": false
+			}
+                                        ]
+		},
+		
+		{
+			"elements": "enderio:block_alloy_endergy@1",
+			"x": 0,
+			"y": 1,
+			"z": 1,
+			"description": "Replace reinforced stone at top level, center above stone separator block",
+			"modifier": [
+                                                {
+				"io": "input",
+				"target": "item",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": true
+			},
+                                                {
+				"io": "input",
+				"target": "duration",
+				"operation": 1,
+				"multiplier": 0.67,
+				"affectChance": false
+			}
+                                        ]
+		}
+	],
+	
+	"parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "sonarcore:stablestone_normal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "calculator:stoneseparator"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "sonarcore:stablestone_normal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "sonarcore:stablestone_normal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "sonarcore:stablestone_normal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "calculator:material@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "sonarcore:reinforcedstoneblock@0"
+            ]
+        }
+	
+    ]
+}
