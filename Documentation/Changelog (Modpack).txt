@@ -3071,6 +3071,8 @@ v10.4.0-007
 v10.4.0-008
 	ModularMachinery/recipes:
 		- Added template folders and files for yet missing recipes
+v10.4.0-009
+	moved /resources/contenttweaker/models/ into seperate folders alphabetically due to having too many files in a single folder to view on GitHub
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
