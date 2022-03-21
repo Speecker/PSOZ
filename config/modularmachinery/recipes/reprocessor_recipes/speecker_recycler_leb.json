@@ -1,0 +1,39 @@
+{
+    "machine": "recycler",
+    "registryName": "rc_leb",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:plateCopper",
+            "amount": 1,
+            "chance": 0.50
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:plateIron",
+            "amount": 2,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@8",
+            "amount": 1,
+            "chance": 0.75
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal_decoration0@4",
+            "amount": 1
+        }
+    ]
+}

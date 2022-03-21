@@ -1,0 +1,46 @@
+{
+    "machine": "reinforced_algorithm_separator",
+    "registryName": "reinforced_algorithm_separator_fiddledew_fruit",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "tp:maloberry_berry",
+            "amount": 1,
+			"chance": 0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "tp:raspberry_berry",
+            "amount": 1,
+			"chance": 0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "tp:blackberry_berry",
+            "amount": 1,
+			"chance": 0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "tp:blueberry_berry",
+            "amount": 1,
+            "chance": 0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "calculator:fiddledewfruit",
+            "amount": 1
+        }
+    ]
+}

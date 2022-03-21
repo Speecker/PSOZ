@@ -1,0 +1,38 @@
+{
+    "machine": "reinforced_stone_separator",
+    "registryName": "reinforced_stone_separator_gold_ore",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:enrichedgoldingot",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:enrichedgoldingot",
+            "amount": 2,
+			"chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:smallstone",
+            "amount": 2,
+			"chance":0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:gold_ore",
+            "amount": 1
+        }
+    ]
+}

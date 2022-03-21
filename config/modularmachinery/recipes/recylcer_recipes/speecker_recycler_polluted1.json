@@ -1,0 +1,67 @@
+{
+    "machine": "recycler",
+    "registryName": "rc_polluted1",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dirt",
+            "amount": 1,
+            "chance": 0.64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sand",
+            "amount": 1,
+            "chance": 0.32
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@771",
+            "amount": 1,
+            "chance": 0.16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@893",
+            "amount": 1,
+            "chance": 0.08
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@894",
+            "amount": 1,
+            "chance": 0.04
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-core:resource_item@105",
+            "amount": 1,
+            "chance": 0.02
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@895",
+            "amount": 1,
+            "chance": 0.01
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "polluted_earth:polluted_earth",
+            "amount": 1
+        }
+    ]
+}

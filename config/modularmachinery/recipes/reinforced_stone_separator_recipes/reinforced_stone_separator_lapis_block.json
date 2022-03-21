@@ -1,0 +1,45 @@
+{
+    "machine": "reinforced_stone_separator",
+    "registryName": "reinforced_stone_separator_lapis_block",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:largeamethyst",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:smallamethyst",
+            "amount": 2,
+			"chance":0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "calculator:shardamethyst",
+            "amount": 1,
+			"chance":0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "practicallogistics2:sapphire",
+            "amount": 1,
+			"chance":0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:lapis_block",
+            "amount": 1
+        }
+    ]
+}

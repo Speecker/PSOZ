@@ -1,0 +1,34 @@
+{
+    "machine": "recycler",
+    "registryName": "rc_belt_a",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:conveyor",
+            "amount": 1,
+            "nbt": {
+                 "conveyorType": "immersiveengineering:conveyor"
+            },
+            "chance": 0.75
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:gearIron",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "logisticalautomation:conveyor_fast",
+            "amount": 1
+        }
+    ]
+}

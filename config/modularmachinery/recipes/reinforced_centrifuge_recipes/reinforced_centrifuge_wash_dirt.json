@@ -1,0 +1,24 @@
+{
+    "machine": "centrifuge",
+    "registryName": "reinforced_centrifuge_centrifuge_dirt",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 200
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:clay",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:dirt",
+            "amount": 1
+        }
+    ]
+}

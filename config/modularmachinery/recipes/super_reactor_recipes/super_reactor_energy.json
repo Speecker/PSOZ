@@ -1,0 +1,72 @@
+{
+    "machine": "super_reactor",
+    "registryName": "super_reactor_energy",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "harvestcraft:tacoitem",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@3",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:opinium@8",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:rotten_flesh",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "pneumaticcraft:plastic@9",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "yellorium",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquidcoralium",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "deuterium",
+            "amount": 200
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "nutrient_distillation",
+            "amount": 200
+        },
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 9223372036854775806
+        }
+    ]
+}

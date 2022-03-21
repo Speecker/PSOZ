@@ -1,0 +1,81 @@
+{
+    "machine": "reinforced_centrifuge",
+    "registryName": "reinforced_centrifuge_centrifuge_small_stone",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 200
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@1",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@64",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@65",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@66",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@67",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@68",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@69",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@70",
+            "amount": 1,
+			"chance": 0.01
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "calculator:smallstone",
+            "amount": 1
+        }
+    ]
+}

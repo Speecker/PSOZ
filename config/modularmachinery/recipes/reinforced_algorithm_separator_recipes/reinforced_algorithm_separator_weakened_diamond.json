@@ -1,0 +1,25 @@
+{
+    "machine": "reinforced_algorithm_separator",
+    "registryName": "reinforced_algorithm_separator_weakened_diamond",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:dye@4",
+            "amount": 3,
+			"chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "calculator:weakeneddiamond",
+            "amount": 1
+        }
+    ]
+}
