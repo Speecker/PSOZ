@@ -1,0 +1,24 @@
+{
+    "machine": "alloy_furnace_tier_1",
+    "registryName": "smeltry_tier_1_tin",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@129",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustTin",
+            "amount": 1
+        }
+    ]
+}

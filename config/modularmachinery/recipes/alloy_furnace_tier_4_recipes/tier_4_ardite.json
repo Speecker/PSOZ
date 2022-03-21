@@ -1,0 +1,24 @@
+{
+    "machine": "alloy_furnace_tier_4",
+    "registryName": "smeltry_tier_4_ardite",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "tconstruct:ingots@1",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustArdite",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "alloy_furnace_tier_4",
+    "registryName": "smeltry_tier_4_nickel",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@133",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustNickel",
+            "amount": 1
+        }
+    ]
+}

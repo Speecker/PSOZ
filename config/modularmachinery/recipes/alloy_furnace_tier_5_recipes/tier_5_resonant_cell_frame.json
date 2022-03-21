@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_resonant_cell",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalexpansion:frame@148",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalexpansion:frame@132",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extrautils2:ingredients@16",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 10000
+        }
+    ]
+}

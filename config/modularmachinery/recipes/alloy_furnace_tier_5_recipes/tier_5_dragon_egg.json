@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_dragon_egg",
+    "recipeTime": 90,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:dragon_egg",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "botania:manaresource@9",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:dragon_breath",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "neutronium",
+            "amount": 25
+        }
+    ]
+}

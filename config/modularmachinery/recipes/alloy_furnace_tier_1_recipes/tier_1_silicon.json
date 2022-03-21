@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace_tier_1",
+    "registryName": "smeltry_tier_1_silicon",
+    "recipeTime": 90,
+    "requirements": [
+		{
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 600
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "libvulpes:productingot@3",
+            "amount": 2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:sand",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@2",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        }
+    ]
+}

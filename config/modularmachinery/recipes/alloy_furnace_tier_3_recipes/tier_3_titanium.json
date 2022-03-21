@@ -1,0 +1,48 @@
+{
+    "machine": "alloy_furnace_tier_3",
+    "registryName": "smeltry_tier_3_titanium",
+    "recipeTime": 90,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "libvulpes:productingot@7",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@2",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "tconstruct:ingots@2",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "botania:manaresource@8",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:geode",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refined_fuel",
+            "amount": 1000
+        }
+    ]
+}

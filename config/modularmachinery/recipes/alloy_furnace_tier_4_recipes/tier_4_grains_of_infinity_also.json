@@ -1,0 +1,42 @@
+{
+    "machine": "alloy_furnace_tier_4",
+    "registryName": "smeltry_tier_4_infinity_grains_also",
+    "recipeTime": 90,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 5000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_material@20",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1025",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@833",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extrautils2:klein",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "xpjuice",
+            "amount": 800
+        }
+    ]
+}

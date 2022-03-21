@@ -1,0 +1,42 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_crystal_matrix",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "avaritia:resource@1",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "botania:manaresource@14",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "avaritia:resource",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@3",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "mana",
+            "amount": 1000
+        }
+    ]
+}

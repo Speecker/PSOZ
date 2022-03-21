@@ -1,0 +1,43 @@
+{
+    "machine": "cokeoven_advanced",
+    "registryName": "co_charcoal",
+    "recipeTime": 540,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 490
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:logWood",
+            "amount": 1
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 1000
+        },
+	{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "polluted_water",
+            "amount": 500
+        },
+	{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "creosote",
+            "amount": 250
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:coal@1",
+            "amount": 1
+        }
+    ]
+}

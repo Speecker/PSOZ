@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace_tier_1",
+    "registryName": "smeltry_tier_1_modularium_ingot",
+    "recipeTime": 90,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 600
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:glowstone_dust",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotLead",
+            "amount": 1
+        }
+    ]
+}

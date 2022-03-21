@@ -1,0 +1,24 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_titanium",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 25000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "libvulpes:productingot@7",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "libvulpes:ore0@8",
+            "amount": 1
+        }
+    ]
+}

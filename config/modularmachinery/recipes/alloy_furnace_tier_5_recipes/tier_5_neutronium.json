@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_neutronium",
+    "recipeTime": 240,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 500000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "neutronium",
+            "amount": 250
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "twilightforest:fiery_ingot",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "liquidfusionfuel",
+            "amount": 1000
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_starmetal_ore",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 25000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "astralsorcery:itemcraftingcomponent@1",
+            "amount": 32
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "astralsorcery:blockcustomore@1",
+            "amount": 1
+        }
+    ]
+}

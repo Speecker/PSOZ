@@ -1,0 +1,84 @@
+{
+    "machine": "alloy_furnace_tier_5",
+    "registryName": "smeltry_tier_5_endest_pearl",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 1000000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "avaritia:endest_pearl",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:ender_pearl",
+            "amount": 16
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@895",
+            "amount": 8
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "darkutils:material@1",
+            "amount": 8
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extrautils2:klein",
+            "amount": 4
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "rftools:infused_enderpearl",
+            "amount": 4
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:item_material@58",
+            "amount": 4
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "xreliquary:mob_ingredient@11",
+            "amount": 2
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:nether_star",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "actuallyadditions:block_misc@8",
+            "amount": 1
+        },
+		{
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:end_stone",
+            "amount": 16
+        },
+		{
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "neutronium",
+            "amount": 125
+        }
+    ]
+}
