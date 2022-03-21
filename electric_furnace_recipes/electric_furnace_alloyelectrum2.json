@@ -1,0 +1,30 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_alloyelectrum2",
+    "recipeTime": 91,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 385
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustGold",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustSilver",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@161",
+            "amount": 2
+        }
+    ]
+}

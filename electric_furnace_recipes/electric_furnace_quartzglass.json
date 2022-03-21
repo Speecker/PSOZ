@@ -1,0 +1,30 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_quartzglass",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 420
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:sand",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@3",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "appliedenergistics2:quartz_glass",
+            "amount": 1
+        }
+    ]
+}
