@@ -45,6 +45,12 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
     ],
+    "fieldprojector": [
+        "compactmachines3:fieldprojector@2",
+        "compactmachines3:fieldprojector@4",
+        "compactmachines3:fieldprojector@3",
+        "compactmachines3:fieldprojector@5"
+    ],
     "casings_fluid_in": [
         "modularmachinery:blockfluidinputhatch@2",
 		"modularmachinery:blockfluidinputhatch@3",
@@ -91,5 +97,108 @@
 		"modularmachinery:blockcasing@0",
 		"thermalfoundation:glass@6",
 		"thermalfoundation:glass@8"
-	]
+	],
+    "ebf_casings": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch"
+    ],    
+    "lcr_casings": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_functional": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_item_energy": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch"
+    ],
+    "casings_item_fluid_energy": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch"
+    ],
+    "casings_mixer": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockfluidoutputhatch",
+        "embers:block_caminite_brick",
+        "embers:archaic_bricks",
+        "embers:ashen_brick"
+    ],
+    "casings_mixer_dust": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockfluidoutputhatch",
+        "embers:block_caminite_brick",
+        "embers:archaic_bricks",
+        "embers:ashen_brick"
+    ],
+    "casings_mechanical": [
+        "modulardiversity:blockmystmechinput",
+        "embers:sealed_planks"
+    ],
+    "casings_mechanical_dust": [
+        "modulardiversity:blockmystmechinput",
+        "embers:wrapped_sealed_planks"
+    ],
+    "casings_ember": [
+        "modulardiversity:blockemberinputhatch@1",
+        "modulardiversity:blockemberinputhatch@2",
+        "modulardiversity:blockemberinputhatch@3"
+    ],
+
+    "embers_bricks": [
+        "embers:block_caminite_brick",
+        "embers:archaic_bricks",
+        "embers:ashen_brick"
+    ],
+
+    "embers_brick_slabs": [
+        "embers:block_caminite_brick_slab@0",
+        "embers:ashen_brick_slab@0"
+    ],
+    "casings_item_fluid": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockfluidinputhatch"
+    ],
+    "LGDC": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockcasing@4"
+    ],
+    "item_fluid": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockcasing@4"
+    ],
+    "crystal_infuser": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus",
+        "modulardiversity:blockmanainputhatch"
+    ],
+    "quarry_hatches": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockcasing@4"
+    ],
+    "quarry_warning": [
+        "chisel:factory@6",
+        "chisel:factory@7"
+    ]
 }

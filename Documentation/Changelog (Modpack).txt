@@ -3043,6 +3043,16 @@ v10.4.0-001
 v10.4.0-002
 	Renamed NCEIB to NCEIB PreOverhaul
 	All yet Underhaul dependent stuff got updated to Overhaul as well
+v10.4.0-003e
+	Added InertMatrixFuels Addon for NC-O
+		- lang file needs to be merged
+		- New Files:
+			- /scripts/Ports/InertMatrixFuels NC-Overhaul
+			- /resources/contenttweaker/[...]
+	ExtendedCrafting:
+		- Merged Mythic Recipe for: StaffOfPower, ProjectE Items.
+	/config/modularmachinery/:
+		- Added Variables from FTB Interactions
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
