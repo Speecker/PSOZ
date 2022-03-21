@@ -1,0 +1,36 @@
+{
+    "machine": "tardis",
+    "registryName": "no_matter",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 320000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "no_matter:nomatter",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 16000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "no_matter:umatter",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "projectex:matter@6",
+            "amount": 1
+        }
+    ]
+}

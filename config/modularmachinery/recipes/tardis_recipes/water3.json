@@ -1,0 +1,24 @@
+{
+    "machine": "tardis",
+    "registryName": "FE Energy 3",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "no_matter:noumatter",
+             "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "refined_fuel",
+             "amount": 1000
+        },
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 900000000000
+        }
+    ]
+}
