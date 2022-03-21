@@ -3068,6 +3068,9 @@ v10.4.0-006
 	Updated and Implemented/Ported any ModularMachines from various other Packs
 v10.4.0-007
 	Removed Outdated ModularMachinery Recipes
+v10.4.0-008
+	ModularMachinery/recipes:
+		- Added template folders and files for yet missing recipes
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

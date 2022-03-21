@@ -1,0 +1,22 @@
+{
+    "machine": "synthetic_cow_breeder_advanced",
+    "adapter": "synthetic_cow_breeder_simple",
+    "modifiers": [
+        {
+            "io": "output",
+            "target": "item",
+            "operation": 1
+        },
+        {
+            "io": "input",
+            "target": "item",
+            "operation": 1
+        },
+        {
+            "io": "input",
+            "target": "duration",
+            "operation": 0,
+            "multiplier": 50
+        }
+    ]
+}
