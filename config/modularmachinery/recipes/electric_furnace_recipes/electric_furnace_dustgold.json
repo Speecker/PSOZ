@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_dustgold",
+    "recipeTime": 46,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 388
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustGold",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:gold_ingot",
+            "amount": 1
+        }
+    ]
+}

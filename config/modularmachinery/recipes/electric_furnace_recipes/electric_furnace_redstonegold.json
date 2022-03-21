@@ -1,0 +1,30 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_redstonegold",
+    "recipeTime": 230,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 389
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustGold",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "projectred-core:resource_item@103",
+            "amount": 5
+        }
+    ]
+}

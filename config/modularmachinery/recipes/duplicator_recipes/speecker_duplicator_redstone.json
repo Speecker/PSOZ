@@ -1,0 +1,36 @@
+{
+    "machine": "duplicator",
+    "registryName": "dp_redstone",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:void_catalyst",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@14",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:redstone",
+            "amount": 64
+        }
+    ]
+}

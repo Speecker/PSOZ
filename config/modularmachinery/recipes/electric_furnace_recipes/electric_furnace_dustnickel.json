@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_dustnickel",
+    "recipeTime": 49,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 414
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustNickel",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@133",
+            "amount": 1
+        }
+    ]
+}

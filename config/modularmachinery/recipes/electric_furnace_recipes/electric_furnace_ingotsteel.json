@@ -1,0 +1,24 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_ingotsteel",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 420
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@160",
+            "amount": 1
+        }
+    ]
+}
