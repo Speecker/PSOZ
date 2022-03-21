@@ -1,0 +1,36 @@
+{
+    "machine": "fassembler_standard",
+    "registryName": "as_circuit4",
+    "recipeTime": 267,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@2",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@1",
+            "amount": 20
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "sulfuricacid",
+            "amount": 300
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:controlcircuit@3",
+            "amount": 1
+        }
+    ]
+}

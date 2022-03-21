@@ -1,0 +1,36 @@
+{
+    "machine": "fassembler_standard",
+    "registryName": "as_qol_radiator",
+    "recipeTime": 67,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSteel",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 2
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:metal_decoration0@7",
+            "amount": 1
+        }
+    ]
+}

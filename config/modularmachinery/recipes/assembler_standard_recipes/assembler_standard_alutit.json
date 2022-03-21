@@ -1,0 +1,36 @@
+{
+    "machine": "fassembler_standard",
+    "registryName": "as_alutit",
+    "recipeTime": 267,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@68",
+            "amount": 7
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techguns:itemshared@78",
+            "amount": 3
+        },
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "advancedrocketry:productdust",
+            "amount": 3
+        }
+    ]
+}
