@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_blastbrick",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "magneticraft:burnt_limestone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:stone_decoration@2",
+            "amount": 1
+        }
+    ]
+}

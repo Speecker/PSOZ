@@ -1,0 +1,33 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_belt_a",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:conveyor",
+            "amount": 1,
+            "nbt": {
+                 "conveyorType": "immersiveengineering:conveyor"
+            }
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:gearIron",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "logisticalautomation:conveyor_fast",
+            "amount": 1
+        }
+    ]
+}

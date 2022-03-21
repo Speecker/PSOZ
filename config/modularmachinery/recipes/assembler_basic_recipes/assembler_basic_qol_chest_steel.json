@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_qol_chest_steel",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plankWood",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateSteel",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "metalchests:metal_chest@4",
+            "amount": 1
+        }
+    ]
+}

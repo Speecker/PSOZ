@@ -1,0 +1,31 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_qol_chest_wood",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plankWood",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:chest",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:chest",
+            "amount": 1
+        }
+    ]
+}

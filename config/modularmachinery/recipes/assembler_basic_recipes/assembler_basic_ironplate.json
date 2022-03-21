@@ -1,0 +1,31 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_ironplate",
+    "recipeTime": 40,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:mold@0",
+            "amount": 1,
+            "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@32",
+            "amount": 1
+        }
+    ]
+}

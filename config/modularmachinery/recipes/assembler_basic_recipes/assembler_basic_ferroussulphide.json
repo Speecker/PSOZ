@@ -1,0 +1,30 @@
+{
+    "machine": "assembler_basic",
+    "registryName": "ab_ferroussulphide",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 210
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@0",
+            "amount": 1
+        },
+	{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@771",
+            "amount": 6
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@1026",
+            "amount": 1
+        }
+    ]
+}
