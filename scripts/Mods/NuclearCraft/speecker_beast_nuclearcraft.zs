@@ -14,8 +14,8 @@ recipes.addShapeless("cazador_mythic_nuclearcraft_compound_2", <nuclearcraft:com
 
 recipes.addShaped("speecker_beast_nuclearcraft_alloy_furnace", <nuclearcraft:alloy_furnace>, [[<ore:plateBasic>, <enderio:block_enhanced_alloy_smelter>, <ore:plateBasic>],[<furnaceoverhaul:emerald_furnace>, <nuclearcraft:part:12>, <furnaceoverhaul:emerald_furnace>], [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]]);
 
-recipes.remove(<nuclearcraft:cell_block>);
-recipes.addShaped("speecker_beast_nuclearcraft_cell_block", <nuclearcraft:cell_block>, [[<ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>],[<pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>], [<ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>]]);
+recipes.remove(<nuclearcraft:solid_fission_cell>);
+recipes.addShaped("speecker_beast_nuclearcraft_solid_fission_cell", <nuclearcraft:solid_fission_cell>, [[<ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>],[<pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>], [<ore:ingotSiCSiCCMC>, <pneumaticcraft:pressure_chamber_glass>, <ore:ingotSiCSiCCMC>]]);
 
 recipes.addShaped("speecker_beast_nuclearcraft_manufactory", <nuclearcraft:manufactory>, [[<ore:ingotSteel>, <thermalexpansion:machine:1>, <ore:ingotSteel>],[<ore:gearEnderium>, <nuclearcraft:part:10>, <ore:gearEnderium>], [<ore:ingotSteel>, <ore:ingotElectrotineAlloy>, <ore:ingotSteel>]]);
 recipes.addShaped("speecker_beast_nuclearcraft_part_4", <nuclearcraft:part:4> * 2, [[<magneticraft:copper_coil>, <magneticraft:copper_coil>, null],[<ore:stickAluminum>, <ore:stickAluminum>, null], [<magneticraft:copper_coil>, <magneticraft:copper_coil>, null]]);

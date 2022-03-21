@@ -3,8 +3,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.nuclearcraft.Infuser;
-import mods.nuclearcraft.Dissolver;
-import mods.nuclearcraft.Alloy_furnace;
+//import mods.nuclearcraft.dissolver; //NC-U
+import mods.nuclearcraft.AlloyFurnace; //NC-U.: alloy_furnace
 import mods.nuclearcraft.Manufactory;
 import mods.nuclearcraft.Melter;
 import mods.jei.JEI;

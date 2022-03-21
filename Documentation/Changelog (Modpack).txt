@@ -3040,6 +3040,9 @@ V10.4.0-000 The "NuclearCraft: Overhauled" Update
 v10.4.0-001
 	AoA3 had to be removed due to exeeding the ID cap :(
 	All NuclearCraft related Scripts got Updated to the Overhaul version.
+v10.4.0-002
+	Renamed NCEIB to NCEIB PreOverhaul
+	All yet Underhaul dependent stuff got updated to Overhaul as well
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
