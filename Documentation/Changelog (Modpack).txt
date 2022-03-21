@@ -3053,6 +3053,15 @@ v10.4.0-003e
 		- Merged Mythic Recipe for: StaffOfPower, ProjectE Items.
 	/config/modularmachinery/:
 		- Added Variables from FTB Interactions
+v10.4.0-003
+	Updatd FluidCows Scripts to work with NC-O
+	Moved nuclearcraft from  /GeneralAllModes/ to /Mods/NuclearCraft/
+v10.4.0-004
+	FluidCows:
+		- ExtraPlanets & Galacticraft need revision of Fluids
+	ContentTweaker:
+		- Updated Lang file en_us for NCEIB-Overhaul
+		- Added MoarFuels Customization
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe

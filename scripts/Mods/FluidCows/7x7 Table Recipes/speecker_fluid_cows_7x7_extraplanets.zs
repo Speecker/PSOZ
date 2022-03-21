@@ -3,6 +3,7 @@
 import mods.extendedcrafting.TableCrafting.addShaped as TC;
 import crafttweaker.item.IItemStack;
 
+/*
 val Fluids = [
     "clean_water_fluid",
     "frozen_water_fluid",
@@ -29,6 +30,7 @@ TC(0, <fluidcows:cow_displayer>.withTag({fluid: fluid[i]}), [
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})],
 [<forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: fluid[i], Amount: "1000"})]]);
 }
+*/
 
 <fluidcows:cow_halter>.addTooltip(format.green("Extraplanets Compat")+format.white(" - ")+format.darkPurple("Beast"+format.white(" Mode")));
 

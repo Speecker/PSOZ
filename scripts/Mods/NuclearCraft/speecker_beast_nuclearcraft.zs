@@ -8,7 +8,7 @@ recipes.remove(<nuclearcraft:part:4>);
 recipes.remove(<nuclearcraft:part:10>);
 recipes.remove(<nuclearcraft:pressurizer>);
 
-recipes.removeShapeless(<nuclearcraft:compound:2> * 2, []); //Mythic removal
+//recipes.removeShapeless(<nuclearcraft:compound:2> * 2, []); //Mythic removal
 
 recipes.addShapeless("cazador_mythic_nuclearcraft_compound_2", <nuclearcraft:compound:2> * 2, [<ore:dustFluix>,<ore:dustGlowstone>,<ore:dustElectrotine>,<ore:dustRedstone>,<appliedenergistics2:material:45>]);
 

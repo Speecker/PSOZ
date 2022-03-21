@@ -7,19 +7,19 @@ val Fluids = [
     "brine",
     "heavywater",
     "liquidchlorine",
-    "liquiddeuterium",
-    "liquidethene",
-    "liquidfusionfuel",
-    "liquidhydrogen",
-    "liquidhydrogenchloride",
+//    "liquiddeuterium",
+//    "liquidethene",
+//    "liquidfusionfuel",
+//    "liquidhydrogen",
+//    "liquidhydrogenchloride",
     "liquidlithium",
-    "liquidoxygen",
-    "liquidsodium",
-    "liquidsulfurdioxide",
-    "liquidsulfurtrioxide",
-    "liquidtritium",
-    "steam",
-    "sulfuricacid"
+//    "liquidoxygen",
+//    "liquidsodium",
+//    "liquidsulfurdioxide",
+//    "liquidsulfurtrioxide",
+//    "liquidtritium",
+    "steam"
+//    "sulfuricacid"
 ] as string[];
 
 for i, fluid in Fluids {
