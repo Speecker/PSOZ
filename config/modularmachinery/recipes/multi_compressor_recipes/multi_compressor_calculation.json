@@ -1,0 +1,24 @@
+{
+    "machine": "multi_compressor",
+    "registryName": "multi_compressor_calculation",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@10",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@16",
+            "amount": 1
+        },
+		{
+			"type": "modularmachinery:energy",
+			"io-type": "input",
+			"energyPerTick": 5000
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "multi_compressor",
+    "registryName": "multi_compressor_silicon",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:itemSilicon",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@20",
+            "amount": 1
+        },
+		{
+			"type": "modularmachinery:energy",
+			"io-type": "input",
+			"energyPerTick": 8000
+		}
+    ]
+}

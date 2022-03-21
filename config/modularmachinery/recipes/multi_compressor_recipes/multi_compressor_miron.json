@@ -1,0 +1,24 @@
+{
+    "machine": "multi_compressor",
+    "registryName": "multi_compressor_miron",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotMeteoricIron",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "galacticraftcore:item_basic_moon@1",
+            "amount": 1
+        },
+		{
+			"type": "modularmachinery:energy",
+			"io-type": "input",
+			"energyPerTick": 8000
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "multi_compressor",
+    "registryName": "multi_compressor_carbon",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotCarbon",
+            "amount": 2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "extraplanets:tier4_items@4",
+            "amount": 1
+        },
+		{
+			"type": "modularmachinery:energy",
+			"io-type": "input",
+			"energyPerTick": 8000
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "multi_compressor",
+    "registryName": "multi_compressor_tungsten",
+    "recipeTime": 1,
+    "requirements": [
+       {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotTungsten",
+            "amount": 2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "extraplanets:tier9_items@4",
+            "amount": 1
+        },
+		{
+			"type": "modularmachinery:energy",
+			"io-type": "input",
+			"energyPerTick": 8000
+		}
+    ]
+}
