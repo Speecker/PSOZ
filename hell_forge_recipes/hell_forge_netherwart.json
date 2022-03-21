@@ -1,0 +1,24 @@
+{
+    "machine": "hell_forge",
+    "registryName": "hf_netherwart",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:wheat",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:nether_wart",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "hell_forge",
+    "registryName": "hf_glowstone",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:glowstone_dust",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "machine": "hell_forge",
+    "registryName": "hf_ghasttear",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:ender_pearl",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:ghast_tear",
+            "amount": 1
+        }
+    ]
+}
