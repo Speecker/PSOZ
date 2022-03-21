@@ -2578,3 +2578,31 @@ fluid.cbcf_fluoride_flibe=Molten FLiBe Salt Solution of CBCf Fluoride Fuel
 fluid.depleted_cbcf=Molten Depleted CBCf Fuel
 fluid.depleted_cbcf_fluoride=Molten Depleted CBCf Fluoride Fuel
 fluid.depleted_cbcf_fluoride_flibe=Molten FLiBe Salt Solution of Depleted CBCf Fluoride Fuel
+
+// Inert Matrix Fuel NC-O Addon
+
+item.nuclearcraft.matrixfuels.imu233_za.name=IMU-233 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imu235_za.name=IMU-235 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imn236_za.name=IMN-236 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imp239_za.name=IMP-239 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imp241_za.name=IMP-241 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.ima242_za.name=IMA-242 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imcm243_za.name=IMCm-243 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imcm245_za.name=IMCm-245 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imcm247_za.name=IMCm-247 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imb248_za.name=IMB-248 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imcf249_za.name=IMCf-249 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.imcf251_za.name=IMCf-251 Zirconium Alloy Fuel Pellet
+
+item.nuclearcraft.matrixfuels.depleted_imu233_za.name=Depleted IMU-233 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imu235_za.name=Depleted IMU-235 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imn236_za.name=Depleted IMN-236 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imp239_za.name=Depleted IMP-239 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imp241_za.name=Depleted IMP-241 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_ima242_za.name=Depleted IMA-242 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imcm243_za.name=Depleted IMCm-243 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imcm245_za.name=Depleted IMCm-245 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imcm247_za.name=Depleted IMCm-247 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imb248_za.name=Depleted IMB-248 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imcf249_za.name=Depleted IMCf-249 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.matrixfuels.depleted_imcf251_za.name=Depleted IMCf-251 Zirconium Alloy Fuel Pellet

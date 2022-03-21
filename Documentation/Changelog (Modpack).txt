@@ -3062,6 +3062,8 @@ v10.4.0-004
 	ContentTweaker:
 		- Updated Lang file en_us for NCEIB-Overhaul
 		- Added MoarFuels Customization
+v10.4.0-005
+	Updated ContentTweaker lang file for InertMatrixFuels
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
