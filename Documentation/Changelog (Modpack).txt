@@ -3073,6 +3073,11 @@ v10.4.0-008
 		- Added template folders and files for yet missing recipes
 v10.4.0-009
 	moved /resources/contenttweaker/models/ into seperate folders alphabetically due to having too many files in a single folder to view on GitHub
+v10.4.0-010
+	Mods:
+		- Updated Metallurgy from 1.3.1 to 1.3.2
+	/config/JAOPCA:
+		- Blacklisted several Modules for NC Fuels 
 
 UNDONE:
 	- ElvenQuartz Block to Gem Factorizer Recipe
