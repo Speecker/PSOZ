@@ -1,0 +1,53 @@
+{
+    "machine": "arcane_construct",
+    "registryName": "arcane_construct_water_crystal",
+    "recipeTime": 20,
+    "requirements": [
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "moltenabyssalnite",
+            "amount": 150
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 150
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 150
+        },
+		{
+			"type": "mana",
+			"io-type": "input",
+			"mana": 500
+		},
+		{
+			"type": "ember",
+			"io-type": "input",
+			"ember": 50.0
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "lordcraft:crystal_basic_neutral",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "mysticalagriculture:water_essence",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "lordcraft:crystal_basic_water",
+            "amount": 4
+        }
+    ]
+}
