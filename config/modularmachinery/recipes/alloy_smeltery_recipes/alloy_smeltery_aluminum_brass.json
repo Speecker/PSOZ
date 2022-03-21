@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_aluminum_brass",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "tconstruct:ingots@5",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotAluminum",
+            "amount": 3
+        }
+    ]
+}

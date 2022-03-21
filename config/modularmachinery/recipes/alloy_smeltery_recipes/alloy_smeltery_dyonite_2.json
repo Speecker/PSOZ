@@ -1,0 +1,42 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_dyonite_2",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "taiga:dyonite_ingot",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotFractum",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSeismum",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotOsram",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:crystalTiberium",
+            "amount": 24
+        }
+    ]
+}

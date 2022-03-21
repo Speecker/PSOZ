@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_bronze",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@163",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotTin",
+            "amount": 1
+        }
+    ]
+}

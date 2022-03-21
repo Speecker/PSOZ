@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_signalum",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@165",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSilver",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustRedstone",
+            "amount": 10
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_ignitz",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "taiga:ignitz_ingot",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotTerrax",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotArdite",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotOsram",
+            "amount": 1
+        }
+    ]
+}

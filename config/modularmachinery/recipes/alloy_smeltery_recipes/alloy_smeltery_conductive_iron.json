@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_conductive_iron",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_alloy_ingot@4",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustRedstone",
+            "amount": 1
+        }
+    ]
+}

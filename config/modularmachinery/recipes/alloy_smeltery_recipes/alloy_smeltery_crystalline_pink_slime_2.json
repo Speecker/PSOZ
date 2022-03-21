@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_crystalline_pink_slime_2",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_alloy_endergy_ingot@4",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "industrialforegoing:pink_slime_ingot",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCrystallineAlloy",
+            "amount": 1
+        }
+    ]
+}

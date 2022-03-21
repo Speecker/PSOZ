@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_adamant",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "taiga:adamant_ingot",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "taiga:nihilite_ingot",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIox",
+            "amount": 2
+        }
+    ]
+}

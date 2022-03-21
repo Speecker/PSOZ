@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_nucleum_1",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "taiga:nucleum_ingot",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotOsram",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotAbyssum",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotProxii",
+            "amount": 3
+        }
+    ]
+}

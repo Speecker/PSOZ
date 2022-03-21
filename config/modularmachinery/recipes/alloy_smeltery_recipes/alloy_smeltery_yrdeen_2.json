@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_smeltery",
+    "registryName": "alloy_smeltery_yrdeen_2",
+    "recipeTime": 64,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "taiga:yrdeen_ingot",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotUru",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotValyrium",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotEezo",
+            "amount": 1
+        }
+    ]
+}
