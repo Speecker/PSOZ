@@ -1,0 +1,24 @@
+{
+    "machine": "hell_forge",
+    "registryName": "hf_netherrack",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:cobblestone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:netherrack",
+            "amount": 1
+        }
+    ]
+}
