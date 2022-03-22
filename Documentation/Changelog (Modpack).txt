@@ -3103,6 +3103,9 @@ v10.4.0-016
 v10.4.0-017
 	/config/JAOPCA:
 		- set all fuel resources on wildcard to ensure not creating obsolete stuff for them
+v10.4.0-018
+	/config/modularmachinery/recipes/bio_generator_basic:
+		- Added recipes for Produce, Fruits, Berries, Veggies and renamed existing recipe to bioproducts
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
