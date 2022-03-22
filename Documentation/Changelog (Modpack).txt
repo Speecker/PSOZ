@@ -3096,6 +3096,10 @@ v10.4.0-014
 v10.4.0-015
 	/config/JAOPCA:
 		Updated complete cfg file
+v10.4.0-016
+	/config/JAOPCA:
+		- removed accidentally added * for Desichalkos
+		- added "mystical" as well in ModuleBlacklist as mysticalagriculture seems to be unrecognized
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
