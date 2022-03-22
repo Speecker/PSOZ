@@ -1,0 +1,189 @@
+
+UNDONE:
+	- ElvenQuartz Block to Gem Factorizer Recipe
+	- Thermal Alloys only made with Nuce ? (Lumium/Signalum/Enderium)
+	- BloodMagic Efficiency Rune missing recipe ?
+	- EIO Endergy Grinding Balls missing recipes and stats : Crude Steel, Crystalline Alloy, Melodic Alloy, Stellar Alloy, Crystalline Pink Slime, Energetic Silver, Vivid Alloy
+		- Check Standard Values and add them back in by hand in config/EnderIO/recipes/user/balls.XML
+	- Palladium, IronWood & Steeleaf have no fluid nor a TiC Material ?!
+	- Red/White Gem Factorizer recipe ?
+	- Liquid Concrete to Concrete (Block) machine recipe Integrations
+	- Check Impregnated Diamond for Sacksize: If not 64 set it to that!
+	- Mythic Mode Recipes Implementation:
+		- Endest Pearl, Ultimate Stew, Creative ME Storage, Omen Ingot, Prism, Neutron Collector, Creative Generator (Overloadded)
+	- Tiered Thermal Cloth
+	- Give Bacterial Sludge and Cavernous Vines a use (Galacticraft - Mars)
+
+Mythic Inspirations, Fails, Fixes etc.:	
+	- Neutral Steel 5 Recipe ?
+	- Duping possible for Modularium Ingots
+	- Harder Empty PCB Recipe ?
+	- Ender Biotite Block ? (Seed Recipe ?)
+
+Seeds Rework:
+	- Tier & Recipe Rework:
+		- Tier 5
+		- Tier 5-Iso
+		- Tier 6
+		- Mandrake BQ Integration
+		- Sort & Full Cleanup (Afterwards)
+		- BQ Integration
+	ExtendedCrafting Compat
+		- Enhanced Void Seeds
+	Botania Compat / MysticalCreations:
+		- Dragonstone Seeds
+	AgriCraft Compat for:
+		- Rustic Seeds
+	NuclearCraft Seeds - ONLY specific ones due to the large amount of different Fuels coming with Overhaul !
+
+Armory Progression ReWIP
+	- Tier II - In Progress
+	- Tier III
+	- Tier IV
+	- Tier V
+	- Ashen Armor (Embers)
+	- Unfired Clay Armor
+	- VoidCraft Armor
+		- Void
+		- Xia
+
+Better Questing
+	- AdvancedRocketry
+	- Armor Tier II (When all are Implemented)
+	- SimplyJetpacks2 (When all are Done)
+	- Seed Rework Quests with Delta I-V + NuclearCraft
+
+Fluid Cows Rework (Recipes):
+	- potash
+	- atlarus
+	- etherium
+	- ignatius
+	- eximite
+	- vyroxeres
+	- rubracium
+	- infusolium
+	- krik
+	- alduorite
+	- shadow_steel
+	- tartarite
+	- oureclase
+	- lemurite
+	- motlen_thermite
+	- celenegil
+	- midasium
+	- haderoth
+	- quicksilver
+	- ceruclase
+	- adamantine
+	- deep_iron
+	- orichalcum
+	- prometheum
+	- inolashite
+	- kalendrite
+	- molten_tar
+	- sanguinite
+	- hepatizon
+	- amordrine
+	- meutoite
+	- angmallen
+	- shadow_iron
+	- vulcanite
+	- desichalkos
+	- astral_silver
+	- carmot
+	- speeckerium
+	- molten_titanium
+	- molten_cupronickel
+	- molybdenum
+	- wrought_iron
+	- moltenempoweredemeradic
+	- lanthanum
+	- niobium
+	- naquadah
+	- annealed_copper
+	- plasma.argon
+	- xenon
+	- moltencrystalmatrix
+	- black_bronze
+	- moltennetherstar
+	- black_steel
+	- duranium
+	- ultimet
+	- moltenempoweredvoid
+	- moltenempoweredenori
+	- moltensoularium
+	- awakeneddraconium
+	- stainless_steel
+	- neutronium
+	- cupronickel
+	- neodymium
+	- damascus_steel
+
+Textures
+	- Exchangers
+	- Fluid Textures for ExtraUtils2 Fluids are all missing
+	- Titanium Unification (Color Palette Fix)
+	- Invisible Quark Hammer (Erebus)
+	- Invisible Cable Facades for AE2 !?
+
+Quori Fragment Backport ReImp !!!
+
+Block/Ingot/Nugget Recipes Workbench to Factorizer Consistancy Clearing
+Recipe Conflict Clearance
+
+AdvancedRocketry:
+	- Recipes !!!
+	- Progressive Coil Recipes
+	- Idea: Use AdvancedRocketry Precision Assembler as upgraded version of the Asselmbly Line
+
+Magneticraft:
+	- Add missing Recipes
+	- CT Support !? Seems to do nada niente ...
+
+
+StorageDrawers:
+	- Edit Framed Variants Progressive Recipes
+
+EnderUtilities:
+	- Custom Recipes to make the Crafting more complex and harder
+
+ContentTweaker Capacitors (Empty, Compressed Octadic Capacitor & Double Compressed Octadic Compressor)
+
+Moudlar Machinery:
+	- Add Syntethic Cow Breeder Recipes
+	- Implement missing recipes for other machines
+	- Implement yet undone machine ports from other packs
+	- Duplicator Rework (Recipes and mby the MB-Build)
+
+Mod Removal Candidates:
+	Unused/Other Methods Available
+	- Mob_Grinding_Utils
+	- Waystones
+
+Cyclic:
+	- Refactor Melter & Solidifier Recipes to remove these machines
+
+Ideas:
+	- Using Crafting Table On A Stick for anything that has a Crafting Grid
+	- Making Cacties drop Cactus-Dust/Powder when cactus is broken from another cactus
+	- Rename Magenta Dye to "Mark Enter"
+	- Renmae Dense Cables to "Tanzkabel"
+	- Using Dense/Heavy Plates instead of Ingots/Gems for Armor Recipes to not just make use of the JAOPCA added dense Plates but also harden the making of Armor
+	- Turn all Tooltips with Information / Tipps / Hints / How-Tos / Notes and else helpful knowledge into OnShift Tooltips only so:
+		A: Those that do not want to get notified about how stuff works cause they want to find out themselfes wont be distracted from seeing them.
+		B: Those that do want to have, rely on or else wanna have a look anyway on such Tooltips are still able to view them with ease.
+		C: Tooltips dont clunk up space or destroy Visuals
+	- Test Alternative ways of making liquid Plastic
+	- Implement Advanced Rocketry Rocket Engines into the Rocket Recipes for GalactiCraft/ExtraPlanets
+	- Vibranium ??? Sky Block ???
+	- ImmersiveEngineering Gear Compat for any Material that doesnt have compat yet
+	- For Other ModPacks that recieve PSOZ's Fruits:
+		- No tp / No QuantumFlux to speed up CropHarvest and force the user to the Phytogenic Insolator in conjuction with Seed Reprocessors
+	- Make the Barrel Connector use Glass and a Block of Diamond to match visual appearance with the recipe
+
+Obsolete/Removed Mods:
+	AoA3:
+		- AoA3 Compat / MysticalCreations (JAOPCA doesnt Support AoA3) so it has to be implemented by hand
+		- Gonna w8 till i know when you get which Ingot to measure the seeds Tier right away
+		- AoA3/MysticalAgriculture:
+		- Add Recipes for Petal Blocks from Gardencia to give same a use by giving Mystical Petals

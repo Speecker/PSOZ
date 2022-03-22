@@ -3090,21 +3090,12 @@ v10.4.0-012
 		- Changeling is deactivated but stays in as optional (Fun Mod that has some cheaty aspects like more HP and Creative Flight)
 v10.4.0-013
 	Moved all mod related scripts fomr GeneralAllModes to Mods
-
-UNDONE:
-	- ElvenQuartz Block to Gem Factorizer Recipe
-	- Thermal Alloys only made with Nuce ? (Lumium/Signalum/Enderium)
-	- BloodMagic Efficiency Rune missing recipe ?
-	- EIO Endergy Grinding Balls missing recipes and stats : Crude Steel, Crystalline Alloy, Melodic Alloy, Stellar Alloy, Crystalline Pink Slime, Energetic Silver, Vivid Alloy
-		- Check Standard Values and add them back in by hand in config/EnderIO/recipes/user/balls.XML
-	- Palladium, IronWood & Steeleaf have no fluid nor a TiC Material ?!
-	- Red/White Gem Factorizer recipe ?
-	- Liquid Concrete to Concrete (Block) machine recipe Integrations
-	- Check Impregnated Diamond for Sacksize: If not 64 set it to that!
-	- Mythic Mode Recipes Implementation:
-		- Endest Pearl, Ultimate Stew, Creative ME Storage, Omen Ingot, Prism, Neutron Collector, Creative Generator (Overloadded)
-	- Tiered Thermal Cloth
-	- Give Bacterial Sludge and Cavernous Vines a use (Galacticraft - Mars)
+v10.4.0-014
+	Added missing Documentation files
+	Moved UNDONE Section in To-Dos
+v10.4.0-015
+	/config/JAOPCA:
+		Updated complete cfg file
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

@@ -1,0 +1,30 @@
+	Alpha:
+	- Built as Full Version with Full Mod Set
+	- Has No Block Textures in Pack to be playable
+	- May still have many Bugs/Issues/Glitches
+	- Devs Version
+	- Unstable ATM
+
+	Beta:
+	- Built as Lite Version with Stable Mod Set
+	- Has Full Texture Pack
+	- Built for best Performance, Playability and Enjoyability
+	- Stability is Prioritized
+
+	Gamma:
+	- Built Upon Beta-Version
+	- Expands the Beta-Version with the 3 Main Suits: Aether, Forestry & Thaumcraft
+	- Compromise Version between Alpha & Beta
+
+	Experimental/Epsilon:
+	- Built as Experimental Version with Redundant & Testing Mod Set
+	- Is Playable without or just No Blocks Texture Pack
+	- Not Intended to be Published in any way
+
+	Omega:
+	- will recieve any left out Alternatives from Alpha & Beta
+	- Will have a different Overall Aproach
+
+	Optimized: CVOD (Current Version Of Developement)
+	- Base Version / OG+ Version
+	- Comparable minor changes and extends to stay as close to OG as possible

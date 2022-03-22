@@ -1,0 +1,10 @@
+When Adding New Seeds:
+	
+	- StorageDrawers Conversion (Config)
+	- Mystical Creations (Config)
+	- Seed Crafting Recipe (BOT/AS/EC / Scripts)
+	- Essence/Ingot Crafting Recipe (Ingot/Gem / Scripts)
+	- ThermalExpansion/Phytogenic Insolator Compat (Scripts)
+	- Agricraft Compat (Config)
+	- BetterQuesting Implementation (InGame)
+	- ProjectE Remove EMC (InGame)

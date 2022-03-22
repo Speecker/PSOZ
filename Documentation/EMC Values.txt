@@ -1,0 +1,16 @@
+QUEST ITEM OR OTHER
+
+	Arctic Fur		4096
+	Alpha Yeti Fur		12500
+	Dreadlands Essence	16384
+
+MAPPING FAILED
+
+	ARMOR
+		Infused Lava Crystal
+		Guardian Scale
+		Super Star
+		Wyvern
+		Gem
+		Draconic
+		

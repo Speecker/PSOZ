@@ -1,0 +1,421 @@
+
+"speecker:all:", 
+"speecker:beast:", 
+
+//Recipes Tips & Tricks
+recipes.removeAll();				Remove all Vanilla Recipes
+recipes.removeByRegex("name[1-9]");		Remove by RegistryName
+recipes.removeByRecipeName("modid:recipename");	Remove by RecipeName
+recipes.removeByMod("modID");			Remove all Specific Mod Recipes
+
+//	Vanilla Shaped
+recipes.removeShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
+recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
+
+recipes.addShapeless(name,output,inputs,function,action);
+recipes.addShapedMirrored(name,output,inputs,function,action);
+
+//recipes.replaceAllOccurences(IIngredient toReplace, IIngredient replaceWith, @Optional IIngredient forOutput);
+
+//replaces every stick with stone
+recipes.replaceAllOccurences(<minecraft:stick>, <minecraft:stone>);
+
+//Explicitly uses any output, replaces gold ingots with gold blocks
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:blockGold>, <*>);
+
+
+//Only replaces in recipes with a diamond_sword as output
+recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:blockDiamond>, <minecraft:diamond_sword>);
+
+
+//conditions work as well -> replaces in recipes for any recipe output except tnt
+recipes.replaceAllOccurences(<ore:gunpowder>, <minecraft:tnt>, <*>.only(function(item) {
+    return !isNull(item) & !<minecraft:tnt>.matches(item);
+}));
+
+//Remove All Furnace Recipes
+furnace.removeAll();
+
+//Furnace Addition
+furnace.addRecipe(IItemStack output, IIngredient input);
+furnace.addRecipe(IItemStack output, IIngredient input, double xp);
+furnace.setFuel(IIngredient input, int burnTime);
+
+//	Astral Sorcery Crafting Activation
+/as research "@p BASIC_CRAFT"
+
+//	Vanilla General
+recipes.remove(<>);
+
+//	Vanilla Shapeless
+recipes.removeShapeless(<> * x, [<>]);
+recipes.addShapeless(<> * x, [<>]);
+
+//	Industrial Foregoing Recipe Fixes
+recipes.addShaped(<industrialforegoing:>, [[<>, <>, <>], [<>, <mekanism:basicblock:8>, <>], [<>, <>, <>]]);
+
+// 	Extended Crafting
+
+mods.extendedcrafting.TableCrafting.remove(<>);
+
+//		3x3
+mods.extendedcrafting.TableCrafting.addShaped(1, <>, [
+[<>, <>, <>],
+[<>, <>, <>],
+[<>, <>, <>]]);
+
+//		5x5
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+[<>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>]]);
+
+//		7x7
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>]]);
+
+//		9x9
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>],
+[<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
+
+//	Avaritia
+mods.avaritia.ExtremeCrafting.addShapeless(<>, [<>]);
+mods.avaritia.ExtremeCrafting.addShaped(<>, [<>]);
+mods.avaritia.ExtremeCrafting.remove(<>);
+mods.avaritia.Compressor.add(output, amount, input);
+mods.avaritia.Compressor.add(output, amount, input, false); Scaling System
+
+//	Bucket Reuse
+.reuse()
+
+//	General NBT-Tag Add
+.withTag({})
+
+//	Fluid Cow
+.withTag({fluid: ""})
+
+//	Modular Machinery Base Colors
+StoneBlock: 	FF4900	(Default Orange)
+PO3 OG:		404040	(Machine Grey)
+Custom: 	B3FF00 (Giftgrün)	FF0000 (Bright Red)	2B0606 (Dark Bordeaux Red)
+
+//	Hide Item In JEI
+mods.jei.JEI.hideItem(<item:minecraft:dirt>);
+
+//	Hide JEI Category
+mods.jei.JEI.hideCategory("embers.stamp");
+
+//	JEI Information
+mods.jei.JEI.addInfo(<>)
+
+//	AE2 Inscriber
+mods.appliedenergistics2.Inscriber.addRecipe(ItemStack output, ItemStack input, boolean inscribe, @Optional ItemStack topInput, @Optional ItemStack bottomInput );
+mods.appliedenergistics2.Inscriber.removeRecipe(ItemStack output);
+
+import mods.appliedenergistics2.Inscriber;
+
+//turns eggs into Wither Skele spawn eggs, does not consume wither skull
+Inscriber.addRecipe(<minecraft:spawn_egg:5>, <minecraft:egg>, true, <minecraft:skull:1>);
+
+//combines bread, coco beans, and sugar. all inputs are consumed
+Inscriber.addRecipe(<minecraft:cookie>, <minecraft:minecraft:bread>, false, <minecraft:dye:3>, <minecraft:sugar>);
+
+Inscriber.removeRecipe(<appliedenergistics2:material:20>);
+
+//	AE2 Grinder
+mods.appliedenergistics2.Grinder.addRecipe( ItemStack output, ItemStack input, int turns, @Optional ItemStack secondary1Output, @Optional float secondary1Chance, @Optional ItemStack secondary2Output, @Optional float secondary2Chance);
+mods.appliedenergistics2.Grinder.removeRecipe(ItemStack input);
+
+import mods.appliedenergistics2.Grinder;
+Grinder.addRecipe(<minecraft:sapling>, <minecraft:leaves>, 4, <minecraft:sapling:5>, 0.3);
+Grinder.removeRecipe(<minecraft:quartz_ore>);
+
+//	AE2 Spatial I/O
+mods.appliedenergistics2.Spatial.whitelistEntity( String fullEntityClassName );
+
+//	AE2 Matter Cannon Ammo
+mods.appliedenergistics2.Cannon.registerAmmo( ItemStack itemStack, double weight );
+
+import mods.appliedenergistics2.Cannon;
+Cannon.registerAmmo(<minecraft:bone>, 40.07);
+
+//	EnderIO	Alloy Smelter
+mods.enderio.AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+
+import mods.enderio.AlloySmelter;
+mods.enderio.AlloySmelter.addRecipe(<minecraft:iron_ingot>, [<minecraft:sand>, <minecraft:gravel>, <minecraft:brick>]);
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_alloy_ingot:7>);
+
+//	EnderIO	Combustion Engine
+mods.enderio.CombustionGen.addFuel(ILiquidStack fuel, int powerPerCycleRF, int totalBurnTime);
+mods.enderio.CombustionGen.addCoolant(ILiquidStack fluid coolant, float degreesCoolingPerMB);
+
+import mods.enderio.CombustionGen;
+mods.enderio.CombustionGen.addFuel(<liquid:lava>, 25, 40);
+mods.enderio.CombustionGen.removeFuel(<liquid:fire_water>);
+mods.enderio.CombustionGen.addCoolant(<liquid:liquid_sunshine>, 100);
+mods.enderio.AlloySmelter.removeCoolant(<liquid:water>);
+
+//	EnderIO	Enchanter
+mods.enderio.Enchanter.addRecipe(IEnchantmentDefinition output, IIngredient input, int amountPerLevel, double costMultiplier);
+
+import mods.enderio.Enchanter;
+mods.enderio.Enchanter.addRecipe(<enchantment:minecraft:sharpness>, <minecraft:prismarine_shard>, 32, 60);
+mods.enderio.Enchanter.removeRecipe(<enchantment:minecraft:sharpness>);
+
+	//	NuclearCraft
+
+// General
+Item inputs can be:
+An ItemStack, e.g. `<minecraft:gunpowder>*4`,
+An OreStack, e.g. `<ore:ingotIron>*2`,
+An empty stack, i.e. `null`.
+
+Fluid inputs can be:
+A FluidStack, e.g. `<liquid:lava>*1500`,
+An empty stack, i.e. `null`.
+
+Item outputs can be:
+An ItemStack,
+An OreStack,
+A ChanceItemIngredient, e.g. `ChanceItemIngredient.create(<minecraft:quartz>*3, 50, 1)`,
+An empty stack, i.e. `null`.
+
+Fluid outputs can be:
+A FluidStack,
+A ChanceFluidIngredient, e.g. `ChanceFluidIngredient.create(<liquid:ethanol>*2000, 40, 250, 500)`.
+An empty stack, i.e. `null`.
+
+The allowed recipe extras are specified below per recipe. Be sure to use a decimal when a double is required and you want
+to use a whole number, e.g. `1.0` rather than just `1`.
+
+// Infuser (Fluid)
+mods.nuclearcraft.Infuser.addRecipe(IIngredient itemInput, ILiquidStack fluidInput, IIngredient itemOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
+!Curly Brackets Are Optional!Remove If Used In Script!
+
+https://mods.blakebr0.com/docs/extendedcrafting/adding-singularities
+============================================================================================================================
+
+  "TEMPLATE": {
+    "SpawnRate": "100",
+    "IsEnabled": "true",
+    "WorldCooldown": "6000",
+    "StallCooldown": "5000",
+    "BreedingChance": "40",
+    "Parent First": """,
+    "Parent Second": """,
+    "BreedingCooldown": "8000",
+    "GrowingAge": "-24000",
+  },
+
+============================================================================================================================
+
+// Fluid Cow	-	MINERAL
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluidcows:cow_displayer>.withTag({fluid: ""}), [
+,
+,
+,
+,
+[, <cookingforblockheads:cow_jar>, ],
+,
+,
+,
+[<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
+
+===========================================================================================================================
+
+// Fluid Cow	-	MINERAL
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluidcows:cow_displayer>.withTag({fluid: ""}), [
+,
+,
+,
+,
+[, <cookingforblockheads:cow_jar>, ],
+,
+,
+,
+[<ore:block>, <ore:block>, <ore:block>, <ore:block>, <ore:block>, <ore:block>, <ore:block>, <ore:block>, <ore:block>]]);
+
+===========================================================================================================================
+
+// Fluid Cow	-	MINERAL
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluidcows:cow_displayer>.withTag({fluid: ""}), [
+,
+,
+,
+,
+[<forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <cookingforblockheads:cow_jar>, <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"})],
+,
+,
+,
+[<forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"}), <forge:bucketfilled>.withTag({FluidName: "", Amount: "1000"})]]);
+
+===========================================================================================================================
+
+
+/*
+	// Extra Planets / Galacticraft
+    {
+      "drop": {
+        "name": "jaopca:item_piececarbon",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_piecemercury",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_piecemeteoriciron",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_piecedarkiron",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_piecedesh",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_piecelunar",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+
+	// Abyssalcraft Sand/Dirt
+
+    {
+      "drop": {
+        "name": "jaopca:item_pieceabyssalnite",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "jaopca:item_pieceboron",
+        "meta": 0
+      },
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+
+*/
+
+//	"INPUT": [],
+
+//	Modular Machinery
+PumpJack Hatch ?
+Laser Hatch
+Mekanism Heat Input
+Mekanism Heat Output
+Biome Detector
+Time Detector
+Weather Detector
+============================================================================================================================================================
+ // NuclearCraft Config Removal
+    # List of armor item stacks for which shielding recipes will not be added by default. Format: 'modid:armorName:meta'.
+    S:radiation_shielding_item_blacklist <
+        nuclearcraft:helm_hazmat
+        nuclearcraft:chest_hazmat
+        nuclearcraft:legs_hazmat
+        nuclearcraft:boots_hazmat
+        ic2:hazmat_helmet
+        ic2:hazmat_chestplate
+        ic2:hazmat_leggings
+        ic2:rubber_boots
+        extraplanets:tier1_space_suit_helmet
+        extraplanets:tier1_space_suit_chest
+        extraplanets:tier1_space_suit_jetpack_chest
+        extraplanets:tier1_space_suit_leggings
+        extraplanets:tier1_space_suit_boots
+        extraplanets:tier1_space_suit_gravity_boots
+        extraplanets:tier2_space_suit_helmet
+        extraplanets:tier2_space_suit_chest
+        extraplanets:tier2_space_suit_jetpack_chest
+        extraplanets:tier2_space_suit_leggings
+        extraplanets:tier2_space_suit_boots
+        extraplanets:tier2_space_suit_gravity_boots
+        extraplanets:tier3_space_suit_helmet
+        extraplanets:tier3_space_suit_chest
+        extraplanets:tier3_space_suit_jetpack_chest
+        extraplanets:tier3_space_suit_leggings
+        extraplanets:tier3_space_suit_boots
+        extraplanets:tier3_space_suit_gravity_boots
+        extraplanets:tier4_space_suit_helmet
+        extraplanets:tier4_space_suit_chest
+        extraplanets:tier4_space_suit_jetpack_chest
+        extraplanets:tier4_space_suit_leggings
+        extraplanets:tier4_space_suit_boots
+        extraplanets:tier4_space_suit_gravity_boots
+     >
+============================================================================================================================================================
+
+recipes.remove(<natura:materials:1>);(Barley Flour)
+recipes.remove(<harvestcraft:barleyseeditem:0>);(Barley Seed)
+
+recipes.remove(<immersiveengineering:material:6>);(Coal Coke)
+recipes.remove(<thermalfoundation:material:802>);(Coal Coke)
+
+recipes.remove(<excompressum:uncompressed_coal:0>);(Uncompressed Coal)
+recipes.remove(<actuallyadditions:item_misc:10>);(Tiny Coal)
+
+recipes.remove(<excompressum:uncompressed_coal:0>);(Uncompressed Coal)
+recipes.remove(<jaopca:item_nuggetcoal:0>);(Coal Nugget)
+
+recipes.remove(<extendedcrafting:material:128>);(Diamond Nugget)
+recipes.remove(<translocators:diamond_nugget:0>);(Diamond Nugget)
+
+recipes.remove(<extendedcrafting:material:128>);(Diamond Nugget)
+recipes.remove(<thermalfoundation:material_5>);(Diamond Nugget)
+
+recipes.remove(<extendedcrafting:material:128>);(Emerald Nugget)
+recipes.remove(<thermalfoundation:material_6>);(Emerald Nugget)
+
+recipes.remove(<galacticraftplanets:carbon_fragments:0>);(Fragmented Carbon)
+recipes.remove(<actuallyadditions:item_misc:11>);(Tiny Charcoal)
+
+recipes.remove(<harvestcraft:cottonseeditem:0>);(Cotton Seed)
+recipes.remove(<harvestcraft:cottonitem:0>);(Cotton)
+
+recipes.remove(<>);
+recipes.remove(<>);
