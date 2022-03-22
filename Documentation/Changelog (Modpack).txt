@@ -3100,6 +3100,9 @@ v10.4.0-016
 	/config/JAOPCA:
 		- removed accidentally added * for Desichalkos
 		- added "mystical" as well in ModuleBlacklist as mysticalagriculture seems to be unrecognized
+v10.4.0-017
+	/config/JAOPCA:
+		- set all fuel resources on wildcard to ensure not creating obsolete stuff for them
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
