@@ -3103,6 +3103,8 @@ UNDONE:
 	- Check Impregnated Diamond for Sacksize: If not 64 set it to that!
 	- Mythic Mode Recipes Implementation:
 		- Endest Pearl, Ultimate Stew, Creative ME Storage, Omen Ingot, Prism, Neutron Collector, Creative Generator (Overloadded)
+	- Tiered Thermal Cloth
+	- Give Bacterial Sludge and Cavernous Vines a use (Galacticraft - Mars)
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
