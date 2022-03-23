@@ -3117,6 +3117,13 @@ v10.4.0-019
 v10.4.0-020
 	Started the ReArrangement of files for full modularity
 		- Sorted into Mods directory
+v10.4.0-021
+	- /config/modularmachinery/recipes/biogen_basic:
+		- Updated Recipes with unique namings
+	- speecker_seeds_beast_botania_runicaltar_jaopca_nuclearcraft_mysticalcreations:
+		- fixed NBT Data issue for Boron Arsenide Seed
+	- speecker_seeds_beast_astralsorcery_celestialaltar_erebus_jaopca_nuclearcraft:
+		- fixed NBT Data issue for Thermoconducting Alloy Seed
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

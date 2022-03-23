@@ -21,6 +21,9 @@ UNDONE/Planned:
 	- Eris Dark Iron Ore Pieces from Eris Gravel SieveRegistry (ExNihilo)
 	- More uses and a specific purpose for making a Dark Iron Seed
 	- Dark Iron Seed Recipe (when a purpose is found)
+	- Add MobDrops to Woot Farm Output for UrGhast and Hydra
+	- Add/Fix NBT Data for Fiery Armor pieces !
+	- Add Duplicator Armor Recipes
 
 Mythic Inspirations, Fails, Fixes etc.:	
 	- Neutral Steel 5 Recipe ?

@@ -1,6 +1,6 @@
 {
     "machine": "biogen_basic",
-    "registryName": "bg_biofuel",
+    "registryName": "biogen_biofuel_from_veggies",
     "recipeTime": 120,
     "requirements": [
         {
