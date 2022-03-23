@@ -3114,6 +3114,9 @@ v10.4.0-019
 	/scripts/Progressives/Seeds/Tier1/Minecraft/ExtraPlanets:
 		- Moved recipe for Ice Seeds out of standard Minecraft and added Frozen Water Buckets
 		 instead of simple Ice Blocks to the recipe to challenge the player to find other methods for snow etc. until he gets to Uranus
+v10.4.0-020
+	Started the ReArrangement of files for full modularity
+		- Sorted into Mods directory
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
