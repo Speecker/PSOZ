@@ -1,5 +1,5 @@
 
-UNDONE:
+UNDONE/Planned:
 	- ElvenQuartz Block to Gem Factorizer Recipe
 	- Thermal Alloys only made with Nuce ? (Lumium/Signalum/Enderium)
 	- BloodMagic Efficiency Rune missing recipe ?
@@ -13,6 +13,14 @@ UNDONE:
 		- Endest Pearl, Ultimate Stew, Creative ME Storage, Omen Ingot, Prism, Neutron Collector, Creative Generator (Overloadded)
 	- Tiered Thermal Cloth
 	- Give Bacterial Sludge and Cavernous Vines a use (Galacticraft - Mars)
+	- Give Liquid Magma from ExtraPlanets more uses (Jupiter)
+	- Give Frozen Water from ExtraPlanets more uses (Uranus) (except the new implemented seed recipe)
+	- Add HammerRegistry Entries for Jupiter Rocks to Jupiter Gravel
+	- Make All Rocket Parts fully progressive as well
+	- Give Coloured Blocks a use (Galacticraft - Neptune)
+	- Eris Dark Iron Ore Pieces from Eris Gravel SieveRegistry (ExNihilo)
+	- More uses and a specific purpose for making a Dark Iron Seed
+	- Dark Iron Seed Recipe (when a purpose is found)
 
 Mythic Inspirations, Fails, Fixes etc.:	
 	- Neutral Steel 5 Recipe ?

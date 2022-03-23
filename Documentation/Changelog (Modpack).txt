@@ -3104,8 +3104,16 @@ v10.4.0-017
 	/config/JAOPCA:
 		- set all fuel resources on wildcard to ensure not creating obsolete stuff for them
 v10.4.0-018
-	/config/modularmachinery/recipes/bio_generator_basic:
+	/config/modularmachinery/recipes/biogen_basic:
 		- Added recipes for Produce, Fruits, Berries, Veggies and renamed existing recipe to bioproducts
+v10.4.0-019
+	/scripts/Progressives/Seeds/Tier4/NuclearCraft:
+		- Fixed NBT misspelling for Hard Carbon in the Extreme Alloy Seed recipe
+	/scripts/Mods/ModularMachinery:
+		- Changed the End Crystal Recipe to use *4 Beacons and Carminite instead of uranium grit and isolated materia
+	/scripts/Progressives/Seeds/Tier1/Minecraft/ExtraPlanets:
+		- Moved recipe for Ice Seeds out of standard Minecraft and added Frozen Water Buckets
+		 instead of simple Ice Blocks to the recipe to challenge the player to find other methods for snow etc. until he gets to Uranus
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

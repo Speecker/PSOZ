@@ -11,7 +11,6 @@ recipes.remove(<mysticalagriculture:dye_seeds>);
 recipes.remove(<mysticalagriculture:end_seeds>);
 recipes.remove(<mysticalagriculture:experience_seeds>);
 recipes.remove(<mysticalagriculture:fire_seeds>);
-recipes.remove(<mysticalagriculture:ice_seeds>);
 recipes.remove(<mysticalagriculture:nature_seeds>);
 recipes.remove(<mysticalagriculture:nether_seeds>);
 recipes.remove(<mysticalagriculture:obsidian_seeds>);
@@ -32,7 +31,6 @@ TC.addShaped(0, <mysticalagriculture:dye_seeds>, [[<mysticalagriculture:crafting
 TC.addShaped(0, <mysticalagriculture:end_seeds>, [[<mysticalagriculture:crafting:9>, <ore:essenceInferium>, <mysticalagriculture:crafting:9>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<mysticalagriculture:crafting:9>, <ore:essenceInferium>, <mysticalagriculture:crafting:9>]]);
 TC.addShaped(0, <mysticalagriculture:experience_seeds>, [[<mysticalagriculture:chunk:5>, <ore:essenceInferium>, <mysticalagriculture:chunk:5>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<mysticalagriculture:chunk:5>, <ore:essenceInferium>, <mysticalagriculture:chunk:5>]]);
 TC.addShaped(0, <mysticalagriculture:fire_seeds>, [[<minecraft:lava_bucket>, <ore:essenceInferium>, <minecraft:lava_bucket>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<minecraft:lava_bucket>, <ore:essenceInferium>, <minecraft:lava_bucket>]]);
-TC.addShaped(0, <mysticalagriculture:ice_seeds>, [[<ore:blockIce>, <ore:essenceInferium>, <ore:blockIce>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<ore:blockIce>, <ore:essenceInferium>, <ore:blockIce>]]);
 TC.addShaped(0, <mysticalagriculture:nature_seeds>, [[<mysticalagriculture:crafting:6>, <ore:essenceInferium>, <mysticalagriculture:crafting:6>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<mysticalagriculture:crafting:6>, <ore:essenceInferium>, <mysticalagriculture:crafting:6>]]);
 TC.addShaped(0, <mysticalagriculture:nether_seeds>, [[<mysticalagriculture:crafting:8>, <ore:essenceInferium>, <mysticalagriculture:crafting:8>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<mysticalagriculture:crafting:8>, <ore:essenceInferium>, <mysticalagriculture:crafting:8>]]);
 TC.addShaped(0, <mysticalagriculture:obsidian_seeds>, [[<ore:obsidian>, <ore:essenceInferium>, <ore:obsidian>], [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>], [<ore:obsidian>, <ore:essenceInferium>, <ore:obsidian>]]);
