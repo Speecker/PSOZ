@@ -3124,6 +3124,17 @@ v10.4.0-021
 		- fixed NBT Data issue for Boron Arsenide Seed
 	- speecker_seeds_beast_astralsorcery_celestialaltar_erebus_jaopca_nuclearcraft:
 		- fixed NBT Data issue for Thermoconducting Alloy Seed
+v10.4.0-022
+	- Modularity Update done so far:
+		- AbyssalCraft
+		- ActuallyAdditions:
+			- Added compat files and seperated the recipes to corresponding mods
+		- AdvancedRocketry:
+			- Added compat files and seperated the recipes to corresponding mods
+		- AdventOfAscension3
+		- AgriCraft
+		- Alchemistry:
+			- Added compat files and seperated the recipes to corresponding mods
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

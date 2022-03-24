@@ -24,6 +24,7 @@ UNDONE/Planned:
 	- Add MobDrops to Woot Farm Output for UrGhast and Hydra
 	- Add/Fix NBT Data for Fiery Armor pieces !
 	- Add Duplicator Armor Recipes
+	- Move Alchemistry Machine Recipes to corresponding Mod Compat files when temp is done
 
 Mythic Inspirations, Fails, Fixes etc.:	
 	- Neutral Steel 5 Recipe ?
