@@ -1,5 +1,9 @@
-
+#norun
 #priority -999
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 //    Remove Grid Recipes
 static removeRecipes as IItemStack[] = [
@@ -60,15 +64,15 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 //    Init
 function init() {
 	// Un-named recipes
-	VanillaRecipeUtil.process(shapedRecipes, false);
-    VanillaRecipeUtil.process(mirroredRecipes, true);
-    VanillaRecipeUtil.process(shapelessRecipes);
+	scripts.VanillaRecipeUtil.process(shapedRecipes, false);
+    scripts.VanillaRecipeUtil.process(mirroredRecipes, true);
+    scripts.VanillaRecipeUtil.process(shapelessRecipes);
 
 	// Named recipes
-	VanillaRecipeUtil.processNamed(namedShapedRecipes, false);
-    VanillaRecipeUtil.processNamed(namedMirroredRecipes, true);
-    VanillaRecipeUtil.processNamed(namedShapelessRecipes);
+	scripts.VanillaRecipeUtil.processNamed(namedShapedRecipes, false);
+    scripts.VanillaRecipeUtil.processNamed(namedMirroredRecipes, true);
+    scripts.VanillaRecipeUtil.processNamed(namedShapelessRecipes);
 
-	VanillaRecipeUtil.removeRecipes(removeRecipes);
-	VanillaRecipeUtil.removeFurnace(removeFurnace);
+	scripts.VanillaRecipeUtil.removeRecipes(removeRecipes);
+	scripts.VanillaRecipeUtil.removeFurnace(removeFurnace);
 }
