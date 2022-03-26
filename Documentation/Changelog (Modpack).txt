@@ -3137,6 +3137,9 @@ v10.4.0-022
 			- Added compat files and seperated the recipes to corresponding mods
 v10.4.0-023
 	- Updated Experimental files
+v10.4.0-024
+	- Finished Cross-Script files for VanillaRecipes
+	- Removed Experimental directory
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
