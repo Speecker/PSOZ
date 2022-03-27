@@ -33,10 +33,10 @@ static addVanillaShapelessRecipe as IIngredient[][][IItemStack][string] = {
 //	recipeName : { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]]}
 };
 
-scripts.speecker_tempUtil.processRemoveVanillaRecipe(removeVanillaRecipe);
-scripts.speecker_tempUtil.processAddVanillaShapedRecipe(addVanillaShapedRecipe, autor, mode, mod);
-scripts.speecker_tempUtil.processAddVanillaShapedMirroredRecipe(addVanillaShapedMirroredRecipe, autor, mode, mod);
-scripts.speecker_tempUtil.processAddVanillaShapelessRecipe(addVanillaShapelessRecipe, autor, mode, mod);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaRecipe(removeVanillaRecipe);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapedRecipe(addVanillaShapedRecipe, autor, mode, mod);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapedMirroredRecipe(addVanillaShapedMirroredRecipe, autor, mode, mod);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapelessRecipe(addVanillaShapelessRecipe, autor, mode, mod);
 
 //recipes.removeShaped(<IItemStack:output>*int_amount, [[<IIngredients:inputs>]]);
 //recipes.addShapedMirrored(autor~mode~mod~item, <IItemStack:ironp> * 2, [[null, <ore:ingotIron>, null],[null, <ore:plateIron>, null], [null, null, null]]);
