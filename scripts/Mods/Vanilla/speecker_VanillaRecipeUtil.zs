@@ -44,13 +44,13 @@ function processAddVanillaShapelessRecipe (map as IIngredient[][][IItemStack][st
 
 function processRemoveVanillaFurnaceRecipeByOutput (map as IIngredient[]) {
   for output in map {
-    furnace.remove(output>);
+    furnace.remove(output);
   }
 }
 
 function processRemoveVanillaFurnaceRecipeByIO (map as IIngredient[][IIngredient]) {
   for output, input in map {
-    furnace.remove(output, input>);
+    furnace.remove(output, input);
   }
 }
 
