@@ -41,24 +41,25 @@ static removeVanillaFurnaceRecipeByOutput as IIngredient[] = [
   <ore:ingotIron>
 ];
 
-static removeVanillaFurnaceRecipeByIO as IIngredient[][IIngredient] = {
-//  <IIngredient:output> : <IIngredient:input>
-  <minecraft:coal:1> : <minecraft:log:0>
+static removeVanillaFurnaceRecipeByIO as IIngredient[][] = [
+//  [<IIngredient:output>, <IIngredient:input>]
+  [<minecraft:coal:1>, <minecraft:log:0>]
+];
+
+static addVanillaFurnaceRecipe as IIngredient[][IItemStack] = {
+//  <IItemStack:output> : [<IIngredient:input>]
+  <minecraft:golden_apple> : [<minecraft:apple>]
 };
 
-static addVanillaFurnaceRecipe as IIngredient[][IIngredient] = {
-//  <IIngredient:output> : <IIngredient:input>
-  <minecraft:golden_apple> : <minecraft:apple>
+static addVanillaFurnaceRecipeXP as IIngredient[][IItemStack][string] = {
+//  double_XP : { <IIngredient:output> : [<IIngredient:input>] }
+  1500 : { <minecraft:speckled_melon> : [<minecraft:melon>] }
 };
 
-static addVanillaFurnaceRecipeXP as IIngredient[][IIngredient][double] = {
-//  double_XP : { <IIngredient:output> : <IIngredient:input> }
-  1500 : { <minecraft:speckled_melon> : <minecraft:melon> }
-};
-
-static setVanillaFurnaceFuel as IIngredient[][int] = {
-//  int_burnTime : <IIngredient:fuel>
-  100 : <minecraft:rotten_flesh>
+static setVanillaFurnaceFuel as IIngredient[][string] = {
+// NOTE: Minecraft coal burns for 1600 ticks | 80 seconds | 8 items. 1 item in a minecraft furnace takes 200 ticks to complete
+//  int_burnTime : [<IIngredient:fuel>]
+  100 : [<minecraft:rotten_flesh>]
 };
 
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaRecipe(removeVanillaRecipe);
@@ -67,10 +68,9 @@ scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapedMirroredR
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapelessRecipe(addVanillaShapelessRecipe, autor, mode, mod);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
-scripts.MOds.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
-scripts.MOds.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
-scripts.MOds.Vanilla.speecker_VanillaRecipeUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
-
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
+scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
 
 //recipes.removeShaped(<IItemStack:output>*int_amount, [[<IIngredients:inputs>]]);
 //recipes.addShapedMirrored(autor~mode~mod~item, <IItemStack:ironp> * 2, [[null, <ore:ingotIron>, null],[null, <ore:plateIron>, null], [null, null, null]]);

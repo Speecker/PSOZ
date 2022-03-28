@@ -48,28 +48,28 @@ function processRemoveVanillaFurnaceRecipeByOutput (map as IIngredient[]) {
   }
 }
 
-function processRemoveVanillaFurnaceRecipeByIO (map as IIngredient[][IIngredient]) {
-  for output, input in map {
-    furnace.remove(output, input);
+function processRemoveVanillaFurnaceRecipeByIO (map as IIngredient[][]) {
+  for removal in map {
+    furnace.remove(removal[0], removal[1]);
   }
 }
 
-function processAddVanillaFurnaceRecipe (map as IIngredient[][IIngredient]) {
+function processAddVanillaFurnaceRecipe (map as IIngredient[][IItemStack]) {
   for output, input in map {
-    furnace.add(output, input);
+    furnace.addRecipe(output, input[0]);
   }
 }
 
-function processAddVanillaFurnaceRecipeXP (map as IIngredient[][IIngredient][double]) {
+function processAddVanillaFurnaceRecipeXP (map as IIngredient[][IItemStack][string]) {
   for xp, doubleXP in map {
     for output, input in doubleXP {
-      furnace.add(output, input, xp);
+      furnace.addRecipe(output, input[0], xp);
     }
   }
 }
 
-function processSetVanillaFurnaceFuel (map as IIngredient[][int]) {
-  for fuel, burnTime in map {
-    furnace.setFuel(fuel, burnTime);
+function processSetVanillaFurnaceFuel (map as IIngredient[][string]) {
+  for burnTime, fuel in map {
+    furnace.setFuel(fuel[0], burnTime);
   }
 }
