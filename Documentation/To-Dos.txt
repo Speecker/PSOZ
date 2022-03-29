@@ -25,12 +25,18 @@ UNDONE/Planned:
 	- Add/Fix NBT Data for Fiery Armor pieces !
 	- Add Duplicator Armor Recipes
 	- Move Alchemistry Machine Recipes to corresponding Mod Compat files when temp is done
+	- Harder recipes for Covalence Dusts
+	- Implement RFTools Modular Storage as Mid-Game AE2 Alternative and Progressive Pre-Version of an ME-System
+	- find a way to Buff Infinity Armor Toughness Value LOL
+	- Use Botanias Conjugation Catalyst as duplication option for Collectables
+	- Fix Output Value for Titanium Wafer
 
 Mythic Inspirations, Fails, Fixes etc.:	
 	- Neutral Steel 5 Recipe ?
 	- Duping possible for Modularium Ingots
 	- Harder Empty PCB Recipe ?
 	- Ender Biotite Block ? (Seed Recipe ?)
+	- Endest Pearl Recipe
 
 Seeds Rework:
 	- Tier & Recipe Rework:

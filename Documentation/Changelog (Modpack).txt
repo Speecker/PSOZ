@@ -3146,6 +3146,8 @@ v10.4.0-025
 v10.4.0-026
 	- Matched the arguments between functions and statics and corrected the proper usage of "IIngredient[]"
 	- "double" and "int" data types seem to not work in .zs so for crossscript referencing "string" is now used as functional workaround
+v10.4.0-027
+	- Added Some more To-Dos -_- yeeet
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
