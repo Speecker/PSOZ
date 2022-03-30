@@ -54,12 +54,15 @@ static setVanillaFurnaceFuel as IIngredient[][string] = {
 //  int_burnTime : [<IIngredient:fuel>]
 };
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaRecipe(removeVanillaRecipe);
+if( performRemovals == true ) {
+  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaRecipe(removeVanillaRecipe);
+  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
+  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
+}
+
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapedRecipe(addVanillaShapedRecipe, autor, mode, mod);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapedMirroredRecipe(addVanillaShapedMirroredRecipe, autor, mode, mod);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaShapelessRecipe(addVanillaShapelessRecipe, autor, mode, mod);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);

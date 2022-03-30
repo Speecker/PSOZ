@@ -3148,6 +3148,8 @@ v10.4.0-026
 	- "double" and "int" data types seem to not work in .zs so for crossscript referencing "string" is now used as functional workaround
 v10.4.0-027
 	- Added Some more To-Dos -_- yeeet
+v10.4.0-028
+	- Added configuration file with option to deactivate any recipe removals
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
