@@ -3150,6 +3150,9 @@ v10.4.0-027
 	- Added Some more To-Dos -_- yeeet
 v10.4.0-028
 	- Added configuration file with option to deactivate any recipe removals
+v10.4.0-029
+	- Mods/NuclearCraft/speecker_nuclearcraft.zs:
+		- outcommented line 192 as theres no more Uranium-238 Seed with Overhaul
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

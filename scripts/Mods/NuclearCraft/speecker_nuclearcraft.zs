@@ -189,5 +189,5 @@ Pressurizer.addRecipe(<extendedcrafting:material:0>, <extendedcrafting:material:
 
 //Vanilla Grid Recipes
 
-recipes.addShaped("speecker_nuclearcraft_uranium238_from_essence", <nuclearcraft:uranium:8>*4, [[<jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>],[<jaopca:item_essenceuranium238>, null, <jaopca:item_essenceuranium238>], [<jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>]]);
+//recipes.addShaped("speecker_nuclearcraft_uranium238_from_essence", <nuclearcraft:uranium:8>*4, [[<jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>],[<jaopca:item_essenceuranium238>, null, <jaopca:item_essenceuranium238>], [<jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>, <jaopca:item_essenceuranium238>]]);
 //recipes.addShaped("speecker_nuclearcraft_uranium238_from_essence", <nuclearcraft:uranium:8>*4, [[<mysticalagriculture:uranium_238_essence>, <mysticalagriculture:uranium_238_essence>, <mysticalagriculture:uranium_238_essence>],[<mysticalagriculture:uranium_238_essence>, null, <mysticalagriculture:uranium_238_essence>], [<mysticalagriculture:uranium_238_essence>, <mysticalagriculture:uranium_238_essence>, <mysticalagriculture:uranium_238_essence>]);
