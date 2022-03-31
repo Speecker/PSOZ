@@ -3156,6 +3156,10 @@ v10.4.0-029
 v10.4.0-030
 	- VanillaRecipeUtil got completed now including Brewing Recipes as well as ReplaceAllOccurences function
 		- Streamlined function Namings
+v10.4.0-031
+	- VanillaRecipeUtil and vanilla_vanillaRecipes got tested and fixed to throw no more errors
+		- Brewing Recipes do not throw any errors any more but are still not yet fully functional :/
+		- All Grid/Furnace Recipes and ReplaceAllOccurences are now fully functional ;)
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

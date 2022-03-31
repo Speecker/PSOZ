@@ -70,20 +70,20 @@ function processSetVanillaFurnaceFuel (map as IIngredient[][string]) {
 
 // === Vanilla Grid Recipes ===
 
-function processRemoveVanillaGridRecipeByOutput (map as bool[IIngredient[][]]) {
-  for output, boolean in map {
-    recipes.remove(output[0], boolean);
+function processRemoveVanillaGridRecipeByOutput (map as bool[IIngredient[]]) {
+  for output, matchNBT in map {
+    recipes.remove(output[0], matchNBT);
   }
 }
 
-function processRemoveVanillaGridRecipeShaped (map as IIngredient[][][][IIngredient[][]]) {
+function processRemoveVanillaGridRecipeShaped (map as IIngredient[][][][IIngredient[]]) {
   for output, input in map {
     recipes.removeShaped(output[0], input[0]);
   }
 
 }
 
-function processRemoveVanillaGridRecipeShapeless (map as bool[IIngredient[][]][IIngredient[]) {
+function processRemoveVanillaGridRecipeShapeless (map as bool[IIngredient[][]][IIngredient[]]) {
   for output, shapelessRecipe in map {
     for input, wildcard in shapelessRecipe {
       recipes.removeShapeless(output[0], input[0], wildcard);
@@ -91,19 +91,19 @@ function processRemoveVanillaGridRecipeShapeless (map as bool[IIngredient[][]][I
   }
 }
 
-function processRemoveVanillaGridRecipeByRegex (map as string) {
+function processRemoveVanillaGridRecipeByRegex (map as string[]) {
   for removal in map {
     recipes.removeByRegex(removal);
   }
 }
 
-function processRemoveVanillaGridRecipeByRecipeName (map as string) {
+function processRemoveVanillaGridRecipeByRecipeName (map as string[]) {
   for removal in map {
    recipes.removeByRecipeName(removal);
   }
 }
 
-function processRemoveVanillaGridRecipeByMod (map as string) {
+function processRemoveVanillaGridRecipeByMod (map as string[]) {
   for removal in map {
    recipes.removeByMod(removal);
   }
