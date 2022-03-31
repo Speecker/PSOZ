@@ -96,7 +96,7 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName : { <IItemStack:output>: [[<IIngredient:input_n>]] },
 //	recipeName : { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
-	planks_0 : { <minecraft:planks:0>: [[<twilightforest:twilight_log:0>|<twilightforest:giant_log>]] }
+	planks_0 : { <minecraft:planks:0>: [[<twilightforest:twilight_log:0>|<twilightforest:giant_log>]] },
 	planks_1 : { <minecraft:planks:1>: [[<twilightforest:twilight_log:1>|<twilightforest:twilight_log:3>]] },
 	planks_2 : { <minecraft:planks:2>: [[<twilightforest:twilight_log:2>]] }
 };
