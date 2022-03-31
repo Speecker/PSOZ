@@ -12,35 +12,25 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-function processRemoveVanillaRecipe (map as IItemStack[]) {
-  for output in map {
-    recipes.remove(output);
+// === Vanilla Brewing Recipes ===
+
+function processRemoveVanillaBrewingRecipe (map as IItemStack[IItemStack]) {
+  for input, ingredient in map {
+    brewing.removeRecipe(input, ingredient);
   }
 }
 
-function processAddVanillaShapedRecipe (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
-	for name, recipeName in map {
-    for output, input in recipeName {
-      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
+function processAddVanillaBrewingRecipe (map as bool[IItemStack][IIngredient[]][IIngredient[]]) {
+  for input, brewInput in map {
+    for ingredient, brewIngredient in brewInput {
+      for output, isHidden in brewIngredient {
+        brewing.addBrew(input[0], ingredient[0], output, isHidden);
+      }
     }
   }
 }
 
-function processAddVanillaShapedMirroredRecipe (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
-	for name, recipeName in map {
-    for output, input in recipeName {
-      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
-    }
-  }
-}
-
-function processAddVanillaShapelessRecipe (map as IIngredient[][][IItemStack][string], autor as string, mode as string, mod as string) {
-	for name, recipeName in map {
-    for output, input in recipeName {
-      recipes.addShapeless(autor~"_"~mode~"_"~mod~"_"~name~"_shapeless", output, input[0]);
-    }
-  }
-}
+// === Vanilla Furnace Recipes ===
 
 function processRemoveVanillaFurnaceRecipeByOutput (map as IIngredient[]) {
   for output in map {
@@ -52,6 +42,10 @@ function processRemoveVanillaFurnaceRecipeByIO (map as IIngredient[][]) {
   for removal in map {
     furnace.remove(removal[0], removal[1]);
   }
+}
+
+function processRemoveAllVanillaFurnaceRecipes () {
+  furnace.removeAll();
 }
 
 function processAddVanillaFurnaceRecipe (map as IIngredient[][IItemStack]) {
@@ -71,5 +65,96 @@ function processAddVanillaFurnaceRecipeXP (map as IIngredient[][IItemStack][stri
 function processSetVanillaFurnaceFuel (map as IIngredient[][string]) {
   for burnTime, fuel in map {
     furnace.setFuel(fuel[0], burnTime);
+  }
+}
+
+// === Vanilla Grid Recipes ===
+
+function processRemoveVanillaGridRecipeByOutput (map as bool[IIngredient[][]]) {
+  for output, boolean in map {
+    recipes.remove(output[0], boolean);
+  }
+}
+
+function processRemoveVanillaGridRecipeShaped (map as IIngredient[][][][IIngredient[][]]) {
+  for output, input in map {
+    recipes.removeShaped(output[0], input[0]);
+  }
+
+}
+
+function processRemoveVanillaGridRecipeShapeless (map as bool[IIngredient[][]][IIngredient[]) {
+  for output, shapelessRecipe in map {
+    for input, wildcard in shapelessRecipe {
+      recipes.removeShapeless(output[0], input[0], wildcard);
+    }
+  }
+}
+
+function processRemoveVanillaGridRecipeByRegex (map as string) {
+  for removal in map {
+    recipes.removeByRegex(removal);
+  }
+}
+
+function processRemoveVanillaGridRecipeByRecipeName (map as string) {
+  for removal in map {
+   recipes.removeByRecipeName(removal);
+  }
+}
+
+function processRemoveVanillaGridRecipeByMod (map as string) {
+  for removal in map {
+   recipes.removeByMod(removal);
+  }
+}
+
+function processRemoveAllVanillaGridRecipes () {
+  recipes.removeAll();
+}
+
+function processAddVanillaGridRecipeShaped (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
+	for name, recipeName in map {
+    for output, input in recipeName {
+      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
+    }
+  }
+}
+
+function processAddVanillaGridRecipeShapedMirrored (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
+	for name, recipeName in map {
+    for output, input in recipeName {
+      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
+    }
+  }
+}
+
+function processAddVanillaGridRecipeShapeless (map as IIngredient[][][IItemStack][string], autor as string, mode as string, mod as string) {
+	for name, recipeName in map {
+    for output, input in recipeName {
+      recipes.addShapeless(autor~"_"~mode~"_"~mod~"_"~name~"_shapeless", output, input[0]);
+    }
+  }
+}
+
+// === Vanilla Replace All Occurences ===
+
+function processRecplaceAllOccurences (map as IIngredient[][IIngredient[]]) {
+  for toReplace, replaceWith in map {
+    recipes.replaceAllOccurences(toReplace[0], replaceWith[0]);
+  }
+}
+
+function processRecplaceAllOccurencesAny (map as IIngredient[][IIngredient[]]) {
+  for toReplace, replaceWith in map {
+    recipes.replaceAllOccurences(toReplace[0], replaceWith[0], <*>);
+  }
+}
+
+function processRecplaceAllOccurencesSpecific (map as IIngredient[][IIngredient[]][IIngredient[]]) {
+  for toReplace, replaceSpecific in map {
+    for replaceWith, forOutput in replaceSpecific {
+      recipes.replaceAllOccurences(toReplace[0], replaceWith[0], forOutput[0]);
+    }
   }
 }

@@ -3153,6 +3153,9 @@ v10.4.0-028
 v10.4.0-029
 	- Mods/NuclearCraft/speecker_nuclearcraft.zs:
 		- outcommented line 192 as theres no more Uranium-238 Seed with Overhaul
+v10.4.0-030
+	- VanillaRecipeUtil got completed now including Brewing Recipes as well as ReplaceAllOccurences function
+		- Streamlined function Namings
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
