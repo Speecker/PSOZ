@@ -5,7 +5,7 @@
 /*
 
   This Script contains functions to handle all types of Vanilla Recipes.
-  It can be used to add Recipes for any of the various modded items using the file "speecker_tempmod_VanillaRecipes.zs" as template.
+  It can be used to add Recipes for any of the various modded items using the file "speecker_mode_intMod_extMod_VanillaRecipes.zs" as template.
 
 */
 
@@ -113,26 +113,26 @@ function processRemoveAllVanillaGridRecipes () {
   recipes.removeAll();
 }
 
-function processAddVanillaGridRecipeShaped (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
+function processAddVanillaGridRecipeShaped (map as IIngredient[][][][IItemStack][string], author as string, mode as string, modIntern as string, modExtern as string) {
 	for name, recipeName in map {
     for output, input in recipeName {
-      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
+      recipes.addShaped(author~"_"~mode~"_"~modIntern~"_"~modExtern~"_"~name~"_shaped", output, input[0]);
     }
   }
 }
 
-function processAddVanillaGridRecipeShapedMirrored (map as IIngredient[][][][IItemStack][string], autor as string, mode as string, mod as string) {
+function processAddVanillaGridRecipeShapedMirrored (map as IIngredient[][][][IItemStack][string], author as string, mode as string, modIntern as string, modExtern as string) {
 	for name, recipeName in map {
     for output, input in recipeName {
-      recipes.addShaped(autor~"_"~mode~"_"~mod~"_"~name~"_shaped", output, input[0]);
+      recipes.addShaped(author~"_"~mode~"_"~modIntern~"_"~modExtern~"_"~name~"_shaped", output, input[0]);
     }
   }
 }
 
-function processAddVanillaGridRecipeShapeless (map as IIngredient[][][IItemStack][string], autor as string, mode as string, mod as string) {
+function processAddVanillaGridRecipeShapeless (map as IIngredient[][][IItemStack][string], author as string, mode as string, modIntern as string, modExtern as string) {
 	for name, recipeName in map {
     for output, input in recipeName {
-      recipes.addShapeless(autor~"_"~mode~"_"~mod~"_"~name~"_shapeless", output, input[0]);
+      recipes.addShapeless(author~"_"~mode~"_"~modIntern~"_"~modExtern~"_"~name~"_shapeless", output, input[0]);
     }
   }
 }

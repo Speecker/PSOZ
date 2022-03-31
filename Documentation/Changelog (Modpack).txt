@@ -3160,6 +3160,11 @@ v10.4.0-031
 	- VanillaRecipeUtil and vanilla_vanillaRecipes got tested and fixed to throw no more errors
 		- Brewing Recipes do not throw any errors any more but are still not yet fully functional :/
 		- All Grid/Furnace Recipes and ReplaceAllOccurences are now fully functional ;)
+v10.4.0-032
+	- Updated the VanillaRecipeUtil to now distinguish between internal and external mod giving the option to add recipes with modded items that are from other (external) mods.
+	- Created a new updated template file with streamlined naming including the mode
+	- Moved Vanilla Recipes using Vanilla Items exclusively to speecker_beast_vanilla_vanilla_VanillaRecipes
+	- moved and sorted out duplicate recipes for Vanilla Items using TwilightForest Items as inputs to a new mod specific file as test
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
