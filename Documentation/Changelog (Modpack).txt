@@ -3165,6 +3165,8 @@ v10.4.0-032
 	- Created a new updated template file with streamlined naming including the mode
 	- Moved Vanilla Recipes using Vanilla Items exclusively to speecker_beast_vanilla_vanilla_VanillaRecipes
 	- moved and sorted out duplicate recipes for Vanilla Items using TwilightForest Items as inputs to a new mod specific file as test
+v10.4.0-033
+	- Fixed accidentally cleared file speecker_beast_vanilla_twilightforest_VanillaRecipes.zs
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
