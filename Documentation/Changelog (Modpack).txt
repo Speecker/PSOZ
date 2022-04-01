@@ -3173,6 +3173,8 @@ v10.4.0-035
 	- Added updated headers with OG Author and Descriptions
 	- Added files for ActuallyAdditions - WIP
 	- Created Template files to be used to add compat for not yet implemented Mods
+v10.4.0-036
+	- Added a Documentation file explaining Bracket Handlers to Roockies
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

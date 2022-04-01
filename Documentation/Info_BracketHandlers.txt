@@ -1,0 +1,37 @@
+
+/*
+  --------------------------------------------------------------------------------------------------------------------
+  OG Author: Speecker
+  --------------------------------------------------------------------------------------------------------------------
+  This file contains helpful information for non-programmers about:
+    Bracket Handlers
+  --------------------------------------------------------------------------------------------------------------------
+*/
+
+All Blocks/Fluids/Items/etc. have a unique naming that can be viewed InGame by pressing F3+H to activate advanced Tooltips
+
+Types Of Bracket Handlers available with CraftTweaker:
+
+    - IItemStack: <mod:name:meta>
+        - "mod" is the ID of the mod that added the item (Vanilla Minecraft is just "minecraft")
+            - can be any (raw) string. i.e.: appliedenergistics2, actuallyadditions, [...]
+        - ":" 1st seperator. This one MUST be there!
+        - "name" is the localized name of the item
+            - can be any (raw) string. i.e.: apple, ingot_gold, [...]
+        - ":" 2nd seperator. This one is only needed if the optional meta Operator is provided
+        - "meta" is the optional ID of a meta item for the given IItemStack if it is available
+            - can be any int. i.e.: 1, 2, 3, 5, 12, [...]
+            - not all IItemStacks have meta IItemStacks available to them!
+
+    - IOreDictEntry: <ore:entry>
+        - "ore" is an immutable constant and has to be there!
+        - ":" This seperator MUST be there!
+        - "entry" is the actual Ore Dictonary Entry consisting of a kind and a material. Both need to be a (raw) string.
+            - i.e.: ingotGold where "ingot" is the kind and "Gold" the material.
+            - List of common kinds: nugget, ingot, block, plate, gear, stick, rod, longrod
+
+    - IIngredient:
+        - Can be any type of either an IItemStack or an IOreDictEntry.
+        - Can have optional variations seperated by "|"
+        - An example of an IIngredient[]: [<mod:name:meta>|<ore:entry>]
+        - An example of an IIngredient[][]: [[<mod:name:meta>|<ore:entry>], [<ore:entry>|<mod:name:meta>], [<mod:name:meta>|<ore:entry>|<mod:name:meta>]]

@@ -7,7 +7,7 @@
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains functions to handle all types of Recipes for Vanilla Minecraft.
-  For any not yet implmeneted Mod Items:
+  For any not yet implmeneted Mods:
   Use the file "speecker_mode_intMod_extMod_VanillaRecipes.zs" in TEMP as template for Recipe Customization.
   --------------------------------------------------------------------------------------------------------------------
 */

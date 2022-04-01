@@ -9,6 +9,8 @@
   This Script contains statics for mod compatibility with all types of Recipes for Vanilla Minecraft.
   Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s)
   --------------------------------------------------------------------------------------------------------------------
+  Programming Roockie ? You may find some help here: /Documentation/Info_BracketHandlers.txt
+  --------------------------------------------------------------------------------------------------------------------
 */
 
 import crafttweaker.item.IItemStack;
