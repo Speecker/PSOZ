@@ -1,17 +1,20 @@
 #priority -99
 #packmode mythic beast
-#modloaded dependency
+#modloaded crafttweaker
 
 /*
-
-  This Script contains statics for mod compatibility with all types of Vanilla Recipes.
-
+  --------------------------------------------------------------------------------------------------------------------
+  OG Author: Speecker
+  --------------------------------------------------------------------------------------------------------------------
+  This Script contains statics for mod compatibility with all types of Recipes for Vanilla Minecraft.
+  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s)
+  --------------------------------------------------------------------------------------------------------------------
 */
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-static author as string = "speecker";
+static author as string = "author";
 static mode as string = "beast";
 static modIntern as string = "internMod";
 static modExtern as string = "externMod";

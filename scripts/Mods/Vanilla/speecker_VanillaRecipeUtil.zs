@@ -3,10 +3,12 @@
 #modloaded crafttweaker
 
 /*
-
-  This Script contains functions to handle all types of Vanilla Recipes.
-  It can be used to add Recipes for any of the various modded items using the file "speecker_mode_intMod_extMod_VanillaRecipes.zs" as template.
-
+  --------------------------------------------------------------------------------------------------------------------
+  OG Author: Speecker
+  --------------------------------------------------------------------------------------------------------------------
+  This Script contains functions to handle all types of Recipes for Vanilla Minecraft.
+  Use the file "speecker_mode_intMod_extMod_VanillaRecipes.zs" in TEMP as template for Recipe Customization.
+  --------------------------------------------------------------------------------------------------------------------
 */
 
 import crafttweaker.item.IItemStack;

@@ -3169,6 +3169,10 @@ v10.4.0-033
 	- Fixed accidentally cleared file speecker_beast_vanilla_twilightforest_VanillaRecipes.zs
 v10.4.0-034
 	- fixed missing , in speecker_beast_vanilla_twilightforest_VanillaRecipes.zs
+v10.4.0-035
+	- Added updated headers with OG Author and Descriptions
+	- Added files for ActuallyAdditions - WIP
+	- Created Template files to be used to add compat for not yet implemented Mods
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
