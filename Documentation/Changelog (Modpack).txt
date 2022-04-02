@@ -3175,6 +3175,8 @@ v10.4.0-035
 	- Created Template files to be used to add compat for not yet implemented Mods
 v10.4.0-036
 	- Added a Documentation file explaining Bracket Handlers to Roockies
+v10.4.0-037
+	- Updated EnderIOEndergy from outdated 5.2.66 to 5.3.70 to match EnderIO Main Mod Version - ModList Update Pending
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
