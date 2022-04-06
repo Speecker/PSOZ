@@ -13,3 +13,22 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.actuallyadditions.AtomicReconstructor;
+
+// === Atomic Reconstructor Recipes ===
+
+//(IItemStack output, IItemStack input, int energyUsed);
+function processAddActuallyAdditionsAtomicReconstructorRecipe (map as IItemStack[IItemStack][string]) {
+  for energy, recipeInput in map {
+    for output, input in recipeInput {
+     AtomicReconstructor.addRecipe(output, input, energy);
+    }
+  }
+}
+
+//mods.actuallyadditions.AtomicReconstructor.removeRecipe(IItemStack output);
+function processRemoveActuallyAdditionsAtomicReconstructorRecipe (map as IItemStack) {
+  for output in map {
+    AtomicReconstructor.removeRecipe(output);
+  }
+}

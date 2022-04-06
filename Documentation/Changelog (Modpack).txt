@@ -3177,6 +3177,8 @@ v10.4.0-036
 	- Added a Documentation file explaining Bracket Handlers to Roockies
 v10.4.0-037
 	- Updated EnderIOEndergy from outdated 5.2.66 to 5.3.70 to match EnderIO Main Mod Version - ModList Update Pending
+v10.4.0-038
+	- Added ActuallyAdditions AtomicReconstructor Modular Script Compat
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
