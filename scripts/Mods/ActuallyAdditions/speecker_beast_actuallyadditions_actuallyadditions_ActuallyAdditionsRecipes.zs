@@ -95,7 +95,7 @@ static addActuallyAdditionsEmpowererRecipeColoured as string[][string[]][IItemSt
 };
 
 // === Mining Lens ===
-
+/*
 static removeActuallyAdditionsMiningLensStone as IOreDictEntry[] = [
 //  <IOreDictEntry:removal>,
   <ore:oreIron>
@@ -105,7 +105,7 @@ static removeActuallyAdditionsMiningLensNether as IOreDictEntry[] = [
 //  <IOreDictEntry:removal>,
   <ore:oreGold>
 ];
-
+*/
 // === Oil Generator ===
 
 // === Tressure Chest ===

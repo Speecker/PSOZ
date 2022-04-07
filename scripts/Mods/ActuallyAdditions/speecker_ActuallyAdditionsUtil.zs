@@ -107,7 +107,7 @@ function processAddActuallyAdditionsEmpowererRecipeColoured (map as string[][str
 }
 
 // === Mining Lens ===
-
+/*
 function processRemoveActuallyAdditionsMiningLensStone (map as IOreDictEntry[]) {
   for removal in map {
     MiningLens.removeStoneOre(removal)
@@ -131,7 +131,7 @@ function processAddActuallyAdditionsMiningLensNether (map as string[IOreDictEntr
     MiningLens.addStoneOre(entry, weight);
   }
 }
-
+*/
 // === Oil Generator ===
 
 // === Tressure Chest ===

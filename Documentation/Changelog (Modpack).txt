@@ -3181,6 +3181,9 @@ v10.4.0-038
 	- Added ActuallyAdditions AtomicReconstructor Modular Script Compat
 v10.4.0-039
 	- Updated ActuallyAdditions Compat files WIP
+v10.4.0-040
+	- ActuallyAdditions:
+		- Outcommented Mining Lens Util/Recipe as it is not yet done
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
