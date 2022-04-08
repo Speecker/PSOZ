@@ -30,6 +30,7 @@ UNDONE/Planned:
 	- find a way to Buff Infinity Armor Toughness Value LOL
 	- Use Botanias Conjugation Catalyst as duplication option for Collectables
 	- Fix Output Value for Titanium Wafer
+	- Port IGW (InGameWiki) entries over to DragonLib
 
 Mythic Inspirations, Fails, Fixes etc.:	
 	- Neutral Steel 5 Recipe ?
