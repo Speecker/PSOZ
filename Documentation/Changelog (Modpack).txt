@@ -3199,6 +3199,8 @@ v10.4.1-000
 	Cleaned Up obsolete TEMP files, renamed them to now use author_[...] format for finished ones.
 	Updated VanillaRecipeUtil
 	Uploaded Updated ModSet ZIP-File
+v10.4.1-001
+	Added missing imports for IOreDictEntry and ILiquidStack in ActuallyAdditionsRecipes files with extMods
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
