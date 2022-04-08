@@ -1,6 +1,6 @@
 #priority -99
 #packmode mythic beast
-#modloaded crafttweaker
+#modloaded crafttweaker modtweaker actuallyadditions aeadditions
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -16,10 +16,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-static author as string = "author";
+static author as string = "speecker";
 static mode as string = "beast";
-static modIntern as string = "internMod";
-static modExtern as string = "externMod";
+static modIntern as string = "actuallyadditions";
+static modExtern as string = "aeadditions";
 
 // === Vanilla Brewing Recipes ===
 
@@ -42,11 +42,11 @@ static removeVanillaFurnaceRecipeByIO as IIngredient[][] = [
 ];
 
 static addVanillaFurnaceRecipe as IIngredient[][IItemStack] = {
-//  <IItemStack:output> : [<IIngredient:input>]
+//  <IItemStack:output>: [<IIngredient:input>]
 };
 
 static addVanillaFurnaceRecipeXP as IIngredient[][IItemStack][string] = {
-//  double_XP : { <IIngredient:output> : [<IIngredient:input>] }
+//  double_XP: { <IIngredient:output> : [<IIngredient:input>] }
 };
 
 static setVanillaFurnaceFuel as IIngredient[][string] = {
@@ -58,6 +58,7 @@ static setVanillaFurnaceFuel as IIngredient[][string] = {
 
 static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 //	[<IIngredient:toRemove>.withTag({NBTtag})]: bool //if true the recipe will only be removed if the Optional NBT-Tag matches
+  [<actuallyadditions:block_fluid_placer>]: false
 };
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
@@ -65,7 +66,7 @@ static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
 };
 
 static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] = {
-//if the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
+//NOTE: if the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
 };
@@ -83,9 +84,10 @@ static removeVanillaGridRecipeByMod as string[] = [
 ];
 
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
-//	recipeName : { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
-//	recipeName : { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
-//	name: { <minecraft:output>: [IIngredient] },
+//	recipeName : { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] },
+//	recipeName : { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] },
+//	name: { <minecraft:output>: [IIngredients] },
+	fluid_placer: { <actuallyadditions:block_fluid_placer>: [[[null, <actuallyadditions:item_crystal:5>, null],[<aeadditions:certustank>, <actuallyadditions:block_misc:7>, <aeadditions:certustank>], [null, <actuallyadditions:item_crystal:5>, null]]] }
 };
 
 static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][string] = {

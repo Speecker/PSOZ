@@ -15,12 +15,16 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.BallOfFur;
 import mods.actuallyadditions.Compost;
 import mods.actuallyadditions.Crusher;
 import mods.actuallyadditions.Empowerer;
 import mods.actuallyadditions.MiningLens;
+import mods.actuallyadditions.OilGen;
+import mods.actuallyadditions.TreasureChest;
 
 // === Atomic Reconstructor ===
 
@@ -91,46 +95,86 @@ function processRemoveActuallyAdditionsEmpowererRecipe (map as IItemStack[]) {
   }
 }
 
-function processAddActuallyAdditionsEmpowererRecipe (map as string[][IItemStack[]]) {
-  for ingredients, integers in map {
-    Empowerer.addRecipe(ingredients[0], ingredients[1], ingredients[2], ingredients[3], ingredients[4], ingredients[5], integers[0], integers[1]);
+function processAddActuallyAdditionsEmpowererRecipe (map as string[][IIngredient[]][IItemStack]) {
+  for output, recipeOutput in map {
+    for ingredients, integers in recipeOutput {
+      Empowerer.addRecipe(output, ingredients[0], ingredients[1], ingredients[2], ingredients[3], ingredients[4], integers[0], integers[1]);
+    }
   }
 }
 
-function processAddActuallyAdditionsEmpowererRecipeColoured (map as string[][string[]][IItemStack[]]) {
-  for ingredients, ingredientArray in map {
-    for integers, colors in ingredientArray {
-      Empowerer.addRecipe(ingredients[0], ingredients[1], ingredients[2], ingredients[3], ingredients[4], ingredients[5], integers[0], integers[1], [colors[0], colors[1], colors[2]]);
+function processAddActuallyAdditionsEmpowererRecipeColoured (map as string[][string[]][IIngredient[]][IItemStack]) {
+  for output, recipeOutput in map {
+    for ingredients, recipeIngredients in recipeOutput {
+      for integers, colors in recipeIngredients {
+        Empowerer.addRecipe(output, ingredients[0], ingredients[1], ingredients[2], ingredients[3], ingredients[4], integers[0], integers[1], [colors[0], colors[1], colors[2]]);
+      }
     }
   }
 }
 
 // === Mining Lens ===
-/*
-function processRemoveActuallyAdditionsMiningLensStone (map as IOreDictEntry[]) {
+
+function processRemoveActuallyAdditionsMiningLensOverworld (map as IOreDictEntry[]) {
   for removal in map {
-    MiningLens.removeStoneOre(removal)
+    MiningLens.removeStoneOre(removal);
   }
 }
 
 function processRemoveActuallyAdditionsMiningLensNether (map as IOreDictEntry[]) {
   for removal in map {
-    MiningLens.removeNetherOre(removal)
+    MiningLens.removeNetherOre(removal);
   }
 }
 
-function processAddActuallyAdditionsMiningLensStone (map as string[IOreDictEntry]) {
+function processAddActuallyAdditionsMiningLensOverworld (map as string[IOreDictEntry[]]) {
   for entry, weight in map {
-    MiningLens.addStoneOre(entry, weight);
+    MiningLens.addStoneOre(entry[0], weight);
   }
 }
 
-function processAddActuallyAdditionsMiningLensNether (map as string[IOreDictEntry]) {
+function processAddActuallyAdditionsMiningLensNether (map as string[IOreDictEntry[]]) {
   for entry, weight in map {
-    MiningLens.addStoneOre(entry, weight);
+    MiningLens.addStoneOre(entry[0], weight);
   }
 }
-*/
+
 // === Oil Generator ===
 
-// === Tressure Chest ===
+function processRemoveActuallyAdditionsOilGenerator (map as ILiquidStack[]) {
+  for removal in map {
+    OilGen.removeRecipe(removal);
+  }
+}
+
+function processAddActuallyAdditionsOilGenerator (map as string[ILiquidStack[]]) {
+  for fluid, amount in map {
+    OilGen.addRecipe(fluid[0], amount);
+  }
+}
+
+function processAddActuallyAdditionsOilGeneratorTimed (map as string[string][ILiquidStack[]]) {
+  for fluid, recipeFluid in map {
+    for amount, time in recipeFluid {
+      OilGen.addRecipe(fluid[0], amount, time);
+    }
+  }
+}
+
+// === Tresure Chest ===
+
+function processRemoveActuallyAdditionsTresureChest (map as IItemStack[]) {
+  for removal in map {
+    TreasureChest.removeLoot(removal);
+  }
+}
+
+function processAddActuallyAdditionsTresureChest (map as string[string][string][IItemStack[]]) {
+  for addition, returnItem in map {
+    for chance, intChance in returnItem {
+      for minAmount, maxAmount in intChance {
+        TreasureChest.addLoot(addition[0], chance, minAmount, maxAmount);
+      }
+    }
+  }
+}

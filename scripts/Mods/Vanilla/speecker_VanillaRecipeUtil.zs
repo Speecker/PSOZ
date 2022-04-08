@@ -71,6 +71,17 @@ function processSetVanillaFurnaceFuel (map as IIngredient[][string]) {
   }
 }
 
+/*
+furnace.getFuel(IItemStack item); 
+This will return the burn value as an Integer
+
+furnace.all;
+Returns a List<IFurnaceRecipe>.
+
+furnace.getSmeltingResult(IItemstack stack);
+Returns an IItemStack.
+*/
+
 // === Vanilla Grid Recipes ===
 
 function processRemoveVanillaGridRecipeByOutput (map as bool[IIngredient[]]) {

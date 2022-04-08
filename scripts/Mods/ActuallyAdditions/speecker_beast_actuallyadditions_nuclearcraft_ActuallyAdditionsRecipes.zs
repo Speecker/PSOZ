@@ -1,6 +1,6 @@
 #priority -99
 #packmode mythic beast
-#modloaded crafttweaker modtweaker actuallyadditions
+#modloaded crafttweaker modtweaker actuallyadditions nuclearcraft
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -15,134 +15,132 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.liquid.ILiquidStack;
 
 static author as string = "speecker";
 static mode as string = "beast";
 static modIntern as string = "actuallyadditions";
-static modExtern as string = "actuallyadditions";
+static modExtern as string = "nuclearcraft";
 
 // === Atomic Reconstructor ===
 
 static removeActuallyAdditionsAtomicReconstructorRecipe as IItemStack[] = [
 //  <IItemStack:removal>,
-  <minecraft:coal>
 ];
 
 static addActuallyAdditionsAtomicReconstructorRecipe as IItemStack[][string] = {
 //  Opt_intEnergy: [<IItemStack:input>, <IItemStack:ouput>],
-  1000: [<minecraft:coal:1>, <minecraft:fire_charge>]
 };
 
 // === Ball of Fur ===
 
 static removeActuallyAdditionsBallOfFurRecipe as IItemStack[] = [
 //  <IItemStack:removal>,
-  <minecraft:coal>
 ];
 
 static addActuallyAdditionsBallOfFurRecipe as string[IItemStack] = {
 //  <IItemStack:output>: intChance,
-  <minecraft:string>: 5
 };
 
 // === Compost ===
 
 static removeActuallyAdditionsCompostRecipe as IItemStack[] = [
 //  <IItemStack:removal>,
-  <actuallyadditions:item_canola_seed>
 ];
 
 static addActuallyAdditionsCompostRecipe as IItemStack[][] = [
 // Note: outputDisplay and inputDisplay sets the Block Texture used to be shown inside the Compost Bin
 //  [<IItemStack:output>, <IItemStack:outputDisplay>, <IItemStack:input>, <IItemStack:inputDisplay>],
-  [<minecraft:dirt>, <minecraft:dirt>, <minecraft:sugar>, <minecraft:snow>]
 ];
 
 // === Crusher ===
 
 static removeActuallyAdditionsCrusherRecipe as IItemStack[] = [
 //  <IItemStack:removal>,
-  <minecraft:gold_ore>
 ];
 
 static addActuallyAdditionsCrusherRecipe as IItemStack[][] = [
 //  [<IItemStack:input>, <IItemStack:output>]
-  [<minecraft:iron_ore>, <minecraft:iron_ingot>]
 ];
 
 static addActuallyAdditionsCrusherRecipeSecondary as string[IItemStack[]] = {
 //  [<IItemStack:input>, <IItemStack:output>, <IItemStack:outputSecondary>]: intChanceSecondary,
-  [<minecraft:iron_ore>, <minecraft:iron_ingot>, <minecraft:stone>]: 50
 };
 
 // === Empowerer ===
 
 static removeActuallyAdditionsEmpowererRecipe as IItemStack[] = [
 //  <IItemStack:removal>,
+  <actuallyadditions:block_crystal_empowered:0>,
+  <actuallyadditions:item_crystal_empowered:0>,
+  <actuallyadditions:block_crystal_empowered:1>,
+  <actuallyadditions:item_crystal_empowered:1>,
+  <actuallyadditions:block_crystal_empowered:3>,
+  <actuallyadditions:item_crystal_empowered:3>,
+  <actuallyadditions:block_crystal_empowered:4>,
+  <actuallyadditions:item_crystal_empowered:4>,
+  <actuallyadditions:block_crystal_empowered:5>,
+  <actuallyadditions:item_crystal_empowered:5>
 ];
 
 static addActuallyAdditionsEmpowererRecipe as string[][IIngredient[]][IItemStack] = {
 //  <IItemStack:output>: { [<IIngredient:middleinput>, <IIngredient:modifier1>, <IIngredient:modifier2>, <IIngredient:modifier3>, <IIngredient:modifier4>]: [intEnergyPerStand, intTime] },
-  <minecraft:iron_ingot>: { [<minecraft:leaves>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>]: [500, 100] }
 };
 
 static addActuallyAdditionsEmpowererRecipeColoured as string[][string[]][IIngredient[]][IItemStack] = {
 //  <IItemStack:output>: { [<IIngredient:middleinput>, <IIngredient:modifier1>, <IIngredient:modifier2>, <IIngredient:modifier3>, <IIngredient:modifier4>]: { [intEnergyPerStand, intTime]: [floatColorArray] }},
 //  <IItemStack:output>: { [<IIngredient:middleinput>, <IIngredient:modifier1>, <IIngredient:modifier2>, <IIngredient:modifier3>, <IIngredient:modifier4>]: { [intEnergyPerStand, intTime]: ["0.5", "0.3", "0.2"] }},
-  <minecraft:iron_ingot>: { [<minecraft:leaves>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>, <ore:dustRedstone>|<minecraft:redstone>]: { [500, 100]: ["1.0", "0.1", "0.1"] }}
+  <actuallyadditions:block_crystal_empowered:0>: { [<actuallyadditions:block_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <ore:gemRhodochrosite>|<nuclearcraft:gem:0>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:item_crystal_empowered:0>: { [<actuallyadditions:item_crystal:0>, <ore:ingotBrickNether>, <ore:dustRedstone>, <ore:ingotBrick>, <ore:gemRhodochrosite>|<nuclearcraft:gem:0>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:block_crystal_empowered:1>: { [<actuallyadditions:block_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemCarobbite>|<nuclearcraft:gem:4>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:item_crystal_empowered:1>: { [<actuallyadditions:item_crystal:1>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemCarobbite>|<nuclearcraft:gem:4>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:block_crystal_empowered:3>: { [<actuallyadditions:block_crystal:3>, <ore:charcoal>, <ore:flint>|<minecraft:flint>, <ore:stone>, <ore:itemSilicon>|<nuclearcraft:gem:6>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:item_crystal_empowered:3>: { [<actuallyadditions:item_crystal:3>, <ore:charcoal>, <ore:flint>|<minecraft:flint>, <ore:stone>, <ore:itemSilicon>|<nuclearcraft:gem:6>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:block_crystal_empowered:4>: { [<actuallyadditions:block_crystal:4>, <ore:gemBoronNitride>|<nuclearcraft:gem:1>, <ore:ingotBeryllium>, <ore:gemFluorite>|<nuclearcraft:gem:2>, <minecraft:vine>]: { [20000, 20]: ["0.7", "0.9", "0.8"] }},
+  <actuallyadditions:item_crystal_empowered:4>: { [<actuallyadditions:item_crystal:4>, <ore:gemBoronNitride>|<nuclearcraft:gem:1>, <ore:ingotBeryllium>, <ore:gemFluorite>|<nuclearcraft:gem:2>, <minecraft:vine>]: { [20000, 20]: ["0.7", "0.9", "0.8"] }},
+  <actuallyadditions:block_crystal_empowered:5>: { [<actuallyadditions:block_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <ore:gemBoronArsenide>|<nuclearcraft:gem:5>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }},
+  <actuallyadditions:item_crystal_empowered:5>: { [<actuallyadditions:item_crystal:5>, <minecraft:snowball>, <minecraft:stone_button>, <ore:cobblestone>, <ore:gemBoronArsenide>|<nuclearcraft:gem:5>]: { [20000, 8]: ["0.1", "0.1", "0.1"] }}
 };
 
 // === Mining Lens ===
 
 static removeActuallyAdditionsMiningLensOverworld as IOreDictEntry[] = [
 //  <IOreDictEntry:removal>,
-  <ore:oreIron>
 ];
 
 static removeActuallyAdditionsMiningLensNether as IOreDictEntry[] = [
 //  <IOreDictEntry:removal>,
-  <ore:oreGold>
 ];
 
 static addActuallyAdditionsMiningLensOverworld as string[IOreDictEntry[]] = {
 //  [<IOreDictEntry:addition>]: int_weight,
-  [<ore:oreIron>]: 2
 };
 
 static addActuallyAdditionsMiningLensNether as string[IOreDictEntry[]] = {
 //  [<IOreDictEntry:addition>]: int_weight,
-  [<ore:oreGold>]: 5
 };
 
 // === Oil Generator ===
 
 static removeActuallyAdditionsOilGenerator as ILiquidStack[] = [
 //  <ILiquidStack:fluid>,
-  <liquid:water>
 ];
 
 static addActuallyAdditionsOilGenerator as string[ILiquidStack[]] = {
 //  [<ILiquidStack:fluid>]: int_genAmount,
-  [<liquid:water>]: 100
 };
 
 static addActuallyAdditionsOilGeneratorTimed as string[string][ILiquidStack[]] = {
 //  [<ILiquidStack:fluid>]: { int_genAmount: int_genTime },
-  [<liquid:water>]: { 1000: 10 }
 };
 
 // === Tressure Chest ===
 
 static removeActuallyAdditionsTresureChest as IItemStack[] = [
 //  <IItemStack:removal>,
-  <minecraft:gold_nugget>
 ];
 
 static addActuallyAdditionsTresureChest as string[string][string][IItemStack[]] = {
 //  [<minecraft:dirt>]: { 50: { 1: 64 } }
-  [<minecraft:dirt>]: { 50: { 1: 64 } }
 };
 
 if (performRemoveAll == true) {

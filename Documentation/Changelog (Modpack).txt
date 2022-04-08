@@ -3194,6 +3194,11 @@ v10.4.0-041
 		- Added Tooltip for Canola Press to inform about autopushing capability
 	SolarFluxReborn:
 		- Added ActuallyAdditions Solar Panel as prerequisity for the T1 Panel
+v10.4.1-000
+	ActuallyAdditions Compat is now fully functional
+	Cleaned Up obsolete TEMP files, renamed them to now use author_[...] format for finished ones.
+	Updated VanillaRecipeUtil
+	Uploaded Updated ModSet ZIP-File
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
