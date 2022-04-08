@@ -8,9 +8,8 @@ ModC   | ~~disabled/removed~~   | This is Mod C doing xy.
 
 # Table of what can do what 
 
-__Mod__ | __Object__ | __Capability__ | __Description__
-:--------: | :---------: | :--------------: | :--------:
-Inhalt   | Inhalt   | Inhalt | Inhalt
-Inhalt   | Inhalt   | Inhalt | Inhalt
+__Mod__ | __Wireless Item Transfer__ | __Wireless Fluid Transfer__ | __Wireless Energy Transfer__ | __Furnacing__ | __Crushing__ | __Plating__ | __Roding__ | __Gearing__ | __Charging__ | __Quarry__
+:--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------:
+ModXY   | WirelessItemTransfer   | WirelessFluidTransfer   | WirelessENergyTransfer   | Furnace   | Crusher   | PlatingMachine   | RodMachine   | GearMachine   | ChargingDevice   | Quarry
 
 
