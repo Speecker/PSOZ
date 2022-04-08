@@ -8,7 +8,6 @@ recipes.remove(<solarflux:photovoltaic_cell_1>);
 recipes.remove(<solarflux:photovoltaic_cell_3>);
 recipes.remove(<solarflux:photovoltaic_cell_5>);
 recipes.remove(<solarflux:photovoltaic_cell_6>);
-recipes.remove(<solarflux:solar_panel_1>);
 recipes.remove(<solarflux:solar_panel_3>);
 recipes.remove(<solarflux:solar_panel_4>);
 recipes.remove(<solarflux:solar_panel_5>);
@@ -20,7 +19,6 @@ recipes.addShaped("speecker_beast_solarflux_photovoltaic_cell_1", <solarflux:pho
 recipes.addShaped("speecker_beast_solarflux_photovoltaic_cell_3", <solarflux:photovoltaic_cell_3>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:dustGlowstone>, <thermalsolars:blocksolarpanel6>, <ore:dustGlowstone>], [<ore:obsidian>, <solarflux:photovoltaic_cell_2>, <ore:obsidian>]]);
 recipes.addShaped("speecker_beast_solarflux_photovoltaic_cell_5", <solarflux:photovoltaic_cell_5>, [[<ore:blockBlaze>, <ore:blockBlaze>, <ore:blockBlaze>], [<ore:glowstone>, <pneumaticcraft:transistor>, <ore:glowstone>], [<ore:blockCrystallineAlloy>, <solarflux:photovoltaic_cell_4>, <ore:blockCrystallineAlloy>]]);
 recipes.addShaped("speecker_beast_solarflux_photovoltaic_cell_6", <solarflux:photovoltaic_cell_6>, [[<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>], [<ore:glowstone>, <pneumaticcraft:capacitor>, <ore:glowstone>], [<ore:blockStellarAlloy>, <solarflux:photovoltaic_cell_5>, <ore:blockStellarAlloy>]]);
-recipes.addShaped("speecker_beast_solarflux_solar_panel_1", <solarflux:solar_panel_1>, [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>], [<ore:ingotElectricalSteel>, <projectred-expansion:charged_battery>, <ore:ingotElectricalSteel>], [<ore:ingotElectricalSteel>, <ore:ingotRedAlloy>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_3", <solarflux:solar_panel_3>, [[<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>], [<solarflux:solar_panel_2>, <nuclearcraft:solar_panel_basic>, <solarflux:solar_panel_2>], [<solarflux:solar_panel_2>, <ore:blockElectricalSteel>, <solarflux:solar_panel_2>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_4", <solarflux:solar_panel_4>, [[<solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>, <solarflux:photovoltaic_cell_2>], [<solarflux:solar_panel_3>, <thermalsolars:blocksolarpanel4>, <solarflux:solar_panel_3>], [<solarflux:solar_panel_3>, <ore:blockEnergeticAlloy>, <solarflux:solar_panel_3>]]);
 recipes.addShaped("speecker_beast_solarflux_solar_panel_5", <solarflux:solar_panel_5>, [[<solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>], [<solarflux:solar_panel_4>, <nuclearcraft:solar_panel_advanced>, <solarflux:solar_panel_4>], [<solarflux:solar_panel_4>, <ore:blockVibrantAlloy>, <solarflux:solar_panel_4>]]);

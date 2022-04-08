@@ -15,7 +15,6 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IOreDictEntry;
 
 static author as string = "speecker";
 static mode as string = "beast";

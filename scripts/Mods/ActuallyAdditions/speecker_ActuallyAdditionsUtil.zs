@@ -15,7 +15,6 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IOreDictEntry;
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.BallOfFur;
 import mods.actuallyadditions.Compost;

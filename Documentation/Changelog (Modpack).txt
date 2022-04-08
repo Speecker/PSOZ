@@ -3184,6 +3184,16 @@ v10.4.0-039
 v10.4.0-040
 	- ActuallyAdditions:
 		- Outcommented Mining Lens Util/Recipe as it is not yet done
+v10.4.0-041
+	- Cleaned up and rearranged the ModSet including:
+		- Update of EnderIOEndergy form .66 to .70
+		- Added TinkersOreDictCache for better load times with TConstruct and the high amount of entries
+	PamsHarvestCraft:
+		- removed Vanilla Logs from the plank recipe
+	ActuallyAdditions:
+		- Added Tooltip for Canola Press to inform about autopushing capability
+	SolarFluxReborn:
+		- Added ActuallyAdditions Solar Panel as prerequisity for the T1 Panel
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
