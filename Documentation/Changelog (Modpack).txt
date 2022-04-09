@@ -3217,6 +3217,11 @@ v10.4.2-002
 	TEMP:
 		- Added BloodMagicRecipes Template
 		- Edited #packmode preprocessors to now use mode instead of a predefined one
+v10.4.2-003
+	BloodMagic:
+		- Seperated ModSpecific recipes into sub-files and moved them if the output was not from bloodmagic
+	Botania:
+		- Added and renamed templates for Compat
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

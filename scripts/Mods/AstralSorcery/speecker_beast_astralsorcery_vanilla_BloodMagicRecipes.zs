@@ -1,6 +1,6 @@
 #priority -99
 #packmode mythic beast
-#modloaded crafttweaker modtweaker bloodmagic
+#modloaded crafttweaker modtweaker bloodmagic astralsorcery
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -18,8 +18,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 static author as string = "speecker";
 static mode as string = "beast";
-static modIntern as string = "bloodmagic";
-static modExtern as string = "bloodmagic";
+static modIntern as string = "astralsorcery";
+static modExtern as string = "vanilla";
 
 // === Alchemy Array ===
 
@@ -66,6 +66,7 @@ The consumeRate is how quickly the Life Essence is syphoned.
 The drainRate is how quickly progress is lost if the Blood Altar runs out of Life Essence during the craft.
 */
 //  [<IItemStack:output>, <IItemStack:input>]: [intMinimumTier, intSyphon, intConsumeRate, intDrainRate]
+  [<astralsorcery:blockcustomore:1>, <minecraft:iron_ore>]: [3, 5000,60,200]
 };
 
 // === Tartaric Forge ===

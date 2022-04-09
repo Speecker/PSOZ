@@ -1,6 +1,6 @@
 #priority -99
 #packmode mythic beast
-#modloaded crafttweaker bloodmagic
+#modloaded crafttweaker bloodmagic lordcraft
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ import crafttweaker.item.IIngredient;
 static author as string = "speecker";
 static mode as string = "beast";
 static modIntern as string = "bloodmagic";
-static modExtern as string = "bloodmagic";
+static modExtern as string = "lordcraft";
 
 // === Vanilla Brewing Recipes ===
 
@@ -69,7 +69,8 @@ Returns an IItemStack.
 
 static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 //	[<IIngredient:toRemove>.withTag({NBTtag})]: bool //if true the recipe will only be removed if the Optional NBT-Tag matches
-  [<bloodmagic:blood_rune>]: false
+  [<bloodmagic:soul_forge>]: false,
+  [<bloodmagic:soul_snare>]: false
 };
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
@@ -80,7 +81,6 @@ static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] 
 //  NOTE: If the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
-  [<bloodmagic:decorative_brick>*16]: { [[<ore:stone>, <bloodmagic:blood_shard>]]: false }
 };
 
 static removeVanillaGridRecipeByRegex as string[] = [
@@ -99,7 +99,8 @@ static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	name: { <minecraft:output>: [IIngredient] },
-	blood_rune: { <bloodmagic:blood_rune>: [[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],[<bloodmagic:slate>, <bloodmagic:blood_orb:*>, <bloodmagic:slate>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]] }
+	soul_forge: { <bloodmagic:soul_forge>: [[[<ore:ingotIron>, null, <ore:ingotIron>],[<ore:stone>, <lordcraft:util:2>, <ore:stone>], [<ore:stone>, <ore:blockMetal>, <ore:stone>]]] },
+	soul_snare: { <bloodmagic:soul_snare>*4: [[[<ore:ingotIron>, <ore:string>, <ore:ingotIron>],[<ore:string>, <lordcraft:dust_magic>, <ore:string>], [<ore:ingotIron>, <ore:string>, <ore:ingotIron>]]] }
 };
 
 static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][string] = {

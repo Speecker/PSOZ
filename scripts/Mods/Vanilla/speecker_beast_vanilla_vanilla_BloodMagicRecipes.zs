@@ -18,8 +18,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 static author as string = "speecker";
 static mode as string = "beast";
-static modIntern as string = "bloodmagic";
-static modExtern as string = "bloodmagic";
+static modIntern as string = "vanilla";
+static modExtern as string = "vanilla";
 
 // === Alchemy Array ===
 
@@ -56,6 +56,9 @@ static addBloodMagicAlchemyTable as string[][IIngredient[]][IItemStack] = {
 
 static removeBloodMagicBloodAltar as IItemStack[] = [
 //  <IItemStack:input>,
+  <minecraft:stone>,
+  <minecraft:diamond>,
+  <minecraft:iron_sword>
 ];
 
 static addBloodMagicBloodAltar as string[][IItemStack[]] = {
