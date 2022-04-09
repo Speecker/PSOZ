@@ -54,8 +54,8 @@ static removeBloodMagicAlchemyTablePotion as IItemStack[] = [
 
 static addBloodMagicAlchemyTable as string[][IIngredient[]][IItemStack] = {
 //  NOTE: Inputs has a max size of 6 and MUST be an IItemStack.
-//  <IItemStack:output>: { [<IItemStack:ingredient_n>]: [intSyphon,intTicks,intMinTier] },
-  <minecraft:diamond>: { [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]: [20,10,0] }
+//  <IItemStack:output>: { [<IItemStack:ingredient_n>]: [intSyphon, intTicks, intMinTier] },
+  <minecraft:diamond>: { [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]: [20, 10, 0] }
 };
 
 // === Blood Altar ===
@@ -97,7 +97,7 @@ static removeBloodMagicTartaricForge as IIngredient[][][] = [
 static addBloodMagicTartaricForge as string[][IIngredient[][]][IItemStack] = {
 //  NOTE: Inputs has a max size of 4 and MUST be an IItemStack.
 //  <IItemStack:output>: { [[<IItemStack:input_n>]]: [doubleMinSouls, doubleSoulDrain] };
-  <minecraft:diamond>: { [[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]: [10, 10] };
+  <minecraft:diamond>: { [[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]: [10, 10] }
 };
 
 if (performRemoveAll == true) {
