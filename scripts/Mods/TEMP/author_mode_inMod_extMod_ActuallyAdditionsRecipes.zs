@@ -1,5 +1,5 @@
 #priority -99
-#packmode mythic beast
+#packmode mode
 #modloaded crafttweaker modtweaker actuallyadditions moddependency
 
 /*
