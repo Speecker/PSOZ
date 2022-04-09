@@ -3209,6 +3209,7 @@ v10.4.1-003
 	Updated TEMP files with missing importers and cleaned up dsecriptions etc.
 v10.4.2-000
 	BloodMagic Compat is now fully functional 
+	Updated Default Quests for BetterQuesting
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
