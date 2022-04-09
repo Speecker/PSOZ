@@ -3210,7 +3210,7 @@ v10.4.1-003
 v10.4.2-000
 	BloodMagic Compat is now fully functional 
 	Updated Default Quests for BetterQuesting
-v10.4.2-000
+v10.4.2-001
 	VanillaRecipe TEMP:
 		- Edited a line for the intMod @RemoveByMod and moved its caller to the conditional performRemoveAll function to now automatically remove any recipe from that mod if it is set to true in the Config
 
