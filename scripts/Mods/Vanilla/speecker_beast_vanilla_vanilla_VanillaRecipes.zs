@@ -68,6 +68,12 @@ static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
     [<minecraft:flint_and_steel>]: false,
     [<minecraft:furnace>]: false,
     [<minecraft:iron_bars>]: false,
+    [<minecraft:planks:0>*4]: false,
+    [<minecraft:planks:1>*4]: false,
+    [<minecraft:planks:2>*4]: false,
+    [<minecraft:planks:3>*4]: false,
+    [<minecraft:planks:4>*4]: false,
+    [<minecraft:planks:5>*4]: false,
     [<minecraft:piston>]: false,
     [<minecraft:purple_shulker_box>]: false,
     [<minecraft:redstone_block>]: false,
@@ -77,7 +83,7 @@ static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
 //  [<IIngredient:output>]: [[[<IIngredient:Input_0>,<IIngredient:Input_1>,<IIngredient:Input_2>],[<IIngredient:Input_3>,<IIngredient:Input_4>,<IIngredient:Input_5>],[<IIngredient:Input_6>,<IIngredient:Input_7>,<IIngredient:Input_8>]]]
-  [<minecraft:diamond>]: [[[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]],
+  [<minecraft:diamond>]: [[[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]]
 };
 
 static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] = {
@@ -85,12 +91,6 @@ static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] 
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
   [<minecraft:diamond>]: { [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]: false },
-  [<minecraft:planks:0>*4]: { [[<minecraft:log:0>]]: false },
-  [<minecraft:planks:1>*4]: { [[<minecraft:log:1>]]: false },
-  [<minecraft:planks:2>*4]: { [[<minecraft:log:2>]]: false },
-  [<minecraft:planks:3>*4]: { [[<minecraft:log:3>]]: false },
-  [<minecraft:planks:4>*4]: { [[<minecraft:log2:0>]]: false },
-  [<minecraft:planks:5>*4]: { [[<minecraft:log2:1>]]: false },
   [<minecraft:ender_eye>]: { [[<ore:enderpearl>, <ore:dustBlaze>]]: false }
 };
 
