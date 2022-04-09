@@ -1,6 +1,6 @@
 #priority -99
-#packmode mythic beast
-#modloaded crafttweaker moddependency
+#packmode normal titan kappa beast mythic beast
+#modloaded crafttweaker bloodmagic
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -16,10 +16,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-static author as string = "author";
-static mode as string = "mode";
-static modIntern as string = "internMod";
-static modExtern as string = "externMod";
+static author as string = "speecker";
+static mode as string = "any";
+static modIntern as string = "bloodmagic";
+static modExtern as string = "bloodmagic";
 
 // === Vanilla Brewing Recipes ===
 
@@ -106,7 +106,9 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[<IIngredient:input_n>]] },
+//	recipeName: { <IItemStack:output>: [IIngredient] },
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
+//	recipeName: { <IItemStack:output>*optional_int_amount: [IIngredient] },
 };
 
 // === Vanilla Remove All Occurences ===

@@ -3204,6 +3204,9 @@ v10.4.1-001
 v10.4.1-002
 	Vanilla/VanillaRecipes:
 		-Once again fixed/removed recipe to get 4 planks out of 1 log
+v10.4.1-003
+	BloodMagic is done so far but needs testing and perhaps some Fixing/Seperation
+	Updated TEMP files with missing importers and cleaned up dsecriptions etc.
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

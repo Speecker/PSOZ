@@ -7,7 +7,7 @@
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains functions to handle all types of Recipes for Actually Additions Machines.
-  Use the file "speecker_mode_intMod_extMod_ActuallyAdditionsRecipes.zs" in TEMP as template for Recipe Customization.
+  Use the file "author_mode_intMod_extMod_ActuallyAdditionsRecipes.zs" in TEMP as template for Recipe Customization.
   --------------------------------------------------------------------------------------------------------------------
   NOTE: ModTweaker has to be installed for this Script to work and customize Actually Additions Machine Recipes !
   --------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
+
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.actuallyadditions.BallOfFur;
 import mods.actuallyadditions.Compost;

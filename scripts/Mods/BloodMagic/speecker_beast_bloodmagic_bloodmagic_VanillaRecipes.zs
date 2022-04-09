@@ -1,6 +1,6 @@
 #priority -99
 #packmode mythic beast
-#modloaded crafttweaker moddependency
+#modloaded crafttweaker bloodmagic
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -16,10 +16,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-static author as string = "author";
-static mode as string = "mode";
-static modIntern as string = "internMod";
-static modExtern as string = "externMod";
+static author as string = "speecker";
+static mode as string = "beast";
+static modIntern as string = "bloodmagic";
+static modExtern as string = "bloodmagic";
 
 // === Vanilla Brewing Recipes ===
 
@@ -69,6 +69,13 @@ Returns an IItemStack.
 
 static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 //	[<IIngredient:toRemove>.withTag({NBTtag})]: bool //if true the recipe will only be removed if the Optional NBT-Tag matches
+  [<bloodmagic:altar>]: false,
+  [<bloodmagic:blood_rune>]: false,
+  [<bloodmagic:blood_tank>]: false,
+  [<bloodmagic:lava_crystal>]: false,
+  [<bloodmagic:sacrificial_dagger>]: false,
+  [<bloodmagic:soul_forge>]: false,
+  [<bloodmagic:soul_snare>]: false
 };
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
@@ -79,6 +86,7 @@ static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] 
 //  NOTE: If the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
+  [<bloodmagic:decorative_brick>*16]: { [[<ore:stone>, <bloodmagic:blood_shard>]]: false }
 };
 
 static removeVanillaGridRecipeByRegex as string[] = [
@@ -97,6 +105,13 @@ static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	name: { <minecraft:output>: [IIngredient] },
+	altar: { <bloodmagic:altar>: [[[<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:ingotSteel>, <furnaceoverhaul:gold_furnace>, <ore:ingotSteel>], [<erebus:materials:15>, <bloodmagic:monster_soul>, <erebus:materials:15>]]] },
+	blood_rune: { <bloodmagic:blood_rune>: [[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],[<bloodmagic:slate>, <bloodmagic:blood_orb:*>, <bloodmagic:slate>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]] },
+	blood_tank: { <bloodmagic:blood_tank>: [[[<bloodmagic:blood_rune>, <bloodmagic:decorative_brick>, <bloodmagic:blood_rune>],[<openblocks:tank>, null, <openblocks:tank>], [<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]]] },
+	lava_crystal: { <bloodmagic:lava_crystal>: [[[<ore:blockGlassColorless>, <ore:ingotLavaCrystal>, <ore:blockGlassColorless>],[<ore:ingotLavaCrystal>, <bloodmagic:blood_orb:*>, <ore:ingotLavaCrystal>], [<actuallyadditions:item_crystal:2>, <lordcraft:runestone:113>, <actuallyadditions:item_crystal:2>]]] },
+	sacrificial_dagger: { <bloodmagic:sacrificial_dagger>: [[[null, null, <ore:ingotSoulium>],[null, <ore:ingotSoulium>, null], [<actuallyadditions:item_sword_quartz>, null, null]]] },
+	soul_forge: { <bloodmagic:soul_forge>: [[[<ore:ingotIron>, null, <ore:ingotIron>],[<ore:stone>, <lordcraft:util:2>, <ore:stone>], [<ore:stone>, <ore:blockMetal>, <ore:stone>]]] },
+	soul_snare: { <bloodmagic:soul_snare>*4: [[[<ore:ingotIron>, <ore:string>, <ore:ingotIron>],[<ore:string>, <lordcraft:dust_magic>, <ore:string>], [<ore:ingotIron>, <ore:string>, <ore:ingotIron>]]] }
 };
 
 static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][string] = {
@@ -106,7 +121,10 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[<IIngredient:input_n>]] },
+//	recipeName: { <IItemStack:output>: [IIngredient] },
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
+//	recipeName: { <IItemStack:output>*optional_int_amount: [IIngredient] },
+	decorative_brick: { <bloodmagic:decorative_brick>*16: [[<ore:blockDawnstone>,<bloodmagic:blood_shard>,<lordcraft:crystal_basic_fire>]] }
 };
 
 // === Vanilla Remove All Occurences ===
