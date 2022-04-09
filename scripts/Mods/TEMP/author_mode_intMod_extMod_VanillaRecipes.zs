@@ -91,6 +91,7 @@ static removeVanillaGridRecipeByRecipeName as string[] = [
 
 static removeVanillaGridRecipeByMod as string[] = [
 //  "modularmachinery"
+  "internMod"
 ];
 
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
@@ -126,6 +127,7 @@ static replaceAllOccurencesSpecific as IIngredient[][IIngredient[]][IIngredient[
 if (performRemoveAll == true) {
   scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaFurnaceRecipes();
   scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaGridRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
 if (performRemovals == true) {
@@ -139,7 +141,6 @@ if (performRemovals == true) {
   scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
   scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
   scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
 scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
