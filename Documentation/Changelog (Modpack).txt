@@ -3222,6 +3222,10 @@ v10.4.2-003
 		- Seperated ModSpecific recipes into sub-files and moved them if the output was not from bloodmagic
 	Botania:
 		- Added and renamed templates for Compat
+v10.4.2-004
+	Botania:
+		- Added Lexica Botania Compat
+		- Added Recipe Compat WIP
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
