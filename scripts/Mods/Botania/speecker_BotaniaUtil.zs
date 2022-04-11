@@ -244,3 +244,17 @@ function processAddBotaniaManaInfusionConjuration (map as IItemStack[IIngredient
     }
   }
 }
+
+// === Orechid ===
+
+function processRemoveBotaniaOrechid (map as IOreDictEntry[]) {
+  for oreDict in map {
+    mods.botania.Orechid.removeOre(oreDict);
+  }
+}
+
+function processAddBotaniaOrechid (map as string[]) {
+  for oreDict in map {
+    mods.botania.Orechid.removeOre(oreDict);
+  }
+}

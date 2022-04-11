@@ -3226,6 +3226,9 @@ v10.4.2-004
 	Botania:
 		- Added Lexica Botania Compat
 		- Added Recipe Compat WIP
+v10.4.2-005
+	Botania: WIP
+		- Added Orechid Support
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

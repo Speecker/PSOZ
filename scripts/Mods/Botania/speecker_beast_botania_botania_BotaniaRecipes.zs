@@ -161,6 +161,18 @@ static addBotaniaManaInfusionConjuration as IItemStack[IIngredient[]][string] = 
   1000: {[<minecraft:stone>]: <minecraft:stone>}
 };
 
+// === Orechid ===
+
+static removeBotaniaOrechid as IOreDictEntry[] = [
+//  <IOreDictEntry:entry>,
+  <ore:oreGold>
+];
+
+static addBotaniaOrechid as string[] = [
+//  "oreDict",
+  "oreGold"
+];
+
 if (performRemovals == true = {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaPage(removeBotaniaLexicaPage)
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaEntry(removeBotaniaLexicaEntry)
@@ -169,6 +181,7 @@ if (performRemovals == true = {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaBrew(removeBotaniaBrew)
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaElvenTrade(removeBotaniaElvenTrade)
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaManaInfusion(removeBotaniaManaInfusion)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaOrechid(removeBotaniaOrechid)
 };
 
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaPage(addBotaniaLexicaPage)
@@ -192,3 +205,4 @@ scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaElvenTrade(addBotania
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusion(addBotaniaManaInfusion)
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusionAlchemy(addBotaniaManaInfusionAlchemy)
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusionConjuration(addBotaniaManaInfusionConjuration)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaOrechid(addBotaniaOrechid)
