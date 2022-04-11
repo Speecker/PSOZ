@@ -3229,6 +3229,9 @@ v10.4.2-004
 v10.4.2-005
 	Botania: WIP
 		- Added Orechid Support
+v10.4.2-006
+	Botania:
+		- Finished Compat - Needs Testing and perhaps fixing bcs #LexicaBotanica
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

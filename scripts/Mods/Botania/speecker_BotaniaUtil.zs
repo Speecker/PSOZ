@@ -258,3 +258,93 @@ function processAddBotaniaOrechid (map as string[]) {
     mods.botania.Orechid.removeOre(oreDict);
   }
 }
+
+// === Orechid Ignem ===
+
+function processRemoveBotaniaOrechidIgnem (map as IOreDictEntry[]) {
+  for oreDict in map {
+    mods.botania.OrechidIgnem.removeOre(oreDict);
+  }
+}
+
+function processRemoveBotaniaOrechidIgnemSimple (map as string[]) {
+  for entry in map {
+    mods.botania.OrechidIgnem.removeOre(entry);
+  }
+}
+
+function processAddBotaniaOrechidIgnem (map as IOreDictEntry[][string]) {
+  for oreDict, weight in map {
+    mods.botania.OrechidIgnem.addOre(oreDict, weight);
+  }
+}
+
+function processAddBotaniaOrechidIgnemSimple (map as string[string]) {
+  for oreDict, weight in map {
+    mods.botania.OrechidIgnem.addOre(oreDict, weight);
+  }
+}
+
+// === Petal Apothecary ===
+
+function processRemoveBotaniaPetalApothecaryByStack (map as IItemStack[]) {
+  for output in map {
+    mods.botania.Apothecary.removeRecipe(output);
+  }
+}
+
+function processRemoveBotaniaPetalApothecaryByName (map as string[]) {
+  for output in map {
+    mods.botania.Apothecary.removeRecipe(output);
+  }
+}
+
+function processAddBotaniaPetalApothecary (map as IItemStack[][IIngredient[]]) {
+  for input, output in map {
+    mods.botania.Apothecary.addRecipe(output, input);
+  }
+}
+
+function processAddBotaniaPetalApothecarySimple (map as string[][IIngredient[]]) {
+  for input, output in map {
+    mods.botania.Apothecary.addRecipe(output, input);
+  }
+}
+
+// === Pure Daisy ===
+
+function processRemoveBotaniaPureDaisy (map as IIngredient[]) {
+  for output in map {
+    mods.botania.PureDaisy.removeRecipe(output);
+  }
+}
+
+function processAddBotaniaPureDaisy (map as IIngredient[][IItemStack[]]) {
+  for blockOutput, blockInput in map {
+    mods.botania.PureDaisy.addRecipe(blockInput, blockOutput);
+  }
+}
+
+function processAddBotaniaPureDaisyTimed (map as IIngredient[][IItemStack[]][string]) {
+  for intTime, optionalTime in map {
+    for blockOutput, blockInput in optionalTime {
+      mods.botania.PureDaisy.addRecipe(blockInput, blockOutput,intTime);
+    }
+  }
+}
+
+// === Rune Altar ===
+
+function processRemoveBotaniaRuneAltar (map as IIngredient[]) {
+  for output in map {
+    mods.botania.RuneAltar.removeRecipe(output);
+  }
+}
+
+function processAddBotaniaRuneAltar (map as IItemStack[][IIngredient[]][string]) {
+  for mana, intMana in map {
+    for input, output in intMana {
+      mods.botania.RuneAltar.addRecipe(output, input, mana);
+    }
+  }
+}

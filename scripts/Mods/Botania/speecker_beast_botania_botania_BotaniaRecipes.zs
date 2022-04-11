@@ -114,24 +114,24 @@ static modExtern as string = "botania";
 
 static removeBotaniaBrew as string[] = [
 //  "brewName",
-  "absorption"
+  "absorption" //Example
 ];
 
 static addBotaniaBrew as IIngredient[][string] = {
 //  "brewName": [<IIngredient:input_n>],
-  "speed": [<minecraft:nether_wart>, <minecraft:reeds>, <minecraft:redstone>]
+  "speed": [<minecraft:nether_wart>, <minecraft:reeds>, <minecraft:redstone>] //Example
 };
 
 // === Elven Trade ===
 
 static removeBotaniaElvenTrade as IIngredient[][] = [
 //  [<IIngredient:output_n]>,
-  [<botania:dreamwood>]
+  [<botania:dreamwood>] //Example
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]]) 
 // [<IIngredient:input_n>]: [<IIngredient:output_n>],
-  [<minecraft:iron_ingot>]: [<minecraft:dirt>, <minecraft:grass>]
+  [<minecraft:iron_ingot>]: [<minecraft:dirt>, <minecraft:grass>] //Example
 };
 
 if (performRemoveAll == true = {
@@ -142,36 +142,109 @@ if (performRemoveAll == true = {
 static removeBotaniaManaInfusion as IIngredient[] = [
 //    <IIngredient:output>,
 //    <IIngredient:output>*optAmount,
-  <minecraft:leather>,
-  <minecraft:redstone>*2
+  <minecraft:leather>, //Example
+  <minecraft:redstone>*2 //Example
 ];
 
-static addBotaniaManaInfusion (map as IItemStack[IIngredient[]][string] = {
+static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-  1000: {[<ore:stone>]: <minecraft:grass>}
+  1000: {[<ore:stone>]: <minecraft:grass>} //Example
 };
 
 static addBotaniaManaInfusionAlchemy as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-  5000: {[<ore:stone>]: <minecraft:gold_ore>}
+  5000: {[<ore:stone>]: <minecraft:gold_ore>} //Example
 };
 
 static addBotaniaManaInfusionConjuration as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-  1000: {[<minecraft:stone>]: <minecraft:stone>}
+  1000: {[<minecraft:stone>]: <minecraft:stone>} //Example
 };
 
 // === Orechid ===
 
 static removeBotaniaOrechid as IOreDictEntry[] = [
 //  <IOreDictEntry:entry>,
-  <ore:oreGold>
+  <ore:oreGold> //Example
 ];
 
 static addBotaniaOrechid as string[] = [
 //  "oreDict",
-  "oreGold"
+  "oreGold" //Example
 ];
+
+// === Orechid Ignem ===
+
+static removeBotaniaOrechidIgnem as IOreDictEntry[] = [
+//  <IOreDictEntry:entry>,
+  <ore:oreGold> //Example
+];
+
+static removeBotaniaOrechidIgnemSimple as string[] = [
+//  "oreGold",
+  "oreGold" // Example
+];
+
+static addBotaniaOrechidIgnem as IOreDictEntry[][string] = {
+//  500: <ore:logWood>,
+  500: <ore:logWood>  //Example
+};
+
+static addBotaniaOrechidIgnemSimple as string[][string] = {
+//  500: "logWood",
+  500: "logWood"  // Example
+};
+
+// === Petal Apothecary ===
+
+static removeBotaniaPetalApothecaryByStack as IItemStack[] = [
+//  <minecraft:melon>,
+  <minecraft:melon>  // Example
+];
+
+static removeBotaniaPetalApothecaryByName as string[] = [
+//  "daybloom",
+  "daybloom"  // Example
+];
+
+static addBotaniaPetalApothecary as IItemStack[][IIngredient[]] = {
+//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>,
+  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>  // Example
+}
+
+static addBotaniaPetalApothecarySimple as string[][IIngredient[]] = {
+//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom",
+  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom" // Example
+};
+
+// === Pure Daisy ===
+
+static removeBotaniaPureDaisy (map as IIngredient[] = {
+//  <minecraft:obsidian>,
+  <minecraft:obsidian>  // Example
+};
+
+static addBotaniaPureDaisy (map as IIngredient[][IItemStack[]] = {
+//  <minecraft:grass>: <minecraft:dirt>,
+  <minecraft:grass>: <minecraft:dirt>  // Example
+};
+
+static addBotaniaPureDaisyTimed (map as IIngredient[][IItemStack[]][string] = {
+//  200: {<minecraft:grass>: <minecraft:planks>},
+  200: {<minecraft:grass>: <minecraft:planks>}  // Example
+};
+
+// === Rune Altar ===
+
+static removeBotaniaRuneAltar (map as IIngredient[] = [
+//  <Botania:rune>,
+  <Botania:rune>  // Example
+];
+
+static addBotaniaRuneAltar (map as IItemStack[][IIngredient[]][string] = {
+//  <minecraft:planks>: {[<minecraft:grass>, <minecraft:dirt>]: 200},
+  <minecraft:planks>: {[<minecraft:grass>, <minecraft:dirt>]: 200}  // Example
+};
 
 if (performRemovals == true = {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaPage(removeBotaniaLexicaPage)
@@ -182,6 +255,12 @@ if (performRemovals == true = {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaElvenTrade(removeBotaniaElvenTrade)
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaManaInfusion(removeBotaniaManaInfusion)
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaOrechid(removeBotaniaOrechid)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaOrechidIgnem(removeBotaniaOrechidIgnem)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaOrechidIgnemSimple(removeBotaniaOrechidIgnemSimple)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaPetalApothecary(removeBotaniaPetalApothecary)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaPetalApothecarySimple(removeBotaniaPetalApothecarySimple)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaPureDaisy(removeBotaniaPureDaisy)
+  scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaRuneAltar(removeBotaniaRuneAltar)
 };
 
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaPage(addBotaniaLexicaPage)
@@ -206,3 +285,9 @@ scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusion(addBotan
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusionAlchemy(addBotaniaManaInfusionAlchemy)
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusionConjuration(addBotaniaManaInfusionConjuration)
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaOrechid(addBotaniaOrechid)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaOrechidIgnem(addBotaniaOrechidIgnem)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaOrechidIgnemSimple(addBotaniaOrechidIgnemSimple)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPetalApothecary(addBotaniaPetalApothecary)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPetalApothecarySimple(addBotaniaPetalApothecarySimple)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPureDaisy(addBotaniaPureDaisy)
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaRuneAltar(addBotaniaRuneAltar)
