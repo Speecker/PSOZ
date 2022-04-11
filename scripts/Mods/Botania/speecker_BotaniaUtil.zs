@@ -18,34 +18,44 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 
+import mods.botania.Lexicon;
+import mods.botania.Brew;
+import mods.botania.ElvenTrade;
+import mods.botania.ManaInfusion;
+import mods.botania.Orechid;
+import mods.botania.OrechidIgnem;
+import mods.botania.Apothecary;
+import mods.botania.PureDaisy;
+import mods.botania.RuneAltar;
+
 // === Lexica Botania ===
   //  === Pages ===
 
   function processRemoveBotaniaLexicaPage (map as string[string]) {
     for entry, page in map {
-      mods.botania.Lexicon.removePage(entry, page);
+      Lexicon.removePage(entry, page);
     }
   }
 
   function processAddBotaniaLexicaPageBrew (map as string[][string][IIngredient[]]) {
     for recipe, lexicaRecipe in map {
       for page, entries in lexicaRecipe {
-        mods.botania.Lexicon.addBrewPage(entries[0], entries[1], page, entries[2], recipe, entries[3]);
+        Lexicon.addBrewPage(entries[0], entries[1], page, entries[2], recipe, entries[3]);
       }
     }
   }
 
   function processAddBotaniaLexicaPageCrafting (map as string[][string]) {
     for page, entries in map {
-      mods.botania.Lexicon.addCraftingPage(entries[0], entries[1], page, entries[2]);
+      Lexicon.addCraftingPage(entries[0], entries[1], page, entries[2]);
     }
   }
 
-  function processAddBotaniaLexicaPageElven (map as string[][string][IItemStack[]][IIngredient[][]]) {
+  function processAddBotaniaLexicaPageElven (map as string[][][string[]][IItemStack[]][IIngredient[][]]) {
     for ingredients, recipeIngredients in map {
       for output, recipeOutput in recipeIngredients {
         for page, entries in recipeOutput {
-          mods.botania.Lexicon.addElvenPage(entries[0], entries[1], page, outputs, ingredients);
+          Lexicon.addElvenPage(entries[0], entries[1], page, outputs, ingredients);
         }
       }
     }
@@ -53,40 +63,40 @@ import crafttweaker.liquid.ILiquidStack;
 
   function processAddBotaniaLexicaPageEntity (map as string[][string[]]) {
     for integers, strings in map {
-      mods.botania.Lexicon.addEntityPage(strings[0], strings[1], integers[0], strings[2], integers[1]);
+      Lexicon.addEntityPage(strings[0], strings[1], integers[0], strings[2], integers[1]);
     }
   }
 
-  function processAddBotaniaLexicaPageImage (map as string[][string]) {
-    for entries, page in map {
-      mods.botania.Lexicon.addImagePage(entries[0], entries[1], page, entries[2]);
+  function processAddBotaniaLexicaPageImage (map as string[][][string]) {
+    for page, entries in map {
+      Lexicon.addImagePage(entries[0], entries[1], page, entries[2]);
     }
   }
 
-  function processAddBotaniaLexicaPageLore (map as string[][string]) {
-    for entries, page in map {
-      mods.botania.Lexicon.addLorePage(entires[0], entires[1], page);
+  function processAddBotaniaLexicaPageLore (map as string[][][string]) {
+    for page, entries in map {
+      Lexicon.addLorePage(entires[0], entires[1], page);
     }
   }
 
-  function processAddBotaniaLexicaPageInfusion (map as sring[][string][IItemStack[]][IIngredient[][]][string[]]) {
+  function processAddBotaniaLexicaPageInfusion (map as string[][][string][IItemStack[]][IIngredient[][]][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in reipeMana {
         for ouputs, recipeOutputs in recipeMana {
           for page, entries in recipeOutputs {
-            mods.botania.Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs, mana);
           }
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPageAlchemy (map as string[][string][IItemStack[]][IIngredient[]][string[]]) {
+  function processAddBotaniaLexicaPageAlchemy (map as string[][][string][IItemStack[]][IIngredient[]][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeInputs {
-            mods.botania.Lexicon.addAlchemyPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addAlchemyPage(entries[0], entries[1], page, outputs, inputs, mana);
           }
         }
       }
@@ -98,18 +108,18 @@ import crafttweaker.liquid.ILiquidStack;
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeOutputs {
-            mods.botania.Lexicon.addConjurationPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addConjurationPage(entries[0], entries[1], page, outputs, inputs, mana);
           }
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPagePetal (map as string[][string][IItemStack[][IIngredient[][]]) {
+  function processAddBotaniaLexicaPagePetal (map as string[][string][IItemStack[]][IIngredient[][]]) {
     for inputs, recipeInputs in map {
       for outputs, recipeOutputs in recipeInputs {
         for page, entries in recipeOutputs {
-          mods.botania.Lexicon.addPetalPage(entries[0], entries[1], page, outputs, inputs);
+          Lexicon.addPetalPage(entries[0], entries[1], page, outputs, inputs);
         }
       }
     }
@@ -120,7 +130,7 @@ import crafttweaker.liquid.ILiquidStack;
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeOutputs {
-            mods.botania.Lexicon.addRunePage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addRunePage(entries[0], entries[1], page, outputs, inputs, mana);
           }
         }
       }
@@ -129,21 +139,21 @@ import crafttweaker.liquid.ILiquidStack;
 
   function processAddBotaniaLexicaPageText (map as string[][string]) {
     for page, entries in map {
-      mods.botania.Lexicon.addTextPage(entries[0], entries[1], page);
+      Lexicon.addTextPage(entries[0], entries[1], page);
     }
   }
 
   //  === Entries ===
 
-  function processRemoveBotaniaLexicaEntry (map as string) {
+  function processRemoveBotaniaLexicaEntry (map as string[]) {
     for entry in map {
-      mods.botania.Lexicon.removeEntry(entry);
+      Lexicon.removeEntry(entry);
     }
   }
 
-  function processAddBotaniaLexicaEntry (map as string[][IItemStack]) {
+  function processAddBotaniaLexicaEntry (map as string[][][IItemStack]) {
     for entries, stack in map {
-      mods.botania.Lexicon.addEntry(entry[0], entry[1], stack);
+      Lexicon.addEntry(entry[0], entry[1], stack);
     }
   }
 
@@ -151,19 +161,19 @@ import crafttweaker.liquid.ILiquidStack;
 
   function processRemoveBotaniaLexicaCategory (map as string[]) {
     for name in map {
-      mods.botania.Lexicon.removeCategory(name);
+      Lexicon.removeCategory(name);
     }
   }
 
   function processAddBotaniaLexicaCategory (map as string[]) {
     for name in map {
-      mods.botania.Lexicon.addCategory(name);
+      Lexicon.addCategory(name);
     }
   }
 
   function processSetBotaniaLexicaCategory (map as string[][string]) {
     for icon, name in map {
-      mods.botania.Lexicon.setCategoryIcon(name, icon);
+      Lexicon.setCategoryIcon(name, icon);
     }
   }
 
@@ -171,14 +181,14 @@ import crafttweaker.liquid.ILiquidStack;
 
   function processRemoveBoaniaLexicaRecipeMapping (map as IItemStack[]) {
     for removal in map {
-      mods.botania.Lexicon.removeRecipeMapping(removal);
+      Lexicon.removeRecipeMapping(removal);
     }
   }
 
-  function processAddBotaniaLexicaRecipeMapping (map as IItemStack[string][string]) {
+  function processAddBotaniaLexicaRecipeMapping (map as IItemStack[][string][string]) {
     for page, recipePage in map {
       for entry, stack in recipePage {
-        mods.botania.Lexicon.addRecipeMapping(stack, entry, page);
+        Lexicon.addRecipeMapping(stack, entry, page);
       }
     }
   }
@@ -187,29 +197,27 @@ import crafttweaker.liquid.ILiquidStack;
 
 function processRemoveBotaniaBrew (map as string[]) {
   for brewName in map {
-    mods.botania.Brew.removeRecipe(brewName);
+    Brew.removeRecipe(brewName);
   }
 }
-mods.botania.Brew.removeRecipe("absorption");
 
 function processAddBotaniaBrew (map as IIngredient[][string]) {
   for brewName, input in map {
-    mods.botania.Brew.addRecipe(input, brewName);
+    Brew.addRecipe(input, brewName);
   } 
 }
-mods.botania.Brew.addRecipe([<minecraft:nether_wart>, <minecraft:reeds>, <minecraft:redstone>], "speed");
 
 // === Elven Trade ===
 
 function processRemoveBotaniaElvenTrade (map as IIngredient[][]) {
   for output in map {
-    mods.botania.ElvenTrade.removeRecipe(output);
+    ElvenTrade.removeRecipe(output);
   }
 }
 
 function processAddBotaniaElvenTrade (map as IIngredient[][IIngredient[]]) {
   for outputs, input in map {
-    mods.botania.ElvenTrade.addRecipe(outputs, input);
+    ElvenTrade.addRecipe(outputs, input);
   }
 }
 
@@ -217,30 +225,29 @@ function processAddBotaniaElvenTrade (map as IIngredient[][IIngredient[]]) {
 
 function processRemoveBotaniaManaInfusion (map as IIngredient[]) {
   for output in map {
-    mods.botania.ManaInfusion.removeRecipe(output);
+    ManaInfusion.removeRecipe(output);
   }
 }
-
-function processAddBotaniaManaInfusion (map as IItemStack[IIngredient[]][string]) {
+function processAddBotaniaManaInfusion (map as IItemStack[][IIngredient[]][string]) {
   for mana, recipeMana in map {
-    for input, output, in recipeMana {
-      mods.botania.ManaInfusion.addInfusion(output, input, mana);
+    for input, output in recipeMana {
+      ManaInfusion.addInfusion(output, input, mana);
     }
   }
 }
 
-function processAddBotaniaManaInfusionAlchemy (map as IItemStack[IIngredient[]][string]) {
+function processAddBotaniaManaInfusionAlchemy (map as IItemStack[][IIngredient[]][string]) {
   for mana, recipeMana in map {
-    for input, output, in recipeMana {
-      mods.botania.ManaInfusion.addInfusion(output, input, mana);
+    for input, output in recipeMana {
+      ManaInfusion.addInfusion(output, input, mana);
     }
   }
 }
 
-function processAddBotaniaManaInfusionConjuration (map as IItemStack[IIngredient[]][string]) {
+function processAddBotaniaManaInfusionConjuration (map as IItemStack[][IIngredient[]][string]) {
   for mana, recipeMana in map {
-    for input, output, in recipeMana {
-      mods.botania.ManaInfusion.addInfusion(output, input, mana);
+    for input, output in recipeMana {
+      ManaInfusion.addInfusion(output, input, mana);
     }
   }
 }
@@ -249,13 +256,13 @@ function processAddBotaniaManaInfusionConjuration (map as IItemStack[IIngredient
 
 function processRemoveBotaniaOrechid (map as IOreDictEntry[]) {
   for oreDict in map {
-    mods.botania.Orechid.removeOre(oreDict);
+    Orechid.removeOre(oreDict);
   }
 }
 
 function processAddBotaniaOrechid (map as string[]) {
   for oreDict in map {
-    mods.botania.Orechid.removeOre(oreDict);
+    Orechid.removeOre(oreDict);
   }
 }
 
@@ -263,25 +270,25 @@ function processAddBotaniaOrechid (map as string[]) {
 
 function processRemoveBotaniaOrechidIgnem (map as IOreDictEntry[]) {
   for oreDict in map {
-    mods.botania.OrechidIgnem.removeOre(oreDict);
+    OrechidIgnem.removeOre(oreDict);
   }
 }
 
 function processRemoveBotaniaOrechidIgnemSimple (map as string[]) {
   for entry in map {
-    mods.botania.OrechidIgnem.removeOre(entry);
+    OrechidIgnem.removeOre(entry);
   }
 }
 
 function processAddBotaniaOrechidIgnem (map as IOreDictEntry[][string]) {
   for oreDict, weight in map {
-    mods.botania.OrechidIgnem.addOre(oreDict, weight);
+    OrechidIgnem.addOre(oreDict, weight);
   }
 }
 
 function processAddBotaniaOrechidIgnemSimple (map as string[string]) {
   for oreDict, weight in map {
-    mods.botania.OrechidIgnem.addOre(oreDict, weight);
+    OrechidIgnem.addOre(oreDict, weight);
   }
 }
 
@@ -289,25 +296,25 @@ function processAddBotaniaOrechidIgnemSimple (map as string[string]) {
 
 function processRemoveBotaniaPetalApothecaryByStack (map as IItemStack[]) {
   for output in map {
-    mods.botania.Apothecary.removeRecipe(output);
+    Apothecary.removeRecipe(output);
   }
 }
 
 function processRemoveBotaniaPetalApothecaryByName (map as string[]) {
   for output in map {
-    mods.botania.Apothecary.removeRecipe(output);
+    Apothecary.removeRecipe(output);
   }
 }
 
 function processAddBotaniaPetalApothecary (map as IItemStack[][IIngredient[]]) {
   for input, output in map {
-    mods.botania.Apothecary.addRecipe(output, input);
+    Apothecary.addRecipe(output, input);
   }
 }
 
 function processAddBotaniaPetalApothecarySimple (map as string[][IIngredient[]]) {
   for input, output in map {
-    mods.botania.Apothecary.addRecipe(output, input);
+    Apothecary.addRecipe(output, input);
   }
 }
 
@@ -315,20 +322,20 @@ function processAddBotaniaPetalApothecarySimple (map as string[][IIngredient[]])
 
 function processRemoveBotaniaPureDaisy (map as IIngredient[]) {
   for output in map {
-    mods.botania.PureDaisy.removeRecipe(output);
+    PureDaisy.removeRecipe(output);
   }
 }
 
-function processAddBotaniaPureDaisy (map as IIngredient[][IItemStack[]]) {
+function processAddBotaniaPureDaisy (map as IIngredient[][IItemStack]) {
   for blockOutput, blockInput in map {
-    mods.botania.PureDaisy.addRecipe(blockInput, blockOutput);
+    PureDaisy.addRecipe(blockInput, blockOutput);
   }
 }
 
-function processAddBotaniaPureDaisyTimed (map as IIngredient[][IItemStack[]][string]) {
+function processAddBotaniaPureDaisyTimed (map as IIngredient[][IItemStack][string]) {
   for intTime, optionalTime in map {
     for blockOutput, blockInput in optionalTime {
-      mods.botania.PureDaisy.addRecipe(blockInput, blockOutput,intTime);
+      PureDaisy.addRecipe(blockInput, blockOutput,intTime);
     }
   }
 }
@@ -337,14 +344,14 @@ function processAddBotaniaPureDaisyTimed (map as IIngredient[][IItemStack[]][str
 
 function processRemoveBotaniaRuneAltar (map as IIngredient[]) {
   for output in map {
-    mods.botania.RuneAltar.removeRecipe(output);
+    RuneAltar.removeRecipe(output);
   }
 }
 
-function processAddBotaniaRuneAltar (map as IItemStack[][IIngredient[]][string]) {
-  for mana, intMana in map {
-    for input, output in intMana {
-      mods.botania.RuneAltar.addRecipe(output, input, mana);
+function processAddBotaniaRuneAltar (map as string[][IIngredient[]][IItemStack]) {
+  for output, recipeOutput in map {
+    for input, mana in recipeOutput {
+      RuneAltar.addRecipe(output, input, mana);
     }
   }
 }

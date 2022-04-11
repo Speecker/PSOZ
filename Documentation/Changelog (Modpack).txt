@@ -3232,6 +3232,9 @@ v10.4.2-005
 v10.4.2-006
 	Botania:
 		- Finished Compat - Needs Testing and perhaps fixing bcs #LexicaBotanica
+v10.4.2-007
+	Botania:
+		- Fixed various issues but there are still some more to go for ... Lexica Botanica is a bit complex after all
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
