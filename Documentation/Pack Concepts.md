@@ -16,29 +16,51 @@ __Mod__ |   __Machine/Mechanic__
 
 ## __Wireless__
 
+<<<<<<< HEAD
+###  Item Transfer :
+=======
   ###  _Item Transfer_:
+>>>>>>> b9eef6a9958f55e2e4073e34510a50a6a14dc98d
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+   __Mod__   |    __Machine/Mechanic__
+:-----------:|:--------------------------:
+   Vanilla   |         Ender Chest
+   EnderIO   |          Tesseract
+EnderStorage | (Colour Coded) Ender Chests
+  Mekanism   | Entangloporter/Dimensional
+  ActuallyAdditions   | Phantom Face (Items)
 
+<<<<<<< HEAD
+### Fluid Transfer :
+=======
   ### _Fluid Transfer_:
+>>>>>>> b9eef6a9958f55e2e4073e34510a50a6a14dc98d
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ | __Machine/Mechanic__
+:------:|:-------------------:
+EnderIO |      Tesseract
+  ActuallyAdditions   | Phantom Face (Fluids)
 
   ### _Energy Transfer_:
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ | __Machine/Mechanic__
+:------:|:-------------------:
+EnderIO |      Tesseract
+  ActuallyAdditions   | Phantom Face (Energy)
+   RandomThings   |       Spectre Coil  
 
+<<<<<<< HEAD
+  ### Charging :
+   EnderIO   |          Charging Station (With Wireless Antenna)
+   FluxNetworks   |       (Flux) Network Controller   
+   RandomThings   |       Spectre Charger  
+=======
   ### _Charging_:
+>>>>>>> b9eef6a9958f55e2e4073e34510a50a6a14dc98d
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
 
 ## __Furnacing__
 
@@ -86,21 +108,21 @@ __Mod__ |   __Machine/Mechanic__
 
   ### _Simple_:
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
 
   ### _Advanced_:
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
 
   ### _Digital_:
 
-  __Mod__ |   __Machine/Mechanic__
-  :------:|:------------------------:
-  ModXY  | Machnine_XY_/_Mechanic_XY
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
 
 ## __LavaGeneration__
 
