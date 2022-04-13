@@ -14,7 +14,7 @@ __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Wireless :
+## __Wireless__
 
   ###  Item Transfer :
 
@@ -40,51 +40,51 @@ __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-## __Furnacing__ :
+## __Furnacing__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Crushing :
+## __Crushing__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Plating :
+## __Plating__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Roding/Sticking :
+## __Roding/Sticking__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Gearing :
+## __Gearing__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Charging :
+## __Charging__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Quarry :
+## __Quarry__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Storage
+## __Storage__
 
-  ### Simple:
+  ### Simple :
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
@@ -102,13 +102,13 @@ __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-## LavaGeneration :
+## __LavaGeneration__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## IngotFromOre :
+## __IngotFromOre__
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
