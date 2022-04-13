@@ -8,7 +8,7 @@ __Mod__ |      __State__       |     __Description__
 
 # Tables of what can do what 
 
-## WhatCanItDo :
+## WhatCanItDo:
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
@@ -16,25 +16,25 @@ __Mod__ |   __Machine/Mechanic__
 
 ## __Wireless__
 
-  ###  Item Transfer :
+  ###  _Item Transfer_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-  ### Fluid Transfer :
+  ### _Fluid Transfer_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-  ### Energy Transfer :
+  ### _Energy Transfer_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-  ### Charging :
+  ### _Charging_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
@@ -84,19 +84,19 @@ __Mod__ |   __Machine/Mechanic__
 
 ## __Storage__
 
-  ### Simple :
+  ### _Simple_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-  ### Advanced :
+  ### _Advanced_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
   ModXY  | Machnine_XY_/_Mechanic_XY
 
-  ### Digital :
+  ### _Digital_:
 
   __Mod__ |   __Machine/Mechanic__
   :------:|:------------------------:
