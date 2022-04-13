@@ -14,23 +14,31 @@ __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
  ModXY  | Machnine_XY_/_Mechanic_XY
 
-## Wireless Item Transfer :
+## Wireless :
 
-__Mod__ |   __Machine/Mechanic__
-:------:|:------------------------:
- ModXY  | Machnine_XY_/_Mechanic_XY
+  ###  Item Transfer :
 
-## Wireless Fluid Transfer :
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
 
-__Mod__ |   __Machine/Mechanic__
-:------:|:------------------------:
- ModXY  | Machnine_XY_/_Mechanic_XY
+  ### Fluid Transfer :
 
-## Wireless Energy Transfer :
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
 
-__Mod__ |   __Machine/Mechanic__
-:------:|:------------------------:
- ModXY  | Machnine_XY_/_Mechanic_XY
+  ### Energy Transfer :
+
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
+
+  ### Charging :
+
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
 
 ## __Furnacing__ :
 
@@ -63,12 +71,6 @@ __Mod__ |   __Machine/Mechanic__
  ModXY  | Machnine_XY_/_Mechanic_XY
 
 ## Charging :
-
-__Mod__ |   __Machine/Mechanic__
-:------:|:------------------------:
- ModXY  | Machnine_XY_/_Mechanic_XY
-
-## Wireless - Charging :
 
 __Mod__ |   __Machine/Mechanic__
 :------:|:------------------------:
