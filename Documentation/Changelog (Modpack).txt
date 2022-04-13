@@ -3235,6 +3235,12 @@ v10.4.2-006
 v10.4.2-007
 	Botania:
 		- Fixed various issues but there are still some more to go for ... Lexica Botanica is a bit complex after all
+v10.4.2-008
+	Botania:
+		- Further Nug Fixes ... Still WIP
+	Chisel:
+		- Basics done - gotta be tested
+	Concept Edited
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

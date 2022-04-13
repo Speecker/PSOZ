@@ -1,3 +1,4 @@
+#norun
 #modloaded modtweaker botania
 import mods.botania.ElvenTrade;
 

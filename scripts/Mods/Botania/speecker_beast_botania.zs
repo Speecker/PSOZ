@@ -1,3 +1,4 @@
+#norun
 #packmode mythic beast
 #modloaded botania
 import mods.botania.RuneAltar as RA;

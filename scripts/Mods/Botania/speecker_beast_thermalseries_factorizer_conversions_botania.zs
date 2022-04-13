@@ -1,7 +1,7 @@
+#norun
 #packmode mythic beast
 #priority 99
 #modloaded thermalexpansion botania
-#norun
 
 import mods.thermalexpansion.Factorizer.addRecipeBoth as addB;
 import mods.thermalexpansion.Factorizer.addRecipeSplit as addS;

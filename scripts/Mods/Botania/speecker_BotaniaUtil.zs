@@ -37,25 +37,25 @@ import mods.botania.RuneAltar;
     }
   }
 
-  function processAddBotaniaLexicaPageBrew (map as string[][string][IIngredient[]]) {
+  function processAddBotaniaLexicaPageBrew (map as string[][string][IIngredient[][][]]) {
     for recipe, lexicaRecipe in map {
       for page, entries in lexicaRecipe {
-        Lexicon.addBrewPage(entries[0], entries[1], page, entries[2], recipe, entries[3]);
+        Lexicon.addBrewPage(entries[0], entries[1], page, entries[2], recipe[0], entries[3]);
       }
     }
   }
 
-  function processAddBotaniaLexicaPageCrafting (map as string[][string]) {
-    for page, entries in map {
+  function processAddBotaniaLexicaPageCrafting (map as string[string[]]) {
+    for entries, page in map {
       Lexicon.addCraftingPage(entries[0], entries[1], page, entries[2]);
     }
   }
 
-  function processAddBotaniaLexicaPageElven (map as string[][][string[]][IItemStack[]][IIngredient[][]]) {
+  function processAddBotaniaLexicaPageElven (map as string[][string][IItemStack[]][IIngredient[][][]]) {
     for ingredients, recipeIngredients in map {
       for output, recipeOutput in recipeIngredients {
         for page, entries in recipeOutput {
-          Lexicon.addElvenPage(entries[0], entries[1], page, outputs, ingredients);
+          Lexicon.addElvenPage(entries[0], entries[1], page, output, ingredients[0]);
         }
       }
     }
@@ -67,76 +67,76 @@ import mods.botania.RuneAltar;
     }
   }
 
-  function processAddBotaniaLexicaPageImage (map as string[][][string]) {
+  function processAddBotaniaLexicaPageImage (map as string[][string]) {
     for page, entries in map {
       Lexicon.addImagePage(entries[0], entries[1], page, entries[2]);
     }
   }
 
-  function processAddBotaniaLexicaPageLore (map as string[][][string]) {
+  function processAddBotaniaLexicaPageLore (map as string[][string]) {
     for page, entries in map {
-      Lexicon.addLorePage(entires[0], entires[1], page);
+      Lexicon.addLorePage(entries[0], entries[1], page);
     }
   }
-
-  function processAddBotaniaLexicaPageInfusion (map as string[][][string][IItemStack[]][IIngredient[][]][string[]]) {
+/*
+  function processAddBotaniaLexicaPageInfusion (map as string[][string][IItemStack[]][IIngredient[][][]][string[]]) {
     for mana, recipeMana in map {
-      for inputs, recipeInputs in reipeMana {
-        for ouputs, recipeOutputs in recipeMana {
+      for inputs, recipeInputs in recipeMana {
+        for outputs, recipeOutputs in recipeMana {
           for page, entries in recipeOutputs {
-            Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs[0], mana[0]);
           }
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPageAlchemy (map as string[][][string][IItemStack[]][IIngredient[]][string[]]) {
+  function processAddBotaniaLexicaPageAlchemy (map as string[][string][IItemStack[]][IIngredient[][][]][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeInputs {
-            Lexicon.addAlchemyPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addAlchemyPage(entries[0], entries[1], page, outputs, inputs[0], mana[0]);
           }
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPageConjuration (map as string[][string][IItemStack[]][IIngredient[]][string[]]) {
+  function processAddBotaniaLexicaPageConjuration (map as string[][string][IItemStack[][]][IIngredient[][][]][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeOutputs {
-            Lexicon.addConjurationPage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addConjurationPage(entries[0], entries[1], page, outputs[0], inputs[0], mana[0]);
           }
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPagePetal (map as string[][string][IItemStack[]][IIngredient[][]]) {
+  function processAddBotaniaLexicaPagePetal (map as string[][string][IItemStack[][]][IIngredient[][][]]) {
     for inputs, recipeInputs in map {
       for outputs, recipeOutputs in recipeInputs {
         for page, entries in recipeOutputs {
-          Lexicon.addPetalPage(entries[0], entries[1], page, outputs, inputs);
+          Lexicon.addPetalPage(entries[0], entries[1], page, outputs[0], inputs[0]);
         }
       }
     }
   }
 
-  function processAddBotaniaLexicaPageRune (map as string[][string][IItemStack[]][IIngredient[][]][string[]]) {
+  function processAddBotaniaLexicaPageRune (map as string[][string][IItemStack[][]][IIngredient[][][]][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in recipeMana {
         for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeOutputs {
-            Lexicon.addRunePage(entries[0], entries[1], page, outputs, inputs, mana);
+            Lexicon.addRunePage(entries[0], entries[1], page, outputs[0], inputs[0], mana[0]);
           }
         }
       }
     }
   }
-
+*/
   function processAddBotaniaLexicaPageText (map as string[][string]) {
     for page, entries in map {
       Lexicon.addTextPage(entries[0], entries[1], page);
@@ -151,9 +151,9 @@ import mods.botania.RuneAltar;
     }
   }
 
-  function processAddBotaniaLexicaEntry (map as string[][][IItemStack]) {
+  function processAddBotaniaLexicaEntry (map as string[][IItemStack[]]) {
     for entries, stack in map {
-      Lexicon.addEntry(entry[0], entry[1], stack);
+      Lexicon.addEntry(entries[0], entries[1], stack);
     }
   }
 
@@ -171,12 +171,12 @@ import mods.botania.RuneAltar;
     }
   }
 
-  function processSetBotaniaLexicaCategory (map as string[][string]) {
+  function processSetBotaniaLexicaCategory (map as string[string]) {
     for icon, name in map {
       Lexicon.setCategoryIcon(name, icon);
     }
   }
-
+/*
   //  === Recipe Mapping ===
 
   function processRemoveBoaniaLexicaRecipeMapping (map as IItemStack[]) {
@@ -286,7 +286,7 @@ function processAddBotaniaOrechidIgnem (map as IOreDictEntry[][string]) {
   }
 }
 
-function processAddBotaniaOrechidIgnemSimple (map as string[string]) {
+function processAddBotaniaOrechidIgnemSimple (map as string[][string]) {
   for oreDict, weight in map {
     OrechidIgnem.addOre(oreDict, weight);
   }
@@ -355,3 +355,4 @@ function processAddBotaniaRuneAltar (map as string[][IIngredient[]][IItemStack])
     }
   }
 }
+*/
