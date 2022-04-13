@@ -1,15 +1,113 @@
 # Modlist Table
 
-__Mod__ | __State__ | __Description__
-:--------: | :---------: | :--------------:
-ModA   | __active/core__   | This is Mod A doing xy.
-ModB   | ___optional___   | This is Mod B doing xy.
-ModC   | ~~disabled/removed~~   | This is Mod C doing xy.
+__Mod__ |      __State__       |     __Description__
+:------:|:--------------------:|:----------------------:
+  ModA  |   __active/core__    | This is Mod A doing xy.
+  ModB  |    ___optional___    | This is Mod B doing xy.
+  ModC  | ~~disabled/removed~~ | This is Mod C doing xy.
 
-# Table of what can do what 
+# Tables of what can do what 
 
-__Mod__ | __Wireless Item Transfer__ | __Wireless Fluid Transfer__ | __Wireless Energy Transfer__ | __Furnacing__ | __Crushing__ | __Plating__ | __Roding__ | __Gearing__ | __Charging__ | __Quarry__ | __SimpleStorage__ | __AdvancedStorage__ | __DigitalStorage__ | __LavaGeneration__ | __OreToIngot__
-:--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------:
-ModXY   | WirelessItemTransfer   | WirelessFluidTransfer   | WirelessENergyTransfer   | Furnace   | Crusher   | PlatingMachine   | RodMachine   | GearMachine   | ChargingDevice   | Quarry   | SimpleStorage   | AdvancedStorage   | DigitalStorage   | LavaGenerator   | DigitalStorage
+## WhatCanItDo :
 
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
 
+## Wireless Item Transfer :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Wireless Fluid Transfer :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Wireless Energy Transfer :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## __Furnacing__ :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Crushing :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Plating :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Roding/Sticking :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Gearing :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Charging :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Wireless - Charging :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Quarry :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## Storage
+
+  ### Simple:
+
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
+
+  ### Advanced :
+
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
+
+  ### Digital :
+
+  __Mod__ |   __Machine/Mechanic__
+  :------:|:------------------------:
+  ModXY  | Machnine_XY_/_Mechanic_XY
+
+## LavaGeneration :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
+
+## IngotFromOre :
+
+__Mod__ |   __Machine/Mechanic__
+:------:|:------------------------:
+ ModXY  | Machnine_XY_/_Mechanic_XY
