@@ -100,16 +100,14 @@ static modExtern as string = "botania";
     //  "name": "icon",
   };
 
-/*
-
   //  === Recipe Mapping ===
 
-  static removeBoaniaLexicaRecipeMapping as IItemStack[] = [
+  static removeBotaniaLexicaRecipeMapping as IItemStack[] = [
   //  <IItemStack:removal>,
   ];
 
-  static addBotaniaLexicaRecipeMapping as IItemStack[][string][string] = {
-  //  intPage: {"entry": <IItemStack:entry>},
+  static addBotaniaLexicaRecipeMapping as IItemStack[string][string] = {
+  //  intPage: {"entry": <IItemStack:stack>},
   };
   
 // === Brew ===
@@ -126,9 +124,9 @@ static addBotaniaBrew as IIngredient[][string] = {
 
 // === Elven Trade ===
 
-static removeBotaniaElvenTrade as IIngredient[][] = [
-//  [<IIngredient:output_n]>,
-  [<botania:dreamwood>] //Example
+static removeBotaniaElvenTrade as IIngredient[] = [
+//  <IIngredient:output>,
+  <botania:dreamwood> //Example
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
@@ -145,17 +143,17 @@ static removeBotaniaManaInfusion as IIngredient[] = [
   <minecraft:redstone>*2 //Example
 ];
 
-static addBotaniaManaInfusion as IItemStack[][IIngredient[]][string] = {
+static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
   1000: {[<ore:stone>]: <minecraft:grass>} //Example
 };
 
-static addBotaniaManaInfusionAlchemy as IItemStack[][IIngredient[]][string] = {
+static addBotaniaManaInfusionAlchemy as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
   5000: {[<ore:stone>]: <minecraft:gold_ore>} //Example
 };
 
-static addBotaniaManaInfusionConjuration as IItemStack[][IIngredient[]][string] = {
+static addBotaniaManaInfusionConjuration as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
   1000: {[<minecraft:stone>]: <minecraft:stone>} //Example
 };
@@ -184,12 +182,12 @@ static removeBotaniaOrechidIgnemSimple as string[] = [
   "oreGold" // Example
 ];
 
-static addBotaniaOrechidIgnem as IOreDictEntry[][string] = {
+static addBotaniaOrechidIgnem as IOreDictEntry[string] = {
 //  500: <ore:logWood>,
   500: <ore:logWood>  //Example
 };
 
-static addBotaniaOrechidIgnemSimple as string[][string] = {
+static addBotaniaOrechidIgnemSimple as string[string] = {
 //  500: "logWood",
   500: "logWood"  // Example
 };
@@ -206,12 +204,12 @@ static removeBotaniaPetalApothecaryByName as string[] = [
   "daybloom"  // Example
 ];
 
-static addBotaniaPetalApothecary as IItemStack[][IIngredient[]] = {
+static addBotaniaPetalApothecary as IItemStack[IIngredient[]] = {
 //  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>,
   [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>  // Example
 };
 
-static addBotaniaPetalApothecarySimple as string[][IIngredient[]] = {
+static addBotaniaPetalApothecarySimple as string[IIngredient[]] = {
 //  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom",
   [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom" // Example
 };
@@ -223,12 +221,12 @@ static removeBotaniaPureDaisy as IIngredient[] = [
   <minecraft:obsidian>  // Example
 ];
 
-static addBotaniaPureDaisy as IIngredient[][IItemStack] = {
+static addBotaniaPureDaisy as IIngredient[IItemStack] = {
 //  <minecraft:grass>: <minecraft:dirt>,
   <minecraft:grass>: <minecraft:dirt>  // Example
 };
 
-static addBotaniaPureDaisyTimed as IIngredient[][IItemStack][string] = {
+static addBotaniaPureDaisyTimed as IIngredient[IItemStack][string] = {
 //  200: {<minecraft:grass>: <minecraft:planks>},
   200: {<minecraft:grass>: <minecraft:planks>}  // Example
 };
@@ -240,11 +238,11 @@ static removeBotaniaRuneAltar as IIngredient[] = [
   <botania:rune>  // Example
 ];
 
-static addBotaniaRuneAltar as string[][IIngredient[]][IItemStack] = {
+static addBotaniaRuneAltar as string[IIngredient[]][IItemStack] = {
 //  <IItemStack:output>: {[<IIngredient:input_n>]: intMana},
   <minecraft:planks>: {[<minecraft:grass>, <minecraft:dirt>]: 200}  // Example
 };
-*/
+
 if (performRemoveAll == true) {
 }
 
@@ -252,7 +250,6 @@ if (performRemovals == true) {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaPage(removeBotaniaLexicaPage);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaEntry(removeBotaniaLexicaEntry);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaCategory(removeBotaniaLexicaCategory);
-/*
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaLexicaRecipeMapping(removeBotaniaLexicaRecipeMapping);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaBrew(removeBotaniaBrew);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaElvenTrade(removeBotaniaElvenTrade);
@@ -264,7 +261,6 @@ if (performRemovals == true) {
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaPetalApothecarySimple(removeBotaniaPetalApothecarySimple);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaPureDaisy(removeBotaniaPureDaisy);
   scripts.Mods.Botania.speecker_BotaniaUtil.processRemoveBotaniaRuneAltar(removeBotaniaRuneAltar);
-*/
 }
 
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaPageBrew(addBotaniaLexicaPageBrew);
@@ -284,7 +280,7 @@ scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaPageText(addBot
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaEntry(addBotaniaLexicaEntry);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaCategory(addBotaniaLexicaCategory);
 scripts.Mods.Botania.speecker_BotaniaUtil.processSetBotaniaLexicaCategory(setBotaniaLexicaCategory);
-/*
+scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaLexicaRecipeMapping(addBotaniaLexicaRecipeMapping);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaBrew(addBotaniaBrew);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaElvenTrade(addBotaniaElvenTrade);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaManaInfusion(addBotaniaManaInfusion);
@@ -297,4 +293,3 @@ scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPetalApothecary(addBo
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPetalApothecarySimple(addBotaniaPetalApothecarySimple);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaPureDaisy(addBotaniaPureDaisy);
 scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaRuneAltar(addBotaniaRuneAltar);
-*/

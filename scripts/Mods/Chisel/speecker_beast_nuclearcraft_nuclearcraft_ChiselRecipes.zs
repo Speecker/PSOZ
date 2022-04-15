@@ -1,6 +1,6 @@
 #priority -99
 #packmode beast
-#modloaded crafttweaker chisel
+#modloaded crafttweaker chisel nuclearcraft
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -18,8 +18,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 static author as string = "speecker";
 static mode as string = "beast";
-static modIntern as string = "chisel";
-static modExtern as string = "chisel";
+static modIntern as string = "nuclearcraft";
+static modExtern as string = "nuclearcraft";
 
 // === Carving ===
 
@@ -35,11 +35,11 @@ static addChiselCarvingGroup as string [] = [
 //  !IMPORTANT! NOTE: Script will fail to load if a given groupName already exists !
 //  NOTE: If more than one additional mod compat is used it is highly recommended to only add new Groups in speecker_beast_chisel_chisel_ChiselRecipes.zs to avoid duplicates
 //  "groupName",
-  "graphite"
 ];
 
 static addChiselCarvingVariation as string[IItemStack] = {
 //  <IItemStack:stack>: "groupName",
+  <nuclearcraft:ingot_block:8>: "graphite"
 };
 
 if (performRemoveAll == true) {

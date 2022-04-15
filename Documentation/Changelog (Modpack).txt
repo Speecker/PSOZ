@@ -3237,10 +3237,21 @@ v10.4.2-007
 		- Fixed various issues but there are still some more to go for ... Lexica Botanica is a bit complex after all
 v10.4.2-008
 	Botania:
-		- Further Nug Fixes ... Still WIP
+		- Further Bug Fixes ... Still WIP
 	Chisel:
 		- Basics done - gotta be tested
 	Concept Edited
+v10.4.2-009
+	BloodMagic:
+		VanillaUtil: Replaced VanillaMinecraft with BloodMagic in header Description
+	TEMP:
+		Updated
+	Botania:
+		- Updated VanillaRecipes file to match newer form
+		- Some more BugFixes but still not yet done
+	Chisel:
+		- Removed obsolete files speecker_Chisel.zs and speecker_temp_actuallyaddtionscompat.zs
+		- Finished the Compat so far including per-mod-seperation
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

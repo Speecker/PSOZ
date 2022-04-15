@@ -19,13 +19,13 @@ import mods.chisel.Carving;
 
 // === Carving ===
 
-function processRemoveChiselCarvingGroup (map as string[]) = {
+function processRemoveChiselCarvingGroup (map as string[]) {
   for groupName in map {
     Carving.removeGroup(groupName);
   }
 }
 
-function processRemoveChiselCarvingVariation (map as string[IItemStack[]]) {
+function processRemoveChiselCarvingVariation (map as string[IItemStack]) {
   for stack, groupName in map {
     Carving.removeVariation(groupName, stack);
   }
@@ -37,7 +37,7 @@ function processAddChiselCarvingGroup (map as string[]) {
   }
 }
 
-function processAddChiselCarvingVatiation (map as string[IItemStack[]]) {
+function processAddChiselCarvingVariation (map as string[IItemStack]) {
   for stack, groupName in map {
     Carving.addVariation(groupName, stack);
   }

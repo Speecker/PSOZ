@@ -152,8 +152,8 @@ import mods.botania.RuneAltar;
   }
 
   function processAddBotaniaLexicaEntry (map as string[][IItemStack[]]) {
-    for entries, stack in map {
-      Lexicon.addEntry(entries[0], entries[1], stack);
+    for stack, entries in map {
+      Lexicon.addEntry(entries[0], entries[1], stack[0]);
     }
   }
 
@@ -176,16 +176,16 @@ import mods.botania.RuneAltar;
       Lexicon.setCategoryIcon(name, icon);
     }
   }
-/*
+
   //  === Recipe Mapping ===
 
-  function processRemoveBoaniaLexicaRecipeMapping (map as IItemStack[]) {
+  function processRemoveBotaniaLexicaRecipeMapping (map as IItemStack[]) {
     for removal in map {
       Lexicon.removeRecipeMapping(removal);
     }
   }
 
-  function processAddBotaniaLexicaRecipeMapping (map as IItemStack[][string][string]) {
+  function processAddBotaniaLexicaRecipeMapping (map as IItemStack[string][string]) {
     for page, recipePage in map {
       for entry, stack in recipePage {
         Lexicon.addRecipeMapping(stack, entry, page);
@@ -209,7 +209,7 @@ function processAddBotaniaBrew (map as IIngredient[][string]) {
 
 // === Elven Trade ===
 
-function processRemoveBotaniaElvenTrade (map as IIngredient[][]) {
+function processRemoveBotaniaElvenTrade (map as IIngredient[]) {
   for output in map {
     ElvenTrade.removeRecipe(output);
   }
@@ -228,26 +228,26 @@ function processRemoveBotaniaManaInfusion (map as IIngredient[]) {
     ManaInfusion.removeRecipe(output);
   }
 }
-function processAddBotaniaManaInfusion (map as IItemStack[][IIngredient[]][string]) {
+function processAddBotaniaManaInfusion (map as IItemStack[IIngredient[]][string]) {
   for mana, recipeMana in map {
     for input, output in recipeMana {
-      ManaInfusion.addInfusion(output, input, mana);
+      ManaInfusion.addInfusion(output, input[0], mana);
     }
   }
 }
 
-function processAddBotaniaManaInfusionAlchemy (map as IItemStack[][IIngredient[]][string]) {
+function processAddBotaniaManaInfusionAlchemy (map as IItemStack[IIngredient[]][string]) {
   for mana, recipeMana in map {
     for input, output in recipeMana {
-      ManaInfusion.addInfusion(output, input, mana);
+      ManaInfusion.addInfusion(output, input[0], mana);
     }
   }
 }
 
-function processAddBotaniaManaInfusionConjuration (map as IItemStack[][IIngredient[]][string]) {
+function processAddBotaniaManaInfusionConjuration (map as IItemStack[IIngredient[]][string]) {
   for mana, recipeMana in map {
     for input, output in recipeMana {
-      ManaInfusion.addInfusion(output, input, mana);
+      ManaInfusion.addInfusion(output, input[0], mana);
     }
   }
 }
@@ -280,14 +280,14 @@ function processRemoveBotaniaOrechidIgnemSimple (map as string[]) {
   }
 }
 
-function processAddBotaniaOrechidIgnem (map as IOreDictEntry[][string]) {
-  for oreDict, weight in map {
+function processAddBotaniaOrechidIgnem (map as IOreDictEntry[string]) {
+  for weight, oreDict in map {
     OrechidIgnem.addOre(oreDict, weight);
   }
 }
 
-function processAddBotaniaOrechidIgnemSimple (map as string[][string]) {
-  for oreDict, weight in map {
+function processAddBotaniaOrechidIgnemSimple (map as string[string]) {
+  for weight, oreDict in map {
     OrechidIgnem.addOre(oreDict, weight);
   }
 }
@@ -306,13 +306,13 @@ function processRemoveBotaniaPetalApothecaryByName (map as string[]) {
   }
 }
 
-function processAddBotaniaPetalApothecary (map as IItemStack[][IIngredient[]]) {
+function processAddBotaniaPetalApothecary (map as IItemStack[IIngredient[]]) {
   for input, output in map {
     Apothecary.addRecipe(output, input);
   }
 }
 
-function processAddBotaniaPetalApothecarySimple (map as string[][IIngredient[]]) {
+function processAddBotaniaPetalApothecarySimple (map as string[IIngredient[]]) {
   for input, output in map {
     Apothecary.addRecipe(output, input);
   }
@@ -326,13 +326,13 @@ function processRemoveBotaniaPureDaisy (map as IIngredient[]) {
   }
 }
 
-function processAddBotaniaPureDaisy (map as IIngredient[][IItemStack]) {
+function processAddBotaniaPureDaisy (map as IIngredient[IItemStack]) {
   for blockOutput, blockInput in map {
     PureDaisy.addRecipe(blockInput, blockOutput);
   }
 }
 
-function processAddBotaniaPureDaisyTimed (map as IIngredient[][IItemStack][string]) {
+function processAddBotaniaPureDaisyTimed (map as IIngredient[IItemStack][string]) {
   for intTime, optionalTime in map {
     for blockOutput, blockInput in optionalTime {
       PureDaisy.addRecipe(blockInput, blockOutput,intTime);
@@ -348,11 +348,10 @@ function processRemoveBotaniaRuneAltar (map as IIngredient[]) {
   }
 }
 
-function processAddBotaniaRuneAltar (map as string[][IIngredient[]][IItemStack]) {
+function processAddBotaniaRuneAltar (map as string[IIngredient[]][IItemStack]) {
   for output, recipeOutput in map {
     for input, mana in recipeOutput {
       RuneAltar.addRecipe(output, input, mana);
     }
   }
 }
-*/

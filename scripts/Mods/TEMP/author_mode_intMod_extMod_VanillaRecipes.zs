@@ -90,7 +90,6 @@ static removeVanillaGridRecipeByRecipeName as string[] = [
 ];
 
 static removeVanillaGridRecipeByMod as string[] = [
-//  "modularmachinery"
   "internMod"
 ];
 

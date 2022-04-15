@@ -1,5 +1,5 @@
 #priority -99
-#packmode mode
+#packmode beast
 #modloaded crafttweaker botania
 
 /*
@@ -91,7 +91,7 @@ static removeVanillaGridRecipeByRecipeName as string[] = [
 
 static removeVanillaGridRecipeByMod as string[] = [
 //  "modularmachinery"
-  "internMod"
+  "botania"
 ];
 
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
