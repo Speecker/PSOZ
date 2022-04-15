@@ -130,8 +130,12 @@ static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName : { <IItemStack:output>: [[<IIngredient:input_n>]] },
 //	recipeName : { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
 	flint_and_steel : { <minecraft:flint_and_steel>: [[<ore:ingotSteel>, <ore:flint>]] },
-	planks_4 : { <minecraft:planks:4>: [[<minecraft:log2:0>]] },
-	planks_5 : { <minecraft:planks:5>: [[<minecraft:log2:1>]] }
+	planks_oak : { <minecraft:planks:0>: [[<minecraft:log:0>]] },
+	planks_spruce : { <minecraft:planks:1>: [[<minecraft:log:1>]] },
+	planks_birch : { <minecraft:planks:2>: [[<minecraft:log:2>]] },
+	planks_jungle : { <minecraft:planks:3>: [[<minecraft:log:3>]] },
+	planks_accacia : { <minecraft:planks:4>: [[<minecraft:log2:0>]] },
+	planks_darkoak : { <minecraft:planks:5>: [[<minecraft:log2:1>]] }
 };
 
 // === Vanilla Remove All Occurences ===

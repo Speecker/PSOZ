@@ -3264,6 +3264,10 @@ v10.4.2-010
 	Thought: maybe make files per output and have them in folders for either VanillaRecipe or ModDependencyRecipe and if there are more than 2 recipes for the same item then move them into a subfolder inside of it ?
 	CleanUp:
 		- Moved Chisel & Botania files with other modded outputs out respectively
+v10.4.3-000
+	Botania & Chisel Compat approved ;)
+	Vanilla:
+		- Planks from Logs for Vanilla Wood is missing no more
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
