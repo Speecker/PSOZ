@@ -3252,6 +3252,18 @@ v10.4.2-009
 	Chisel:
 		- Removed obsolete files speecker_Chisel.zs and speecker_temp_actuallyaddtionscompat.zs
 		- Finished the Compat so far including per-mod-seperation
+v10.4.2-010
+	Botania:
+		- Compat is finished (except some inconveniences with PageEntries :/ )
+		- Seperation with output instead of extMod ... might be better for cleaner variation ?
+		- Updated Vanilla Recipes for Botania Items
+		- Removed obsolete files speecker_beast_botania.zs, speecker_botania.zs and speecker_botania_noBlockify.zs as they are now directly integrated into the VanillaRecipe files
+	Chisel:
+		- Compat is finished
+		- Seperated Chisel and Vanilla Recipes accordingly
+	Thought: maybe make files per output and have them in folders for either VanillaRecipe or ModDependencyRecipe and if there are more than 2 recipes for the same item then move them into a subfolder inside of it ?
+	CleanUp:
+		- Moved Chisel & Botania files with other modded outputs out respectively
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

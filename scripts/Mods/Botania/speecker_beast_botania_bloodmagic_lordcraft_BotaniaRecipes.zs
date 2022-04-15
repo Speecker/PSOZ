@@ -1,6 +1,6 @@
 #priority -99
 #packmode beast
-#modloaded crafttweaker modtweaker botania
+#modloaded crafttweaker modtweaker botania bloodmagic lordcraft
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ import crafttweaker.liquid.ILiquidStack;
 static author as string = "speecker";
 static mode as string = "beast";
 static modIntern as string = "botania";
-static modExtern as string = "botania";
+static modExtern as string = "bloodmagic_lordcraft";
 
 // === Lexica Botania ===
   //  === Pages ===
@@ -114,30 +114,20 @@ static modExtern as string = "botania";
 
 static removeBotaniaBrew as string[] = [
 //  "brewName",
-//  "absorption" //Example
 ];
 
 static addBotaniaBrew as IIngredient[][string] = {
 //  "brewName": [<IIngredient:input_n>],
-//  "speed": [<minecraft:nether_wart>, <minecraft:reeds>, <minecraft:redstone>] //Example
 };
 
 // === Elven Trade ===
 
 static removeBotaniaElvenTrade as IIngredient[] = [
-//  <IIngredient:input>,
-  <botania:manaresource:7>,
-  <botania:storage:2>
+//  <IIngredient:output>,
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
-// [<IIngredient:output_n>]: [<IIngredient:input_n>],
-
-  //Terrasteel Ingot, Terrasteel Ingot: Elementium Ingot
-  [<botania:manaresource:4>, <botania:manaresource:4>]: [<botania:manaresource:7>],
-
-  //Terrasteel Block, Terrasteel Block: Elementium Block
-  [<botania:storage:1>, <botania:storage:1>]: [<botania:storage:2>]
+// [<IIngredient:input_n>]: [<IIngredient:output_n>],
 };
 
 // === Mana Infusion ===
@@ -145,9 +135,6 @@ static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
 static removeBotaniaManaInfusion as IIngredient[] = [
 //    <IIngredient:output>,
 //    <IIngredient:output>*optAmount,
-  <botania:manaresource:0>,
-  <botania:manaresource:16>,
-  <botania:storage:0>
 ];
 
 static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
@@ -156,19 +143,16 @@ static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
 
 static addBotaniaManaInfusionAlchemy as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-//  5000: {[<ore:stone>]: <minecraft:gold_ore>} //Example
 };
 
 static addBotaniaManaInfusionConjuration as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-//  1000: {[<minecraft:stone>]: <minecraft:stone>} //Example
 };
 
 // === Orechid ===
 
 static removeBotaniaOrechid as IOreDictEntry[] = [
 //  <IOreDictEntry:entry>,
-//  <ore:oreGold> //Example
 ];
 
 static addBotaniaOrechid as string[string] = {
@@ -179,22 +163,18 @@ static addBotaniaOrechid as string[string] = {
 
 static removeBotaniaOrechidIgnem as IOreDictEntry[] = [
 //  <IOreDictEntry:entry>,
-//  <ore:oreGold> //Example
 ];
 
 static removeBotaniaOrechidIgnemSimple as string[] = [
 //  "oreDict",
-//  "oreGold" // Example
 ];
 
 static addBotaniaOrechidIgnem as IOreDictEntry[string] = {
 //  intMana: <IOreDict:entry>,
-//  500: <ore:logWood>  //Example
 };
 
 static addBotaniaOrechidIgnemSimple as string[string] = {
 //  intMana: "oreDict",
-//  500: "logWood"  // Example
 };
 
 // === Petal Apothecary ===
@@ -209,41 +189,67 @@ static removeBotaniaPetalApothecaryByName as string[] = [
 
 static addBotaniaPetalApothecary as IItemStack[IIngredient[]] = {
 //  [<IIngredient:ingredient_n>]: <IItemStack:output>,
-//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>  // Example
 };
 
 static addBotaniaPetalApothecarySimple as string[IIngredient[]] = {
 //  [<IIngredient:input_n>]: "flowerName",
-//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom" // Example
 };
 
 // === Pure Daisy ===
 
 static removeBotaniaPureDaisy as IIngredient[] = [
 //  <IIngredient:input>,
-//  <minecraft:obsidian>  // Example
 ];
 
 static addBotaniaPureDaisy as IIngredient[IItemStack] = {
 //  <IItemStack:output>: <IIngredient:input>,
-//  <minecraft:grass>: <minecraft:dirt>  // Example
 };
 
 static addBotaniaPureDaisyTimed as IIngredient[IItemStack][string] = {
 //  intMana: {<IItemStack:output>: <iIngredient:input>},
 //  200: {<minecraft:grass>: <minecraft:planks>},
-  200: {<minecraft:grass>: <minecraft:planks>}  // Example ???
 };
 
 // === Rune Altar ===
 
 static removeBotaniaRuneAltar as IIngredient[] = [
 //  <IIngredient:removal>,
-  <botania:rune:*>
 ];
 
 static addBotaniaRuneAltar as string[IIngredient[]][IItemStack] = {
 //  <IItemStack:output>: {[<IIngredient:input_n>]: intMana},
+  //fire
+  <botania:rune:1>*2: {[<ore:powderMana>, <ore:ingotManasteel>, <ore:ingotBrickNether>, <ore:gunpowder>, <ore:cropNetherWart>, <bloodmagic:slate:0>, <lordcraft:runestone:213>]: 5200},
+  //earth
+  <botania:rune:2>*2: {[<ore:powderMana>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <ore:listAllmushroom>, <bloodmagic:slate:0>, <lordcraft:runestone:212>]: 5200},
+  //air
+  <botania:rune:3>*2: {[<ore:powderMana>, <ore:ingotManasteel>, <ore:carpet>, <ore:feather>, <ore:string>, <bloodmagic:slate:0>, <lordcraft:runestone:214>]: 5200},
+  //water
+  <botania:rune>*2: {[<ore:powderMana>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:sugarcane>, <minecraft:fishing_rod>, <bloodmagic:slate:0>, <lordcraft:runestone:211>]: 5200},
+  //mana
+  <botania:rune:8>: {[<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:manaPearl>, <bloodmagic:slate:0>, <lordcraft:runestone:215>, <lordcraft:runestone:216>]: 8000},
+  //summer
+  <botania:rune:5>: {[<ore:runeEarthB>, <ore:runeAirB>, <minecraft:sand>, <minecraft:sand>, <ore:slimeball>, <minecraft:melon>, <bloodmagic:slate:0>, <lordcraft:util:2>]: 8000},
+  //autumn
+  <botania:rune:6>: {[<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>, <bloodmagic:slate:0>, <lordcraft:util:1>]: 8000},
+  //winter
+  <botania:rune:7>: {[<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <ore:blockWool>, <minecraft:cake>, <bloodmagic:slate:0>, <lordcraft:util:0>]: 8000},
+  //spring
+  <botania:rune:4>: {[<ore:runeWaterB>, <ore:runeFireB>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:cropWheat>, <bloodmagic:slate:0>, <lordcraft:util:3>]: 8000},
+  //lust
+  <botania:rune:9>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSummerB>, <ore:runeAirB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //gluttony
+  <botania:rune:10>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeFireB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //greed
+  <botania:rune:11>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSpringB>, <ore:runeWaterB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //sloth
+  <botania:rune:12>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeAutumnB>, <ore:runeAirB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //wrath
+  <botania:rune:13>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeEarthB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //envy
+  <botania:rune:14>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeWaterB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000},
+  //pride
+  <botania:rune:15>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSummerB>, <ore:runeFireB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000}
 };
 
 if (performRemoveAll == true) {

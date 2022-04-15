@@ -1,6 +1,6 @@
 #priority -99
 #packmode beast
-#modloaded crafttweaker botania
+#modloaded crafttweaker botania lordcraft industrialforegoing abyssalcraft
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ import crafttweaker.item.IIngredient;
 static author as string = "speecker";
 static mode as string = "beast";
 static modIntern as string = "botania";
-static modExtern as string = "botania";
+static modExtern as string = "alchemycatalyst";
 
 // === Vanilla Brewing Recipes ===
 
@@ -69,18 +69,6 @@ Returns an IItemStack.
 
 static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 //	[<IIngredient:toRemove>.withTag({NBTtag})]: bool //if true the recipe will only be removed if the Optional NBT-Tag matches
-	[<botania:alchemycatalyst>]: false,
-  [<botania:altar>]: false,
-  [<botania:conjurationcatalyst>]: false,
-  [<botania:fertilizer>]: false,
-  [<botania:magnetring>]: false,
-  [<botania:pool>]: false,
-  [<botania:runealtar>]: false,
-  [<botania:spark>]: false,
-  [<botania:spreader>]: false,
-  [<botania:spreader:2>]: false,
-  [<botania:spreader:3>]: false,
-  [<botania:terraplate>]: false
 };
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
@@ -91,12 +79,6 @@ static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] 
 //  NOTE: If the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
-
-  // NoBlockify Integration
-  [<botania:manaresource:0>]: {[[<ore:blockManasteel>]]: false},
-  [<botania:manaresource:4>]: {[[<ore:blockTerrasteel>]]: false},
-  [<botania:manaresource:7>]: {[[<ore:blockElvenElementium>]]: false}
-
 };
 
 static removeVanillaGridRecipeByRegex as string[] = [
@@ -109,7 +91,6 @@ static removeVanillaGridRecipeByRecipeName as string[] = [
 
 static removeVanillaGridRecipeByMod as string[] = [
 //  "modularmachinery"
-  "botania"
 ];
 
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
@@ -126,6 +107,7 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[<IIngredient:input_n>]] },
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
+  fertilizer: {<botania:fertilizer>*3: [[<lordcraft:crystal_basic_light>,<ore:dye>,<ore:dye>,<ore:dye>,<ore:dye>]]}
 };
 
 // === Vanilla Remove All Occurences ===

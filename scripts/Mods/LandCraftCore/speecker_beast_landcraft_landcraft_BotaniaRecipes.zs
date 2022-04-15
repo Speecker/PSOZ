@@ -1,6 +1,6 @@
 #priority -99
 #packmode beast
-#modloaded crafttweaker modtweaker botania
+#modloaded crafttweaker modtweaker botania landcore
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -18,8 +18,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 static author as string = "speecker";
 static mode as string = "beast";
-static modIntern as string = "botania";
-static modExtern as string = "botania";
+static modIntern as string = "landcraft";
+static modExtern as string = "landcraft";
 
 // === Lexica Botania ===
   //  === Pages ===
@@ -114,30 +114,20 @@ static modExtern as string = "botania";
 
 static removeBotaniaBrew as string[] = [
 //  "brewName",
-//  "absorption" //Example
 ];
 
 static addBotaniaBrew as IIngredient[][string] = {
 //  "brewName": [<IIngredient:input_n>],
-//  "speed": [<minecraft:nether_wart>, <minecraft:reeds>, <minecraft:redstone>] //Example
 };
 
 // === Elven Trade ===
 
 static removeBotaniaElvenTrade as IIngredient[] = [
-//  <IIngredient:input>,
-  <botania:manaresource:7>,
-  <botania:storage:2>
+//  <IIngredient:output>,
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
-// [<IIngredient:output_n>]: [<IIngredient:input_n>],
-
-  //Terrasteel Ingot, Terrasteel Ingot: Elementium Ingot
-  [<botania:manaresource:4>, <botania:manaresource:4>]: [<botania:manaresource:7>],
-
-  //Terrasteel Block, Terrasteel Block: Elementium Block
-  [<botania:storage:1>, <botania:storage:1>]: [<botania:storage:2>]
+// [<IIngredient:input_n>]: [<IIngredient:output_n>],
 };
 
 // === Mana Infusion ===
@@ -145,9 +135,6 @@ static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
 static removeBotaniaManaInfusion as IIngredient[] = [
 //    <IIngredient:output>,
 //    <IIngredient:output>*optAmount,
-  <botania:manaresource:0>,
-  <botania:manaresource:16>,
-  <botania:storage:0>
 ];
 
 static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
@@ -156,45 +143,44 @@ static addBotaniaManaInfusion as IItemStack[IIngredient[]][string] = {
 
 static addBotaniaManaInfusionAlchemy as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-//  5000: {[<ore:stone>]: <minecraft:gold_ore>} //Example
 };
 
 static addBotaniaManaInfusionConjuration as IItemStack[IIngredient[]][string] = {
 //  intMana: {[<IIngredient:input>]: <IItemStack:output>},
-//  1000: {[<minecraft:stone>]: <minecraft:stone>} //Example
 };
 
 // === Orechid ===
 
 static removeBotaniaOrechid as IOreDictEntry[] = [
 //  <IOreDictEntry:entry>,
-//  <ore:oreGold> //Example
 ];
 
 static addBotaniaOrechid as string[string] = {
 //  "oreDict": intWeight,
+  "oreKelline": 5335
+  "oreGarfax": 5535,
+  "oreMorganine": 5535,
+  "oreRacheline": 5535,
+  "oreFriscion": 5535,
+  "oreTitanium": 3520
 };
 
 // === Orechid Ignem ===
 
 static removeBotaniaOrechidIgnem as IOreDictEntry[] = [
 //  <IOreDictEntry:entry>,
-//  <ore:oreGold> //Example
 ];
 
 static removeBotaniaOrechidIgnemSimple as string[] = [
 //  "oreDict",
-//  "oreGold" // Example
 ];
 
 static addBotaniaOrechidIgnem as IOreDictEntry[string] = {
 //  intMana: <IOreDict:entry>,
-//  500: <ore:logWood>  //Example
 };
 
 static addBotaniaOrechidIgnemSimple as string[string] = {
 //  intMana: "oreDict",
-//  500: "logWood"  // Example
 };
 
 // === Petal Apothecary ===
@@ -209,37 +195,31 @@ static removeBotaniaPetalApothecaryByName as string[] = [
 
 static addBotaniaPetalApothecary as IItemStack[IIngredient[]] = {
 //  [<IIngredient:ingredient_n>]: <IItemStack:output>,
-//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>]: <minecraft:melon>  // Example
 };
 
 static addBotaniaPetalApothecarySimple as string[IIngredient[]] = {
 //  [<IIngredient:input_n>]: "flowerName",
-//  [<ore:petalLime>, <ore:petalLime>, <ore:petalLime>, <ore:petalRed>]: "daybloom" // Example
 };
 
 // === Pure Daisy ===
 
 static removeBotaniaPureDaisy as IIngredient[] = [
 //  <IIngredient:input>,
-//  <minecraft:obsidian>  // Example
 ];
 
 static addBotaniaPureDaisy as IIngredient[IItemStack] = {
 //  <IItemStack:output>: <IIngredient:input>,
-//  <minecraft:grass>: <minecraft:dirt>  // Example
 };
 
 static addBotaniaPureDaisyTimed as IIngredient[IItemStack][string] = {
 //  intMana: {<IItemStack:output>: <iIngredient:input>},
 //  200: {<minecraft:grass>: <minecraft:planks>},
-  200: {<minecraft:grass>: <minecraft:planks>}  // Example ???
 };
 
 // === Rune Altar ===
 
 static removeBotaniaRuneAltar as IIngredient[] = [
 //  <IIngredient:removal>,
-  <botania:rune:*>
 ];
 
 static addBotaniaRuneAltar as string[IIngredient[]][IItemStack] = {

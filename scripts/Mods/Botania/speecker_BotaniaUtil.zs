@@ -79,12 +79,12 @@ import mods.botania.RuneAltar;
     }
   }
 /*
-  function processAddBotaniaLexicaPageInfusion (map as string[][string][IItemStack[]][IIngredient[][][]][string[]]) {
+  function processAddBotaniaLexicaPageInfusion (map as string[][string][IItemStack][IIngredient][string[]]) {
     for mana, recipeMana in map {
       for inputs, recipeInputs in recipeMana {
-        for outputs, recipeOutputs in recipeMana {
+        for outputs, recipeOutputs in recipeInputs {
           for page, entries in recipeOutputs {
-            Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs[0], mana[0]);
+            Lexicon.addInfusionPage(entries[0], entries[1], page, outputs, inputs, mana[0]);
           }
         }
       }
@@ -260,9 +260,9 @@ function processRemoveBotaniaOrechid (map as IOreDictEntry[]) {
   }
 }
 
-function processAddBotaniaOrechid (map as string[]) {
-  for oreDict in map {
-    Orechid.removeOre(oreDict);
+function processAddBotaniaOrechid (map as string[string]) {
+  for oreDict, intWeight in map {
+    Orechid.addOre(oreDict, intWeight);
   }
 }
 
