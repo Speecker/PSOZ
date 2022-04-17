@@ -3299,6 +3299,9 @@ v10.4.4-003
 v10.4.4-004
 	Botania:
 		- Fixed missing brackets issue in some Vanilla Recipes that somehow persisted
+v10.4.4-005
+	Botania:
+		- fixed Spark recipe
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
