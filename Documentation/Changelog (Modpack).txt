@@ -3261,13 +3261,19 @@ v10.4.2-010
 	Chisel:
 		- Compat is finished
 		- Seperated Chisel and Vanilla Recipes accordingly
-	Thought: maybe make files per output and have them in folders for either VanillaRecipe or ModDependencyRecipe and if there are more than 2 recipes for the same item then move them into a subfolder inside of it ?
 	CleanUp:
 		- Moved Chisel & Botania files with other modded outputs out respectively
 v10.4.3-000
 	Botania & Chisel Compat approved ;)
 	Vanilla:
 		- Planks from Logs for Vanilla Wood is missing no more
+v10.4.3-001
+	Mod Updates:
+		- MysticalLib from 1.10.0 to 1.13.0
+		- HammerLibCore from 2.0.6.26 to 2.0.6.32
+v10.4.3-002
+	Vanilla:
+		- Renamed VanillaRecipeUtil to just VanillaUtil
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
