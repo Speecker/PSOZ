@@ -127,7 +127,7 @@ static removeBotaniaElvenTrade as IIngredient[] = [
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
-// [<IIngredient:input_n>]: [<IIngredient:output_n>],
+// [<IIngredient:output_n>]: [<IIngredient:input_n>],
 };
 
 // === Mana Infusion ===

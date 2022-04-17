@@ -3283,6 +3283,9 @@ v10.4.4-000
 		- Chisel
 		- TEMP
 		- Vanilla
+v10.4.4-001
+	Botania:
+		- Fixed yet unswapped AddBotaniaElvenTrade recipes output/input
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

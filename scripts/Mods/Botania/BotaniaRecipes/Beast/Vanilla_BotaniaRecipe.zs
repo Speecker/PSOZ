@@ -127,8 +127,8 @@ static removeBotaniaElvenTrade as IIngredient[] = [
 ];
 
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
-// [<IIngredient:input_n>]: [<IIngredient:output_n>],
-  [<minecraft:quartz_block:0>]: [<botania:quartztypeelf:0>]
+// [<IIngredient:output_n>]: [<IIngredient:input_n>],
+  [<botania:quartztypeelf:0>]: [<minecraft:quartz_block:0>] 
 };
 
 // === Mana Infusion ===
