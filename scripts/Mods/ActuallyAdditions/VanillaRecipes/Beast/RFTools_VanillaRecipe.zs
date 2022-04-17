@@ -115,34 +115,34 @@ static replaceAllOccurencesSpecific as IIngredient[][IIngredient[]][IIngredient[
 };
 
 if (performRemoveAll == true) {
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaFurnaceRecipes();
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaGridRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaFurnaceRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaGridRecipes();
 }
 
 if (performRemovals == true) {
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaBrewingRecipe(removeVanillaBrewingRecipe);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaBrewingRecipe(removeVanillaBrewingRecipe);
 
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
 
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByOutput(removeVanillaGridRecipeByOutput);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeShaped(removeVanillaGridRecipeShaped);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByOutput(removeVanillaGridRecipeByOutput);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShaped(removeVanillaGridRecipeShaped);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurences(replaceAllOccurences);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurences(replaceAllOccurences);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);

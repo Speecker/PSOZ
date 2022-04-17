@@ -1,24 +1,25 @@
-#packmode kappa mythic beast
 #priority 99
-#norun
 
-global modcheck_abyssalcraft = false as bool;
-global modcheck_agricraft = false as bool;
-global modcheck_appliedenergistics2 = false as bool;
-global modcheck_exnihilocreatio = false as bool;
-global modcheck_extendedcrafting = false as bool;
-global modcheck_jaopca = false as bool;
-global modcheck_landcore = false as bool;
-global modcheck_mekanism = false as bool;
-global modcheck_metallurgy = false as bool;
-global modcheck_mysticalcreations = false as bool;
-global modcheck_nuclearcraft = false as bool;
-global modcheck_projectred_core = false as bool;
-global modcheck_rftools = false as bool;
-global modcheck_taiga = false as bool;
-global modcheck_thermalfoundation = false as bool;
-global modcheck_thermalsolars = false as bool;
-global modcheck_tp = false as bool;
+global modcheck_abyssalcraft as bool = false;
+global modcheck_agricraft as bool = false;
+global modcheck_appliedenergistics2 as bool = false;
+global modcheck_bloodmagic as bool = false;
+global modcheck_botania as bool = false;
+global modcheck_exnihilocreatio as bool = false;
+global modcheck_extendedcrafting as bool = false;
+global modcheck_jaopca as bool = false;
+global modcheck_landcore as bool = false;
+global modcheck_lordcraft as bool = false;
+global modcheck_mekanism as bool = false;
+global modcheck_metallurgy as bool = false;
+global modcheck_mysticalcreations as bool = false;
+global modcheck_nuclearcraft as bool = false;
+global modcheck_projectred_core as bool = false;
+global modcheck_rftools as bool = false;
+global modcheck_taiga as bool = false;
+global modcheck_thermalfoundation as bool = false;
+global modcheck_thermalsolars as bool = false;
+global modcheck_tp as bool = false;
 
 //	Check	AbyssalCraft
 if(loadedMods has "abyssalcraft")
@@ -56,6 +57,32 @@ else
 {
 	print("---------------------------------------------------------------------");
 	print("AppliedEnergistics2 has not been detected! It's mod support won't activate.");
+	print("---------------------------------------------------------------------");
+}
+
+//	Check	BloodMagic
+if(loadedMods has "bloodmagic")
+{
+	print("BloodMagic has been detected! It's mod support will activate.");
+	modcheck_bloodmagic = true;
+}
+else
+{
+	print("---------------------------------------------------------------------");
+	print("BloodMagic has not been detected! It's mod support won't activate.");
+	print("---------------------------------------------------------------------");
+}
+
+//	Check	Botania
+if(loadedMods has "botania")
+{
+	print("Botania has been detected! It's mod support will activate.");
+	modcheck_botania = true;
+}
+else
+{
+	print("---------------------------------------------------------------------");
+	print("Botania has not been detected! It's mod support won't activate.");
 	print("---------------------------------------------------------------------");
 }
 
@@ -108,6 +135,19 @@ else
 {
 	print("---------------------------------------------------------------------");
 	print("LandCore has not been detected! It's mod support won't activate.");
+	print("---------------------------------------------------------------------");
+}
+
+//	Check	LordCraft
+if(loadedMods has "lordcraft")
+{
+	print("LordCraft has been detected! It's mod support will activate.");
+	modcheck_lordcraft = true;
+}
+else
+{
+	print("---------------------------------------------------------------------");
+	print("LordCraft has not been detected! It's mod support won't activate.");
 	print("---------------------------------------------------------------------");
 }
 

@@ -3274,6 +3274,15 @@ v10.4.3-001
 v10.4.3-002
 	Vanilla:
 		- Renamed VanillaRecipeUtil to just VanillaUtil
+v10.4.4-000
+	Updated speecker_configuration, speecker_global_modcheck, speecker_globals
+	Cleared scripts/Mods/:
+		- ActualllyAdditions
+		- BloodMagic
+		- Botania
+		- Chisel
+		- TEMP
+		- Vanilla
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

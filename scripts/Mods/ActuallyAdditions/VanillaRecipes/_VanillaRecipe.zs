@@ -1,20 +1,25 @@
 #priority -99
-#packmode mythic beast
-#modloaded twilightforest
+#packmode normal titan kappa mythic beast
+#modloaded crafttweaker modtweaker actuallyadditions
 
 /*
-
-  This Script contains statics for mod compatibility with all types of Vanilla Recipes.
-
+  --------------------------------------------------------------------------------------------------------------------
+  OG Author: Speecker
+  --------------------------------------------------------------------------------------------------------------------
+  This Script contains statics for mod compatibility with all types of Recipes for Vanilla Minecraft.
+  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s)
+  --------------------------------------------------------------------------------------------------------------------
+  Programming Roockie ? You may find some help here: /Documentation/Info_BracketHandlers.txt
+  --------------------------------------------------------------------------------------------------------------------
 */
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 static author as string = "speecker";
-static mode as string = "beast";
-static modIntern as string = "vanilla";
-static modExtern as string = "twilightforest";
+static mode as string = "any";
+static modIntern as string = "actuallyadditions";
+static modExtern as string = "actuallyadditions";
 
 // === Vanilla Brewing Recipes ===
 
@@ -37,11 +42,11 @@ static removeVanillaFurnaceRecipeByIO as IIngredient[][] = [
 ];
 
 static addVanillaFurnaceRecipe as IIngredient[][IItemStack] = {
-//  <IItemStack:output> : [<IIngredient:input>]
+//  <IItemStack:output>: [<IIngredient:input>]
 };
 
 static addVanillaFurnaceRecipeXP as IIngredient[][IItemStack][string] = {
-//  double_XP : { <IIngredient:output> : [<IIngredient:input>] }
+//  double_XP: { <IIngredient:output> : [<IIngredient:input>] }
 };
 
 static setVanillaFurnaceFuel as IIngredient[][string] = {
@@ -53,6 +58,13 @@ static setVanillaFurnaceFuel as IIngredient[][string] = {
 
 static removeVanillaGridRecipeByOutput as bool[IIngredient[]] = {
 //	[<IIngredient:toRemove>.withTag({NBTtag})]: bool //if true the recipe will only be removed if the Optional NBT-Tag matches
+  [<actuallyadditions:block_crystal:0>]: false,
+  [<actuallyadditions:block_crystal:1>]: false,
+  [<actuallyadditions:block_crystal:2>]: false,
+  [<actuallyadditions:block_crystal:3>]: false,
+  [<actuallyadditions:block_crystal:4>]: false,
+  [<actuallyadditions:block_crystal:5>]: false,
+  [<actuallyadditions:item_crafter_on_a_stick>]: false
 };
 
 static removeVanillaGridRecipeShaped as IIngredient[][][][IIngredient[]] = {
@@ -63,11 +75,6 @@ static removeVanillaGridRecipeShapeless as bool[IIngredient[][]][IIngredient[]] 
 //if the wildcard boolean is set to true it will remove any shapeless recipe with the given inputs
 //  [<IIngredient:output>]: { [[<IIngredient:input_n>]]: false },
 //  [<IIngredient:output>*opt_int_amount]: { [[<IIngredient:input_n>]]: false },
-  [<minecraft:planks:0>*64]: { [[<twilightforest:giant_log>]]: false },
-  [<minecraft:planks:0>*4]: { [[<twilightforest:twilight_log:0>]]: false },
-  [<minecraft:planks:1>*4]: { [[<twilightforest:twilight_log:1>]]: false },
-  [<minecraft:planks:1>*4]: { [[<twilightforest:twilight_log:3>]]: false },
-  [<minecraft:planks:2>*4]: { [[<twilightforest:twilight_log:2>]]: false }
 };
 
 static removeVanillaGridRecipeByRegex as string[] = [
@@ -96,9 +103,7 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName : { <IItemStack:output>: [[<IIngredient:input_n>]] },
 //	recipeName : { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
-	planks_0 : { <minecraft:planks:0>: [[<twilightforest:twilight_log:0>|<twilightforest:giant_log>]] },
-	planks_1 : { <minecraft:planks:1>: [[<twilightforest:twilight_log:1>|<twilightforest:twilight_log:3>]] },
-	planks_2 : { <minecraft:planks:2>: [[<twilightforest:twilight_log:2>]] }
+	crafting_table_on_a_stick : { <actuallyadditions:item_crafter_on_a_stick>: [[<ore:workbench>|<ore:craftingTableWood>, <minecraft:sign>]] }
 };
 
 // === Vanilla Remove All Occurences ===
@@ -116,34 +121,34 @@ static replaceAllOccurencesSpecific as IIngredient[][IIngredient[]][IIngredient[
 };
 
 if (performRemoveAll == true) {
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaFurnaceRecipes();
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveAllVanillaGridRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaFurnaceRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaGridRecipes();
 }
 
 if (performRemovals == true) {
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaBrewingRecipe(removeVanillaBrewingRecipe);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaBrewingRecipe(removeVanillaBrewingRecipe);
 
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaFurnaceRecipeByOutput(removeVanillaFurnaceRecipeByOutput);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaFurnaceRecipeByIO(removeVanillaFurnaceRecipeByIO);
 
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByOutput(removeVanillaGridRecipeByOutput);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeShaped(removeVanillaGridRecipeShaped);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
-  scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByOutput(removeVanillaGridRecipeByOutput);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShaped(removeVanillaGridRecipeShaped);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
 
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurences(replaceAllOccurences);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
-scripts.Mods.Vanilla.speecker_VanillaRecipeUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurences(replaceAllOccurences);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
+scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);
