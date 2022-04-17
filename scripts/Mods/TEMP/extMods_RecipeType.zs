@@ -6,6 +6,9 @@
 
 /*
   --------------------------------------------------------------------------------------------------------------------
+  NOTE: This is a TEMPLATE file !
+  Use this to add compat for any not yet implemented Mod (with these scripts) on your own (if you know what you do)
+  --------------------------------------------------------------------------------------------------------------------
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains statics for mod compatibility with all types of Recipes for ModDependency.

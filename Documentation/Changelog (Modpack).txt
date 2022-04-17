@@ -3289,6 +3289,13 @@ v10.4.4-001
 v10.4.4-002
 	Vanilla/BloddMagicRecipes:
 		- fixed Naming
+v10.4.4-003
+	Vanilla/VanillaRecipes:
+		- fixed Naming
+	Chisel/VanillaRecipes:
+		- fixed Naming
+	TEMP:
+		- Updated TEMP files for not yet implemented Mods to now have the Info about being a template as well
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
