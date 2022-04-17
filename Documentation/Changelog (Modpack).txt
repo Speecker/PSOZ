@@ -3286,6 +3286,9 @@ v10.4.4-000
 v10.4.4-001
 	Botania:
 		- Fixed yet unswapped AddBotaniaElvenTrade recipes output/input
+v10.4.4-002
+	Vanilla/BloddMagicRecipes:
+		- fixed Naming
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
