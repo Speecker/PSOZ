@@ -58,6 +58,6 @@ static addBotaniaRuneAltar as string[IIngredient[]][IItemStack] = {
   <botania:rune:15>: {[<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSummerB>, <ore:runeFireB>, <bloodmagic:slate:0>, <lordcraft:crystal_basic_natureb>]: 12000}
 };
 
-if (modcheck_bloodmagic == true && modcheck_lordcraft == true && modcheck_mekanism != true) {
+if (modcheck_lordcraft == true) {
   scripts.Mods.Botania.speecker_BotaniaUtil.processAddBotaniaRuneAltar(addBotaniaRuneAltar);
 }
