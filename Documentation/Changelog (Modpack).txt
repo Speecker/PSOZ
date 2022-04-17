@@ -3296,6 +3296,9 @@ v10.4.4-003
 		- fixed Naming
 	TEMP:
 		- Updated TEMP files for not yet implemented Mods to now have the Info about being a template as well
+v10.4.4-004
+	Botania:
+		- Fixed missing brackets issue in some Vanilla Recipes that somehow persisted
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\

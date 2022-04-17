@@ -97,7 +97,7 @@ static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	name: {<minecraft:output>: [IIngredients]},
-  runealtar: {<botania:runealtar>: [[<lordcraft:crystal_basic_nature>, <randomthings:spectreilluminator>, <lordcraft:crystal_basic_nature>],[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl>, <ore:livingrock>]]}
+  runealtar: {<botania:runealtar>: [[[<lordcraft:crystal_basic_nature>, <randomthings:spectreilluminator>, <lordcraft:crystal_basic_nature>],[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], [<ore:livingrock>, <ore:manaPearl>, <ore:livingrock>]]]}
 };
 
 static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][string] = {
