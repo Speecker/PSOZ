@@ -133,11 +133,11 @@ static removeBotaniaElvenTrade as IIngredient[] = [
 static addBotaniaElvenTrade as IIngredient[][IIngredient[]] = {
 // [<IIngredient:output_n>]: [<IIngredient:input_n>],
 
-  //Terrasteel Ingot, Terrasteel Ingot: Elementium Ingot
-  [<botania:manaresource:4>, <botania:manaresource:4>]: [<botania:manaresource:7>],
+  //Elementium Ingot, Elementium Ingot: Terrasteel Ingot
+  [<botania:manaresource:7>, <botania:manaresource:7>]: [<botania:manaresource:4>],
 
-  //Terrasteel Block, Terrasteel Block: Elementium Block
-  [<botania:storage:1>, <botania:storage:1>]: [<botania:storage:2>]
+  //Elementium Block, Elementium Block: Terrasteel Block
+  [<botania:storage:2>, <botania:storage:2>]: [<botania:storage:1>]
 };
 
 // === Mana Infusion ===

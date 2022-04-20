@@ -3305,6 +3305,7 @@ v10.4.4-005
 v10.4.4-006
 	Botania:
 		- Added bloodmagic modcheck in conditional caller function
+		- Swapped the Terrasteel to Elementium recipes to now match the correct input/output
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
