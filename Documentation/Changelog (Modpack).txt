@@ -3302,6 +3302,9 @@ v10.4.4-004
 v10.4.4-005
 	Botania:
 		- fixed Spark recipe
+v10.4.4-006
+	Botania:
+		- Added bloodmagic modcheck in conditional caller function
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
