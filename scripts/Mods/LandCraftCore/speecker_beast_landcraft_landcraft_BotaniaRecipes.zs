@@ -157,7 +157,7 @@ static removeBotaniaOrechid as IOreDictEntry[] = [
 
 static addBotaniaOrechid as string[string] = {
 //  "oreDict": intWeight,
-  "oreKelline": 5335
+  "oreKelline": 5335,
   "oreGarfax": 5535,
   "oreMorganine": 5535,
   "oreRacheline": 5535,
