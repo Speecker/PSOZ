@@ -2,7 +2,7 @@
 //If packmode is installed you can set the mode for the script to be loaded with here
 #packmode mode
 //Defines what mods need to be available for the script to run. modDependeny must be the modID as string.
-#modloaded crafttweaker modtweaker botania modDependency
+#modloaded crafttweaker modtweaker modDependency
 
 /*
   --------------------------------------------------------------------------------------------------------------------
@@ -12,7 +12,7 @@
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains statics for mod compatibility with all types of Recipes for ModDependency.
-  Use this to customize Recipes for ModDependency with Input(s), Ingerdient(s), Output(s)
+  Use this to customize Recipes for ModDependency with Input(s), Ingerdient(s), Output(s).
   --------------------------------------------------------------------------------------------------------------------
 */
 

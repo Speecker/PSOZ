@@ -6,7 +6,7 @@
 /*
   --------------------------------------------------------------------------------------------------------------------
   NOTE: This is a TEMPLATE file !
-  Use this to add compat for any not yet implemented Mod (with these scripts) on your own (if you know what you do)
+  Use this to add compat for any not yet implemented Mod (with these scripts) on your own (if you know what you do).
   --------------------------------------------------------------------------------------------------------------------
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------

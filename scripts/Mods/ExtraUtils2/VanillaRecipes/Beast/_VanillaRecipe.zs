@@ -1,25 +1,29 @@
 #priority -99
-#packmode normal titan kappa beast mythic beast
-#modloaded crafttweaker bloodmagic
+//If packmode is installed you can set the mode for the script to be loaded with here
+#packmode mode
+//Defines what mods need to be available for the script to run. modDependeny must be the modID as string.
+#modloaded crafttweaker extrautils2
 
 /*
   --------------------------------------------------------------------------------------------------------------------
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains statics for mod compatibility with all types of Recipes for Vanilla Minecraft.
-  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s).
+  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s)
   --------------------------------------------------------------------------------------------------------------------
   Programming Roockie ? You may find some help here: /Documentation/Info_BracketHandlers.txt
   --------------------------------------------------------------------------------------------------------------------
 */
 
+//Class Importers
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-static author as string = "speecker";
-static mode as string = "any";
-static modIntern as string = "bloodmagic";
-static modExtern as string = "bloodmagic";
+// The following 4 statics define the values to be used for the recipe naming.
+static author as string = "specker";
+static mode as string = "any"; //If packmode is installed put the mode for the script to be loaded with here as well for better recipe naming.
+static modIntern as string = "extrautils2"; //The Mod the output is from.
+static modExtern as string = "extrautils2"; //The Mods the ingredients are from. For multiple entries use "_" as seperator
 
 // === Vanilla Brewing Recipes ===
 
@@ -89,8 +93,9 @@ static removeVanillaGridRecipeByRecipeName as string[] = [
 //  "modid:recipename"
 ];
 
+//If you want to remove all Vanilla Recipes for the given Mod "performRemoveAll" has to be set to true in "speecker_configuration.zs"
 static removeVanillaGridRecipeByMod as string[] = [
-//  "modularmachinery"
+  "internMod"
 ];
 
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
@@ -106,9 +111,7 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[<IIngredient:input_n>]] },
-//	recipeName: { <IItemStack:output>: [IIngredient] },
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
-//	recipeName: { <IItemStack:output>*optional_int_amount: [IIngredient] },
 };
 
 // === Vanilla Remove All Occurences ===
@@ -125,9 +128,12 @@ static replaceAllOccurencesSpecific as IIngredient[][IIngredient[]][IIngredient[
 //  [<IIngredient:toReplace>]: { [<IIngredient:replaceWith>]: [<IIngredient:forOutput>] }
 };
 
+//  ====== Util Callers ======
+
 if (performRemoveAll == true) {
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaFurnaceRecipes();
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaGridRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
 if (performRemovals == true) {
@@ -141,19 +147,23 @@ if (performRemovals == true) {
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
-  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
+//  Recipes in this script will only be added if the conditions below are met to have the funtions being called.
+//  This way we can prevent dubplicate or mulitple recipes for the same ouput if there is more than one mod installed a recipe is available for.
+if (modcheck_MODa == true && modcheck_MODna != true) {
 
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
 
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipe(addVanillaFurnaceRecipe);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaFurnaceRecipeXP(addVanillaFurnaceRecipeXP);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processSetVanillaFurnaceFuel(setVanillaFurnaceFuel);
 
-scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurences(replaceAllOccurences);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
-scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShaped(addVanillaGridRecipeShaped, author, mode, modIntern, modExtern);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapedMirrored(addVanillaGridRecipeShapedMirrored, author, mode, modIntern, modExtern);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaGridRecipeShapeless(addVanillaGridRecipeShapeless, author, mode, modIntern, modExtern);
+
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurences(replaceAllOccurences);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesAny(replaceAllOccurencesAny);
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRecplaceAllOccurencesSpecific(replaceAllOccurencesSpecific);
+}

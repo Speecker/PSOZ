@@ -1,6 +1,6 @@
 #priority 99
 #packmode mythic beast
-#modloaded crafttweaker chisel
+#modloaded crafttweaker modtweaker chisel
 /*
   --------------------------------------------------------------------------------------------------------------------
   OG Author: Speecker

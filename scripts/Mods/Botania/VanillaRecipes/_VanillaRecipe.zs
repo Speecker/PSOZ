@@ -1,13 +1,13 @@
 #priority -99
-#packmode normal titan kappa beast mythic beast
-#modloaded crafttweaker bloodmagic
+#packmode beast
+#modloaded crafttweaker botania
 
 /*
   --------------------------------------------------------------------------------------------------------------------
   OG Author: Speecker
   --------------------------------------------------------------------------------------------------------------------
   This Script contains statics for mod compatibility with all types of Recipes for Vanilla Minecraft.
-  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s).
+  Use this to customize Recipes for Vanilla Minecraft with Input(s), Ingerdient(s), Output(s)
   --------------------------------------------------------------------------------------------------------------------
   Programming Roockie ? You may find some help here: /Documentation/Info_BracketHandlers.txt
   --------------------------------------------------------------------------------------------------------------------
@@ -18,8 +18,8 @@ import crafttweaker.item.IIngredient;
 
 static author as string = "speecker";
 static mode as string = "any";
-static modIntern as string = "bloodmagic";
-static modExtern as string = "bloodmagic";
+static modIntern as string = "botania";
+static modExtern as string = "botania";
 
 // === Vanilla Brewing Recipes ===
 
@@ -96,7 +96,7 @@ static removeVanillaGridRecipeByMod as string[] = [
 static addVanillaGridRecipeShaped as IIngredient[][][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[[<IIngredient:input_0>, <IIngredient:input_1>, <IIngredient:input_2>], [<IIngredient:input_3>, <IIngredient:input_4>, <IIngredient:input_5>], [<IIngredient:input_6>, <IIngredient:input_7>, <IIngredient:input_8>]]] }
-//	name: { <minecraft:output>: [IIngredient] },
+//	name: {<minecraft:output>: [IIngredients]},
 };
 
 static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][string] = {
@@ -106,9 +106,7 @@ static addVanillaGridRecipeShapedMirrored as IIngredient[][][][IItemStack][strin
 
 static addVanillaGridRecipeShapeless as IIngredient[][][IItemStack][string] = {
 //	recipeName: { <IItemStack:output>: [[<IIngredient:input_n>]] },
-//	recipeName: { <IItemStack:output>: [IIngredient] },
 //	recipeName: { <IItemStack:output>*optional_int_amount: [[<IIngredient:input_n>]] },
-//	recipeName: { <IItemStack:output>*optional_int_amount: [IIngredient] },
 };
 
 // === Vanilla Remove All Occurences ===
@@ -128,6 +126,7 @@ static replaceAllOccurencesSpecific as IIngredient[][IIngredient[]][IIngredient[
 if (performRemoveAll == true) {
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaFurnaceRecipes();
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveAllVanillaGridRecipes();
+  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
 if (performRemovals == true) {
@@ -141,7 +140,6 @@ if (performRemovals == true) {
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeShapeless(removeVanillaGridRecipeShapeless);
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRegex(removeVanillaGridRecipeByRegex);
   scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByRecipeName(removeVanillaGridRecipeByRecipeName);
-  scripts.Mods.Vanilla.speecker_VanillaUtil.processRemoveVanillaGridRecipeByMod(removeVanillaGridRecipeByMod);
 }
 
 scripts.Mods.Vanilla.speecker_VanillaUtil.processAddVanillaBrewingRecipe(addVanillaBrewingRecipe);
