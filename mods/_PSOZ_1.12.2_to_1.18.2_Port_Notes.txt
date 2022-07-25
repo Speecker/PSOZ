@@ -1,0 +1,167 @@
+#################### Not Yet Supported In 1.18.2 ####################
+
+    - AbyssalCraft + Integration & Heads [Content]
+    - ActuallyAddditions [Content]
+    - ActuallyAddditions [Content]
+    - AddditionalResources [Utility]
+    - AdvancedRocketry [Content]
+        + ARTweaker
+    - AetheriumAshenArmor [Content]
+    - AstralSorcery [Content]
+    - Avaritia [Content]
+        + AvaritiaIO [Addon for EnderIO Compat]
+        + Avaritia's Complement [Adddon]
+    - B.A.S.E [Lib]
+    - BaubleyHeartCanister [Content]
+    - BetterBedrockGenerator [Utility]
+    - BetterFps [Performance]
+    - BiblioCraft [Content]
+    - BlockCraftery [Utility]
+    - BlockDrops [Utility]
+    - Blur [Cosmetic]
+    - DraconicEvolution [Content]
+        + BrandonsCore [Lib]
+    - BrokenWings [Utility]
+
+#################### Available In 1.18.2 ####################
+
+    - AdvancementBook
+    - AE2WTLib
+    - AEAddditions [ExtraCells2 FORK]
+    - AgriCraft (+ agricraftoptifinecompat-0.0.3)
+        + InfinityLib
+    - AkashikTome
+    - Alchemistry (!!! NEEDS TESTING !!!)
+        + ChemLib
+    - AmbientSounds [Cosmetic]
+        + CreativeCore_FORGE_v2.6.12_mc1.18.2 [Lib]
+    - AoA3 (!!! ALPHA !!!) (+ AoA3Info, when update is out)
+    - AppliedEnergistics2 [New Addons: + AppliedMekanistics, + MEGACells]
+        + cloth-config-6.2.62-forge [Lib]
+        + Applied-Botanics-1.2.1 (!!! NEEDS TESTING !!!)
+    - Apotheosis
+    - ArmorPlus (!!! BETA !!!)
+        + thedragonlib-1.18.1-1.0.0 [Lib]
+        + geckolib-forge-1.18-3.0.28 [Lib]
+    - AttributeFix
+    - AutoRegLib [Lib]
+    - BetterAdvancements
+    - BloodMagic
+        + BloodArsenal (!!! NOT YET UPDATED !!!)
+        + Blood-Smeltery-1.18.2-1.1.4 [Addon for TCon Compat]
+    - BonsaiTrees(3)
+        + libnonymous-2.1.0 [Lib]
+    - Bookshelf
+    - Botania
+        + Patchouli-1.18.2-71.1 [Lib]
+        + BotanicalMachinery-1.18.2-1.0.1 [NEW Addon for Automation]
+        + MythicBotany-1.18.2-2.1.9 [NEW Addon for Addditional Content]
+            + LibX-1.18.2-3.2.18 [Lib]
+    - BuildingGadgets
+    
+    - Mekanism
+
+    - Placebo [Lib]
+
+
+#################### Alternatives/Ports for 1.18.2 ####################
+
+    - AE2Stuff [ALT AE2Things]
+        - Advancedd Inscciber
+        - Crystal Growth Chamber
+        - Deep Item Storage Disks [NEW]
+    - AngelRing (from ExtraUtils2)
+    - AppleSkin [ClassicBars is not yet available for 1.18.2]
+    - Applied-Mekanistics-1.2.1 [Like EC2 addding even more useful cell variety]
+    - MEGACells [Like EC2 addding even more useful cell variety]
+    - JAMD (JustAnotherMiningDimension) [ALT/PORT for AromasMiningDimension]
+    - Curious (API) [New Baubles alternative]
+        + caelus-forge-1.18.1-3.0.0.2 [Lib]
+        [Previously: BringMeTheRings-0.4:]
+        + curiouselytra-forge-1.18.1-5.0.1.0 [Addon for Elytra Slot]
+        + curioofundying-forge-1.18-5.3.0.0 [Addon for ToU Slot]
+        + curiouslights-forge-1.1.0+1.18.2 [Addon for DynamicLights]
+        + curiousshulkerboxes-forge-1.18.1-4.2.0.0 [Addon for ShulkerBox Slot] [ALT for BaubleShulkerBoxes]
+        (+ CuriousArmorStand) (mby idk)
+        + CuriosQuarkOBP-1.18.2-1.1.4 [Addon for Quark Oddities BackPack Slot]
+        (+ CuriousJetPacks) (not yet updated to 1.18.2)
+        + Create-Curios-1.18.2-v1.0.0 [Addon for Create Compat]
+    - FTBQuests [ALT/Replacement for BetterQuesting]
+        + item-filters-forge-1802.2.7-build.29 [Lib]
+        + architectury-4.5.76-forge [Lib/Dependency]
+        + ftb-teams-forge-1802.2.6-build.51 [Lib]
+        + ftb-library-forge-1802.3.6-build.123 [Lib]
+    - biggerreactors-1.18.2-0.6.0-beta.1.1 [OG Replacement for ExtremeReactors]
+        + phosphophyllite-1.18.2-0.6.0-beta.1.2 [Lib]
+        + quartz-1.18.2-0.0.0-beta.1.3 [Lib]
+
+#################### ---------- Unsure ---------- ####################
+
+    - alib-1.0.12
+    - AnvilFix-1.12.2-1.0.5
+    - anviltooltipmod-MC1.12.2-1.0.0
+    - audiodeath-1.9-0.7.0.50+87aeca7
+    - bdlib-1.14.3.12-mc1.12.2
+    - biolib-1.1.2
+    - BiomeTweaker-1.12.2-3.2.369 (+ BiomeTweakerCore)
+    - Born In A Barn V1.8-1.12-1.1
+
+#################### ---------- UnChecked ---------- ####################
+
+    - absentbydesign-1.18.2-1.6.2
+    - additionalbars-3.0.1-beta+1.18.2 + additionalbarsbop-3.0.1-beta+1.18.2
+    - AdditionalEnchantedMiner-1.18.2-18.13
+    - additionallanterns-1.0.1-mc1.18
+    - AdHooks-1.18.2-8.0.0.0-build.0342
+    - advancednetherite-1.12.3-1.18.2
+    - advancedperipherals-1.18.2-0.7.15b
+    - advgenerators-1.1.0.5-mc1.18.2
+    - AEInfinityBooster-1.18.2-1.1.0+9
+    - AI-Improvements-1.18.2-0.5.0
+    - AIOTBotania-1.18.2-2.1.1
+    - alexsdelight-1.18.2-1.2.3
+    - alexsmobs-1.18.6
+    - All+Arrows+Infinity+Fix-FORGE-1.2-MC-1.18
+    - amethysttoolsmod-1.18.2-1.5.0
+    - Amplified_Nether_v1.1.1
+    - Aquaculture-1.18.2-2.3.7
+    - armorpointspp-forge-1.18.2-3.0.1
+    - ArmorSoundTweak-5.0.0-forge
+    - ars_nouveau-1.18.2-2.6.3
+        + ars_creo-1.18.2-1.0.2
+        + ars_elemental-1.18.2-0.4.9.5
+        + arsmagicalegacy-1.18.2-1.1.0
+    - art_of_forging-1.4.6-1.18.2
+    - artifacts-1.18.2-4.1.0
+    - auudio_forge_1.0.3_MC_1.18-1.18.2
+    - awesomedungeon-2.0.10
+        + AwesomeDungeonNether-Forge-1.18.2-1.0.1
+        + AwesomeDungeonOcean-Forge-1.18.2-2.0.6
+    - balm-3.1.0+0
+    - bambooeverything-1.2.7-build.14+mc1.18.2
+    - BasicNetherOres-1.18.2-7.2.0
+    - bdlib-1.19.3.7-mc1.18.2
+    - bedspreads-forge-1.18.1-5.1.0.5
+    - betterbiomeblend-1.18.2-1.3.5-forge
+    - BetterCompatibilityChecker-1.1.15-build.29+mc1.18.2
+    - BetterF3-1.2.5-Forge-1.18.2
+    - BetterModsButton-v3.2.2-1.18.2-Forge
+    - betterspawnercontrol_1.18.2-1.6
+    - BetterThirdPerson-Forge-1.18.2-1.8.1
+    - Beyond-Earth-1.18.2-6.2
+        + Beyond-Earth-Giselle-Addon-1.18.2-2.10
+    - BH-Menu-1.18.2-1.3
+    - BiomesOPlenty
+    - blazegear-1.18.2-1.2.2
+    - blockui-1.18.2-0.0.53-ALPHA
+    - blue_skies-1.18.2-1.3.12
+    - BowInfinityFix-1.18.x-rv11
+    - Buddycards-1.18.2-3.0.9
+    - buildersaddition-1.18.2-20220308a
+    - BuildersDelight-1.18.2-v.0.9.5
+    - BuildingWands-2.5_mc1.18.2-forge
+    - bwncr-3.13.21
+    - bwncr-forge-1.18.1-3.10.18
+    - bygonenether-1.1.2-1.18.2
+
+#################### ---------- COMPARED ---------- ####################
