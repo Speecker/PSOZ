@@ -28,6 +28,7 @@
     - AdvancementBook
     - AE2WTLib
     - AEAddditions [ExtraCells2 FORK]
+        + kotlinforforge-3.6.0-obf
     - AgriCraft (+ agricraftoptifinecompat-0.0.3)
         + InfinityLib
     - AkashikTome
@@ -63,7 +64,6 @@
 
     - Placebo [Lib]
 
-
 #################### Alternatives/Ports for 1.18.2 ####################
 
     - AE2Stuff [ALT AE2Things]
@@ -94,6 +94,10 @@
     - biggerreactors-1.18.2-0.6.0-beta.1.1 [OG Replacement for ExtremeReactors]
         + phosphophyllite-1.18.2-0.6.0-beta.1.2 [Lib]
         + quartz-1.18.2-0.0.0-beta.1.3 [Lib]
+
+#################### New for 1.18.2 ####################
+
+    - create-mc1.18.2_v0.4.1
 
 #################### ---------- Unsure ---------- ####################
 
