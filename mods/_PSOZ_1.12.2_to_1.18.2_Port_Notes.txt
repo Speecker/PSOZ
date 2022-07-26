@@ -3,7 +3,7 @@
     - AbyssalCraft + Integration & Heads [Content]
     - ActuallyAddditions [Content]
     - ActuallyAddditions [Content]
-    - AddditionalResources [Utility]
+    (- AddditionalResources [Replaced by OpenLoader])
     - AdvancedRocketry [Content]
         + ARTweaker
     - AetheriumAshenArmor [Content]
@@ -59,10 +59,97 @@
         + MythicBotany-1.18.2-2.1.9 [NEW Addon for Addditional Content]
             + LibX-1.18.2-3.2.18 [Lib]
     - BuildingGadgets
-    
+    - CarryOn
+    - ChiselsAndBits
+    - Clumps
+    - CodeChickenLib [Lib]
+    - CoFHCore [Lib]
+    - CommonCapabilities
+    - CompactMachines4 [3 for MC1.12.2]
+    - Controlling
+    - CookingForBlockHeads
+    - CraftingTweaks
+    - CraftTweaker2
+    - CTM
+    - Cucumber [Lib]
+    - Cyclic
+    - CyclopsCore [Lib]
+    - DarkUtils
+    - Durability101
+    - DynamicLights
+    - EnderStorage
+    - EverlastingAbilities
+        (+ PotionCore (Not Yet Updated to 1.18.2) )
+    - ExNihiloSequentia [Creatio in 1.12.2]
+        + ExNaturae [Addon for Botania Compat]
+        + ExNihiloAE [Addon for AE2 Compat]
+        + ExNihiloMekanism [Addon for Mekanism Compat]
+        + ExNihiloThermal [Addon for Thermal Compat]
+    - ExtendedCrafting
+    - FarmingForBlockHeads
+    - FastFurnace
+    - FastWorkbench
+    - FluxNetworks
+    - HammerLibCore
+    - ImmersiveEngineering
+        + engineersdecor-1.18.2-1.1.23 [Addon for Decoration]
+        + ImmersivePosts-1.18.2-4.3.0-3
+    - InControl
+    - IndustrialForegoing
+    - IronChests
+    - ItemPhysicsFull
+    - Jade [Replaces Waila entirely]
+        + JadeAddons
+    - JAOPCA
+    - JEI
+        + ItemZoom
+        + JEIIntegrations
+        + JEITweaker
+        + JEPP
+        + JEROreIntegration
+        + JustEnoughProfessions [Replaces JEIVillager]
+        + JustEnoughResources
+    - JourneyMap
+        + MapFrontiers [Addon to define Custom Areas]
+    - Kleeslabs
+    - LostCities
+    - Mantle
+    - McjtyLib
     - Mekanism
+        + Adddions
+        + Generators
+        + Tools
+        + MoreMekanismProcessing [New Addon for 1.18.2]
+    - MineMenu
+    - MoreOverlays
+    - MouseTweaks
+    - Morph-o-Tool
+    - MysticalAgriculture
+        + MysticaAgradditions
+        + MystiacCustomization [New for 1.18.2]
+        + MysticalAddaptions [New Addon for some more Content]
+        + MATC
+        + Industrial Agriculture Core:
+            + Gobber
+            + SilentGems
+            + Botania (Not Yet Updated to 1.18.2)
+            + Mekanism (Not Yet Updated to 1.18.2)
+            + IndustrialForegoing (Not Yet Updated to 1.18.2)
+            + Powah (Not Yet Updated to 1.18.2)
+    - Neat
+    - NoFog
 
     - Placebo [Lib]
+
+    - SimpleVoidWorld
+    - StorageDrawers
+        + drawerfps-1.18.2-2.4 [Addon for better performance]
+        + DrawersTooltip-1.18.2-forge-5.0.0 [Adddon/Cosmetic]
+        + FluidDrawersLegacy [Addon for FluidDrawers]
+        + FramedCompactDrawers
+        + morestoragedrawers-1.18.2-1.1.2 [NEW Addon for more variation]
+    - TinkersConstruct
+        + Materialis [ALT for PlusTiC]
 
 #################### Alternatives/Ports for 1.18.2 ####################
 
@@ -86,19 +173,65 @@
         + CuriosQuarkOBP-1.18.2-1.1.4 [Addon for Quark Oddities BackPack Slot]
         (+ CuriousJetPacks) (not yet updated to 1.18.2)
         + Create-Curios-1.18.2-v1.0.0 [Addon for Create Compat]
-    - FTBQuests [ALT/Replacement for BetterQuesting]
+    - FTB Bundle:
+        + FTBQuests [ALT/Replacement for BetterQuesting]
         + item-filters-forge-1802.2.7-build.29 [Lib]
         + architectury-4.5.76-forge [Lib/Dependency]
         + ftb-teams-forge-1802.2.6-build.51 [Lib]
         + ftb-library-forge-1802.3.6-build.123 [Lib]
+        + ftb-chunks-forge-1802.3.6-build.147
+        + ftb-essentials-1802.1.7-build.42
+        + ftb-industrial-contraptions-1802.1.6-build.182
+        (+ ftb-ultimine-forge-1802.3.3-build.55.jar [ProjectMMO makes UltiMine obsolete])
     - biggerreactors-1.18.2-0.6.0-beta.1.1 [OG Replacement for ExtremeReactors]
         + phosphophyllite-1.18.2-0.6.0-beta.1.2 [Lib]
         + quartz-1.18.2-0.0.0-beta.1.3 [Lib]
+    - constructionwand-1.18.2-2.7 [Replacement for BetterBuildersWand]
+    - ClickMachine-1.18.2-6.0.5 [ALT Port for Mechanical User from ExtraUtils2]
+    - Indicatia [Replacement for IngameInfoXML]
+    - IronFurnaces [ALT for FurnaceOverhaul]
+    - jumpoverfences-1.18-1.0.1 [ALT for FenceJumper]
+    - lootbagmod-1.18.2-4.3.0 [ALT for LootBags]
+    - Multiblocked-1.18.2-0.9.4-hotfix.jar [ALT for ModularMachinery]
+    - OpenLoader [ALT for AddditionalResources]
 
 #################### New for 1.18.2 ####################
 
     - create-mc1.18.2_v0.4.1
         + flywheel-forge-1.18-0.6.2 [Lib]
+        + createdeco-1.2.7-1.18.2 [Addon for Decoration]
+        + CreateTweaker-1.18.2-2.0.0.11 [CraftTweaker Compat]
+    - catalogue-1.6.2-1.18.2 [Utility]
+    - configured-1.5.3-1.18.2 [Utility]
+    - keymap-0.6.0-beta.0+1.18.2-forge [Utility]
+    - LegendaryTooltips-1.18.2-1.2.5.jar [Cosmetic]
+    - LootR [Redefines Looting Chests]
+    - MmmMmmMmmMmm [Utility]
+
+    // ----- MTDASETTDAAN -----
+
+    - RefinedStorage [We may go with both AE2 & RS this time as there are tons of neat addons for both]
+        + cabletiers-1.18.2-0.5461 [Addon for upgraded Logistics]
+        + refinedstorageaddons-0.8.2 [Addon for more content]
+        + creativecrafter-1.18.2-0.2121 [Addon for Creative Crafter Upgrade]
+        + ExtraDisks-1.18.2-2.1.0 [Addon like EC2 but for RS]
+        + ExtraStorage-1.18.2-2.1.0
+    - easy_piglins-1.18.2-1.0.4
+    - easy_villagers-1.18.2-1.0.10
+    - KubeJS [CraftTweaker for 1.18.2]
+        + KJSExtras
+        (+ kotlinforforge)
+        + KubeJS Botania
+        + KubeJS Create
+        + KubeJS ImmersiveEngineering
+        + KubeJS Mekanism
+        + KubeJS Thermal
+        + KubeJS UI
+        + LootJS
+    - SilentGear [Tcon for 1.18.2]
+        + Gobber2
+        + SilentLib
+        + SilentGems
 
 #################### ---------- Unsure ---------- ####################
 
@@ -110,6 +243,39 @@
     - biolib-1.1.2
     - BiomeTweaker-1.12.2-3.2.369 (+ BiomeTweakerCore)
     - Born In A Barn V1.8-1.12-1.1
+    - ComputerCraft ?
+    - convenientcurioscontainer-1.2-1.18
+    - CosmeticArmorReworked-1.18.2-v2
+    - deepmoblearning-refabricated-1.18.2 / HostileNeuralNetworks-1.18.2-3.1.1 ???
+    - deepresonance-3.0.10
+    - EnergyControl-forge-1.18.2-0.2.6 / energymeter-1.18.2-3.2.0
+    - forgivingvoid-forge-1.18.1-6.0.1
+    - SimpleDiscordRichPresence-1.6.0-build.8+mc1.18.1
+    - Integrated Suite:
+        + IntegratedCrafting
+        + IntegratedDynamics
+        + IntegratedTerminals
+        + IntegratedTunnels
+    - MacCaws Decoration:
+        + Bridges
+            + BOP
+            + BYG
+        + Doors
+        + Fences
+            + BOP
+            + BYG
+        + Furniture
+        + Lights
+        + Paintings
+        + Paths
+        + Roofs
+            + BOP
+            + BYG
+        + Trapdoors
+        + Windows
+    - Malum
+    - mob_grinding_utils-1.18.2-0.4.40
+    - OreBerries-Replanted-1.18.2-0.1.7
 
 #################### ---------- UnChecked ---------- ####################
 
@@ -168,5 +334,169 @@
     - bwncr-3.13.21
     - bwncr-forge-1.18.1-3.10.18
     - bygonenether-1.1.2-1.18.2
+    - ceilingtorch-1.18.2-1.18
+    - cfm-7.0.0-pre29-1.18.2
+    - chalk-1.18.2-1.2.1
+    - Chargers-1.18.2-4.2.1.14
+    - charginggadgets-1.7.0
+    - cherishedworlds-forge-1.18-5.1.1.0
+    - chipped-1.18.2-1.2.1-forge
+    - chunkloaders-1.2.0c-forge-mc1.18
+    - citadel-1.11.3-1.18.2
+    - cleancut-mc1.18.2-4.0-forge
+    - clienttweaks-forge-1.18.1-7.1.0
+    - collective-1.18.2-4.28
+    - comforts-forge-1.18.2-5.0.0.4
+    - compactores-1.18.2-4.0.0
+    - compressedcreativity-1.18.2-0.0.11
+    - connectedglass-1.1.3a-forge-mc1.18
+    - connectivity-1.18.2-3.2
+    - corail_woodcutter_extension_byg-1.0.1
+    - corail_woodcutter-1.18.2-2.3.5
+    - Corail-Adventurer-1.18.2-035
+    - crashutilities-4.1
+    - creeperoverhaul-1.18.2-1.3.0-forge
+    - Croptopia-1.18.2-FORGE-2.0.5
+    - crossroads-1.18.2-2.8.0
+    - culinaryconstruct-forge-1.18.2-4.3.1.0
+    - customizableelytra-1.18.2-1.6.5
+    - DarkPaintings-Forge-1.18.2-10.0.3
+    - Decorative Blocks-forge-1.18.2-2.1.0
+        + Decorative Blocks Compat-forge-1.18.2-2.1.0
+        + Decorative Winter-forge-1.18.2-2.1.0
+    - defaultoptions-forge-1.18.2-14.1.1
+    - DeLogger-4.0.0-build.4+mc1.18.2
+    - diet-forge-1.18.2-1.3.1.0
+    - dimdungeons-164-forge-1.18.2
+    - DimStorage-1.18.2-6.1.0
+    - Ding-1.18-1.3.0
+    - DoggyTalents-1.18.2-2.5.0
+    - domum_ornamentum-1.18.2-1.0.54-ALPHA-universal
+    - dpanvil-1.18.2-3.4.1
+    - DramaticDoors-Forge-1.18.2-2.0.1
+    - drippyloadingscreen_forge_1.6.4_MC_1.18-1.18.2
+    - DungeonCrawl-1.18.2-2.3.9
+    - DungeonsArise-1.18.2-2.1.50d-beta
+    - durabilitytooltip-1.1.1-forge-mc1.18
+    - DustrialDecor-1.3.3-1.18.2
+    - EarthMobs-1.18.2-1.1.2
+    - easyelytratakeoff_1.18.2-2.2
+    - EasyMagic-v3.3.0-1.18.2-Forge
+    - ecologics-forge-1.18.2-1.7.1
+    - elementalcraft-1.18.2-4.4.10
+    - elevatorid-1.18.2-1.8.4
+    - ellemes-container-library-1.4.0-beta.2+1.18.2-forge
+    - EnchantingInfuser-v3.2.0-1.18.2-Forge
+    - EnigmaticLegacy-2.24.1
+    - entangled-1.3.11-forge-mc1.18
+    - Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0
+    - entityculling-forge-mc1.18-1.5.1
+    - EquipmentCompare-1.18.1-1.2.12
+    - essentials-1.18.2-2.14.0
+    - everythingcopper-1.18.2-0.1.0.6
+    - expandability-6.0.0
+    - expandedstorage-7.4.0-beta.4+1.18.2-forge
+    - ExperienceBugFix-1.18-1.38.0.2
+    - ExplorersCompass-1.18.2-1.2.1-forge
+    - extremesoundmuffler-3.27_forge-1.18.x
+    - fancymenu_forge_2.9.1_MC_1.18.2
+    - FarmersDelight-1.18.2-1.1.2
+    - farsight-1.18.2-1.9
+    - FastSuite-1.18.2-3.0.2
+    - feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2
+    - FeederHelmet-40.0.0
+    - ferritecore-4.2.1-forge
+    - fertilization-forge-1.18.2-8.0.0
+    - fetransformer-1.18.2-1.1.1
+    - findme-3.0.6-forge
+    - flatbedrock-1.4.2-build.10+mc1.18.2
+    - Flopper-1.18.2-1.1.2
+    - Floral Enchantment-1.18.2-1.3.6
+    - ForgeEndertech-1.18.2-9.0.2.0-build.0935
+    - FpsReducer2-forge-1.18.2-2.0
+    - FramedBlocks-5.4.0
+    - friendsandfoes-forge-mc1.18.2-1.4.5
+    - FurnaceMk2-forge-1.18.2-0.1.13
+    - getittogetherdrops-1.18.2-1.2
+    - glassential-forge-1.18.2-1.2.3
+    - globalxp-1.18.2-1.10
+    - SimpleBackups-1.18.2-1.1.8
+    - simplemagnets-1.1.7-forge-mc1.18
+    - goblintraders-1.7.2-1.18.2
+    - goprone-1.18.2-1.7.0
+    - gravelminer-forge-1.18.2-12.1.1
+    - grimoire_of_tetra-1.2.2
+    - guardvillagers-1.18.2.1.4.3
+    - gunswithoutroses-1.18.2-1.0.14
+    - habitat-1.1.3
+    - hexerei-0.1.19
+    - Highlighter-1.18.1-1.1.2
+    - HunterIllager-1.18.2-4.0.1
+    - Iceberg-1.18.2-1.0.44
+    - idas_forge-1.2.1+1.18.2
+    - InventoryProfilesNext-forge-1.18.2-1.5.3
+    - inzheFoPCore-v.3.0.0-1.18.2
+    - IronGenerators-2.0.1-1.18.2
+    - IronJetpacks-1.18.2-5.1.2
+    - itemcollectors-1.1.5-mc1.18
+    - JAVD-3.0.0-build.54+mc1.18.2
+    - jeed-1.18.2-1.11
+    - jumpboat-1.18.2-0.1.0.3
+    - justzoom_forge_1.0.1_MC_1.18-1.18.1
+    - Kiwi-1.18.2-forge-6.1.2
+    - Kobolds-2.0.1
+    - konkrete_forge_1.3.3_MC_1.18-1.18.1
+    - laserio-1.3.1
+    - lazydfu-1.0-1.18+
+    - LibraryFerret-Forge-1.18.2-1.0.3
+    - LightingWand-1.18.2-forge-4.0.0
+    - littlecontraptions-forge-1.18.2.0
+    - littlelogistics-mc1.18.2-v1.2.5
+    - logprot-1.18.2-1.6
+    - lootintegrations-1.18.2-1.5
+    - LowDragLib-1.18.2-0.6.3
+    - luggage-1.3.2
+    - MagicalForest-forge-1.18.2-2.0.3
+    - ManyIdeasCore-1.18.2-1.2.0
+        + ManyIdeasDoors-1.18.2-1.2.0
+    - Measurements-1.18-1.2
+    - mininggadgets-1.11.0
+    - mna-1.7.2.5
+    - modular-routers-1.18.2-9.1.1-93
+    - moredragoneggs-3.1
+    - MoreMobGriefingOptions-1.18.2-2.0.1
+    - morevillagers-forge-1.18.2-3.3.2
+    - mutil-1.18.2-4.5.0
+    - myrtrees-forge-1.1.0-build.29
+    - naturalist-forge-1.0.4-1.18.2
+    - NaturesAura-36.2
+    - NaturesCompass-1.18.2-1.9.5-forge
+    - NekosEnchantedBooks-1.18.2-1.7.0
+    - netherportalfix-forge-1.18-9.0.0
+    - NethersDelight-1.18.2-2.2.0
+    - nicephore-1.18.x-1.3.0
+    - no_null_processors_forge-2.0.2+1.18.1
+    - NoChatLagForge-1.1.0
+    - nomowanderer-1.18.2_1.1.3
+    - norecipeadvancements-1.18.2-2.0.1
+    - notenoughanimations-forge-1.6.0-mc1.18.2
+    - notenoughcrashes-4.1.4+1.18.2-forge
+    - NyfsQuiver-1.18.2-0.7.1
+    - observable-2.2.3-forge
+    - occultism-1.18.2-1.35.5   ([-)
+    - Oh_The_Biomes_You'll_Go-forge-1.18.2-1.4.1
+    - Orcz_0.74_1.18.2
+    - ortus-1.18.2-1.0
+    - out_of_sight-1.18.1-1.0.1
+    - OverpoweredMending-1.18.2-2.4.1
+
+#################### ---------- Obsolete ---------- ####################
+
+    - OreExcavation (We will have ProjectMMO)
 
 #################### ---------- COMPARED ---------- ####################
+
+// Other
+ 1.12.2 - CarryOn
+ 1.18.2 - NoFog
+ CreateAdditions Update ?
