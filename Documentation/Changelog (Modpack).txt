@@ -3322,10 +3322,11 @@ v10.4.5-001
 	Updated Mods:
 		- AEAddditions	from	1.3.4	to	1.3.8
 		- B.A.S.E		from	3.13.0	to	3.14.0
-		- CraftTweaker2	from	674		to	675
+		- CraftTweaker2	from	674		to	678
 		- TombStone		from	4.5.2	to	4.5.4
 	New Mod:
 		- TopExtras
+		- KubeJS
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
