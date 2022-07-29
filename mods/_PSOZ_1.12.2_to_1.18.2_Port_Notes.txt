@@ -303,6 +303,7 @@
     - ReAuth
     - CosmeticArmorReworked-1.18.2-v2
     - bwncr (BadWitherNoCoockie)
+    - Portallity
 
 #################### Alternatives/Ports for 1.18.2 ####################
 
@@ -359,7 +360,7 @@
     - BorderlessWindow [Replaces FullscreenWindow]
     - BasicNetherOres [Replaces NetherEndingOres]
     - ApliefiedNether/ByGoneNether [More or less like NetherEx]
-    - BiggerStacks [Replaces Stackie/Stacksize]
+    - Upsizer (BiggerStacks has some incompatibilities) [Replaces Stackie/Stacksize]
     - SquatGrow [Replaces TS2K16 (TwerkMod2016)]
     - Beyond-Earth-1.18.2-6.2 [ALT for GalactiCraft]
         + Beyond-Earth-Giselle-Addon-1.18.2-2.10
@@ -371,6 +372,8 @@
     - FramedBlocks-5.4.0 [Replaces BlockCarpentry]
     - ferritecore-4.2.1-forge [Phosphor/Surge Alternative for 1.18.2]
     - storageracks-1.18-1.0.2 [ALT for MagneitCraft Racks]
+    - CobbleForDays [ALT for CobbleGenerators from TinyProgressions]
+    - CeramicBucket [ALT as Ceramics did not update yet]
 
 #################### New for 1.18.2 ####################
 
@@ -425,7 +428,6 @@
             + feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2
     - Malum
         + ortus-1.18.2-1.0 (LodestoneLib)
-
 
     // ----- MTDASETTDAAN -----
 
@@ -546,6 +548,11 @@
     - chipped-1.18.2-1.2.1-forge
     - comforts-forge-1.18.2-5.0.0.4
     - culinaryconstruct-forge-1.18.2-4.3.1.0
+    - EnigmaticLegacy-2.24.1
+    - ExperienceBugFix-1.18-1.38.0.2
+    - IronGenerators-2.0.1-1.18.2
+    - itemcollectors-1.1.5-mc1.18
+    - PickleTweaks-1.18.2-6.1.1
 
     // Neet
     - bedspreads-forge-1.18.1-5.1.0.5
@@ -601,14 +608,12 @@
     - elementalcraft-1.18.2-4.4.10
     - ellemes-container-library-1.4.0-beta.2+1.18.2-forge
     - EnchantingInfuser-v3.2.0-1.18.2-Forge
-    - EnigmaticLegacy-2.24.1
     - entangled-1.3.11-forge-mc1.18
     - Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0
     - entityculling-forge-mc1.18-1.5.1
     - essentials-1.18.2-2.14.0
     - everythingcopper-1.18.2-0.1.0.6
     - expandedstorage-7.4.0-beta.4+1.18.2-forge
-    - ExperienceBugFix-1.18-1.38.0.2
     - ExplorersCompass-1.18.2-1.2.1-forge
     - extremesoundmuffler-3.27_forge-1.18.x
     - farsight-1.18.2-1.9
@@ -642,8 +647,6 @@
     - idas_forge-1.2.1+1.18.2
     - InventoryProfilesNext-forge-1.18.2-1.5.3
     - inzheFoPCore-v.3.0.0-1.18.2
-    - IronGenerators-2.0.1-1.18.2
-    - itemcollectors-1.1.5-mc1.18
     - JAVD-3.0.0-build.54+mc1.18.2
     - jeed-1.18.2-1.11
     - jumpboat-1.18.2-0.1.0.3
@@ -694,7 +697,6 @@
     - PackingTape-1.18.2-0.12.7
     - Paintings-forge-1.18.2-9.1.2.1
     - Paxi-1.18.2-Forge-2.0
-    - PickleTweaks-1.18.2-6.1.1
     - PigPen-Forge-1.18.2-8.0.1
     - pipez-1.18.2-1.1.5
     - plaingrinder-1.18.1-1.2.4
