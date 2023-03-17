@@ -3339,6 +3339,7 @@ v11.0.0-000
 		- BrandonsCore-1.12.2-2.4.19.214-universal to BrandonsCore-1.12.2-2.4.20.162-universal
 		- Ceramics-1.12-1.3.7 to Ceramics-1.12-1.3.7b
 		- Controlling-3.0.10 to Controlling-3.0.12.2
+		- ContentTweaker-1.12.2-4.9.1 to ContentTweaker-1.12.2-4.10.0
 		- CraftTweaker2-1.12-4.1.20.674 to CraftTweaker2-1.12-4.1.20.685
 		- CreativeCore_v1.10.69_mc1.12.2 to CreativeCore_v1.10.70_mc1.12
 		- Cyclic-1.12.2-1.20.11 to Cyclic-1.12.2-1.20.14
@@ -3518,6 +3519,26 @@ v11.0.0-000
 			- PickleTweaks-1.12.2-2.1.3 (was missing in latest build - prevents non-TiC Tools from breaking)
 			- Snad-1.12.1-1.7.09.16a
 			- compactmachines3-1.12.2-3.0.18-b278
+
+v11.0.1
+	Updated/Added Content:
+			NuclearCraft:
+			- NCSteamAdditions-0.2.4-1.12.2
+			- Trinity+0.4.c
+			- Scripts:
+				- inertmatrixfuels1.2
+				- MoarFuels-1.9.4
+				- MoarHeatSinks-1.4.1
+				- MoarInterestingCoal-0.1.0
+				- MoarReactorComponents-1.0.0
+				- MoarReactorFunctionality-1.10.0
+				- MoarRealisticEnrichment-1.1.3
+				- MoarRealisticRadiation-1.3.8
+				- NCEIB - Overhaul v1.8.1
+				- NCO-Confectionery-v1.5
+				- NuclearOilRefinement+v1.32
+				- ThoriumMixedFuels-v1.12
+
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
