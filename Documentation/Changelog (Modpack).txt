@@ -3324,9 +3324,200 @@ v10.4.5-001
 		- B.A.S.E		from	3.13.0	to	3.14.0
 		- CraftTweaker2	from	674		to	678
 		- TombStone		from	4.5.2	to	4.5.4
-	New Mod:
-		- TopExtras
-		- KubeJS
+
+v11.0.0-000
+
+	Updated Mods:
+		- AdvancedRocketry-1.12.2-2.0.0-257-universal (31.12.2021) to AdvancedRocketry-1.12.2-2.0.0-13 (22.06.2022)
+		- AEAdditions-1.12.2-1.3.4 to AEAdditions-1.12.2-1.3.8
+		- AttributeFix-1.12.2-1.0.4 to AttributeFix-Forge-1.12.2-1.0.12
+		- base-1.12.2-3.13.0 to base-1.12.2-3.14.0
+		- reauth-3.6.0 to ReAuth-1.12-Forge-4.0.7
+			+ BetterInvalidSession-1.12.2-1.0.3 (New Addon to ReAuth)
+		- BiblioCraft[v2.4.5][MC1.12.2] to BiblioCraft[v2.4.6][MC1.12.2]
+		- biolib-1.1.2 to biolib-1.1.3
+		- BrandonsCore-1.12.2-2.4.19.214-universal to BrandonsCore-1.12.2-2.4.20.162-universal
+		- Ceramics-1.12-1.3.7 to Ceramics-1.12-1.3.7b
+		- Controlling-3.0.10 to Controlling-3.0.12.2
+		- CraftTweaker2-1.12-4.1.20.674 to CraftTweaker2-1.12-4.1.20.685
+		- CreativeCore_v1.10.69_mc1.12.2 to CreativeCore_v1.10.70_mc1.12
+		- Cyclic-1.12.2-1.20.11 to Cyclic-1.12.2-1.20.14
+		- DarknessLib-1.12.2-1.1.0 to DarknessLib-1.12.2-1.1.2
+		- Durability101-1.12-0.0.3 to Durability101-1.12-0.0.4
+		- EmbersRekindled-1.18 to EmbersRekindled-1.19
+		- fluiddrawers-1.12.2-1.0.5 to fluiddrawers-1.12.2-1.0.7
+		- EpicSiegeMod-13.168 to EpicSiegeMod-13.169
+		- foamfix-0.10.14-1.12.2 to foamfix-0.10.15-1.12.2
+		- furniture-6.3.1-1.12.2 to furniture-6.3.2-1.12.2 (Crayfish's Furniture)
+		- HammerLib-1.12.2-2.0.6.26.jar to HammerLib-1.12.2-2.0.6.32.jar
+		- libnine-1.12.2-1.2.0 to libnine-1.12.2-1.2.1
+		- LibraryEx-1.12.2-1.2.1 to LibraryEx-1.12.2-1.2.2
+		- LibVulpes-1.12.2-0.4.2-87-universal (31.12.2021) to LibVulpes-1.12.2-0.4.2-25-universal (22.06.2022)
+		- LootTweaker-0.2.0+MC1.12.2 to LootTweaker-0.3.1+MC1.12.2
+		- Magneticraft_1.12-2.8.4.3-dev to Magneticraft_1.12-2.8.5-dev
+		- MTLib-3.0.6 to MTLib-3.0.7
+		- Metallurgy-4-Reforged-1.3.1 to Metallurgy-4-Reforged-1.3.7
+		- modtweaker-4.0.18 to modtweaker-4.0.20.11
+		- MouseTweaks-2.10-mc1.12.2 to MouseTweaks-3.1.2-mc1.12.2
+		- mysticallib-1.12.2-1.10.0 to mysticallib-1.12.2-1.13.0
+		- NetherEx-1.12.2-2.2.4 to NetherEx-1.12.2-2.2.5
+		- NotEnoughEnergistics-1.12.2-1.2.4 to NotEnoughEnergistics-1.12.2-2.0.3
+		- NuclearCraft-2o.5.5-1.12.2 to NuclearCraft-2o.6.2-1.12.2
+		- omlib-1.12.2-3.1.4-249 to omlib-1.12.2-3.1.5-256
+		- OpenComputers-MC1.12.2-1.7.5.192 to OpenComputers-MC1.12.2-1.7.7+5413028
+		- PackagedAuto-1.12.2-1.0.5.18 to PackagedAuto-1.12.2-1.0.6.27
+		- PackagedExCrafting-1.12.2-1.0.2.3 to PackagedExCrafting-1.12.2-1.0.2.7
+		- particleculling-1.12.2-v1.0.1 to particleculling-1.12.2-v1.3.1
+		- phosphor-forge-mc1.12.2-0.2.7-universal to phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal
+		- SmoothFont-mc1.12.2-2.1.2 to SmoothFont-mc1.12.2-2.1.4
+		- Surge-1.12.2-2.0.77 to Surge-1.12.2-2.0.79
+		- tesla-core-lib-1.12.2-1.0.17 to tesla-core-lib-1.12.2-1.0.18
+		- Tinkers' Addons-1.12.1-1.0.7 to Tinkers' Addons-1.12.1-1.0.10
+		- tombstone-4.5.2-1.12.2 to tombstone-4.6.1-1.12.2
+		- WanionLib-1.12.2-2.5 to WanionLib-1.12.2-2.9
+
+	Removed Mods:
+		- AnvilFix-1.12.2-1.0.5 (Apotheosis removes level cap)
+		- EnergySynergy-1.12.2-1.1.4 (Obsolete)
+
+	New Mods:
+		BloodMagic Addons:
+			+ Blood-Smeltery-1.12.2-1.1.2 (+ Atlas-Lib-1.12.2-1.1.5a)
+		PackagedAuto Addons:
+			- PackagedDraconic-1.12.2-1.0.0.1 (PackagedAuto Bridge for DraconicEvolution)
+			- PackagedAstral-1.16.5-2.0.0.3 (PackagedAuto Bridge for AstralSorcery)
+		Performance:
+			- TickDynamic-1.12.2-1.0.3 (Should enhance overhaul performance by managing a stable TPS@20)
+		- universalbestiary-1.12.2-1.3.1 (Beastiary based on Patchouli)
+		- EMCB+HD+1.12.2+v1.2.0 (EssentialModernConstructionBlock HD - Building Blocks)
+		- EquipmentCompare-1.12.2-1.3.4
+		- erebusfix-1.12.2-0.0.0.1 (Prevents HWYLA/TOP crashes with Preserved Blocks from Erebus)
+		- WHAT-0.2 (Should fixes errors in fluid texture stitching)
+		- demagnetize-1.12.2-1.1.2 (QOL Magnet Interceptors)
+		Mekanism Addon:
+			- BetterFusionReactor-1.12.2-1.0.5
+		SoL (+ AppleCore as Lib):
+			+ Pam's BrewCraft + just-enough-brewcraft-1.12.2-1.0.2
+			+ Pam's BredCraft
+			+ Pam's Cookables
+			+ just-enough-harvestcraft-1.12.2-1.7.2
+			+ Bird's Food
+			+ Edibles
+			+ FoodExpansion
+			+ XL-Food
+		TOP/WAILA/JADE Addon & Alternative:_
+			- topextras-1.12.2-1.0.1
+			- TUMAT-1.12.x-1.12.2
+		- TravelersBackpack-1.12.2-1.0.35
+			+ Integration
+		- collective-1.12.2-3.0
+			+ advancementscreenshot_1.12.2-2.0
+		AE2 Addons:
+			- AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal (AE Network Visualizing)
+			- betterp2p-1.12.2-1.2.3-extended_life (AE2 P2P Addon)
+			- extracpus-1.12.2-1.2.1
+			- Fluid+Craft+for+AE2-2.4.15-r
+			- EquivalentEnergistics-1.12.2-PE_1.4.1-0.8.4 (Patched fork by Nora#2878 "EndangeredNayla") !!! NEEDS TESTING !!!
+		TiCon Addons:
+			- moretcon-1.8.1
+			- materialis-1.12.2-1.2.5
+			- Armory (With GameStages):
+				- conarm-1.12.2-1.2.5.10
+					- armoryexpansion-1.4.2
+				- GameStages-1.12.2-2.0.123 + TinkerStages-1.12.2-2.0.15
+		JEI Addons:
+			- JEI-Utilities-1.12.2-0.2.11 (Adds Recipe History and Recipe/Item Bookmarks)
+			- JERI-1.12.2-1.1.1 (JustEnoughRecipeIntegrations)
+			- JustEnoughCalculation-1.12.2-3.2.7 (JEI Recipe Cost Planner Addon)
+    		- fluidict-1.2 (Adds Fluid Dictionaries as JEI-Tab)
+		- DraconicEvolution_MAIA_1.0.0 (DE Adddon for EIO-Styled machine parts)	!!! NEEDS TESTING !!!
+		GalacticSpaces:
+			- GalacticraftCore-1.12.2-4.0.2.280, Galacticraft-Planets-1.12.2-4.0.2.280, MicdoodleCore-1.12.2-4.0.2.280
+			- GardenOfGlass (Causes Epileptic Flickering)
+			+ AsmodeusCore-1.12.2-0.0.31
+			+ BlankPlanet-1.12.2-0.3
+			+ GalacticComputers-1.0.0
+			+ Galacticraft-1.12.2-4.0.5
+			+ galacticraft-rpc-2.2.0
+			+ GalacticResearch-1.0.2
+			+ GalacticTweaks-1.8.0
+				- GalacticraftTweaker-1.12.2-1.0.3
+			+ GalaxySpace-1.12.2-2.0.19
+			+ Interstellar-Exoplanets-0.1.4
+			* Updated MJRLegendsLib-1.12.2-1.2.0 to MJRLegendsLib-1.12.2-1.2.1
+			+ More-Planets-1.12.2-2.3.2-GC4.0.5
+			+ MorePlanetsExtras-1.12.2-1.0
+			+ SpaceAmbient-1.12.2-0.0.1
+			+ SteveKunG's-Lib-mc1.12.2-v1.3.0
+			+ ZollernGalaxy-1.12.2-2.0.45
+		LittleTiles:
+			- LittleFrames_v1.0.12_mc1.12.2
+			- littleopener-1.0.1
+			- LittleTiles_v1.5.66_mc1.12.2
+			- lt3dimporter-0.7
+		NuclearCraft Addons:
+			- NC-Builder
+			- QMD
+			- Scripts:
+				- WIP
+		PMMO
+
+	Reverted to stable (matching) versions:
+		- Aroma1997Core-1.12.2-2.0.0.2.b167 to Aroma1997Core-1.12.2-2.0.0.2
+		- Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89 to Aroma1997s-Dimensional-World-1.12.2-2.0.0.2
+
+	Replaced with Unofficial LTS Forks or Alternatives
+		+ AE2WTLib-1.12.2-1.0.35 (LTS Fork updated to FML 2860)
+			- AE2WTLib-1.12.2-1.0.34
+		+ BetterQuestingUnofficial-4.1.0
+			- BetterQuesting-3.5.329 (Removed)
+			- questbook-3.1.1-1.12	(Removed - is now Included in BQM itself)
+			- StandardExpansion-3.4.173 (Removed - is now included in BQM itself)
+		+ AdvancedRocketryTweaker-1.12.2-2.0.0
+			- ARTweaker-1.12.2-1.0.0
+		+ metamorph-1.3.1-1.12.2 (+ mclib-2.4.1-1.12.2)
+			- changeling-1.2.5.changeling.2-1.12.2 (+ dominionlib-2.1.3-1.12.2)
+		+ appliedenergistics2-rv6-stable-7-extended_life-v0.55.10
+			- appliedenergistics2-rv6-stable-7
+		+ censoredasm5.6
+				"As of version 5+, this mod is now explicitly incompatible with VanillaFix and TexFix
+				as their functionalities have been improved upon and added to the mod."
+			- VanillaFix-1.0.10-150 (deactivated due to being .inc)
+			- TexFix V-1.12-4.0 (deactivated due to being .inc)
+			- ChickenASM-1.12-1.0.2.7
+		+ !mixinbooter-7.0 (dependency for censoredasm5.6)
+			- MixinBootstrap-1.0.5 (as a result of censoredasm5.6)
+		+ CraftingTweaks_1.12.2-9.0.1 (dan's Crafting Tweaks Fork)
+			- CraftingTweaks_1.12.2-8.1.9
+		+ DimensionalEdibles-1.12.2-1.6.4 (Nomifactory Edition)
+			- DimensionalEdibles-1.12.2-1.3.1
+		+ lootbags-2.5.8.7 (Patched fork by Nora#2878 "EndangeredNayla")
+			- LootBags-1.12.2-2.5.8.5
+		+ ExtendedCrafting-Nomifactory-Edition-1.7.0
+			- ExtendedCrafting-1.12.2-1.5.6
+		+ fbp-0.7 (Fancier Block Particles)
+			- FancyBlockParticles-1.12.x-2.4.1
+		+ ftb-ultimine-1202.3.5 (Alternative to OreExcavation that renders a preview)
+			- OreExcavation-1.4.150
+		+ HadEnoughItems_1.12.2-4.24.2
+			- jei_1.12.2-4.16.1.302
+		+ Mekanism CE 9.12.4 (Main, Generators, Tools)
+			- Mekanism OG 9.8.3.390 (Main, Generators, Tools)
+		+ RoughlyEnoughIDs-2.0.4 (Fork of JustEnoughIDs which in turn is a fork of NotEnoughIDs)
+			- NotEnoughIDs-1.5.4.4
+		+ QuarkRotN-r1.6-187 (Fork Adding some further Integrations) + QuarkOddities-1.12.2
+			- Quark-r1.6-179
+
+		+ JARGCA-1.12.2-1.0.0.0 ( !!! NEEDS TESTING !!! )
+			- JAOPCAAgriculture-1.12.2-1.2.1.17
+
+		ReAdded:
+			- emcbuilderswand-1.12.2-1.9 ( !!! NEEDS TESTING !!! )
+			- openmodularturrets-1.12.2-3.1.14-382 (was missing in latest build)
+			- PackModeMenu-1.0.6 (For user convenience)
+			- PickleTweaks-1.12.2-2.1.3 (was missing in latest build - prevents non-TiC Tools from breaking)
+			- Snad-1.12.1-1.7.09.16a
+			- compactmachines3-1.12.2-3.0.18-b278
 
 ###################################################################################################################################################################
 //	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\	//	STABLE POINT	\\
